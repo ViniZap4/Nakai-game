@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://props/map/constructions/DungeonPack/assets/barrels_E.png" type="Texture" id=1]
+
+[node name="barrels_E" type="StaticBody2D"]
+
+[node name="barrels_E" type="Sprite" parent="."]
+position = Vector2( 1.93872, -166.344 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -71.4775, 5.85043, -64.8033, 31.2124, -15.4142, 32.5472, -2.06586, 45.8956, 63.3413, 44.5608, 56.6671, -3.49344 )
