@@ -1,6 +1,8 @@
 extends KinematicBody2D
 
-var MOTION_SPEED = 160 
+const  MOTION_SPEED = 240
+
+var speed = MOTION_SPEED
 
 var direction = "sd"
 var idle = "idle_sd"
@@ -15,7 +17,7 @@ func cartesian_to_isometric(cartesian):
 
 func _on_Timer_timeout():
 	in_roll = false
-	MOTION_SPEED = 160
+	speed = MOTION_SPEED
 
 func _physics_process(delta):
 	var motion = Vector2()
@@ -73,9 +75,8 @@ func _physics_process(delta):
 
 	if Input.is_action_pressed("roll") and in_roll == false and motion != Vector2(0, 0):
 		in_roll = true
-		MOTION_SPEED = 360 
+		speed = 360 
 		vel_roll = motion
-		
 		$Timer.connect("timeout", self, "_on_Timer_timeout")
 		$Timer.start()
 
@@ -86,11 +87,13 @@ func _physics_process(delta):
 			$AnimatedSprite.play(run)
 		else:
 			$AnimatedSprite.play(roll)
+		
+		motion = motion.normalized()
 	else:
 		$AnimatedSprite.play(idle)
 
 	print(vel_roll) 
 
-	motion = motion * MOTION_SPEED
+	motion = motion * speed
 	motion = cartesian_to_isometric(motion)
 	move_and_slide(motion)

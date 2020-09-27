@@ -1239,7 +1239,7 @@ animations = [ {
 
 [sub_resource type="CapsuleShape2D" id=2]
 radius = 17.2363
-height = 10.6704
+height = 15.2023
 
 [node name="nakai" type="KinematicBody2D"]
 script = ExtResource( 889 )
@@ -1248,13 +1248,23 @@ script = ExtResource( 889 )
 offset = Vector2( 0, -40 )
 current = true
 zoom = Vector2( 0.9, 0.9 )
+smoothing_enabled = true
+smoothing_speed = 6.0
+
+[node name="Camera2D2" type="Camera2D" parent="."]
+scale = Vector2( 1.13552, 1 )
+offset = Vector2( 0, -40 )
+current = true
+zoom = Vector2( 0.9, 0.9 )
+smoothing_enabled = true
+smoothing_speed = 6.0
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( -6.67567, -47.3886 )
 scale = Vector2( 0.798484, 0.798484 )
 frames = SubResource( 1 )
 animation = "idle_sd"
-frame = 73
+frame = 50
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -1265,12 +1275,3 @@ shape = SubResource( 2 )
 wait_time = 1.05
 one_shot = true
 autostart = true
-
-[node name="Label" type="Label" parent="."]
-margin_left = -18.4327
-margin_top = -123.678
-margin_right = 21.5673
-margin_bottom = -109.678
-__meta__ = {
-"_edit_use_anchors_": false
-}
