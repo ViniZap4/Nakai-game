@@ -75,7 +75,7 @@ func _physics_process(delta):
 
 	if Input.is_action_pressed("roll") and in_roll == false and motion != Vector2(0, 0):
 		in_roll = true
-		speed = 360 
+		speed = 468 
 		vel_roll = motion
 		$Timer.connect("timeout", self, "_on_Timer_timeout")
 		$Timer.start()
@@ -87,13 +87,11 @@ func _physics_process(delta):
 			$AnimatedSprite.play(run)
 		else:
 			$AnimatedSprite.play(roll)
-		
-		motion = motion.normalized()
 	else:
 		$AnimatedSprite.play(idle)
 
-	print(vel_roll) 
 
-	motion = motion * speed
+	motion = motion.normalized() * speed
 	motion = cartesian_to_isometric(motion)
+
 	move_and_slide(motion)
