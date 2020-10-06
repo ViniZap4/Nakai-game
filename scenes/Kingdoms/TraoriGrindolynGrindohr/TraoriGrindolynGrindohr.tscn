@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/floors/floors.tres" type="TileSet" id=1]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallGateBars_W.tscn" type="PackedScene" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallRound_E.tscn" type="PackedScene" id=8]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWall_W.tscn" type="PackedScene" id=9]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/chair/chairs/tableRoundItemsChairs_N.tscn" type="PackedScene" id=10]
+[ext_resource path="res://props/characters/warrior/warrior.tscn" type="PackedScene" id=11]
+[ext_resource path="res://props/characters/warrior/scripts/warrior.gd" type="Script" id=12]
 
 [node name="TraoriGrindolynGrindohr" type="Node2D"]
 __meta__ = {
@@ -26,13 +28,20 @@ tile_data = PoolIntArray( -1835020, 52, 0, -1835019, 52, 0, -1835018, 52, 0, -18
 [node name="YSort" type="YSort" parent="."]
 
 [node name="nakai" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( -96.9493, 251.524 )
+position = Vector2( -125.949, 233.524 )
+
+[node name="warrior" parent="YSort" instance=ExtResource( 11 )]
+position = Vector2( -679.936, 349.923 )
+collision/safe_margin = 5.506
+motion/sync_to_physics = true
+script = ExtResource( 12 )
 
 [node name="world" type="YSort" parent="YSort"]
 
 [node name="house1" type="YSort" parent="YSort/world"]
 
 [node name="stuffs" type="YSort" parent="YSort/world/house1"]
+position = Vector2( 8.40897, -9.24986 )
 
 [node name="chair_E" parent="YSort/world/house1/stuffs" instance=ExtResource( 7 )]
 position = Vector2( -225.878, 194.929 )
@@ -68,6 +77,7 @@ position = Vector2( -203.955, 312.868 )
 position = Vector2( -203.955, 312.868 )
 
 [node name="walls" type="YSort" parent="YSort/world/house1"]
+position = Vector2( 1.88776, -18.4656 )
 
 [node name="stoneWallGateBars_W" parent="YSort/world/house1/walls" instance=ExtResource( 2 )]
 position = Vector2( -239.293, 76.8363 )
