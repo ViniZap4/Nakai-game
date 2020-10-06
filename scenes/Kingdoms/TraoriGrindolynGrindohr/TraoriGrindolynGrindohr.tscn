@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/floors/floors.tres" type="TileSet" id=1]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallGateBars_W.tscn" type="PackedScene" id=2]
@@ -11,7 +11,6 @@
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWall_W.tscn" type="PackedScene" id=9]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/chair/chairs/tableRoundItemsChairs_N.tscn" type="PackedScene" id=10]
 [ext_resource path="res://props/characters/warrior/warrior.tscn" type="PackedScene" id=11]
-[ext_resource path="res://props/characters/warrior/scripts/warrior.gd" type="Script" id=12]
 
 [node name="TraoriGrindolynGrindohr" type="Node2D"]
 __meta__ = {
@@ -28,13 +27,13 @@ tile_data = PoolIntArray( -1835020, 52, 0, -1835019, 52, 0, -1835018, 52, 0, -18
 [node name="YSort" type="YSort" parent="."]
 
 [node name="nakai" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( -125.949, 233.524 )
+position = Vector2( 519.791, 263.254 )
+scale = Vector2( 0.922165, 0.982789 )
 
 [node name="warrior" parent="YSort" instance=ExtResource( 11 )]
-position = Vector2( -679.936, 349.923 )
+position = Vector2( -673.99, 346.355 )
 collision/safe_margin = 5.506
 motion/sync_to_physics = true
-script = ExtResource( 12 )
 
 [node name="world" type="YSort" parent="YSort"]
 
@@ -80,25 +79,26 @@ position = Vector2( -203.955, 312.868 )
 position = Vector2( 1.88776, -18.4656 )
 
 [node name="stoneWallGateBars_W" parent="YSort/world/house1/walls" instance=ExtResource( 2 )]
-position = Vector2( -239.293, 76.8363 )
+position = Vector2( -276.158, 74.4579 )
 
 [node name="stoneWallGateBars_W2" parent="YSort/world/house1/walls" instance=ExtResource( 4 )]
-position = Vector2( -359.589, 139.836 )
+position = Vector2( -397.644, 137.458 )
 
 [node name="stoneWallGateBars_W3" parent="YSort/world/house1/walls" instance=ExtResource( 4 )]
-position = Vector2( -359.589, 139.836 )
+position = Vector2( 380.098, 493.03 )
 
 [node name="stoneWall_W" parent="YSort/world/house1/walls" instance=ExtResource( 9 )]
-position = Vector2( -495.296, 202.892 )
+position = Vector2( -548.81, 204.081 )
 
 [node name="stoneWall_W2" parent="YSort/world/house1/walls" instance=ExtResource( 9 )]
-position = Vector2( -111.319, 12.2401 )
+position = Vector2( -162.455, 9.86171 )
+scale = Vector2( 1.02431, 0.983403 )
 
 [node name="stoneWallRound_E" parent="YSort/world/house1/walls" instance=ExtResource( 8 )]
-position = Vector2( 21.4253, -8.25061 )
+position = Vector2( -12.6833, -10.8182 )
 
 [node name="stoneWall_S" parent="YSort/world/house1/walls" instance=ExtResource( 6 )]
-position = Vector2( 154.546, 12.4954 )
+position = Vector2( 153.357, 13.6846 )
 
 [node name="stoneWall_S2" parent="YSort/world/house1/walls" instance=ExtResource( 6 )]
 position = Vector2( 281.825, 76.135 )

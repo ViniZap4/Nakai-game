@@ -1,4 +1,4 @@
-[gd_scene load_steps=1116 format=2]
+[gd_scene load_steps=1115 format=2]
 
 [ext_resource path="res://props/characters/nakai/assets/idle/a/nakai2.png" type="Texture" id=1]
 [ext_resource path="res://props/characters/nakai/assets/idle/a/nakai3.png" type="Texture" id=2]
@@ -1237,9 +1237,6 @@ animations = [ {
 "speed": 9.0
 } ]
 
-[sub_resource type="CircleShape2D" id=2]
-radius = 19.1337
-
 [node name="nakai" type="KinematicBody2D"]
 script = ExtResource( 889 )
 
@@ -1251,18 +1248,17 @@ smoothing_enabled = true
 smoothing_speed = 6.0
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( -1.21859, -46.0192 )
+position = Vector2( -7.5864, -46.7684 )
 scale = Vector2( 0.783221, 0.783221 )
 frames = SubResource( 1 )
 animation = "idle_sd"
-frame = 79
+frame = 81
 playing = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -0.840881, -0.420456 )
-rotation = 1.5708
-shape = SubResource( 2 )
 
 [node name="Timer" type="Timer" parent="."]
 one_shot = true
 autostart = true
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( 0, 0.374573 )
+polygon = PoolVector2Array( -26.1153, -1.00169, -15.6271, 11.3593, -0.269493, 18.8509, 18.4593, 13.6068, 30.0712, 0.496613, 19.2085, -11.1153, 0.47966, -15.9848, -14.878, -10.7407 )
