@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chair_S.png-f6faf928a80dbc8227523a0e3290cf59.stex"
+path="res://.import/chair_S.png-69afa6b5336bbc78d14760fd95101fc8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://props/packs/kenneyDungeonPack_2.3/stuffs/chair/chairs/chair_S.png"
-dest_files=[ "res://.import/chair_S.png-f6faf928a80dbc8227523a0e3290cf59.stex" ]
+source_file="res://props/packs/kenneyDungeonPack_2.3/stuffs/chair/assets/chair_S.png"
+dest_files=[ "res://.import/chair_S.png-69afa6b5336bbc78d14760fd95101fc8.stex" ]
 
 [params]
 
