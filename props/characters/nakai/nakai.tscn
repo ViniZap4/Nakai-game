@@ -1252,7 +1252,7 @@ position = Vector2( -7.5864, -46.7684 )
 scale = Vector2( 0.783221, 0.783221 )
 frames = SubResource( 1 )
 animation = "idle_sd"
-frame = 82
+frame = 44
 playing = true
 
 [node name="Timer" type="Timer" parent="."]

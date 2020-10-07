@@ -7,9 +7,9 @@ var enemyDamage = 25
 var ai_think_time = 0.7
 var ai_think_time_timer = null
 
-var idle = "idle_sd"
-var run = "run_sd"
-var roll = "idle_sd"
+var direction_animation = "sd"
+var idle = "idle"
+var run = "run"
 
 var reflexes = 4
 onready var target = get_parent().get_node("nakai")
@@ -45,7 +45,10 @@ func ai_get_direction():
 func ai_move():
 	var direction = ai_get_direction()
 	var motion = direction.normalized() * speed
-	move_and_collide(motion)
+		
+	run = "run_" + direction_animation
+		
+	move_and_collide(motion);
 	$AnimatedSprite.play(run); 
 	
 func setup_ai_think_time_timer():

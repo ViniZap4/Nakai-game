@@ -657,7 +657,7 @@ position = Vector2( -8.29108, -43.0784 )
 scale = Vector2( 0.783, 0.783 )
 frames = SubResource( 1 )
 animation = "run_sd"
-frame = 11
+frame = 10
 playing = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
