@@ -1,24 +1,25 @@
 extends KinematicBody2D
 
-var speed = 100
+var speed = 5
 var maxHealth = 100
 var enemyDamage = 25
 
 var ai_think_time = 0.7
 var ai_think_time_timer = null
 
-var idle = "idle_sd"
-var run = "run_a"
-var roll = "idle_sd"
+var direction_animation = "sd"
+var idle = "idle"
+var run = "run"
 
 var reflexes = 4
-onready var target = $"../nakai"
+onready var target = get_parent().get_node("nakai")
 var is_in_range = false
 
 var health = 0
 
 func _onready():
 	health = maxHealth;
+	setup_ai_think_time_timer()
 
 func _ready():
 	_onready()
@@ -40,10 +41,15 @@ func attack():
 func ai_get_direction():
 	return target.position - self.position
 
+
 func ai_move():
-	var direction = ai_get_direction();
-	var motion = direction.normalized() * speed;
-	move_and_slide(motion)
+	var direction = ai_get_direction()
+	var motion = direction.normalized() * speed
+		
+	run = "run_" + direction_animation
+		
+	move_and_collide(motion);
+	$AnimatedSprite.play(run); 
 	
 func setup_ai_think_time_timer():
 	ai_think_time_timer = Timer.new()
@@ -64,7 +70,5 @@ func _process(delta):
 		decide_to_attack()
 	else:
 		ai_move()
-		run = "run_a";
-		$AnimatedSprite.play(run)
 	
 

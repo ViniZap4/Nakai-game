@@ -27,11 +27,11 @@ tile_data = PoolIntArray( -1835020, 52, 0, -1835019, 52, 0, -1835018, 52, 0, -18
 [node name="YSort" type="YSort" parent="."]
 
 [node name="nakai" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( 519.791, 263.254 )
+position = Vector2( 235.791, 151.254 )
 scale = Vector2( 0.922165, 0.982789 )
 
 [node name="warrior" parent="YSort" instance=ExtResource( 11 )]
-position = Vector2( -673.99, 346.355 )
+position = Vector2( 44.01, 48.355 )
 collision/safe_margin = 5.506
 motion/sync_to_physics = true
 
