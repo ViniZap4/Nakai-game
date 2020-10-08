@@ -26,12 +26,14 @@ tile_data = PoolIntArray( -1835020, 52, 0, -1835019, 52, 0, -1835018, 52, 0, -18
 
 [node name="YSort" type="YSort" parent="."]
 
-[node name="nakai" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( 235.791, 151.254 )
+[node name="mobs" type="YSort" parent="YSort"]
+
+[node name="nakai" parent="YSort/mobs" instance=ExtResource( 3 )]
+position = Vector2( 1296.97, 213.903 )
 scale = Vector2( 0.922165, 0.982789 )
 
-[node name="warrior" parent="YSort" instance=ExtResource( 11 )]
-position = Vector2( 44.01, 48.355 )
+[node name="warrior" parent="YSort/mobs" instance=ExtResource( 11 )]
+position = Vector2( 893.039, 367.253 )
 collision/safe_margin = 5.506
 motion/sync_to_physics = true
 
@@ -49,13 +51,13 @@ position = Vector2( -225.878, 194.929 )
 position = Vector2( -412.554, 456.558 )
 
 [node name="tableChairsBroken_E" parent="YSort/world/house1/stuffs" instance=ExtResource( 5 )]
-position = Vector2( 85.249, 160.988 )
+position = Vector2( 144.646, 146.846 )
 
 [node name="tableRoundItemsChairs_N" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
-position = Vector2( -13.6401, 259.693 )
+position = Vector2( 356.884, 630.217 )
 
 [node name="tableRoundItemsChairs_N2" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
-position = Vector2( 355.192, 204.457 )
+position = Vector2( -278.376, 631.55 )
 
 [node name="tableRoundItemsChairs_N3" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
 position = Vector2( -428.597, 246.797 )
@@ -64,16 +66,16 @@ position = Vector2( -428.597, 246.797 )
 position = Vector2( -77.476, 67.4604 )
 
 [node name="tableRoundItemsChairs_N5" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
-position = Vector2( 228.339, 299.653 )
+position = Vector2( 313.192, 310.967 )
 
 [node name="tableRoundItemsChairs_N6" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
-position = Vector2( 9.36047, 443.122 )
+position = Vector2( 71.5859, 440.294 )
 
 [node name="tableRoundItemsChairs_N7" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
 position = Vector2( -203.955, 312.868 )
 
 [node name="tableRoundItemsChairs_N8" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
-position = Vector2( -203.955, 312.868 )
+position = Vector2( 650.23, 508.029 )
 
 [node name="walls" type="YSort" parent="YSort/world/house1"]
 position = Vector2( 1.88776, -18.4656 )
@@ -85,7 +87,7 @@ position = Vector2( -276.158, 74.4579 )
 position = Vector2( -397.644, 137.458 )
 
 [node name="stoneWallGateBars_W3" parent="YSort/world/house1/walls" instance=ExtResource( 4 )]
-position = Vector2( 380.098, 493.03 )
+position = Vector2( 703.985, 835.816 )
 
 [node name="stoneWall_W" parent="YSort/world/house1/walls" instance=ExtResource( 9 )]
 position = Vector2( -548.81, 204.081 )
@@ -104,4 +106,13 @@ position = Vector2( 153.357, 13.6846 )
 position = Vector2( 281.825, 76.135 )
 
 [node name="stoneWall_S3" parent="YSort/world/house1/walls" instance=ExtResource( 6 )]
-position = Vector2( 410.518, 139.775 )
+position = Vector2( 413.175, 138.947 )
+
+[node name="stoneWall_S4" parent="YSort/world/house1/walls" instance=ExtResource( 6 )]
+position = Vector2( 541.175, 203.947 )
+
+[node name="stoneWall_S5" parent="YSort/world/house1/walls" instance=ExtResource( 6 )]
+position = Vector2( 670.175, 260.947 )
+
+[node name="stoneWall_S6" parent="YSort/world/house1/walls" instance=ExtResource( 6 )]
+position = Vector2( 799.175, 324.947 )
