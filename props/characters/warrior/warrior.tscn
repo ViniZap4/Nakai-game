@@ -1,4 +1,4 @@
-[gd_scene load_steps=709 format=2]
+[gd_scene load_steps=523 format=2]
 
 [ext_resource path="res://props/characters/warrior/assets/run/a/0021.png" type="Texture" id=1]
 [ext_resource path="res://props/characters/warrior/assets/run/a/0004.png" type="Texture" id=2]
@@ -521,201 +521,15 @@
 [ext_resource path="res://props/characters/warrior/assets/run/s-d/0005.png" type="Texture" id=519]
 [ext_resource path="res://props/characters/warrior/assets/run/s-d/0017.png" type="Texture" id=520]
 [ext_resource path="res://props/characters/warrior/assets/run/s-d/0021.png" type="Texture" id=521]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0004.png" type="Texture" id=522]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0003.png" type="Texture" id=523]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0002.png" type="Texture" id=524]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0005.png" type="Texture" id=525]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0006.png" type="Texture" id=526]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0007.png" type="Texture" id=527]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0001.png" type="Texture" id=528]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0008.png" type="Texture" id=529]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0009.png" type="Texture" id=530]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0010.png" type="Texture" id=531]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0011.png" type="Texture" id=532]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0015.png" type="Texture" id=533]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0017.png" type="Texture" id=534]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0016.png" type="Texture" id=535]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0012.png" type="Texture" id=536]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0013.png" type="Texture" id=537]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0014.png" type="Texture" id=538]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0018.png" type="Texture" id=539]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0019.png" type="Texture" id=540]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0021.png" type="Texture" id=541]
-[ext_resource path="res://props/characters/warrior/assets/run/w-d/0020.png" type="Texture" id=542]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0039.png" type="Texture" id=543]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0042.png" type="Texture" id=544]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0051.png" type="Texture" id=545]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0058.png" type="Texture" id=546]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0029.png" type="Texture" id=547]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0048.png" type="Texture" id=548]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0023.png" type="Texture" id=549]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0038.png" type="Texture" id=550]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0045.png" type="Texture" id=551]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0030.png" type="Texture" id=552]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0018.png" type="Texture" id=553]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0054.png" type="Texture" id=554]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0012.png" type="Texture" id=555]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0025.png" type="Texture" id=556]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0035.png" type="Texture" id=557]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0032.png" type="Texture" id=558]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0031.png" type="Texture" id=559]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0005.png" type="Texture" id=560]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0034.png" type="Texture" id=561]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0040.png" type="Texture" id=562]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0008.png" type="Texture" id=563]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0016.png" type="Texture" id=564]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0033.png" type="Texture" id=565]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0013.png" type="Texture" id=566]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0026.png" type="Texture" id=567]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0015.png" type="Texture" id=568]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0052.png" type="Texture" id=569]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0021.png" type="Texture" id=570]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0037.png" type="Texture" id=571]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0017.png" type="Texture" id=572]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0014.png" type="Texture" id=573]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0046.png" type="Texture" id=574]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0044.png" type="Texture" id=575]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0060.png" type="Texture" id=576]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0019.png" type="Texture" id=577]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0009.png" type="Texture" id=578]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0036.png" type="Texture" id=579]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0050.png" type="Texture" id=580]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0047.png" type="Texture" id=581]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0057.png" type="Texture" id=582]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0010.png" type="Texture" id=583]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0049.png" type="Texture" id=584]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0001.png" type="Texture" id=585]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0022.png" type="Texture" id=586]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0055.png" type="Texture" id=587]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0020.png" type="Texture" id=588]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0053.png" type="Texture" id=589]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0059.png" type="Texture" id=590]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0028.png" type="Texture" id=591]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0007.png" type="Texture" id=592]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0011.png" type="Texture" id=593]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0003.png" type="Texture" id=594]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0043.png" type="Texture" id=595]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0056.png" type="Texture" id=596]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0041.png" type="Texture" id=597]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0024.png" type="Texture" id=598]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0006.png" type="Texture" id=599]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0004.png" type="Texture" id=600]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0027.png" type="Texture" id=601]
-[ext_resource path="res://props/characters/warrior/assets/death/a/0002.png" type="Texture" id=602]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0008.png" type="Texture" id=603]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0020.png" type="Texture" id=604]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0021.png" type="Texture" id=605]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0021.png" type="Texture" id=606]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0003.png" type="Texture" id=607]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0012.png" type="Texture" id=608]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0004.png" type="Texture" id=609]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0008.png" type="Texture" id=610]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0003.png" type="Texture" id=611]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0013.png" type="Texture" id=612]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0010.png" type="Texture" id=613]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0009.png" type="Texture" id=614]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0002.png" type="Texture" id=615]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0020.png" type="Texture" id=616]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0015.png" type="Texture" id=617]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0019.png" type="Texture" id=618]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0005.png" type="Texture" id=619]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0006.png" type="Texture" id=620]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0007.png" type="Texture" id=621]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0009.png" type="Texture" id=622]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0017.png" type="Texture" id=623]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0016.png" type="Texture" id=624]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0008.png" type="Texture" id=625]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0021.png" type="Texture" id=626]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0015.png" type="Texture" id=627]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0015.png" type="Texture" id=628]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0004.png" type="Texture" id=629]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0021.png" type="Texture" id=630]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0016.png" type="Texture" id=631]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0017.png" type="Texture" id=632]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0012.png" type="Texture" id=633]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0007.png" type="Texture" id=634]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0018.png" type="Texture" id=635]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0013.png" type="Texture" id=636]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0011.png" type="Texture" id=637]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0007.png" type="Texture" id=638]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0016.png" type="Texture" id=639]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0012.png" type="Texture" id=640]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0002.png" type="Texture" id=641]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0013.png" type="Texture" id=642]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0001.png" type="Texture" id=643]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0012.png" type="Texture" id=644]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0016.png" type="Texture" id=645]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0018.png" type="Texture" id=646]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0007.png" type="Texture" id=647]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0018.png" type="Texture" id=648]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0011.png" type="Texture" id=649]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0002.png" type="Texture" id=650]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0005.png" type="Texture" id=651]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0006.png" type="Texture" id=652]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0006.png" type="Texture" id=653]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0019.png" type="Texture" id=654]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0014.png" type="Texture" id=655]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0021.png" type="Texture" id=656]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0011.png" type="Texture" id=657]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0006.png" type="Texture" id=658]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0005.png" type="Texture" id=659]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0001.png" type="Texture" id=660]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0004.png" type="Texture" id=661]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0011.png" type="Texture" id=662]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0016.png" type="Texture" id=663]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0014.png" type="Texture" id=664]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0018.png" type="Texture" id=665]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0010.png" type="Texture" id=666]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0009.png" type="Texture" id=667]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0019.png" type="Texture" id=668]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0009.png" type="Texture" id=669]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0020.png" type="Texture" id=670]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0015.png" type="Texture" id=671]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0003.png" type="Texture" id=672]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0002.png" type="Texture" id=673]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0020.png" type="Texture" id=674]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0001.png" type="Texture" id=675]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0017.png" type="Texture" id=676]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0006.png" type="Texture" id=677]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0011.png" type="Texture" id=678]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0019.png" type="Texture" id=679]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0017.png" type="Texture" id=680]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0015.png" type="Texture" id=681]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0014.png" type="Texture" id=682]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0017.png" type="Texture" id=683]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0010.png" type="Texture" id=684]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0013.png" type="Texture" id=685]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0004.png" type="Texture" id=686]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0008.png" type="Texture" id=687]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0007.png" type="Texture" id=688]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0010.png" type="Texture" id=689]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0014.png" type="Texture" id=690]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0008.png" type="Texture" id=691]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0002.png" type="Texture" id=692]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0001.png" type="Texture" id=693]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0012.png" type="Texture" id=694]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0018.png" type="Texture" id=695]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0019.png" type="Texture" id=696]
-[ext_resource path="res://props/characters/warrior/assets/run/w/0020.png" type="Texture" id=697]
-[ext_resource path="res://props/characters/warrior/assets/run/d/0013.png" type="Texture" id=698]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0014.png" type="Texture" id=699]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0003.png" type="Texture" id=700]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0004.png" type="Texture" id=701]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0005.png" type="Texture" id=702]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0010.png" type="Texture" id=703]
-[ext_resource path="res://props/characters/warrior/assets/run/s-a/0009.png" type="Texture" id=704]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0003.png" type="Texture" id=705]
-[ext_resource path="res://props/characters/warrior/assets/run/w-a/0001.png" type="Texture" id=706]
-[ext_resource path="res://props/characters/warrior/assets/run/s/0005.png" type="Texture" id=707]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 693 ), ExtResource( 615 ), ExtResource( 611 ), ExtResource( 661 ), ExtResource( 659 ), ExtResource( 620 ), ExtResource( 621 ), ExtResource( 603 ), ExtResource( 614 ), ExtResource( 666 ), ExtResource( 637 ), ExtResource( 694 ), ExtResource( 698 ), ExtResource( 682 ), ExtResource( 628 ), ExtResource( 639 ), ExtResource( 676 ), ExtResource( 648 ), ExtResource( 618 ), ExtResource( 616 ), ExtResource( 605 ) ],
+"frames": [ ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 76 ), ExtResource( 57 ), ExtResource( 55 ), ExtResource( 105 ), ExtResource( 47 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 58 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 67 ), ExtResource( 180 ), ExtResource( 175 ) ],
 "loop": true,
 "name": "run_d",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 528 ), ExtResource( 524 ), ExtResource( 523 ), ExtResource( 522 ), ExtResource( 525 ), ExtResource( 526 ), ExtResource( 527 ), ExtResource( 529 ), ExtResource( 530 ), ExtResource( 531 ), ExtResource( 532 ), ExtResource( 536 ), ExtResource( 537 ), ExtResource( 538 ), ExtResource( 533 ), ExtResource( 535 ), ExtResource( 534 ), ExtResource( 539 ), ExtResource( 540 ), ExtResource( 542 ), ExtResource( 541 ) ],
+"frames": [ ExtResource( 45 ), ExtResource( 63 ), ExtResource( 96 ), ExtResource( 97 ), ExtResource( 99 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 46 ), ExtResource( 69 ), ExtResource( 95 ), ExtResource( 87 ), ExtResource( 88 ), ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 92 ), ExtResource( 94 ), ExtResource( 85 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 81 ) ],
 "loop": true,
 "name": "run_wd",
 "speed": 20.0
@@ -745,7 +559,7 @@ animations = [ {
 "name": "idle_a",
 "speed": 18.0
 }, {
-"frames": [ ExtResource( 660 ), ExtResource( 641 ), ExtResource( 705 ), ExtResource( 686 ), ExtResource( 707 ), ExtResource( 652 ), ExtResource( 638 ), ExtResource( 691 ), ExtResource( 669 ), ExtResource( 684 ), ExtResource( 662 ), ExtResource( 633 ), ExtResource( 685 ), ExtResource( 690 ), ExtResource( 681 ), ExtResource( 663 ), ExtResource( 632 ), ExtResource( 635 ), ExtResource( 654 ), ExtResource( 670 ), ExtResource( 656 ) ],
+"frames": [ ExtResource( 159 ), ExtResource( 158 ), ExtResource( 157 ), ExtResource( 156 ), ExtResource( 155 ), ExtResource( 154 ), ExtResource( 153 ), ExtResource( 152 ), ExtResource( 151 ), ExtResource( 150 ), ExtResource( 149 ), ExtResource( 148 ), ExtResource( 147 ), ExtResource( 146 ), ExtResource( 145 ), ExtResource( 144 ), ExtResource( 143 ), ExtResource( 142 ), ExtResource( 141 ), ExtResource( 140 ), ExtResource( 139 ), ExtResource( 138 ) ],
 "loop": true,
 "name": "run_s",
 "speed": 20.0
@@ -755,7 +569,7 @@ animations = [ {
 "name": "run_a",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 706 ), ExtResource( 650 ), ExtResource( 700 ), ExtResource( 701 ), ExtResource( 651 ), ExtResource( 653 ), ExtResource( 647 ), ExtResource( 610 ), ExtResource( 622 ), ExtResource( 613 ), ExtResource( 649 ), ExtResource( 608 ), ExtResource( 612 ), ExtResource( 699 ), ExtResource( 617 ), ExtResource( 624 ), ExtResource( 623 ), ExtResource( 695 ), ExtResource( 679 ), ExtResource( 604 ), ExtResource( 606 ) ],
+"frames": [ ExtResource( 171 ), ExtResource( 173 ), ExtResource( 48 ), ExtResource( 72 ), ExtResource( 52 ), ExtResource( 93 ), ExtResource( 102 ), ExtResource( 115 ), ExtResource( 112 ), ExtResource( 80 ), ExtResource( 49 ), ExtResource( 71 ), ExtResource( 54 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 104 ), ExtResource( 56 ), ExtResource( 51 ), ExtResource( 53 ), ExtResource( 172 ), ExtResource( 44 ), ExtResource( 50 ) ],
 "loop": true,
 "name": "run_wa",
 "speed": 20.0
@@ -765,12 +579,12 @@ animations = [ {
 "name": "idle_sa",
 "speed": 18.0
 }, {
-"frames": [ ExtResource( 675 ), ExtResource( 673 ), ExtResource( 672 ), ExtResource( 629 ), ExtResource( 702 ), ExtResource( 658 ), ExtResource( 634 ), ExtResource( 687 ), ExtResource( 704 ), ExtResource( 703 ), ExtResource( 678 ), ExtResource( 640 ), ExtResource( 636 ), ExtResource( 664 ), ExtResource( 671 ), ExtResource( 631 ), ExtResource( 683 ), ExtResource( 646 ), ExtResource( 696 ), ExtResource( 674 ), ExtResource( 630 ) ],
+"frames": [ ExtResource( 137 ), ExtResource( 136 ), ExtResource( 135 ), ExtResource( 134 ), ExtResource( 133 ), ExtResource( 132 ), ExtResource( 131 ), ExtResource( 130 ), ExtResource( 129 ), ExtResource( 128 ), ExtResource( 127 ), ExtResource( 126 ), ExtResource( 125 ), ExtResource( 124 ), ExtResource( 123 ), ExtResource( 122 ), ExtResource( 121 ), ExtResource( 120 ), ExtResource( 119 ), ExtResource( 118 ), ExtResource( 117 ), ExtResource( 116 ) ],
 "loop": true,
 "name": "run_sa",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 643 ), ExtResource( 692 ), ExtResource( 607 ), ExtResource( 609 ), ExtResource( 619 ), ExtResource( 677 ), ExtResource( 688 ), ExtResource( 625 ), ExtResource( 667 ), ExtResource( 689 ), ExtResource( 657 ), ExtResource( 644 ), ExtResource( 642 ), ExtResource( 655 ), ExtResource( 627 ), ExtResource( 645 ), ExtResource( 680 ), ExtResource( 665 ), ExtResource( 668 ), ExtResource( 697 ), ExtResource( 626 ) ],
+"frames": [ ExtResource( 107 ), ExtResource( 108 ), ExtResource( 106 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 184 ), ExtResource( 183 ), ExtResource( 185 ), ExtResource( 186 ), ExtResource( 187 ), ExtResource( 188 ), ExtResource( 189 ), ExtResource( 190 ), ExtResource( 191 ), ExtResource( 192 ), ExtResource( 193 ), ExtResource( 194 ), ExtResource( 195 ), ExtResource( 196 ), ExtResource( 197 ), ExtResource( 198 ) ],
 "loop": true,
 "name": "run_w",
 "speed": 20.0
@@ -829,11 +643,6 @@ animations = [ {
 "loop": true,
 "name": "attack_d",
 "speed": 20.0
-}, {
-"frames": [ ExtResource( 585 ), ExtResource( 602 ), ExtResource( 594 ), ExtResource( 600 ), ExtResource( 560 ), ExtResource( 599 ), ExtResource( 592 ), ExtResource( 563 ), ExtResource( 578 ), ExtResource( 583 ), ExtResource( 593 ), ExtResource( 555 ), ExtResource( 566 ), ExtResource( 573 ), ExtResource( 568 ), ExtResource( 564 ), ExtResource( 572 ), ExtResource( 553 ), ExtResource( 577 ), ExtResource( 588 ), ExtResource( 570 ), ExtResource( 586 ), ExtResource( 549 ), ExtResource( 598 ), ExtResource( 556 ), ExtResource( 567 ), ExtResource( 601 ), ExtResource( 591 ), ExtResource( 547 ), ExtResource( 552 ), ExtResource( 559 ), ExtResource( 558 ), ExtResource( 565 ), ExtResource( 561 ), ExtResource( 557 ), ExtResource( 579 ), ExtResource( 571 ), ExtResource( 550 ), ExtResource( 543 ), ExtResource( 562 ), ExtResource( 597 ), ExtResource( 544 ), ExtResource( 595 ), ExtResource( 575 ), ExtResource( 551 ), ExtResource( 574 ), ExtResource( 581 ), ExtResource( 548 ), ExtResource( 584 ), ExtResource( 580 ), ExtResource( 545 ), ExtResource( 569 ), ExtResource( 589 ), ExtResource( 554 ), ExtResource( 587 ), ExtResource( 596 ), ExtResource( 582 ), ExtResource( 546 ), ExtResource( 590 ), ExtResource( 576 ) ],
-"loop": true,
-"name": "death_a",
-"speed": 20.0
 } ]
 
 [node name="warrior" type="KinematicBody2D"]
@@ -844,11 +653,11 @@ one_shot = true
 autostart = true
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( -7.76136, -42.5487 )
+position = Vector2( -8.29108, -43.0784 )
 scale = Vector2( 0.783, 0.783 )
 frames = SubResource( 1 )
-animation = "idlle_d"
-frame = 20
+animation = "run_sd"
+frame = 10
 playing = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
