@@ -1,112 +1,44 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://scenes/ui/assets/health_text.png" type="Texture" id=1]
-[ext_resource path="res://scenes/ui/assets/stamina_bar.png" type="Texture" id=2]
-[ext_resource path="res://scenes/ui/assets/health_bar.png" type="Texture" id=3]
-[ext_resource path="res://scenes/ui/assets/stamina.png" type="Texture" id=4]
-[ext_resource path="res://scenes/ui/assets/coin.png" type="Texture" id=5]
-[ext_resource path="res://scenes/ui/assets/coins.png" type="Texture" id=6]
+[ext_resource path="res://scenes/ui/hud/props/HealthBar.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/ui/hud/props/StaminaBar.tscn" type="PackedScene" id=2]
 
 [node name="GUI" type="MarginContainer"]
+light_mask = 0
 anchor_right = 1.0
-anchor_bottom = 0.987
-margin_left = 7.0
-margin_top = -1.0
-margin_right = 3.0
-margin_bottom = -0.200012
+anchor_bottom = 1.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Life and Energy" type="MarginContainer" parent="."]
-margin_left = 4.0
-margin_top = 383.0
-margin_right = 235.0
-margin_bottom = 593.0
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_right = 1024.0
+margin_bottom = 600.0
 
-[node name="health" type="VBoxContainer" parent="Life and Energy"]
-margin_right = 370.0
-margin_bottom = 210.0
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer"]
+margin_bottom = 600.0
+alignment = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="Life and Energy/health"]
-margin_right = 370.0
-margin_bottom = 30.0
-
-[node name="TextureRect" type="TextureRect" parent="Life and Energy/health/HBoxContainer"]
-margin_top = 78.0
-margin_right = 78.0
-margin_bottom = 30.0
-rect_scale = Vector2( 0.7, 0.7 )
-texture = ExtResource( 1 )
-stretch_mode = 1
-
-[node name="TextureProgress" type="TextureProgress" parent="Life and Energy/health"]
-margin_top = 103.0
-margin_right = 370.0
-margin_bottom = 111.0
-rect_min_size = Vector2( -0.038, -0.055 )
-rect_scale = Vector2( 0.5, 0.5 )
-texture_under = ExtResource( 3 )
-texture_over = ExtResource( 3 )
-
-[node name="HBoxContainer" type="HBoxContainer" parent="Life and Energy"]
-margin_top = 100.0
-margin_right = 370.0
-margin_bottom = 210.0
+[node name="MarginContainer2" type="VBoxContainer" parent="HBoxContainer/VBoxContainer"]
+margin_top = 600.0
+margin_bottom = 600.0
 alignment = 1
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Life and Energy/HBoxContainer"]
-margin_right = 370.0
-margin_bottom = 112.0
+[node name="MarginContainer" type="Panel" parent="HBoxContainer/VBoxContainer/MarginContainer2"]
 
-[node name="TextureRect" type="TextureRect" parent="Life and Energy/HBoxContainer/VBoxContainer"]
-margin_top = 48.0
-margin_right = 370.0
-margin_bottom = 31.0
-rect_scale = Vector2( 0.7, 0.7 )
-texture = ExtResource( 4 )
+[node name="HealthBar" parent="HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer" instance=ExtResource( 1 )]
+margin_left = 17.1489
+margin_top = -129.664
+margin_right = 108.149
+margin_bottom = -100.664
 
-[node name="TextureProgress" type="TextureProgress" parent="Life and Energy/HBoxContainer/VBoxContainer"]
-margin_top = 73.0
-margin_right = 370.0
-margin_bottom = 112.0
-rect_scale = Vector2( 0.5, 0.5 )
-texture_under = ExtResource( 2 )
+[node name="StaminaBar" parent="HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer" instance=ExtResource( 2 )]
+margin_left = 19.5543
+margin_top = -73.3795
+margin_right = 110.554
+margin_bottom = -44.3795
 
-[node name="Coins" type="MarginContainer" parent="."]
-margin_right = 1020.0
-margin_bottom = 593.0
-
-[node name="VBoxContainer" type="VBoxContainer" parent="Coins"]
-margin_left = 912.0
-margin_top = 3.0
-margin_right = 1019.92
-margin_bottom = 84.0
-
-[node name="coins_text" type="TextureRect" parent="Coins/VBoxContainer"]
-margin_right = 107.0
-margin_bottom = 23.0
-rect_pivot_offset = Vector2( 0.4, 0 )
-texture = ExtResource( 6 )
-
-[node name="coin_image" type="TextureRect" parent="Coins/VBoxContainer"]
-margin_left = 53.0
-margin_top = 31.0
-margin_right = 107.0
-margin_bottom = 81.0
-rect_scale = Vector2( 0.865, 0.793 )
-texture = ExtResource( 5 )
-
-[node name="count" type="RichTextLabel" parent="Coins/VBoxContainer"]
-anchor_left = 0.027
-anchor_top = -0.414
-anchor_right = 0.147
-anchor_bottom = 0.013
-margin_left = 10.0
-margin_top = 68.0
-margin_right = 34.0
-margin_bottom = 64.0
-rect_scale = Vector2( 1.904, 2.033 )
-custom_colors/default_color = Color( 0, 0, 0, 1 )
-text = "10
-"
+[node name="coins" type="VBoxContainer" parent="HBoxContainer"]
+margin_left = 4.0
+margin_right = 4.0
+margin_bottom = 600.0

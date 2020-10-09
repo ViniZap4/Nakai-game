@@ -1242,24 +1242,23 @@ animations = [ {
 script = ExtResource( 889 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
-offset = Vector2( 0, -40 )
+z_index = 10
+z_as_relative = false
 current = true
-zoom = Vector2( 0.9, 0.9 )
-smoothing_enabled = true
 smoothing_speed = 6.0
 
 [node name="GUI" parent="Camera2D" instance=ExtResource( 1114 )]
-margin_left = -468.0
-margin_top = -312.0
-margin_right = 455.0
-margin_bottom = 228.0
+margin_left = -506.0
+margin_top = -295.0
+margin_right = 500.0
+margin_bottom = 292.0
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( -7.5864, -46.7684 )
-scale = Vector2( 0.783221, 0.783221 )
+position = Vector2( -1.30591, -51.8527 )
+scale = Vector2( 0.779693, 0.779693 )
 frames = SubResource( 1 )
 animation = "idle_sd"
-frame = 11
+frame = 20
 playing = true
 
 [node name="Timer" type="Timer" parent="."]
