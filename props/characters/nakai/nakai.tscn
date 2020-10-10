@@ -1248,17 +1248,17 @@ current = true
 smoothing_speed = 6.0
 
 [node name="GUI" parent="Camera2D" instance=ExtResource( 1114 )]
-margin_left = -506.0
-margin_top = -295.0
-margin_right = 500.0
-margin_bottom = 292.0
+margin_left = -677.0
+margin_top = -373.0
+margin_right = 680.0
+margin_bottom = 376.0
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( -1.30591, -51.8527 )
 scale = Vector2( 0.779693, 0.779693 )
 frames = SubResource( 1 )
 animation = "idle_sd"
-frame = 20
+frame = 60
 playing = true
 
 [node name="Timer" type="Timer" parent="."]

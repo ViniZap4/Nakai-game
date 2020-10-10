@@ -1,15 +1,19 @@
 extends KinematicBody2D
 
-var speed = 7
+var speed = 4
 var maxHealth = 100
 var enemyDamage = 25
 
 var ai_think_time = 0.7
 var ai_think_time_timer = null
 
+
+#animacoes
 var direction_animation = "sd"
 var idle = "idle"
 var run = "run"
+var _position_last_frame := Vector2()
+var _cardinal_direction = 0
 
 var reflexes = 4
 onready var target = get_parent().get_node("nakai")
@@ -46,28 +50,43 @@ func ai_move():
 	var direction = ai_get_direction() 
 	var motion = direction.normalized() * speed
 	
-	if motion <= Vector2( -5  , -3) and motion >= Vector2( -6  , -4):
-		direction_animation = "a"
-	if motion <= Vector2( 6  , -1 ) and motion >= Vector2( 5  , 0):
-		direction_animation = "d"
-	if motion >= Vector2( -1  , -7 ) and motion <= Vector2( 1  , -5):
-		direction_animation = "w"
-	if motion >= Vector2( -1  , 7 ) and motion <= Vector2( 0  , 5):
-		direction_animation = "s"
 	
-	if motion >= Vector2( -6  , -4 ) and motion <= Vector2( -3  , -2):
-		direction_animation = "wa"
-	#if motion >= Vector2( -6  , -4 ) and motion <= Vector2( -3  , -2):
-	#	direction_animation = "wd"
-		
-		
 	run = "run_" + direction_animation
-	
-	print(motion)
+
 	
 	move_and_collide(motion);
 	$AnimatedSprite.play(run); 
+
+
+
+func _physics_process(delta):
+	var motion = position - _position_last_frame
+	if motion.length() > 0.0001:
+		_cardinal_direction = int(8.0 * (motion.rotated(PI / 8.0).angle() + PI) / TAU)
+
+
+	match _cardinal_direction:
+		0:
+		   direction_animation = "a"
+		1:
+			direction_animation = "wa"
+		2:
+			direction_animation = "w"
+		3:
+		   direction_animation = "wd"
+		4:
+			direction_animation = "d"
+		5:
+			direction_animation = "sd"
+		6:
+			direction_animation = "s"
+		7:
+			direction_animation = "sa"
+
+	_position_last_frame = position
 	
+	
+
 func setup_ai_think_time_timer():
 	ai_think_time_timer = Timer.new()
 	ai_think_time_timer.set_one_shot(true)
