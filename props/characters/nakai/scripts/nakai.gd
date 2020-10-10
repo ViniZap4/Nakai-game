@@ -7,11 +7,14 @@ var speed = MOTION_SPEED
 var direction_animation = "sd"
 var idle = "idle_sd"
 var run = "run_sd"
+var death = "death"
 var roll = "idle_sd"
 var _position_last_frame := Vector2()
 var _cardinal_direction = 0
-
+onready var energy_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/StaminaBar/MarginContainer/Label/TextureProgress")
+onready var health_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/HealthBar/MarginContainer/Label/TextureProgress")
 var in_roll = false
+var energy_max_value = 100.0
 var vel_roll = Vector2(0,0)
 
 
@@ -50,11 +53,13 @@ func _physics_process(delta):
 
 
 	if Input.is_action_pressed("roll") and in_roll == false and motion != Vector2(0, 0):
-		in_roll = true
-		speed = 468 
-		vel_roll = motion
-		$Timer.connect("timeout", self, "_on_Timer_timeout")
-		$Timer.start()
+		if(energy_bar.value != 0):
+			in_roll = true
+			energy_max_value = round(energy_max_value - 20.0)
+			speed = 290
+			vel_roll = motion
+			$Timer.connect("timeout", self, "_on_Timer_timeout")
+			$Timer.start()
 
 	
 	
@@ -89,11 +94,28 @@ func _physics_process(delta):
 			$AnimatedSprite.play(run)
 						
 		else:
-			$AnimatedSprite.play(roll)
+			if(energy_bar.value >= 10):
+				print(energy_max_value)
+				update_energy(energy_max_value)
+				$AnimatedSprite.play(roll)
+			else:
+				$AnimatedSprite.play(run)
 	else:
 		$AnimatedSprite.play(idle)
-
+		energy_bar.value = energy_bar.value + 0.6
+		energy_max_value = energy_bar.value
 
 	motion = motion.normalized() * speed
 	motion = cartesian_to_isometric(motion)
 	move_and_slide(motion)
+	
+func take_damage(damage):
+	if(health_bar.value <= 0):
+		death = "death_" + direction_animation
+		$AnimatedSprite.play(death)
+	else:
+		health_bar.value -= damage;
+	
+func update_energy(new_value):
+	energy_bar.value = new_value
+	

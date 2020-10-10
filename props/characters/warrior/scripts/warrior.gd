@@ -12,6 +12,7 @@ var ai_think_time_timer = null
 var direction_animation = "sd"
 var idle = "idle"
 var run = "run"
+var attack = "attack"
 var _position_last_frame := Vector2()
 var _cardinal_direction = 0
 
@@ -40,7 +41,9 @@ func take_Damage(damageCount):
 		
 func attack():
 	var damage = round(randi() % 50 + enemyDamage / 10)
-	target.take_damage(damage);
+	attack = "attack_" + direction_animation
+	$AnimatedSprite.play(attack); 
+	target.take_damage(enemyDamage)
 
 func ai_get_direction():
 	return target.position - self.position
@@ -50,9 +53,7 @@ func ai_move():
 	var direction = ai_get_direction() 
 	var motion = direction.normalized() * speed
 	
-	
 	run = "run_" + direction_animation
-
 	
 	move_and_collide(motion);
 	$AnimatedSprite.play(run); 
@@ -102,7 +103,5 @@ func on_ai_thinktime_timeout_complete():
 		attack()
 
 func _process(delta):
-	if is_in_range && ai_think_time_timer.time_left == 0:
-		decide_to_attack()
-	else:
 		ai_move()
+
