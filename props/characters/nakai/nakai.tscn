@@ -1,4 +1,4 @@
-[gd_scene load_steps=1380 format=2]
+[gd_scene load_steps=1116 format=2]
 
 [ext_resource path="res://props/characters/nakai/assets/idle/a/nakai2.png" type="Texture" id=1]
 [ext_resource path="res://props/characters/nakai/assets/idle/a/nakai3.png" type="Texture" id=2]
@@ -1114,297 +1114,38 @@
 [ext_resource path="res://props/characters/nakai/assets/roll/w-d/0028.png" type="Texture" id=1112]
 [ext_resource path="res://props/characters/nakai/assets/roll/w-d/0027.png" type="Texture" id=1113]
 [ext_resource path="res://scenes/ui/hud/hud.tscn" type="PackedScene" id=1114]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0011.png" type="Texture" id=1115]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0012.png" type="Texture" id=1116]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0016.png" type="Texture" id=1117]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0033.png" type="Texture" id=1118]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0006.png" type="Texture" id=1119]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0008.png" type="Texture" id=1120]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0013.png" type="Texture" id=1121]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0001.png" type="Texture" id=1122]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0015.png" type="Texture" id=1123]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0020.png" type="Texture" id=1124]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0023.png" type="Texture" id=1125]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0029.png" type="Texture" id=1126]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0032.png" type="Texture" id=1127]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0002.png" type="Texture" id=1128]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0018.png" type="Texture" id=1129]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0014.png" type="Texture" id=1130]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0021.png" type="Texture" id=1131]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0027.png" type="Texture" id=1132]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0024.png" type="Texture" id=1133]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0017.png" type="Texture" id=1134]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0026.png" type="Texture" id=1135]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0028.png" type="Texture" id=1136]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0019.png" type="Texture" id=1137]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0004.png" type="Texture" id=1138]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0025.png" type="Texture" id=1139]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0031.png" type="Texture" id=1140]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0030.png" type="Texture" id=1141]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0007.png" type="Texture" id=1142]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0022.png" type="Texture" id=1143]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0003.png" type="Texture" id=1144]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0009.png" type="Texture" id=1145]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0010.png" type="Texture" id=1146]
-[ext_resource path="res://props/characters/nakai/assets/dead/a/0005.png" type="Texture" id=1147]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0001.png" type="Texture" id=1148]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0002.png" type="Texture" id=1149]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0003.png" type="Texture" id=1150]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0004.png" type="Texture" id=1151]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0005.png" type="Texture" id=1152]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0006.png" type="Texture" id=1153]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0007.png" type="Texture" id=1154]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0008.png" type="Texture" id=1155]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0010.png" type="Texture" id=1156]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0009.png" type="Texture" id=1157]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0012.png" type="Texture" id=1158]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0011.png" type="Texture" id=1159]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0030.png" type="Texture" id=1160]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0017.png" type="Texture" id=1161]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0020.png" type="Texture" id=1162]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0028.png" type="Texture" id=1163]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0021.png" type="Texture" id=1164]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0023.png" type="Texture" id=1165]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0029.png" type="Texture" id=1166]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0032.png" type="Texture" id=1167]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0014.png" type="Texture" id=1168]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0031.png" type="Texture" id=1169]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0019.png" type="Texture" id=1170]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0027.png" type="Texture" id=1171]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0022.png" type="Texture" id=1172]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0018.png" type="Texture" id=1173]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0015.png" type="Texture" id=1174]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0025.png" type="Texture" id=1175]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0013.png" type="Texture" id=1176]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0033.png" type="Texture" id=1177]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0024.png" type="Texture" id=1178]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0016.png" type="Texture" id=1179]
-[ext_resource path="res://props/characters/nakai/assets/dead/s/0026.png" type="Texture" id=1180]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0006.png" type="Texture" id=1181]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0018.png" type="Texture" id=1182]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0028.png" type="Texture" id=1183]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0017.png" type="Texture" id=1184]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0019.png" type="Texture" id=1185]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0029.png" type="Texture" id=1186]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0030.png" type="Texture" id=1187]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0032.png" type="Texture" id=1188]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0009.png" type="Texture" id=1189]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0027.png" type="Texture" id=1190]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0002.png" type="Texture" id=1191]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0004.png" type="Texture" id=1192]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0001.png" type="Texture" id=1193]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0021.png" type="Texture" id=1194]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0024.png" type="Texture" id=1195]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0005.png" type="Texture" id=1196]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0012.png" type="Texture" id=1197]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0020.png" type="Texture" id=1198]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0022.png" type="Texture" id=1199]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0003.png" type="Texture" id=1200]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0033.png" type="Texture" id=1201]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0026.png" type="Texture" id=1202]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0007.png" type="Texture" id=1203]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0010.png" type="Texture" id=1204]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0003.png" type="Texture" id=1205]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0011.png" type="Texture" id=1206]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0006.png" type="Texture" id=1207]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0031.png" type="Texture" id=1208]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0008.png" type="Texture" id=1209]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0023.png" type="Texture" id=1210]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0010.png" type="Texture" id=1211]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0025.png" type="Texture" id=1212]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0001.png" type="Texture" id=1213]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0007.png" type="Texture" id=1214]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0008.png" type="Texture" id=1215]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0016.png" type="Texture" id=1216]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0005.png" type="Texture" id=1217]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0004.png" type="Texture" id=1218]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0009.png" type="Texture" id=1219]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0014.png" type="Texture" id=1220]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0002.png" type="Texture" id=1221]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0013.png" type="Texture" id=1222]
-[ext_resource path="res://props/characters/nakai/assets/dead/d/0015.png" type="Texture" id=1223]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0029.png" type="Texture" id=1224]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0014.png" type="Texture" id=1225]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0023.png" type="Texture" id=1226]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0033.png" type="Texture" id=1227]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0020.png" type="Texture" id=1228]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0027.png" type="Texture" id=1229]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0013.png" type="Texture" id=1230]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0015.png" type="Texture" id=1231]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0028.png" type="Texture" id=1232]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0017.png" type="Texture" id=1233]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0021.png" type="Texture" id=1234]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0031.png" type="Texture" id=1235]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0018.png" type="Texture" id=1236]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0011.png" type="Texture" id=1237]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0019.png" type="Texture" id=1238]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0025.png" type="Texture" id=1239]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0024.png" type="Texture" id=1240]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0030.png" type="Texture" id=1241]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0032.png" type="Texture" id=1242]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0026.png" type="Texture" id=1243]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0022.png" type="Texture" id=1244]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0016.png" type="Texture" id=1245]
-[ext_resource path="res://props/characters/nakai/assets/dead/w/0012.png" type="Texture" id=1246]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0009.png" type="Texture" id=1247]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0017.png" type="Texture" id=1248]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0018.png" type="Texture" id=1249]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0019.png" type="Texture" id=1250]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0022.png" type="Texture" id=1251]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0023.png" type="Texture" id=1252]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0024.png" type="Texture" id=1253]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0021.png" type="Texture" id=1254]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0025.png" type="Texture" id=1255]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0026.png" type="Texture" id=1256]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0020.png" type="Texture" id=1257]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0027.png" type="Texture" id=1258]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0028.png" type="Texture" id=1259]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0029.png" type="Texture" id=1260]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0008.png" type="Texture" id=1261]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0015.png" type="Texture" id=1262]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0030.png" type="Texture" id=1263]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0001.png" type="Texture" id=1264]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0004.png" type="Texture" id=1265]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0005.png" type="Texture" id=1266]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0006.png" type="Texture" id=1267]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0002.png" type="Texture" id=1268]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0010.png" type="Texture" id=1269]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0012.png" type="Texture" id=1270]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0011.png" type="Texture" id=1271]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0013.png" type="Texture" id=1272]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0014.png" type="Texture" id=1273]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0003.png" type="Texture" id=1274]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0016.png" type="Texture" id=1275]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0007.png" type="Texture" id=1276]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0003.png" type="Texture" id=1277]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0004.png" type="Texture" id=1278]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0031.png" type="Texture" id=1279]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0033.png" type="Texture" id=1280]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0005.png" type="Texture" id=1281]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0006.png" type="Texture" id=1282]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0007.png" type="Texture" id=1283]
-[ext_resource path="res://props/characters/nakai/assets/dead/sa/0032.png" type="Texture" id=1284]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0001.png" type="Texture" id=1285]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0002.png" type="Texture" id=1286]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0013.png" type="Texture" id=1287]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0021.png" type="Texture" id=1288]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0010.png" type="Texture" id=1289]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0009.png" type="Texture" id=1290]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0027.png" type="Texture" id=1291]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0028.png" type="Texture" id=1292]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0011.png" type="Texture" id=1293]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0026.png" type="Texture" id=1294]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0008.png" type="Texture" id=1295]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0012.png" type="Texture" id=1296]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0017.png" type="Texture" id=1297]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0033.png" type="Texture" id=1298]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0023.png" type="Texture" id=1299]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0015.png" type="Texture" id=1300]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0016.png" type="Texture" id=1301]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0032.png" type="Texture" id=1302]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0024.png" type="Texture" id=1303]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0020.png" type="Texture" id=1304]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0031.png" type="Texture" id=1305]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0019.png" type="Texture" id=1306]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0022.png" type="Texture" id=1307]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0030.png" type="Texture" id=1308]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0025.png" type="Texture" id=1309]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0018.png" type="Texture" id=1310]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0029.png" type="Texture" id=1311]
-[ext_resource path="res://props/characters/nakai/assets/dead/sd/0014.png" type="Texture" id=1312]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0002.png" type="Texture" id=1313]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0027.png" type="Texture" id=1314]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0030.png" type="Texture" id=1315]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0015.png" type="Texture" id=1316]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0031.png" type="Texture" id=1317]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0002.png" type="Texture" id=1318]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0004.png" type="Texture" id=1319]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0022.png" type="Texture" id=1320]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0001.png" type="Texture" id=1321]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0005.png" type="Texture" id=1322]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0009.png" type="Texture" id=1323]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0006.png" type="Texture" id=1324]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0003.png" type="Texture" id=1325]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0013.png" type="Texture" id=1326]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0014.png" type="Texture" id=1327]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0016.png" type="Texture" id=1328]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0004.png" type="Texture" id=1329]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0011.png" type="Texture" id=1330]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0017.png" type="Texture" id=1331]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0019.png" type="Texture" id=1332]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0020.png" type="Texture" id=1333]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0021.png" type="Texture" id=1334]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0023.png" type="Texture" id=1335]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0018.png" type="Texture" id=1336]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0010.png" type="Texture" id=1337]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0008.png" type="Texture" id=1338]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0007.png" type="Texture" id=1339]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0024.png" type="Texture" id=1340]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0025.png" type="Texture" id=1341]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0005.png" type="Texture" id=1342]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0026.png" type="Texture" id=1343]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0028.png" type="Texture" id=1344]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0029.png" type="Texture" id=1345]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0032.png" type="Texture" id=1346]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0033.png" type="Texture" id=1347]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0003.png" type="Texture" id=1348]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0001.png" type="Texture" id=1349]
-[ext_resource path="res://props/characters/nakai/assets/dead/wa/0012.png" type="Texture" id=1350]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0010.png" type="Texture" id=1351]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0012.png" type="Texture" id=1352]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0007.png" type="Texture" id=1353]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0014.png" type="Texture" id=1354]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0015.png" type="Texture" id=1355]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0009.png" type="Texture" id=1356]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0017.png" type="Texture" id=1357]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0020.png" type="Texture" id=1358]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0019.png" type="Texture" id=1359]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0021.png" type="Texture" id=1360]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0022.png" type="Texture" id=1361]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0008.png" type="Texture" id=1362]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0023.png" type="Texture" id=1363]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0024.png" type="Texture" id=1364]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0025.png" type="Texture" id=1365]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0018.png" type="Texture" id=1366]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0026.png" type="Texture" id=1367]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0027.png" type="Texture" id=1368]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0016.png" type="Texture" id=1369]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0013.png" type="Texture" id=1370]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0006.png" type="Texture" id=1371]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0011.png" type="Texture" id=1372]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0030.png" type="Texture" id=1373]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0031.png" type="Texture" id=1374]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0028.png" type="Texture" id=1375]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0032.png" type="Texture" id=1376]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0033.png" type="Texture" id=1377]
-[ext_resource path="res://props/characters/nakai/assets/dead/wd/0029.png" type="Texture" id=1378]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
-"frames": [ ExtResource( 1349 ), ExtResource( 1313 ), ExtResource( 1325 ), ExtResource( 1329 ), ExtResource( 1342 ), ExtResource( 1324 ), ExtResource( 1339 ), ExtResource( 1338 ), ExtResource( 1323 ), ExtResource( 1337 ), ExtResource( 1330 ), ExtResource( 1350 ), ExtResource( 1326 ), ExtResource( 1327 ), ExtResource( 1316 ), ExtResource( 1328 ), ExtResource( 1331 ), ExtResource( 1336 ), ExtResource( 1332 ), ExtResource( 1333 ), ExtResource( 1334 ), ExtResource( 1320 ), ExtResource( 1335 ), ExtResource( 1340 ), ExtResource( 1341 ), ExtResource( 1343 ), ExtResource( 1314 ), ExtResource( 1344 ), ExtResource( 1345 ), ExtResource( 1315 ), ExtResource( 1317 ), ExtResource( 1346 ), ExtResource( 1347 ), ExtResource( 1321 ), ExtResource( 1318 ), ExtResource( 1348 ), ExtResource( 1319 ), ExtResource( 1322 ), ExtResource( 1371 ), ExtResource( 1353 ), ExtResource( 1362 ), ExtResource( 1356 ), ExtResource( 1351 ), ExtResource( 1372 ), ExtResource( 1352 ), ExtResource( 1370 ), ExtResource( 1354 ), ExtResource( 1355 ), ExtResource( 1369 ), ExtResource( 1357 ), ExtResource( 1366 ), ExtResource( 1359 ), ExtResource( 1358 ), ExtResource( 1360 ), ExtResource( 1361 ), ExtResource( 1363 ), ExtResource( 1364 ), ExtResource( 1365 ), ExtResource( 1367 ), ExtResource( 1368 ), ExtResource( 1375 ), ExtResource( 1378 ), ExtResource( 1373 ), ExtResource( 1374 ), ExtResource( 1376 ), ExtResource( 1377 ) ],
+"frames": [ ExtResource( 191 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 15 ), ExtResource( 14 ), ExtResource( 11 ), ExtResource( 199 ), ExtResource( 192 ), ExtResource( 207 ), ExtResource( 209 ), ExtResource( 208 ), ExtResource( 200 ), ExtResource( 201 ), ExtResource( 202 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 206 ), ExtResource( 205 ), ExtResource( 217 ), ExtResource( 219 ), ExtResource( 218 ), ExtResource( 228 ), ExtResource( 230 ), ExtResource( 229 ), ExtResource( 193 ), ExtResource( 238 ), ExtResource( 240 ), ExtResource( 239 ), ExtResource( 194 ), ExtResource( 195 ), ExtResource( 196 ), ExtResource( 198 ), ExtResource( 197 ), ExtResource( 247 ), ExtResource( 248 ), ExtResource( 210 ), ExtResource( 257 ), ExtResource( 256 ), ExtResource( 211 ), ExtResource( 212 ), ExtResource( 213 ), ExtResource( 214 ), ExtResource( 216 ), ExtResource( 215 ), ExtResource( 220 ), ExtResource( 221 ), ExtResource( 222 ), ExtResource( 224 ), ExtResource( 225 ), ExtResource( 226 ), ExtResource( 227 ), ExtResource( 231 ), ExtResource( 232 ), ExtResource( 233 ), ExtResource( 234 ), ExtResource( 235 ), ExtResource( 237 ), ExtResource( 236 ), ExtResource( 223 ), ExtResource( 260 ), ExtResource( 262 ), ExtResource( 261 ), ExtResource( 263 ), ExtResource( 264 ), ExtResource( 265 ), ExtResource( 267 ), ExtResource( 268 ), ExtResource( 241 ), ExtResource( 272 ), ExtResource( 270 ), ExtResource( 271 ), ExtResource( 242 ), ExtResource( 243 ), ExtResource( 244 ), ExtResource( 246 ), ExtResource( 245 ), ExtResource( 249 ), ExtResource( 250 ), ExtResource( 251 ), ExtResource( 252 ), ExtResource( 253 ), ExtResource( 254 ), ExtResource( 255 ), ExtResource( 258 ), ExtResource( 280 ), ExtResource( 281 ), ExtResource( 259 ), ExtResource( 289 ) ],
 "loop": true,
-"name": "death_wd",
-"speed": 20.0
+"name": "idle_d",
+"speed": 9.0
 }, {
-"frames": [  ],
+"frames": [ ExtResource( 358 ), ExtResource( 190 ), ExtResource( 10 ), ExtResource( 370 ), ExtResource( 371 ), ExtResource( 369 ), ExtResource( 372 ), ExtResource( 373 ), ExtResource( 374 ), ExtResource( 375 ), ExtResource( 376 ), ExtResource( 377 ), ExtResource( 378 ), ExtResource( 379 ), ExtResource( 380 ), ExtResource( 360 ), ExtResource( 361 ), ExtResource( 362 ), ExtResource( 363 ), ExtResource( 364 ), ExtResource( 365 ), ExtResource( 366 ), ExtResource( 368 ), ExtResource( 367 ), ExtResource( 381 ), ExtResource( 382 ), ExtResource( 383 ), ExtResource( 384 ), ExtResource( 385 ), ExtResource( 386 ), ExtResource( 387 ), ExtResource( 388 ), ExtResource( 389 ), ExtResource( 390 ), ExtResource( 391 ), ExtResource( 392 ), ExtResource( 393 ), ExtResource( 394 ), ExtResource( 395 ), ExtResource( 396 ), ExtResource( 397 ), ExtResource( 398 ), ExtResource( 399 ), ExtResource( 400 ), ExtResource( 401 ), ExtResource( 402 ), ExtResource( 403 ), ExtResource( 404 ), ExtResource( 405 ), ExtResource( 406 ), ExtResource( 407 ), ExtResource( 408 ), ExtResource( 409 ), ExtResource( 410 ), ExtResource( 411 ), ExtResource( 412 ), ExtResource( 413 ), ExtResource( 414 ), ExtResource( 415 ), ExtResource( 417 ), ExtResource( 416 ), ExtResource( 418 ), ExtResource( 419 ), ExtResource( 420 ), ExtResource( 421 ), ExtResource( 422 ), ExtResource( 423 ), ExtResource( 424 ), ExtResource( 425 ), ExtResource( 426 ), ExtResource( 427 ), ExtResource( 428 ), ExtResource( 429 ), ExtResource( 430 ), ExtResource( 431 ), ExtResource( 432 ), ExtResource( 433 ), ExtResource( 434 ), ExtResource( 435 ), ExtResource( 436 ), ExtResource( 437 ), ExtResource( 438 ), ExtResource( 439 ), ExtResource( 440 ), ExtResource( 441 ), ExtResource( 442 ), ExtResource( 443 ), ExtResource( 444 ) ],
 "loop": true,
-"name": "death_wa ",
-"speed": 5.0
+"name": "idle_s",
+"speed": 9.0
 }, {
-"frames": [ ExtResource( 865 ), ExtResource( 866 ), ExtResource( 867 ), ExtResource( 868 ), ExtResource( 869 ), ExtResource( 870 ), ExtResource( 871 ), ExtResource( 872 ), ExtResource( 873 ), ExtResource( 717 ), ExtResource( 718 ), ExtResource( 719 ), ExtResource( 720 ), ExtResource( 721 ), ExtResource( 722 ), ExtResource( 723 ), ExtResource( 724 ), ExtResource( 725 ), ExtResource( 726 ), ExtResource( 735 ), ExtResource( 736 ), ExtResource( 737 ), ExtResource( 738 ) ],
+"frames": [ ExtResource( 923 ), ExtResource( 956 ), ExtResource( 981 ), ExtResource( 982 ), ExtResource( 983 ), ExtResource( 985 ), ExtResource( 984 ), ExtResource( 986 ), ExtResource( 987 ), ExtResource( 988 ), ExtResource( 989 ), ExtResource( 990 ), ExtResource( 991 ), ExtResource( 992 ), ExtResource( 993 ), ExtResource( 994 ), ExtResource( 996 ), ExtResource( 995 ), ExtResource( 997 ), ExtResource( 999 ), ExtResource( 998 ), ExtResource( 1000 ), ExtResource( 1001 ), ExtResource( 1002 ), ExtResource( 1003 ), ExtResource( 1006 ), ExtResource( 1004 ), ExtResource( 1005 ) ],
 "loop": true,
-"name": "run_w",
-"speed": 33.0
+"name": "roll_sa",
+"speed": 27.0
 }, {
-"frames": [ ExtResource( 714 ), ExtResource( 716 ), ExtResource( 711 ), ExtResource( 707 ), ExtResource( 758 ), ExtResource( 759 ), ExtResource( 882 ), ExtResource( 768 ), ExtResource( 769 ), ExtResource( 837 ), ExtResource( 767 ), ExtResource( 772 ), ExtResource( 773 ), ExtResource( 770 ), ExtResource( 843 ), ExtResource( 746 ), ExtResource( 747 ), ExtResource( 761 ), ExtResource( 833 ), ExtResource( 845 ), ExtResource( 844 ), ExtResource( 846 ), ExtResource( 847 ) ],
+"frames": [ ExtResource( 104 ), ExtResource( 21 ), ExtResource( 12 ), ExtResource( 16 ), ExtResource( 105 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 115 ), ExtResource( 116 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 120 ), ExtResource( 122 ), ExtResource( 121 ), ExtResource( 123 ), ExtResource( 124 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 127 ), ExtResource( 128 ), ExtResource( 129 ), ExtResource( 130 ), ExtResource( 131 ), ExtResource( 132 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 135 ), ExtResource( 136 ), ExtResource( 137 ), ExtResource( 138 ), ExtResource( 139 ), ExtResource( 140 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 143 ), ExtResource( 144 ), ExtResource( 145 ), ExtResource( 146 ), ExtResource( 147 ), ExtResource( 148 ), ExtResource( 149 ), ExtResource( 150 ), ExtResource( 151 ), ExtResource( 152 ), ExtResource( 153 ), ExtResource( 154 ), ExtResource( 155 ), ExtResource( 156 ), ExtResource( 157 ), ExtResource( 158 ), ExtResource( 159 ), ExtResource( 160 ), ExtResource( 161 ), ExtResource( 162 ), ExtResource( 163 ), ExtResource( 164 ), ExtResource( 165 ), ExtResource( 166 ), ExtResource( 167 ), ExtResource( 168 ), ExtResource( 169 ), ExtResource( 170 ), ExtResource( 171 ), ExtResource( 172 ), ExtResource( 173 ), ExtResource( 174 ), ExtResource( 175 ), ExtResource( 176 ), ExtResource( 177 ), ExtResource( 178 ), ExtResource( 179 ), ExtResource( 180 ), ExtResource( 181 ), ExtResource( 182 ), ExtResource( 184 ), ExtResource( 183 ), ExtResource( 185 ), ExtResource( 186 ), ExtResource( 187 ), ExtResource( 188 ), ExtResource( 189 ) ],
 "loop": true,
-"name": "run_sa",
-"speed": 33.0
+"name": "idle_sa",
+"speed": 9.0
 }, {
-"frames": [ ExtResource( 766 ), ExtResource( 781 ), ExtResource( 838 ), ExtResource( 760 ), ExtResource( 832 ), ExtResource( 831 ), ExtResource( 771 ), ExtResource( 708 ), ExtResource( 713 ), ExtResource( 793 ), ExtResource( 835 ), ExtResource( 834 ), ExtResource( 712 ), ExtResource( 756 ), ExtResource( 789 ), ExtResource( 763 ), ExtResource( 790 ), ExtResource( 764 ), ExtResource( 757 ), ExtResource( 715 ), ExtResource( 788 ), ExtResource( 705 ), ExtResource( 709 ) ],
+"frames": [ ExtResource( 933 ), ExtResource( 921 ), ExtResource( 918 ), ExtResource( 931 ), ExtResource( 935 ), ExtResource( 936 ), ExtResource( 938 ), ExtResource( 937 ), ExtResource( 928 ), ExtResource( 930 ), ExtResource( 929 ), ExtResource( 939 ), ExtResource( 940 ), ExtResource( 942 ), ExtResource( 941 ), ExtResource( 943 ), ExtResource( 944 ), ExtResource( 945 ), ExtResource( 946 ), ExtResource( 947 ), ExtResource( 948 ), ExtResource( 949 ), ExtResource( 950 ), ExtResource( 955 ), ExtResource( 952 ), ExtResource( 953 ), ExtResource( 954 ), ExtResource( 951 ) ],
 "loop": true,
-"name": "run_a",
-"speed": 33.0
+"name": "roll_a",
+"speed": 27.0
+}, {
+"frames": [ ExtResource( 266 ), ExtResource( 19 ), ExtResource( 17 ), ExtResource( 103 ), ExtResource( 112 ), ExtResource( 269 ), ExtResource( 20 ), ExtResource( 273 ), ExtResource( 287 ), ExtResource( 279 ), ExtResource( 288 ), ExtResource( 282 ), ExtResource( 283 ), ExtResource( 284 ), ExtResource( 286 ), ExtResource( 285 ), ExtResource( 274 ), ExtResource( 275 ), ExtResource( 276 ), ExtResource( 278 ), ExtResource( 277 ), ExtResource( 295 ), ExtResource( 296 ), ExtResource( 297 ), ExtResource( 298 ), ExtResource( 290 ), ExtResource( 291 ), ExtResource( 292 ), ExtResource( 293 ), ExtResource( 294 ), ExtResource( 299 ), ExtResource( 307 ), ExtResource( 306 ), ExtResource( 309 ), ExtResource( 308 ), ExtResource( 316 ), ExtResource( 317 ), ExtResource( 319 ), ExtResource( 318 ), ExtResource( 300 ), ExtResource( 301 ), ExtResource( 302 ), ExtResource( 303 ), ExtResource( 304 ), ExtResource( 305 ), ExtResource( 310 ), ExtResource( 311 ), ExtResource( 312 ), ExtResource( 314 ), ExtResource( 313 ), ExtResource( 315 ), ExtResource( 320 ), ExtResource( 321 ), ExtResource( 322 ), ExtResource( 323 ), ExtResource( 324 ), ExtResource( 325 ), ExtResource( 326 ), ExtResource( 327 ), ExtResource( 328 ), ExtResource( 329 ), ExtResource( 330 ), ExtResource( 331 ), ExtResource( 332 ), ExtResource( 333 ), ExtResource( 335 ), ExtResource( 334 ), ExtResource( 336 ), ExtResource( 337 ), ExtResource( 338 ), ExtResource( 340 ), ExtResource( 339 ), ExtResource( 341 ), ExtResource( 342 ), ExtResource( 343 ), ExtResource( 344 ), ExtResource( 346 ), ExtResource( 345 ), ExtResource( 347 ), ExtResource( 348 ), ExtResource( 349 ), ExtResource( 351 ), ExtResource( 350 ), ExtResource( 352 ), ExtResource( 353 ), ExtResource( 354 ), ExtResource( 355 ), ExtResource( 356 ) ],
+"loop": true,
+"name": "idle_wd",
+"speed": 9.0
 }, {
 "frames": [ ExtResource( 922 ), ExtResource( 924 ), ExtResource( 1065 ), ExtResource( 1064 ), ExtResource( 1066 ), ExtResource( 1067 ), ExtResource( 1068 ), ExtResource( 1069 ), ExtResource( 1061 ), ExtResource( 1063 ), ExtResource( 1062 ), ExtResource( 1070 ), ExtResource( 1072 ), ExtResource( 1071 ), ExtResource( 1073 ), ExtResource( 1074 ), ExtResource( 1076 ), ExtResource( 1075 ), ExtResource( 1077 ), ExtResource( 1078 ), ExtResource( 1079 ), ExtResource( 1080 ), ExtResource( 1081 ), ExtResource( 1084 ), ExtResource( 1082 ), ExtResource( 1083 ), ExtResource( 1085 ), ExtResource( 1086 ) ],
 "loop": true,
@@ -1416,34 +1157,14 @@ animations = [ {
 "name": "roll_w",
 "speed": 27.0
 }, {
-"frames": [ ExtResource( 706 ), ExtResource( 762 ), ExtResource( 839 ), ExtResource( 840 ), ExtResource( 842 ), ExtResource( 841 ), ExtResource( 765 ), ExtResource( 745 ), ExtResource( 739 ), ExtResource( 740 ), ExtResource( 741 ), ExtResource( 743 ), ExtResource( 742 ), ExtResource( 861 ), ExtResource( 862 ), ExtResource( 863 ), ExtResource( 864 ), ExtResource( 883 ), ExtResource( 884 ), ExtResource( 885 ), ExtResource( 886 ), ExtResource( 887 ), ExtResource( 888 ) ],
+"frames": [ ExtResource( 727 ), ExtResource( 728 ), ExtResource( 729 ), ExtResource( 730 ), ExtResource( 731 ), ExtResource( 732 ), ExtResource( 734 ), ExtResource( 733 ), ExtResource( 791 ), ExtResource( 794 ), ExtResource( 795 ), ExtResource( 796 ), ExtResource( 797 ), ExtResource( 798 ), ExtResource( 799 ), ExtResource( 800 ), ExtResource( 801 ), ExtResource( 802 ), ExtResource( 803 ), ExtResource( 804 ), ExtResource( 805 ), ExtResource( 806 ), ExtResource( 807 ) ],
 "loop": true,
-"name": "run_d",
+"name": "run_wa",
 "speed": 33.0
-}, {
-"frames": [ ExtResource( 927 ), ExtResource( 932 ), ExtResource( 934 ), ExtResource( 919 ), ExtResource( 926 ), ExtResource( 962 ), ExtResource( 964 ), ExtResource( 963 ), ExtResource( 965 ), ExtResource( 967 ), ExtResource( 966 ), ExtResource( 958 ), ExtResource( 968 ), ExtResource( 969 ), ExtResource( 970 ), ExtResource( 959 ), ExtResource( 960 ), ExtResource( 961 ), ExtResource( 971 ), ExtResource( 972 ), ExtResource( 973 ), ExtResource( 974 ), ExtResource( 975 ), ExtResource( 976 ), ExtResource( 977 ), ExtResource( 978 ), ExtResource( 979 ), ExtResource( 980 ) ],
-"loop": true,
-"name": "roll_d",
-"speed": 27.0
-}, {
-"frames": [ ExtResource( 923 ), ExtResource( 956 ), ExtResource( 981 ), ExtResource( 982 ), ExtResource( 983 ), ExtResource( 985 ), ExtResource( 984 ), ExtResource( 986 ), ExtResource( 987 ), ExtResource( 988 ), ExtResource( 989 ), ExtResource( 990 ), ExtResource( 991 ), ExtResource( 992 ), ExtResource( 993 ), ExtResource( 994 ), ExtResource( 996 ), ExtResource( 995 ), ExtResource( 997 ), ExtResource( 999 ), ExtResource( 998 ), ExtResource( 1000 ), ExtResource( 1001 ), ExtResource( 1002 ), ExtResource( 1003 ), ExtResource( 1006 ), ExtResource( 1004 ), ExtResource( 1005 ) ],
-"loop": true,
-"name": "roll_sa",
-"speed": 27.0
 }, {
 "frames": [ ExtResource( 619 ), ExtResource( 584 ), ExtResource( 620 ), ExtResource( 621 ), ExtResource( 622 ), ExtResource( 623 ), ExtResource( 624 ), ExtResource( 626 ), ExtResource( 627 ), ExtResource( 628 ), ExtResource( 625 ), ExtResource( 629 ), ExtResource( 529 ), ExtResource( 630 ), ExtResource( 631 ), ExtResource( 632 ), ExtResource( 633 ), ExtResource( 634 ), ExtResource( 636 ), ExtResource( 635 ), ExtResource( 637 ), ExtResource( 638 ), ExtResource( 639 ), ExtResource( 640 ), ExtResource( 641 ), ExtResource( 642 ), ExtResource( 643 ), ExtResource( 644 ), ExtResource( 645 ), ExtResource( 646 ), ExtResource( 648 ), ExtResource( 647 ), ExtResource( 658 ), ExtResource( 659 ), ExtResource( 660 ), ExtResource( 661 ), ExtResource( 663 ), ExtResource( 662 ), ExtResource( 649 ), ExtResource( 650 ), ExtResource( 651 ), ExtResource( 653 ), ExtResource( 654 ), ExtResource( 655 ), ExtResource( 656 ), ExtResource( 657 ), ExtResource( 664 ), ExtResource( 665 ), ExtResource( 666 ), ExtResource( 667 ), ExtResource( 668 ), ExtResource( 669 ), ExtResource( 670 ), ExtResource( 671 ), ExtResource( 672 ), ExtResource( 673 ), ExtResource( 652 ), ExtResource( 674 ), ExtResource( 675 ), ExtResource( 676 ), ExtResource( 677 ), ExtResource( 678 ), ExtResource( 679 ), ExtResource( 680 ), ExtResource( 681 ), ExtResource( 682 ), ExtResource( 683 ), ExtResource( 684 ), ExtResource( 686 ), ExtResource( 685 ), ExtResource( 687 ), ExtResource( 688 ), ExtResource( 689 ), ExtResource( 690 ), ExtResource( 691 ), ExtResource( 692 ), ExtResource( 693 ), ExtResource( 694 ), ExtResource( 695 ), ExtResource( 696 ), ExtResource( 697 ), ExtResource( 698 ), ExtResource( 699 ), ExtResource( 700 ), ExtResource( 701 ), ExtResource( 702 ), ExtResource( 703 ), ExtResource( 704 ) ],
 "loop": true,
 "name": "idle_wa",
-"speed": 9.0
-}, {
-"frames": [ ExtResource( 445 ), ExtResource( 22 ), ExtResource( 357 ), ExtResource( 446 ), ExtResource( 459 ), ExtResource( 447 ), ExtResource( 359 ), ExtResource( 449 ), ExtResource( 450 ), ExtResource( 451 ), ExtResource( 470 ), ExtResource( 460 ), ExtResource( 461 ), ExtResource( 462 ), ExtResource( 463 ), ExtResource( 464 ), ExtResource( 465 ), ExtResource( 466 ), ExtResource( 467 ), ExtResource( 468 ), ExtResource( 469 ), ExtResource( 480 ), ExtResource( 452 ), ExtResource( 490 ), ExtResource( 453 ), ExtResource( 500 ), ExtResource( 454 ), ExtResource( 455 ), ExtResource( 456 ), ExtResource( 510 ), ExtResource( 520 ), ExtResource( 457 ), ExtResource( 458 ), ExtResource( 471 ), ExtResource( 472 ), ExtResource( 473 ), ExtResource( 474 ), ExtResource( 475 ), ExtResource( 476 ), ExtResource( 477 ), ExtResource( 478 ), ExtResource( 479 ), ExtResource( 448 ), ExtResource( 481 ), ExtResource( 482 ), ExtResource( 483 ), ExtResource( 484 ), ExtResource( 485 ), ExtResource( 486 ), ExtResource( 487 ), ExtResource( 489 ), ExtResource( 488 ), ExtResource( 501 ), ExtResource( 502 ), ExtResource( 503 ), ExtResource( 504 ), ExtResource( 505 ), ExtResource( 506 ), ExtResource( 507 ), ExtResource( 509 ), ExtResource( 508 ), ExtResource( 491 ), ExtResource( 492 ), ExtResource( 493 ), ExtResource( 494 ), ExtResource( 547 ), ExtResource( 495 ), ExtResource( 496 ), ExtResource( 497 ), ExtResource( 499 ), ExtResource( 498 ), ExtResource( 511 ), ExtResource( 512 ), ExtResource( 513 ), ExtResource( 528 ), ExtResource( 514 ), ExtResource( 515 ), ExtResource( 516 ), ExtResource( 517 ), ExtResource( 518 ), ExtResource( 519 ), ExtResource( 521 ), ExtResource( 522 ), ExtResource( 523 ), ExtResource( 524 ), ExtResource( 525 ), ExtResource( 526 ), ExtResource( 527 ) ],
-"loop": true,
-"name": "idle_sd",
-"speed": 9.0
-}, {
-"frames": [ ExtResource( 530 ), ExtResource( 13 ), ExtResource( 531 ), ExtResource( 532 ), ExtResource( 533 ), ExtResource( 534 ), ExtResource( 535 ), ExtResource( 536 ), ExtResource( 537 ), ExtResource( 538 ), ExtResource( 544 ), ExtResource( 546 ), ExtResource( 545 ), ExtResource( 539 ), ExtResource( 553 ), ExtResource( 554 ), ExtResource( 555 ), ExtResource( 556 ), ExtResource( 557 ), ExtResource( 548 ), ExtResource( 549 ), ExtResource( 550 ), ExtResource( 552 ), ExtResource( 551 ), ExtResource( 540 ), ExtResource( 541 ), ExtResource( 542 ), ExtResource( 543 ), ExtResource( 558 ), ExtResource( 559 ), ExtResource( 565 ), ExtResource( 566 ), ExtResource( 560 ), ExtResource( 561 ), ExtResource( 562 ), ExtResource( 564 ), ExtResource( 563 ), ExtResource( 567 ), ExtResource( 568 ), ExtResource( 569 ), ExtResource( 571 ), ExtResource( 570 ), ExtResource( 572 ), ExtResource( 573 ), ExtResource( 574 ), ExtResource( 576 ), ExtResource( 575 ), ExtResource( 577 ), ExtResource( 578 ), ExtResource( 579 ), ExtResource( 580 ), ExtResource( 581 ), ExtResource( 582 ), ExtResource( 583 ), ExtResource( 586 ), ExtResource( 585 ), ExtResource( 587 ), ExtResource( 588 ), ExtResource( 589 ), ExtResource( 591 ), ExtResource( 590 ), ExtResource( 592 ), ExtResource( 593 ), ExtResource( 594 ), ExtResource( 595 ), ExtResource( 596 ), ExtResource( 597 ), ExtResource( 598 ), ExtResource( 599 ), ExtResource( 600 ), ExtResource( 601 ), ExtResource( 602 ), ExtResource( 603 ), ExtResource( 605 ), ExtResource( 604 ), ExtResource( 606 ), ExtResource( 607 ), ExtResource( 608 ), ExtResource( 610 ), ExtResource( 609 ), ExtResource( 611 ), ExtResource( 612 ), ExtResource( 613 ), ExtResource( 614 ), ExtResource( 615 ), ExtResource( 616 ), ExtResource( 617 ), ExtResource( 618 ) ],
-"loop": true,
-"name": "idle_w",
 "speed": 9.0
 }, {
 "frames": [ ExtResource( 7 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 18 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 39 ), ExtResource( 38 ), ExtResource( 48 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ), ExtResource( 73 ), ExtResource( 44 ), ExtResource( 45 ), ExtResource( 47 ), ExtResource( 46 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ), ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ), ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ), ExtResource( 77 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 81 ), ExtResource( 80 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 87 ), ExtResource( 89 ), ExtResource( 88 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 92 ), ExtResource( 93 ), ExtResource( 94 ), ExtResource( 95 ), ExtResource( 96 ), ExtResource( 97 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ) ],
@@ -1451,44 +1172,24 @@ animations = [ {
 "name": "idle_a",
 "speed": 9.0
 }, {
-"frames": [ ExtResource( 191 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 15 ), ExtResource( 14 ), ExtResource( 11 ), ExtResource( 199 ), ExtResource( 192 ), ExtResource( 207 ), ExtResource( 209 ), ExtResource( 208 ), ExtResource( 200 ), ExtResource( 201 ), ExtResource( 202 ), ExtResource( 203 ), ExtResource( 204 ), ExtResource( 206 ), ExtResource( 205 ), ExtResource( 217 ), ExtResource( 219 ), ExtResource( 218 ), ExtResource( 228 ), ExtResource( 230 ), ExtResource( 229 ), ExtResource( 193 ), ExtResource( 238 ), ExtResource( 240 ), ExtResource( 239 ), ExtResource( 194 ), ExtResource( 195 ), ExtResource( 196 ), ExtResource( 198 ), ExtResource( 197 ), ExtResource( 247 ), ExtResource( 248 ), ExtResource( 210 ), ExtResource( 257 ), ExtResource( 256 ), ExtResource( 211 ), ExtResource( 212 ), ExtResource( 213 ), ExtResource( 214 ), ExtResource( 216 ), ExtResource( 215 ), ExtResource( 220 ), ExtResource( 221 ), ExtResource( 222 ), ExtResource( 224 ), ExtResource( 225 ), ExtResource( 226 ), ExtResource( 227 ), ExtResource( 231 ), ExtResource( 232 ), ExtResource( 233 ), ExtResource( 234 ), ExtResource( 235 ), ExtResource( 237 ), ExtResource( 236 ), ExtResource( 223 ), ExtResource( 260 ), ExtResource( 262 ), ExtResource( 261 ), ExtResource( 263 ), ExtResource( 264 ), ExtResource( 265 ), ExtResource( 267 ), ExtResource( 268 ), ExtResource( 241 ), ExtResource( 272 ), ExtResource( 270 ), ExtResource( 271 ), ExtResource( 242 ), ExtResource( 243 ), ExtResource( 244 ), ExtResource( 246 ), ExtResource( 245 ), ExtResource( 249 ), ExtResource( 250 ), ExtResource( 251 ), ExtResource( 252 ), ExtResource( 253 ), ExtResource( 254 ), ExtResource( 255 ), ExtResource( 258 ), ExtResource( 280 ), ExtResource( 281 ), ExtResource( 259 ), ExtResource( 289 ) ],
+"frames": [ ExtResource( 530 ), ExtResource( 13 ), ExtResource( 531 ), ExtResource( 532 ), ExtResource( 533 ), ExtResource( 534 ), ExtResource( 535 ), ExtResource( 536 ), ExtResource( 537 ), ExtResource( 538 ), ExtResource( 544 ), ExtResource( 546 ), ExtResource( 545 ), ExtResource( 539 ), ExtResource( 553 ), ExtResource( 554 ), ExtResource( 555 ), ExtResource( 556 ), ExtResource( 557 ), ExtResource( 548 ), ExtResource( 549 ), ExtResource( 550 ), ExtResource( 552 ), ExtResource( 551 ), ExtResource( 540 ), ExtResource( 541 ), ExtResource( 542 ), ExtResource( 543 ), ExtResource( 558 ), ExtResource( 559 ), ExtResource( 565 ), ExtResource( 566 ), ExtResource( 560 ), ExtResource( 561 ), ExtResource( 562 ), ExtResource( 564 ), ExtResource( 563 ), ExtResource( 567 ), ExtResource( 568 ), ExtResource( 569 ), ExtResource( 571 ), ExtResource( 570 ), ExtResource( 572 ), ExtResource( 573 ), ExtResource( 574 ), ExtResource( 576 ), ExtResource( 575 ), ExtResource( 577 ), ExtResource( 578 ), ExtResource( 579 ), ExtResource( 580 ), ExtResource( 581 ), ExtResource( 582 ), ExtResource( 583 ), ExtResource( 586 ), ExtResource( 585 ), ExtResource( 587 ), ExtResource( 588 ), ExtResource( 589 ), ExtResource( 591 ), ExtResource( 590 ), ExtResource( 592 ), ExtResource( 593 ), ExtResource( 594 ), ExtResource( 595 ), ExtResource( 596 ), ExtResource( 597 ), ExtResource( 598 ), ExtResource( 599 ), ExtResource( 600 ), ExtResource( 601 ), ExtResource( 602 ), ExtResource( 603 ), ExtResource( 605 ), ExtResource( 604 ), ExtResource( 606 ), ExtResource( 607 ), ExtResource( 608 ), ExtResource( 610 ), ExtResource( 609 ), ExtResource( 611 ), ExtResource( 612 ), ExtResource( 613 ), ExtResource( 614 ), ExtResource( 615 ), ExtResource( 616 ), ExtResource( 617 ), ExtResource( 618 ) ],
 "loop": true,
-"name": "idle_d",
+"name": "idle_w",
 "speed": 9.0
 }, {
-"frames": [ ExtResource( 358 ), ExtResource( 190 ), ExtResource( 10 ), ExtResource( 370 ), ExtResource( 371 ), ExtResource( 369 ), ExtResource( 372 ), ExtResource( 373 ), ExtResource( 374 ), ExtResource( 375 ), ExtResource( 376 ), ExtResource( 377 ), ExtResource( 378 ), ExtResource( 379 ), ExtResource( 380 ), ExtResource( 360 ), ExtResource( 361 ), ExtResource( 362 ), ExtResource( 363 ), ExtResource( 364 ), ExtResource( 365 ), ExtResource( 366 ), ExtResource( 368 ), ExtResource( 367 ), ExtResource( 381 ), ExtResource( 382 ), ExtResource( 383 ), ExtResource( 384 ), ExtResource( 385 ), ExtResource( 386 ), ExtResource( 387 ), ExtResource( 388 ), ExtResource( 389 ), ExtResource( 390 ), ExtResource( 391 ), ExtResource( 392 ), ExtResource( 393 ), ExtResource( 394 ), ExtResource( 395 ), ExtResource( 396 ), ExtResource( 397 ), ExtResource( 398 ), ExtResource( 399 ), ExtResource( 400 ), ExtResource( 401 ), ExtResource( 402 ), ExtResource( 403 ), ExtResource( 404 ), ExtResource( 405 ), ExtResource( 406 ), ExtResource( 407 ), ExtResource( 408 ), ExtResource( 409 ), ExtResource( 410 ), ExtResource( 411 ), ExtResource( 412 ), ExtResource( 413 ), ExtResource( 414 ), ExtResource( 415 ), ExtResource( 417 ), ExtResource( 416 ), ExtResource( 418 ), ExtResource( 419 ), ExtResource( 420 ), ExtResource( 421 ), ExtResource( 422 ), ExtResource( 423 ), ExtResource( 424 ), ExtResource( 425 ), ExtResource( 426 ), ExtResource( 427 ), ExtResource( 428 ), ExtResource( 429 ), ExtResource( 430 ), ExtResource( 431 ), ExtResource( 432 ), ExtResource( 433 ), ExtResource( 434 ), ExtResource( 435 ), ExtResource( 436 ), ExtResource( 437 ), ExtResource( 438 ), ExtResource( 439 ), ExtResource( 440 ), ExtResource( 441 ), ExtResource( 442 ), ExtResource( 443 ), ExtResource( 444 ) ],
+"frames": [ ExtResource( 714 ), ExtResource( 716 ), ExtResource( 711 ), ExtResource( 707 ), ExtResource( 758 ), ExtResource( 759 ), ExtResource( 882 ), ExtResource( 768 ), ExtResource( 769 ), ExtResource( 837 ), ExtResource( 767 ), ExtResource( 772 ), ExtResource( 773 ), ExtResource( 770 ), ExtResource( 843 ), ExtResource( 746 ), ExtResource( 747 ), ExtResource( 761 ), ExtResource( 833 ), ExtResource( 845 ), ExtResource( 844 ), ExtResource( 846 ), ExtResource( 847 ) ],
 "loop": true,
-"name": "idle_s",
-"speed": 9.0
-}, {
-"frames": [ ExtResource( 933 ), ExtResource( 921 ), ExtResource( 918 ), ExtResource( 931 ), ExtResource( 935 ), ExtResource( 936 ), ExtResource( 938 ), ExtResource( 937 ), ExtResource( 928 ), ExtResource( 930 ), ExtResource( 929 ), ExtResource( 939 ), ExtResource( 940 ), ExtResource( 942 ), ExtResource( 941 ), ExtResource( 943 ), ExtResource( 944 ), ExtResource( 945 ), ExtResource( 946 ), ExtResource( 947 ), ExtResource( 948 ), ExtResource( 949 ), ExtResource( 950 ), ExtResource( 955 ), ExtResource( 952 ), ExtResource( 953 ), ExtResource( 954 ), ExtResource( 951 ) ],
-"loop": true,
-"name": "roll_a",
-"speed": 27.0
-}, {
-"frames": [ ExtResource( 916 ), ExtResource( 910 ), ExtResource( 911 ), ExtResource( 913 ), ExtResource( 912 ), ExtResource( 909 ), ExtResource( 908 ), ExtResource( 890 ), ExtResource( 902 ), ExtResource( 903 ), ExtResource( 904 ), ExtResource( 905 ), ExtResource( 906 ), ExtResource( 914 ), ExtResource( 891 ), ExtResource( 901 ), ExtResource( 895 ), ExtResource( 894 ), ExtResource( 896 ), ExtResource( 897 ), ExtResource( 898 ), ExtResource( 899 ), ExtResource( 900 ), ExtResource( 893 ), ExtResource( 907 ), ExtResource( 915 ), ExtResource( 892 ), ExtResource( 917 ) ],
-"loop": true,
-"name": "roll_s",
-"speed": 27.0
-}, {
-"frames": [ ExtResource( 266 ), ExtResource( 19 ), ExtResource( 17 ), ExtResource( 103 ), ExtResource( 112 ), ExtResource( 269 ), ExtResource( 20 ), ExtResource( 273 ), ExtResource( 287 ), ExtResource( 279 ), ExtResource( 288 ), ExtResource( 282 ), ExtResource( 283 ), ExtResource( 284 ), ExtResource( 286 ), ExtResource( 285 ), ExtResource( 274 ), ExtResource( 275 ), ExtResource( 276 ), ExtResource( 278 ), ExtResource( 277 ), ExtResource( 295 ), ExtResource( 296 ), ExtResource( 297 ), ExtResource( 298 ), ExtResource( 290 ), ExtResource( 291 ), ExtResource( 292 ), ExtResource( 293 ), ExtResource( 294 ), ExtResource( 299 ), ExtResource( 307 ), ExtResource( 306 ), ExtResource( 309 ), ExtResource( 308 ), ExtResource( 316 ), ExtResource( 317 ), ExtResource( 319 ), ExtResource( 318 ), ExtResource( 300 ), ExtResource( 301 ), ExtResource( 302 ), ExtResource( 303 ), ExtResource( 304 ), ExtResource( 305 ), ExtResource( 310 ), ExtResource( 311 ), ExtResource( 312 ), ExtResource( 314 ), ExtResource( 313 ), ExtResource( 315 ), ExtResource( 320 ), ExtResource( 321 ), ExtResource( 322 ), ExtResource( 323 ), ExtResource( 324 ), ExtResource( 325 ), ExtResource( 326 ), ExtResource( 327 ), ExtResource( 328 ), ExtResource( 329 ), ExtResource( 330 ), ExtResource( 331 ), ExtResource( 332 ), ExtResource( 333 ), ExtResource( 335 ), ExtResource( 334 ), ExtResource( 336 ), ExtResource( 337 ), ExtResource( 338 ), ExtResource( 340 ), ExtResource( 339 ), ExtResource( 341 ), ExtResource( 342 ), ExtResource( 343 ), ExtResource( 344 ), ExtResource( 346 ), ExtResource( 345 ), ExtResource( 347 ), ExtResource( 348 ), ExtResource( 349 ), ExtResource( 351 ), ExtResource( 350 ), ExtResource( 352 ), ExtResource( 353 ), ExtResource( 354 ), ExtResource( 355 ), ExtResource( 356 ) ],
-"loop": true,
-"name": "idle_wd",
-"speed": 9.0
+"name": "run_sa",
+"speed": 33.0
 }, {
 "frames": [ ExtResource( 836 ), ExtResource( 853 ), ExtResource( 710 ), ExtResource( 849 ), ExtResource( 850 ), ExtResource( 852 ), ExtResource( 851 ), ExtResource( 744 ), ExtResource( 748 ), ExtResource( 749 ), ExtResource( 750 ), ExtResource( 751 ), ExtResource( 752 ), ExtResource( 753 ), ExtResource( 754 ), ExtResource( 755 ), ExtResource( 774 ), ExtResource( 775 ), ExtResource( 776 ), ExtResource( 777 ), ExtResource( 778 ), ExtResource( 779 ), ExtResource( 780 ) ],
 "loop": true,
 "name": "run_s",
 "speed": 33.0
 }, {
-"frames": [ ExtResource( 957 ), ExtResource( 1008 ), ExtResource( 1014 ), ExtResource( 1015 ), ExtResource( 1013 ), ExtResource( 1016 ), ExtResource( 1018 ), ExtResource( 1017 ), ExtResource( 1009 ), ExtResource( 1010 ), ExtResource( 1011 ), ExtResource( 1012 ), ExtResource( 1019 ), ExtResource( 1020 ), ExtResource( 1021 ), ExtResource( 1026 ), ExtResource( 1027 ), ExtResource( 1028 ), ExtResource( 1029 ), ExtResource( 1030 ), ExtResource( 1031 ), ExtResource( 1022 ), ExtResource( 1025 ), ExtResource( 1023 ), ExtResource( 1024 ), ExtResource( 1032 ), ExtResource( 1034 ), ExtResource( 1033 ) ],
+"frames": [ ExtResource( 792 ), ExtResource( 848 ), ExtResource( 854 ), ExtResource( 855 ), ExtResource( 856 ), ExtResource( 857 ), ExtResource( 858 ), ExtResource( 860 ), ExtResource( 859 ), ExtResource( 874 ), ExtResource( 875 ), ExtResource( 876 ), ExtResource( 877 ), ExtResource( 878 ), ExtResource( 879 ), ExtResource( 880 ), ExtResource( 881 ), ExtResource( 782 ), ExtResource( 783 ), ExtResource( 784 ), ExtResource( 785 ), ExtResource( 786 ), ExtResource( 787 ) ],
 "loop": true,
-"name": "roll_sd",
-"speed": 27.0
-}, {
-"frames": [ ExtResource( 727 ), ExtResource( 728 ), ExtResource( 729 ), ExtResource( 730 ), ExtResource( 731 ), ExtResource( 732 ), ExtResource( 734 ), ExtResource( 733 ), ExtResource( 791 ), ExtResource( 794 ), ExtResource( 795 ), ExtResource( 796 ), ExtResource( 797 ), ExtResource( 798 ), ExtResource( 799 ), ExtResource( 800 ), ExtResource( 801 ), ExtResource( 802 ), ExtResource( 803 ), ExtResource( 804 ), ExtResource( 805 ), ExtResource( 806 ), ExtResource( 807 ) ],
-"loop": true,
-"name": "run_wa",
+"name": "run_sd",
 "speed": 33.0
 }, {
 "frames": [ ExtResource( 1007 ), ExtResource( 1087 ), ExtResource( 1094 ), ExtResource( 1095 ), ExtResource( 1093 ), ExtResource( 1097 ), ExtResource( 1096 ), ExtResource( 1088 ), ExtResource( 1099 ), ExtResource( 1091 ), ExtResource( 1089 ), ExtResource( 1090 ), ExtResource( 1101 ), ExtResource( 1100 ), ExtResource( 1098 ), ExtResource( 1092 ), ExtResource( 1102 ), ExtResource( 1103 ), ExtResource( 1104 ), ExtResource( 1105 ), ExtResource( 1107 ), ExtResource( 1106 ), ExtResource( 1108 ), ExtResource( 1109 ), ExtResource( 1110 ), ExtResource( 1111 ), ExtResource( 1113 ), ExtResource( 1112 ) ],
@@ -1496,50 +1197,45 @@ animations = [ {
 "name": "roll_wd",
 "speed": 25.0
 }, {
-"frames": [ ExtResource( 792 ), ExtResource( 848 ), ExtResource( 854 ), ExtResource( 855 ), ExtResource( 856 ), ExtResource( 857 ), ExtResource( 858 ), ExtResource( 860 ), ExtResource( 859 ), ExtResource( 874 ), ExtResource( 875 ), ExtResource( 876 ), ExtResource( 877 ), ExtResource( 878 ), ExtResource( 879 ), ExtResource( 880 ), ExtResource( 881 ), ExtResource( 782 ), ExtResource( 783 ), ExtResource( 784 ), ExtResource( 785 ), ExtResource( 786 ), ExtResource( 787 ) ],
+"frames": [ ExtResource( 445 ), ExtResource( 22 ), ExtResource( 357 ), ExtResource( 446 ), ExtResource( 459 ), ExtResource( 447 ), ExtResource( 359 ), ExtResource( 449 ), ExtResource( 450 ), ExtResource( 451 ), ExtResource( 470 ), ExtResource( 460 ), ExtResource( 461 ), ExtResource( 462 ), ExtResource( 463 ), ExtResource( 464 ), ExtResource( 465 ), ExtResource( 466 ), ExtResource( 467 ), ExtResource( 468 ), ExtResource( 469 ), ExtResource( 480 ), ExtResource( 452 ), ExtResource( 490 ), ExtResource( 453 ), ExtResource( 500 ), ExtResource( 454 ), ExtResource( 455 ), ExtResource( 456 ), ExtResource( 510 ), ExtResource( 520 ), ExtResource( 457 ), ExtResource( 458 ), ExtResource( 471 ), ExtResource( 472 ), ExtResource( 473 ), ExtResource( 474 ), ExtResource( 475 ), ExtResource( 476 ), ExtResource( 477 ), ExtResource( 478 ), ExtResource( 479 ), ExtResource( 448 ), ExtResource( 481 ), ExtResource( 482 ), ExtResource( 483 ), ExtResource( 484 ), ExtResource( 485 ), ExtResource( 486 ), ExtResource( 487 ), ExtResource( 489 ), ExtResource( 488 ), ExtResource( 501 ), ExtResource( 502 ), ExtResource( 503 ), ExtResource( 504 ), ExtResource( 505 ), ExtResource( 506 ), ExtResource( 507 ), ExtResource( 509 ), ExtResource( 508 ), ExtResource( 491 ), ExtResource( 492 ), ExtResource( 493 ), ExtResource( 494 ), ExtResource( 547 ), ExtResource( 495 ), ExtResource( 496 ), ExtResource( 497 ), ExtResource( 499 ), ExtResource( 498 ), ExtResource( 511 ), ExtResource( 512 ), ExtResource( 513 ), ExtResource( 528 ), ExtResource( 514 ), ExtResource( 515 ), ExtResource( 516 ), ExtResource( 517 ), ExtResource( 518 ), ExtResource( 519 ), ExtResource( 521 ), ExtResource( 522 ), ExtResource( 523 ), ExtResource( 524 ), ExtResource( 525 ), ExtResource( 526 ), ExtResource( 527 ) ],
 "loop": true,
-"name": "run_sd",
+"name": "idle_sd",
+"speed": 9.0
+}, {
+"frames": [ ExtResource( 957 ), ExtResource( 1008 ), ExtResource( 1014 ), ExtResource( 1015 ), ExtResource( 1013 ), ExtResource( 1016 ), ExtResource( 1018 ), ExtResource( 1017 ), ExtResource( 1009 ), ExtResource( 1010 ), ExtResource( 1011 ), ExtResource( 1012 ), ExtResource( 1019 ), ExtResource( 1020 ), ExtResource( 1021 ), ExtResource( 1026 ), ExtResource( 1027 ), ExtResource( 1028 ), ExtResource( 1029 ), ExtResource( 1030 ), ExtResource( 1031 ), ExtResource( 1022 ), ExtResource( 1025 ), ExtResource( 1023 ), ExtResource( 1024 ), ExtResource( 1032 ), ExtResource( 1034 ), ExtResource( 1033 ) ],
+"loop": true,
+"name": "roll_sd",
+"speed": 27.0
+}, {
+"frames": [ ExtResource( 766 ), ExtResource( 781 ), ExtResource( 838 ), ExtResource( 760 ), ExtResource( 832 ), ExtResource( 831 ), ExtResource( 771 ), ExtResource( 708 ), ExtResource( 713 ), ExtResource( 793 ), ExtResource( 835 ), ExtResource( 834 ), ExtResource( 712 ), ExtResource( 756 ), ExtResource( 789 ), ExtResource( 763 ), ExtResource( 790 ), ExtResource( 764 ), ExtResource( 757 ), ExtResource( 715 ), ExtResource( 788 ), ExtResource( 705 ), ExtResource( 709 ) ],
+"loop": true,
+"name": "run_a",
+"speed": 33.0
+}, {
+"frames": [ ExtResource( 927 ), ExtResource( 932 ), ExtResource( 934 ), ExtResource( 919 ), ExtResource( 926 ), ExtResource( 962 ), ExtResource( 964 ), ExtResource( 963 ), ExtResource( 965 ), ExtResource( 967 ), ExtResource( 966 ), ExtResource( 958 ), ExtResource( 968 ), ExtResource( 969 ), ExtResource( 970 ), ExtResource( 959 ), ExtResource( 960 ), ExtResource( 961 ), ExtResource( 971 ), ExtResource( 972 ), ExtResource( 973 ), ExtResource( 974 ), ExtResource( 975 ), ExtResource( 976 ), ExtResource( 977 ), ExtResource( 978 ), ExtResource( 979 ), ExtResource( 980 ) ],
+"loop": true,
+"name": "roll_d",
+"speed": 27.0
+}, {
+"frames": [ ExtResource( 706 ), ExtResource( 762 ), ExtResource( 839 ), ExtResource( 840 ), ExtResource( 842 ), ExtResource( 841 ), ExtResource( 765 ), ExtResource( 745 ), ExtResource( 739 ), ExtResource( 740 ), ExtResource( 741 ), ExtResource( 743 ), ExtResource( 742 ), ExtResource( 861 ), ExtResource( 862 ), ExtResource( 863 ), ExtResource( 864 ), ExtResource( 883 ), ExtResource( 884 ), ExtResource( 885 ), ExtResource( 886 ), ExtResource( 887 ), ExtResource( 888 ) ],
+"loop": true,
+"name": "run_d",
+"speed": 33.0
+}, {
+"frames": [ ExtResource( 916 ), ExtResource( 910 ), ExtResource( 911 ), ExtResource( 913 ), ExtResource( 912 ), ExtResource( 909 ), ExtResource( 908 ), ExtResource( 890 ), ExtResource( 902 ), ExtResource( 903 ), ExtResource( 904 ), ExtResource( 905 ), ExtResource( 906 ), ExtResource( 914 ), ExtResource( 891 ), ExtResource( 901 ), ExtResource( 895 ), ExtResource( 894 ), ExtResource( 896 ), ExtResource( 897 ), ExtResource( 898 ), ExtResource( 899 ), ExtResource( 900 ), ExtResource( 893 ), ExtResource( 907 ), ExtResource( 915 ), ExtResource( 892 ), ExtResource( 917 ) ],
+"loop": true,
+"name": "roll_s",
+"speed": 27.0
+}, {
+"frames": [ ExtResource( 865 ), ExtResource( 866 ), ExtResource( 867 ), ExtResource( 868 ), ExtResource( 869 ), ExtResource( 870 ), ExtResource( 871 ), ExtResource( 872 ), ExtResource( 873 ), ExtResource( 717 ), ExtResource( 718 ), ExtResource( 719 ), ExtResource( 720 ), ExtResource( 721 ), ExtResource( 722 ), ExtResource( 723 ), ExtResource( 724 ), ExtResource( 725 ), ExtResource( 726 ), ExtResource( 735 ), ExtResource( 736 ), ExtResource( 737 ), ExtResource( 738 ) ],
+"loop": true,
+"name": "run_w",
 "speed": 33.0
 }, {
 "frames": [ ExtResource( 808 ), ExtResource( 809 ), ExtResource( 810 ), ExtResource( 811 ), ExtResource( 812 ), ExtResource( 813 ), ExtResource( 814 ), ExtResource( 815 ), ExtResource( 816 ), ExtResource( 817 ), ExtResource( 818 ), ExtResource( 820 ), ExtResource( 819 ), ExtResource( 821 ), ExtResource( 822 ), ExtResource( 823 ), ExtResource( 824 ), ExtResource( 825 ), ExtResource( 826 ), ExtResource( 827 ), ExtResource( 828 ), ExtResource( 830 ), ExtResource( 829 ) ],
 "loop": true,
 "name": "run_wd",
 "speed": 33.0
-}, {
-"frames": [ ExtResource( 104 ), ExtResource( 21 ), ExtResource( 12 ), ExtResource( 16 ), ExtResource( 105 ), ExtResource( 106 ), ExtResource( 107 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 115 ), ExtResource( 116 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 120 ), ExtResource( 122 ), ExtResource( 121 ), ExtResource( 123 ), ExtResource( 124 ), ExtResource( 125 ), ExtResource( 126 ), ExtResource( 127 ), ExtResource( 128 ), ExtResource( 129 ), ExtResource( 130 ), ExtResource( 131 ), ExtResource( 132 ), ExtResource( 133 ), ExtResource( 134 ), ExtResource( 135 ), ExtResource( 136 ), ExtResource( 137 ), ExtResource( 138 ), ExtResource( 139 ), ExtResource( 140 ), ExtResource( 141 ), ExtResource( 142 ), ExtResource( 143 ), ExtResource( 144 ), ExtResource( 145 ), ExtResource( 146 ), ExtResource( 147 ), ExtResource( 148 ), ExtResource( 149 ), ExtResource( 150 ), ExtResource( 151 ), ExtResource( 152 ), ExtResource( 153 ), ExtResource( 154 ), ExtResource( 155 ), ExtResource( 156 ), ExtResource( 157 ), ExtResource( 158 ), ExtResource( 159 ), ExtResource( 160 ), ExtResource( 161 ), ExtResource( 162 ), ExtResource( 163 ), ExtResource( 164 ), ExtResource( 165 ), ExtResource( 166 ), ExtResource( 167 ), ExtResource( 168 ), ExtResource( 169 ), ExtResource( 170 ), ExtResource( 171 ), ExtResource( 172 ), ExtResource( 173 ), ExtResource( 174 ), ExtResource( 175 ), ExtResource( 176 ), ExtResource( 177 ), ExtResource( 178 ), ExtResource( 179 ), ExtResource( 180 ), ExtResource( 181 ), ExtResource( 182 ), ExtResource( 184 ), ExtResource( 183 ), ExtResource( 185 ), ExtResource( 186 ), ExtResource( 187 ), ExtResource( 188 ), ExtResource( 189 ) ],
-"loop": true,
-"name": "idle_sa",
-"speed": 9.0
-}, {
-"frames": [ ExtResource( 1213 ), ExtResource( 1191 ), ExtResource( 1205 ), ExtResource( 1192 ), ExtResource( 1196 ), ExtResource( 1207 ), ExtResource( 1203 ), ExtResource( 1209 ), ExtResource( 1219 ), ExtResource( 1211 ), ExtResource( 1237 ), ExtResource( 1246 ), ExtResource( 1230 ), ExtResource( 1225 ), ExtResource( 1231 ), ExtResource( 1245 ), ExtResource( 1233 ), ExtResource( 1236 ), ExtResource( 1238 ), ExtResource( 1228 ), ExtResource( 1234 ), ExtResource( 1244 ), ExtResource( 1226 ), ExtResource( 1240 ), ExtResource( 1239 ), ExtResource( 1243 ), ExtResource( 1229 ), ExtResource( 1232 ), ExtResource( 1224 ), ExtResource( 1241 ), ExtResource( 1235 ), ExtResource( 1242 ), ExtResource( 1227 ) ],
-"loop": true,
-"name": "death_w",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 1148 ), ExtResource( 1149 ), ExtResource( 1150 ), ExtResource( 1151 ), ExtResource( 1152 ), ExtResource( 1153 ), ExtResource( 1154 ), ExtResource( 1155 ), ExtResource( 1157 ), ExtResource( 1156 ), ExtResource( 1159 ), ExtResource( 1158 ), ExtResource( 1176 ), ExtResource( 1168 ), ExtResource( 1174 ), ExtResource( 1179 ), ExtResource( 1161 ), ExtResource( 1173 ), ExtResource( 1170 ), ExtResource( 1162 ), ExtResource( 1164 ), ExtResource( 1172 ), ExtResource( 1165 ), ExtResource( 1178 ), ExtResource( 1175 ), ExtResource( 1180 ), ExtResource( 1171 ), ExtResource( 1163 ), ExtResource( 1166 ), ExtResource( 1160 ), ExtResource( 1169 ), ExtResource( 1167 ), ExtResource( 1177 ) ],
-"loop": true,
-"name": "death_s",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 1193 ), ExtResource( 1221 ), ExtResource( 1200 ), ExtResource( 1218 ), ExtResource( 1217 ), ExtResource( 1181 ), ExtResource( 1214 ), ExtResource( 1215 ), ExtResource( 1189 ), ExtResource( 1204 ), ExtResource( 1206 ), ExtResource( 1197 ), ExtResource( 1222 ), ExtResource( 1220 ), ExtResource( 1223 ), ExtResource( 1216 ), ExtResource( 1184 ), ExtResource( 1182 ), ExtResource( 1185 ), ExtResource( 1198 ), ExtResource( 1194 ), ExtResource( 1199 ), ExtResource( 1210 ), ExtResource( 1195 ), ExtResource( 1212 ), ExtResource( 1202 ), ExtResource( 1190 ), ExtResource( 1183 ), ExtResource( 1186 ), ExtResource( 1187 ), ExtResource( 1208 ), ExtResource( 1188 ), ExtResource( 1201 ) ],
-"loop": true,
-"name": "death_d",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 1122 ), ExtResource( 1128 ), ExtResource( 1144 ), ExtResource( 1138 ), ExtResource( 1147 ), ExtResource( 1119 ), ExtResource( 1142 ), ExtResource( 1120 ), ExtResource( 1145 ), ExtResource( 1146 ), ExtResource( 1115 ), ExtResource( 1116 ), ExtResource( 1121 ), ExtResource( 1130 ), ExtResource( 1123 ), ExtResource( 1117 ), ExtResource( 1134 ), ExtResource( 1129 ), ExtResource( 1137 ), ExtResource( 1124 ), ExtResource( 1131 ), ExtResource( 1143 ), ExtResource( 1125 ), ExtResource( 1133 ), ExtResource( 1139 ), ExtResource( 1135 ), ExtResource( 1132 ), ExtResource( 1136 ), ExtResource( 1126 ), ExtResource( 1141 ), ExtResource( 1140 ), ExtResource( 1127 ), ExtResource( 1118 ) ],
-"loop": true,
-"name": "death_a",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 1264 ), ExtResource( 1268 ), ExtResource( 1274 ), ExtResource( 1265 ), ExtResource( 1266 ), ExtResource( 1267 ), ExtResource( 1276 ), ExtResource( 1261 ), ExtResource( 1247 ), ExtResource( 1269 ), ExtResource( 1271 ), ExtResource( 1270 ), ExtResource( 1272 ), ExtResource( 1273 ), ExtResource( 1262 ), ExtResource( 1275 ), ExtResource( 1248 ), ExtResource( 1249 ), ExtResource( 1250 ), ExtResource( 1257 ), ExtResource( 1254 ), ExtResource( 1251 ), ExtResource( 1252 ), ExtResource( 1253 ), ExtResource( 1255 ), ExtResource( 1256 ), ExtResource( 1258 ), ExtResource( 1259 ), ExtResource( 1260 ), ExtResource( 1263 ), ExtResource( 1279 ), ExtResource( 1284 ), ExtResource( 1280 ) ],
-"loop": true,
-"name": "death_sa",
-"speed": 20.0
-}, {
-"frames": [ ExtResource( 1285 ), ExtResource( 1286 ), ExtResource( 1277 ), ExtResource( 1278 ), ExtResource( 1281 ), ExtResource( 1282 ), ExtResource( 1283 ), ExtResource( 1295 ), ExtResource( 1290 ), ExtResource( 1289 ), ExtResource( 1293 ), ExtResource( 1296 ), ExtResource( 1287 ), ExtResource( 1312 ), ExtResource( 1300 ), ExtResource( 1301 ), ExtResource( 1297 ), ExtResource( 1310 ), ExtResource( 1306 ), ExtResource( 1304 ), ExtResource( 1288 ), ExtResource( 1307 ), ExtResource( 1299 ), ExtResource( 1303 ), ExtResource( 1309 ), ExtResource( 1294 ), ExtResource( 1291 ), ExtResource( 1292 ), ExtResource( 1311 ), ExtResource( 1308 ), ExtResource( 1305 ), ExtResource( 1302 ), ExtResource( 1298 ) ],
-"loop": true,
-"name": "death_sd",
-"speed": 20.0
 } ]
 
 [node name="nakai" type="KinematicBody2D"]
@@ -1561,7 +1257,8 @@ margin_bottom = 376.0
 position = Vector2( -1.30591, -51.8527 )
 scale = Vector2( 0.779693, 0.779693 )
 frames = SubResource( 1 )
-animation = "death_wa "
+animation = "idle_a"
+frame = 41
 playing = true
 
 [node name="Timer" type="Timer" parent="."]
