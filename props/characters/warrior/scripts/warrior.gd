@@ -53,19 +53,20 @@ func ai_move():
 	var direction = ai_get_direction() 
 	var motion = direction.normalized() * speed
 	
-	run = "run_" + direction_animation
-	
 	move_and_collide(motion);
-	$AnimatedSprite.play(run); 
-
-
+	$AnimatedSprite.play(run);
+	run = "run_" + direction_animation
+	idle = "idle_" + direction_animation
 
 func _physics_process(delta):
-	var motion = position - _position_last_frame
-	if motion.length() > 0.0001:
-		_cardinal_direction = int(8.0 * (motion.rotated(PI / 8.0).angle() + PI) / TAU)
+	var motion_direction = position - _position_last_frame
+	
 
+	
+	if motion_direction.length() > 0.0001:
+		_cardinal_direction = int(8.0 * (motion_direction.rotated(PI / 8.0).angle() + PI) / TAU)
 
+		
 	match _cardinal_direction:
 		0:
 		   direction_animation = "a"
@@ -83,9 +84,10 @@ func _physics_process(delta):
 			direction_animation = "s"
 		7:
 			direction_animation = "sa"
-
+				
 	_position_last_frame = position
 	
+
 	
 
 func setup_ai_think_time_timer():

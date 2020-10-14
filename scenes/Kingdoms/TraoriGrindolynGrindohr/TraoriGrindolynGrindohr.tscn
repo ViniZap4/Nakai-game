@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/floors/floors.tres" type="TileSet" id=1]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallGateBars_W.tscn" type="PackedScene" id=2]
@@ -10,7 +10,10 @@
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallRound_E.tscn" type="PackedScene" id=8]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWall_W.tscn" type="PackedScene" id=9]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/chair/chairs/tableRoundItemsChairs_N.tscn" type="PackedScene" id=10]
-[ext_resource path="res://props/characters/warrior/warrior.tscn" type="PackedScene" id=11]
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/barrel/barrels/barrelsStacked_E.tscn" type="PackedScene" id=11]
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/barrel/barrels/barrelsStacked_N.tscn" type="PackedScene" id=12]
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/barrel/barrels/barrel_W.tscn" type="PackedScene" id=13]
+[ext_resource path="res://props/characters/warrior/warrior.tscn" type="PackedScene" id=14]
 
 [node name="TraoriGrindolynGrindohr" type="Node2D"]
 __meta__ = {
@@ -26,11 +29,11 @@ tile_data = PoolIntArray( -1835020, 52, 0, -1835019, 52, 0, -1835018, 52, 0, -18
 
 [node name="YSort" type="YSort" parent="."]
 
-[node name="warrior" parent="YSort" instance=ExtResource( 11 )]
-position = Vector2( -1247.22, 172.27 )
-
 [node name="nakai" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( -587.774, 455.813 )
+position = Vector2( -791.782, 927.892 )
+
+[node name="warrior" parent="YSort" instance=ExtResource( 14 )]
+position = Vector2( -702.028, -83.7445 )
 
 [node name="world" type="YSort" parent="YSort"]
 
@@ -49,7 +52,7 @@ position = Vector2( -412.554, 461.603 )
 position = Vector2( 88.6126, 129.034 )
 
 [node name="tableRoundItemsChairs_N" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
-position = Vector2( 13.0992, 445.821 )
+position = Vector2( 22.5379, 434.495 )
 
 [node name="tableRoundItemsChairs_N2" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
 position = Vector2( 346.783, 270.047 )
@@ -61,10 +64,10 @@ position = Vector2( -460.381, 328.376 )
 position = Vector2( -77.004, 67.9323 )
 
 [node name="tableRoundItemsChairs_N5" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
-position = Vector2( 93.7955, 264.335 )
+position = Vector2( 97.571, 264.335 )
 
 [node name="tableRoundItemsChairs_N6" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
-position = Vector2( -196.43, 431.026 )
+position = Vector2( 116.936, 629.239 )
 
 [node name="tableRoundItemsChairs_N8" parent="YSort/world/house1/stuffs" instance=ExtResource( 10 )]
 position = Vector2( -264.5, 642.499 )
@@ -94,7 +97,7 @@ position = Vector2( -638.323, 271.757 )
 position = Vector2( -766.49, 335.078 )
 
 [node name="stoneWall_W5" parent="YSort/world/house1/walls" instance=ExtResource( 9 )]
-position = Vector2( -894.49, 399.078 )
+position = Vector2( -894.49, 398.606 )
 
 [node name="stoneWall_W2" parent="YSort/world/house1/walls" instance=ExtResource( 9 )]
 position = Vector2( -111.319, 12.2401 )
@@ -110,3 +113,21 @@ position = Vector2( 315.728, 79.3134 )
 
 [node name="stoneWall_S3" parent="YSort/world/house1/walls" instance=ExtResource( 6 )]
 position = Vector2( 444.421, 142.953 )
+
+[node name="stuffsOut" type="YSort" parent="YSort/world"]
+position = Vector2( -158.58, 375.959 )
+
+[node name="barrelsStacked_E" parent="YSort/world/stuffsOut" instance=ExtResource( 11 )]
+position = Vector2( -788.161, -13.5778 )
+
+[node name="barrelsStacked_N" parent="YSort/world/stuffsOut" instance=ExtResource( 12 )]
+position = Vector2( -834.681, 111.864 )
+
+[node name="barrel_W" parent="YSort/world/stuffsOut" instance=ExtResource( 13 )]
+position = Vector2( -743.266, 75.6266 )
+
+[node name="barrel_W2" parent="YSort/world/stuffsOut" instance=ExtResource( 13 )]
+position = Vector2( -581.053, -4.89148 )
+
+[node name="barrel_W3" parent="YSort/world/stuffsOut" instance=ExtResource( 13 )]
+position = Vector2( -436.612, -69.9706 )

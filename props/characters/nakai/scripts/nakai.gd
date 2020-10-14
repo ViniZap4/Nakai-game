@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
-const  MOTION_SPEED = 240
 
+const  MOTION_SPEED = 240
 var speed = MOTION_SPEED
 
 var direction_animation = "sd"
@@ -14,7 +14,8 @@ var _cardinal_direction = 0
 onready var energy_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/StaminaBar/MarginContainer/Label/TextureProgress")
 onready var health_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/HealthBar/MarginContainer/Label/TextureProgress")
 var in_roll = false
-var energy_max_value = 100.0
+
+var energy_max_value = 1000.0
 var vel_roll = Vector2(0,0)
 
 
@@ -52,24 +53,28 @@ func _physics_process(delta):
 		motion += vel_roll
 
 
-	if Input.is_action_pressed("roll") and in_roll == false and motion != Vector2(0, 0):
+	if Input.is_action_pressed("roll") and in_roll == false and motion != Vector2(0, 0) and energy_bar.value >= 200 :
 		if(energy_bar.value != 0):
 			in_roll = true
-			energy_max_value = round(energy_max_value - 20.0)
-			speed = 290
+			energy_max_value = round(energy_max_value - 200.0)
+			speed = 450
 			vel_roll = motion
 			$Timer.connect("timeout", self, "_on_Timer_timeout")
 			$Timer.start()
 
+
 	
 	
+
 	if motion !=  Vector2(0, 0): 
 		
 		var motion_direction = position - _position_last_frame
 		if motion.length() > 0.0001:
 			_cardinal_direction = int(8.0 * (motion_direction.rotated(PI / 8.0).angle() + PI) / TAU)
-
-
+		
+		print(motion_direction)
+		
+		
 		match _cardinal_direction:
 			0:
 			   direction_animation = "a"
@@ -89,21 +94,26 @@ func _physics_process(delta):
 				direction_animation = "sa"
 
 		_position_last_frame = position
-		
+	
+
+	
+	
 		if in_roll == false:
 			$AnimatedSprite.play(run)
+
 						
 		else:
-			if(energy_bar.value >= 10):
-				print(energy_max_value)
-				update_energy(energy_max_value)
-				$AnimatedSprite.play(roll)
-			else:
-				$AnimatedSprite.play(run)
+			$AnimatedSprite.play(roll)
+			update_energy(energy_max_value)
 	else:
 		$AnimatedSprite.play(idle)
-		energy_bar.value = energy_bar.value + 0.6
-		energy_max_value = energy_bar.value
+		energy_bar.value = energy_bar.value + 3 #idle bonus
+
+	
+	energy_bar.value = energy_bar.value + 0.6
+	energy_max_value = energy_bar.value	
+		
+
 
 	motion = motion.normalized() * speed
 	motion = cartesian_to_isometric(motion)
@@ -118,4 +128,3 @@ func take_damage(damage):
 	
 func update_energy(new_value):
 	energy_bar.value = new_value
-	
