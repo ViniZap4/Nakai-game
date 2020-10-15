@@ -1,14 +1,15 @@
 extends KinematicBody2D
 
-var speed = 4
-var maxHealth = 100
-var enemyDamage = 150.0
+var speed = 4.5
+var maxHealth = 1000.0
+var enemyDamage = 60.0
 
 var ai_think_time = 0.7
 var ai_think_time_timer = null
 
 
 #animacoes
+var motion_direction
 var direction_animation = "sd"
 var idle = "idle"
 var run = "run"
@@ -44,16 +45,18 @@ func ai_get_direction():
 
 func ai_move():
 	if(target.death_state == false):
+		
 		var direction = ai_get_direction() 
 		var motion = direction.normalized() * speed
 		$AnimatedSprite.play(run);
+		
 		move_and_collide(motion);
 
-
+#diresao
 func _physics_process(delta):
 	if(target.death_state == false):
-		var motion_direction = position - _position_last_frame
-		
+		motion_direction = position - _position_last_frame
+
 		if motion_direction.length() > 0.0001:
 			_cardinal_direction = int(8.0 * (motion_direction.rotated(PI / 8.0).angle() + PI) / TAU)
 			
@@ -77,6 +80,7 @@ func _physics_process(delta):
 				
 		run = "run_" + direction_animation
 		attack = "attack_" + direction_animation
+		idle = "idle_" + direction_animation
 		_position_last_frame = position
 	
 
@@ -91,20 +95,25 @@ func decide_to_attack():
 	ai_think_time_timer.start()
 
 func _process(delta):
+	
 	var direction = ai_get_direction()
 	var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
+
+
 	if(distance_direction < 500):
-		if(distance_direction <= 100):
+
+
+		#if(distance_direction <= 98): motion_direction
+		if(distance_direction <= 98) and motion_direction <= Vector2(0.9,0.9) and motion_direction >= Vector2(-0.9,-0.9):
+			print(distance_direction, "  " , motion_direction )
 			if(target.death_state == false):
 				$AnimatedSprite.play(attack);
-				print(attack)
 				if($AnimatedSprite.frame == 13): 
 					target.take_damage(enemyDamage)
 			else:
-				$AnimatedSprite.play("idle_" + direction_animation);
+				$AnimatedSprite.play(idle);
 		else:
 			ai_move()
+
 	else:
-		$AnimatedSprite.play("idle_" + direction_animation);
-
-
+		$AnimatedSprite.play(idle);

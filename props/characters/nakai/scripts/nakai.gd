@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 
-const  MOTION_SPEED = 240
+const  MOTION_SPEED = 230
 var speed = MOTION_SPEED
 
 var direction_animation = "sd"
@@ -32,11 +32,6 @@ func _on_Timer_timeout():
 func _physics_process(delta):
 	if (death_state == false):
 		var motion = Vector2()
-		
-			
-		idle = "idle_" + direction_animation
-		roll = "roll_" + direction_animation
-		run = "run_" + direction_animation
 		
 		
 		if Input.is_action_pressed("move_up") and in_roll == false:
@@ -92,6 +87,10 @@ func _physics_process(delta):
 					direction_animation = "s"
 				7:
 					direction_animation = "sa"
+			
+			idle = "idle_" + direction_animation
+			roll = "roll_" + direction_animation
+			run = "run_" + direction_animation
 
 			_position_last_frame = position
 	
@@ -106,15 +105,17 @@ func _physics_process(delta):
 		else:
 			$AnimatedSprite.play(idle)
 			energy_bar.value = energy_bar.value + 3 #idle bonus
-
-		
+	
 		energy_bar.value = energy_bar.value + 0.6
-		energy_max_value = energy_bar.value	
+		energy_max_value = energy_bar.value
+		health_bar.value = health_bar.value + (1/10)
+		health_max_value = health_bar.value
+		
 			
 
 
-		motion = motion.normalized() * speed
-		motion = cartesian_to_isometric(motion)
+		motion = motion.normalized()
+		motion = cartesian_to_isometric(motion)  * speed
 		move_and_slide(motion)
 	
 func take_damage(damage):
@@ -125,7 +126,6 @@ func take_damage(damage):
 			$AnimatedSprite.play(death)
 		else:
 			health_max_value = round(health_max_value - damage)
-			print(health_max_value)
 			update_health(health_max_value)
 	
 func update_energy(new_value):

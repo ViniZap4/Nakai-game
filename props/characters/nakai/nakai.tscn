@@ -1561,8 +1561,8 @@ margin_bottom = 376.0
 position = Vector2( -1.30591, -51.8527 )
 scale = Vector2( 0.779693, 0.779693 )
 frames = SubResource( 1 )
-animation = "death_sd"
-frame = 32
+animation = "idle_sa"
+frame = 47
 playing = true
 
 [node name="Timer" type="Timer" parent="."]
