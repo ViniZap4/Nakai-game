@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var speed = 4
 var maxHealth = 100
-var enemyDamage = 25
+var enemyDamage = 150.0
 
 var ai_think_time = 0.7
 var ai_think_time_timer = null
@@ -37,57 +37,47 @@ func take_Damage(damageCount):
 		health = 0
 		$AnimationPlayer.play("death_a")
 		queue_free()
-		
-		
-func attack():
-	var damage = round(randi() % 50 + enemyDamage / 10)
-	attack = "attack_" + direction_animation
-	$AnimatedSprite.play(attack); 
-	target.take_damage(enemyDamage)
 
 func ai_get_direction():
 	return target.position - self.position
 
 
 func ai_move():
-	var direction = ai_get_direction() 
-	var motion = direction.normalized() * speed
-	
-	move_and_collide(motion);
-	$AnimatedSprite.play(run);
-	run = "run_" + direction_animation
-	idle = "idle_" + direction_animation
+	if(target.death_state == false):
+		var direction = ai_get_direction() 
+		var motion = direction.normalized() * speed
+		$AnimatedSprite.play(run);
+		move_and_collide(motion);
+
 
 func _physics_process(delta):
-	var motion_direction = position - _position_last_frame
-	
-
-	
-	if motion_direction.length() > 0.0001:
-		_cardinal_direction = int(8.0 * (motion_direction.rotated(PI / 8.0).angle() + PI) / TAU)
-
+	if(target.death_state == false):
+		var motion_direction = position - _position_last_frame
 		
-	match _cardinal_direction:
-		0:
-		   direction_animation = "a"
-		1:
-			direction_animation = "wa"
-		2:
-			direction_animation = "w"
-		3:
-		   direction_animation = "wd"
-		4:
-			direction_animation = "d"
-		5:
-			direction_animation = "sd"
-		6:
-			direction_animation = "s"
-		7:
-			direction_animation = "sa"
+		if motion_direction.length() > 0.0001:
+			_cardinal_direction = int(8.0 * (motion_direction.rotated(PI / 8.0).angle() + PI) / TAU)
+			
+		match _cardinal_direction:
+			0:
+			   direction_animation = "a"
+			1:
+				direction_animation = "wa"
+			2:
+				direction_animation = "w"
+			3:
+			   direction_animation = "wd"
+			4:
+				direction_animation = "d"
+			5:
+				direction_animation = "sd"
+			6:
+				direction_animation = "s"
+			7:
+				direction_animation = "sa"
 				
-	_position_last_frame = position
-	
-
+		run = "run_" + direction_animation
+		attack = "attack_" + direction_animation
+		_position_last_frame = position
 	
 
 func setup_ai_think_time_timer():
@@ -99,11 +89,22 @@ func setup_ai_think_time_timer():
 
 func decide_to_attack():
 	ai_think_time_timer.start()
-	
-func on_ai_thinktime_timeout_complete():
-	if is_in_range:
-		attack()
 
 func _process(delta):
-		ai_move()
+	var direction = ai_get_direction()
+	var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
+	if(distance_direction < 500):
+		if(distance_direction <= 100):
+			if(target.death_state == false):
+				$AnimatedSprite.play(attack);
+				print(attack)
+				if($AnimatedSprite.frame == 13): 
+					target.take_damage(enemyDamage)
+			else:
+				$AnimatedSprite.play("idle_" + direction_animation);
+		else:
+			ai_move()
+	else:
+		$AnimatedSprite.play("idle_" + direction_animation);
+
 
