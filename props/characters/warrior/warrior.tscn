@@ -656,6 +656,11 @@ animations = [ {
 "name": "idle_wd",
 "speed": 18.0
 }, {
+"frames": [ ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 76 ), ExtResource( 57 ), ExtResource( 55 ), ExtResource( 105 ), ExtResource( 47 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 58 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 67 ), ExtResource( 180 ), ExtResource( 175 ) ],
+"loop": true,
+"name": "idle_d",
+"speed": 22.0
+}, {
 "frames": [ ExtResource( 588 ), ExtResource( 598 ), ExtResource( 606 ), ExtResource( 590 ), ExtResource( 609 ), ExtResource( 610 ), ExtResource( 611 ), ExtResource( 592 ), ExtResource( 593 ), ExtResource( 583 ), ExtResource( 584 ), ExtResource( 630 ), ExtResource( 631 ), ExtResource( 585 ), ExtResource( 587 ), ExtResource( 586 ), ExtResource( 576 ), ExtResource( 575 ), ExtResource( 618 ), ExtResource( 619 ), ExtResource( 597 ) ],
 "loop": true,
 "name": "run_wd",
@@ -701,11 +706,6 @@ animations = [ {
 "name": "attack_d",
 "speed": 20.0
 }, {
-"frames": [ ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 76 ), ExtResource( 57 ), ExtResource( 55 ), ExtResource( 105 ), ExtResource( 47 ), ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 58 ), ExtResource( 66 ), ExtResource( 65 ), ExtResource( 64 ), ExtResource( 62 ), ExtResource( 61 ), ExtResource( 60 ), ExtResource( 59 ), ExtResource( 67 ), ExtResource( 180 ), ExtResource( 175 ) ],
-"loop": true,
-"name": "idlle_d",
-"speed": 22.0
-}, {
 "frames": [ ExtResource( 229 ), ExtResource( 228 ), ExtResource( 210 ), ExtResource( 227 ), ExtResource( 199 ), ExtResource( 218 ), ExtResource( 225 ), ExtResource( 226 ), ExtResource( 261 ), ExtResource( 262 ), ExtResource( 265 ), ExtResource( 266 ), ExtResource( 269 ), ExtResource( 249 ), ExtResource( 251 ), ExtResource( 258 ), ExtResource( 257 ), ExtResource( 260 ), ExtResource( 230 ), ExtResource( 245 ), ExtResource( 246 ), ExtResource( 231 ), ExtResource( 233 ), ExtResource( 239 ), ExtResource( 234 ), ExtResource( 270 ), ExtResource( 280 ), ExtResource( 284 ), ExtResource( 274 ), ExtResource( 276 ), ExtResource( 275 ), ExtResource( 271 ) ],
 "loop": true,
 "name": "attack_wa",
@@ -740,11 +740,11 @@ scale = Vector2( 1.35631, 1.35631 )
 polygon = PoolVector2Array( -32.8366, -3.66705, -18.5809, 7.0736, -1.39586, 10.5887, 20.6713, 4.92547, 29.6544, -3.08119, 16.5703, -15.3841, -0.614719, -18.5087, -18.7762, -15.5794 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( -7.79108, -42.3892 )
+position = Vector2( -21.5411, -44.8892 )
 scale = Vector2( 0.783, 0.783 )
 frames = SubResource( 1 )
-animation = "attack_sa"
-frame = 10
+animation = "idle_d"
+frame = 15
 playing = true
 
 [node name="TextureProgress" type="TextureProgress" parent="."]
