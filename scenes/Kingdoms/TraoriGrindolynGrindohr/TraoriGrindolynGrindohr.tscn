@@ -30,25 +30,10 @@ tile_data = PoolIntArray( -1835020, 52, 0, -1835019, 52, 0, -1835018, 52, 0, -18
 [node name="YSort" type="YSort" parent="."]
 
 [node name="nakai" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( -276.364, 364.529 )
+position = Vector2( -382.091, 396.392 )
 
 [node name="warrior" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 1591.23, -321.346 )
-
-[node name="warrior2" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 2029.05, -321.346 )
-
-[node name="warrior3" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 1591.23, -684.423 )
-
-[node name="warrior4" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 2130.5, -636.368 )
-
-[node name="warrior5" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 1964.98, -839.264 )
-
-[node name="warrior6" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 2450.86, -422.794 )
+position = Vector2( -24.77, 194.654 )
 
 [node name="world" type="YSort" parent="YSort"]
 
