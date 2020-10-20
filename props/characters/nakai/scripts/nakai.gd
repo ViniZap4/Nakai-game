@@ -19,12 +19,15 @@ onready var health_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer
 onready var target = get_parent().get_node("warrior")
 var in_roll = false
 var is_attack = false;
-var attacked = false;
 var death_state = false
+var energy_discaunt = false
 
 var energy_max_value = 1000.0
 var health_max_value = 1000.0
 var vel_roll = Vector2(0,0)
+var energy = null;
+var damage_caused = null;
+var attacked = false;
 
 
 
@@ -38,12 +41,10 @@ func _on_Timer_timeout():
 func _on_Timer_attack_timeout():
 	is_attack = false
 	attacked = false
-	attack_type = 2;
 
 func _physics_process(delta):
 	if (death_state == false):
 		var motion = Vector2()
-		
 		
 		if Input.is_action_pressed("move_up") and in_roll == false and is_attack == false:
 			motion += Vector2(-1, -1)
@@ -60,26 +61,48 @@ func _physics_process(delta):
 		if in_roll == true:
 			motion += vel_roll
 
-		if Input.is_action_pressed("roll") and in_roll == false and is_attack == false and motion != Vector2(0, 0) and energy_bar.value >= 200 :
-			if(energy_bar.value != 0):
+		if Input.is_action_just_pressed("roll"):
+			if(energy_bar.value >= 200.0):
 				in_roll = true
-				energy_max_value = round(energy_max_value - 200.0)
-				speed = 450
+				energy_discaunt = true
+				energy_max_value = round(energy_max_value - 200)
+				speed = 310
 				vel_roll = motion
 				$Timer.connect("timeout", self, "_on_Timer_timeout")
 				$Timer.start()
 		
-		if Input.is_action_just_pressed("attack_one") and in_roll == false and is_attack == false:
-			attack_type = 1;
-			attack_type(attack_type)
+		if Input.is_action_just_pressed("attack_one") and energy_bar.value >= 210:
+			if(energy_bar.value >= 210):	
+				attack_type = 1;
+				is_attack = true
+				energy = 210;
+				damage_caused = 340;
+				energy_max_value = round(energy_max_value - energy)
+				update_energy(energy_max_value)
+				$Timer_attack.wait_time = 1.5
+				init_timer_attack()
 				
-		if Input.is_action_just_pressed("attack_two") and in_roll == false and is_attack == false:
-			attack_type = 2;
-			attack_type(attack_type)
+		if Input.is_action_just_pressed("attack_two") and energy_bar.value >= 180:
+			if(energy_bar.value >= 180):
+				attack_type = 2;
+				is_attack = true
+				energy = 180
+				damage_caused = 280
+				energy_max_value = round(energy_max_value - energy)
+				update_energy(energy_max_value)
+				$Timer_attack.wait_time = 1
+				init_timer_attack()
 				
-		if Input.is_action_just_pressed("attack_tree") and in_roll == false and is_attack == false:
-			attack_type = 3;
-			attack_type(attack_type)
+		if Input.is_action_just_pressed("attack_tree"):
+			if(energy_bar.value >= 350):
+				attack_type = 3;
+				is_attack = true
+				energy = 350
+				damage_caused = 450
+				energy_max_value = round(energy_max_value - energy)
+				update_energy(energy_max_value)
+				$Timer_attack.wait_time = 1.90
+				init_timer_attack()
 				
 		
 
@@ -113,26 +136,32 @@ func _physics_process(delta):
 			attack = "attack" + str(attack_type) + "_" + direction_animation
 
 			_position_last_frame = position
-	
-			if in_roll == false:
-				$AnimatedSprite.play(run)
-			else:
-				$AnimatedSprite.play(roll)
-				update_energy(energy_max_value)
+			
+			if(is_attack == false):
+				if in_roll == false:
+					$AnimatedSprite.play(run)
+				else:
+					$AnimatedSprite.play(roll)
+					if(energy_discaunt == true):
+						print(energy_max_value)
+						update_energy(energy_max_value)
+						energy_discaunt = false
 		
 		else:
 			if(is_attack == true):
-				attack(damage)
+				$AnimatedSprite.play(attack)
+				attack()
 			else:
 				$AnimatedSprite.play(idle)
-				energy_bar.value = energy_bar.value + 3 #idle bonus
+				energy_bar.value = energy_bar.value + 0.9 #idle bonus
 	
-		energy_bar.value = energy_bar.value + 0.6
+		energy_bar.value = energy_bar.value + 0.5
 		energy_max_value = energy_bar.value
 		health_bar.value = health_bar.value + (1/10)
 		health_max_value = health_bar.value
 		
-			
+		if(energy_bar.value == 1000): 
+			regen_life()
 
 	
 		if(is_attack == false):
@@ -155,33 +184,24 @@ func update_energy(new_value):
 	
 func update_health(new_value):
 	health_bar.value = new_value
+	
+func regen_life():
+	health_bar.value = health_bar.value + 0.06
+	health_max_value = health_bar.value
 
-func attack_type(type):		
-	if(energy_bar.value > 0):
-		is_attack = true
-		var energy = null;
-		var damage_caused = null;
-		$Timer_attack.connect("timeout", self, "_on_Timer_attack_timeout")
-		if(type == 1):
-			energy = 210;
-			damage_caused = 340;
-			$Timer_attack.wait_time = 1.5
-		elif(type == 2):
-			energy = 180
-			damage_caused = 280
-			$Timer_attack.wait_time = 1
-		elif(type == 3):
-			energy = 350
-			damage_caused = 450
-			$Timer_attack.wait_time = 1.90
-		damage = damage_caused;
-		energy_max_value = round(energy_max_value - energy)
-		update_energy(energy_max_value)
-		$Timer_attack.start()
+func init_timer_attack():		
+	$Timer_attack.connect("timeout", self, "_on_Timer_attack_timeout")
+	$Timer_attack.start()
 
-func attack(damage):
-	$AnimatedSprite.play(attack)
-	if($AnimatedSprite.frame == 21 and attacked == false):
+func attack():
+	damage = damage_caused;
+	var direction = target.direction
+	var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
+	var ready_to_attack = ($AnimatedSprite.frame == 17 || $AnimatedSprite.frame == 18 || $AnimatedSprite.frame == 19  || $AnimatedSprite.frame == 20  || $AnimatedSprite.frame == 21  || $AnimatedSprite.frame == 22  || $AnimatedSprite.frame == 23  || $AnimatedSprite.frame == 24) and distance_direction < 100 and attacked == false
+	print(attack)
+	if(ready_to_attack == true):
 		print("Dano")
 		target.take_Damage(damage)
-		attacked = true;
+		update_energy(energy_max_value)
+		attacked = true
+		_on_Timer_attack_timeout()

@@ -30,14 +30,15 @@ tile_data = PoolIntArray( -1835020, 52, 0, -1835019, 52, 0, -1835018, 52, 0, -18
 [node name="YSort" type="YSort" parent="."]
 
 [node name="nakai" parent="YSort" instance=ExtResource( 3 )]
-position = Vector2( -382.091, 396.392 )
+position = Vector2( -325.587, 374.086 )
 
 [node name="warrior" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( -24.77, 194.654 )
 
 [node name="world" type="YSort" parent="YSort"]
+position = Vector2( 1.06427, -14.6112 )
 
 [node name="house1" type="YSort" parent="YSort/world"]
+position = Vector2( 7.1272, -5.3454 )
 
 [node name="stuffs" type="YSort" parent="YSort/world/house1"]
 position = Vector2( 8.40897, -9.24986 )
@@ -76,7 +77,7 @@ position = Vector2( -264.5, 642.499 )
 position = Vector2( -123.229, 269.141 )
 
 [node name="walls" type="YSort" parent="YSort/world/house1"]
-position = Vector2( 1.88776, -18.4656 )
+position = Vector2( -102.764, -43.9214 )
 
 [node name="stoneWallGateBars_W" parent="YSort/world/house1/walls" instance=ExtResource( 2 )]
 position = Vector2( -221.282, 74.7174 )
@@ -106,7 +107,7 @@ position = Vector2( -111.319, 12.2401 )
 position = Vector2( 21.4253, -8.25061 )
 
 [node name="stoneWall_S" parent="YSort/world/house1/walls" instance=ExtResource( 6 )]
-position = Vector2( 188.449, 15.6738 )
+position = Vector2( 188.449, 12.8454 )
 
 [node name="stoneWall_S2" parent="YSort/world/house1/walls" instance=ExtResource( 6 )]
 position = Vector2( 315.728, 79.3134 )
