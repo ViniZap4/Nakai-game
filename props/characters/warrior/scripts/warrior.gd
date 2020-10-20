@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
-var speed = 4.5
-var maxHealth = 1000.0
+var speed = 3.7
+var maxHealth = 1000
 var enemyDamage = 60.0
 
 var ai_think_time = 0.7
@@ -20,8 +20,10 @@ var _cardinal_direction = 0
 
 var reflexes = 4
 onready var target = get_parent().get_node("nakai")
-onready var health = get_parent().get_node("warrior/TextureProgress")
+onready var health = get_parent().get_node("warrior/Warrior_Life")
 var is_in_range = false
+var direction
+var is_death = false
 
 func _onready():
 	health.value = maxHealth;
@@ -34,7 +36,9 @@ func _ready():
 func take_Damage(damageCount):
 	health.value -= damageCount;
 	
-	if(health.value <= 0):
+	if(health.value <= 0 and is_death == false):
+		print("Morto")
+		is_death = true
 		$AnimatedSprite.play(death)
 
 func ai_get_direction():
@@ -52,7 +56,7 @@ func ai_move():
 
 #diresao
 func _physics_process(delta):
-	if(target.death_state == false and health.value > 0):
+	if(target.death_state == false and health.value > 0 and is_death == false):
 		motion_direction = position - _position_last_frame
 
 		if motion_direction.length() > 0.0001:
@@ -95,7 +99,7 @@ func decide_to_attack():
 
 func _process(delta):
 	
-	var direction = ai_get_direction()
+	direction = ai_get_direction()
 	var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
 
 
@@ -103,7 +107,7 @@ func _process(delta):
 
 
 		#if(distance_direction <= 98): motion_direction
-		if(health.value > 0):
+		if(health.value >= 0 and is_death == false):
 			if(distance_direction <= 98) and motion_direction <= Vector2(0.9,0.9) and motion_direction >= Vector2(-0.9,-0.9):
 				if(target.death_state == false):
 					$AnimatedSprite.play(attack);
@@ -115,5 +119,5 @@ func _process(delta):
 				ai_move()
 
 	else:
-		if(health.value > 0):
+		if(health.value > 0 and is_death == false):
 			$AnimatedSprite.play(idle);
