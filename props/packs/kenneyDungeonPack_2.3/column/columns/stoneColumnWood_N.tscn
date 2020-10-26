@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/column/assets/stoneColumnWood_N.png" type="Texture" id=1]
+
+[node name="stoneColumnWood_N" type="StaticBody2D"]
+
+[node name="stoneColumnWood_N" type="Sprite" parent="."]
+position = Vector2( -0.282791, -170.169 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -0.282791, -170.169 )
+polygon = PoolVector2Array( -33.2154, 190.463, 0.420441, 208.122, 31.5336, 191.724, 32.3745, 186.259, 29.0109, 184.156, 28.5905, 168.6, 5.04536, 166.077, -31.1132, 185.838 )

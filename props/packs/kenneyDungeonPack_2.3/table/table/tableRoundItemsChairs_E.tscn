@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/table/assets/tableRoundItemsChairs_E.png" type="Texture" id=1]
+
+[node name="tableRoundItemsChairs_E" type="StaticBody2D"]
+
+[node name="tableRoundItemsChairs_E" type="Sprite" parent="."]
+position = Vector2( -22.1293, -180.905 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -22.1293, -180.905 )
+polygon = PoolVector2Array( -58.8002, 203.417, -48.7353, 207.92, -22.5136, 219.309, -4.76759, 210.039, 10.0649, 203.947, 30.4596, 219.044, 63.0381, 208.184, 64.3624, 196.795, 47.9407, 191.233, 44.4975, 167.66, 61.9786, 168.984, 50.3245, 153.887, 37.0812, 147.265, 26.4866, 153.092, -7.41624, 155.211, -30.9893, 146.206, -51.1191, 154.152, -59.0651, 166.336, -65.9516, 172.692 )

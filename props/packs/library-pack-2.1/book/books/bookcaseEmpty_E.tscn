@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://props/packs/library-pack-2.1/book/assets/bookcaseEmpty_E.png" type="Texture" id=1]
+
+[node name="bookcaseEmpty_E" type="StaticBody2D"]
+
+[node name="bookcaseEmpty_E" type="Sprite" parent="."]
+position = Vector2( 9.73785, -165.955 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -57.538, 28.4567, -17.2784, 49.1162, 55.0299, 13.0945, 18.4784, -7.30019, -57.0083, 1.44037, -56.4786, 14.4188, -57.8029, 16.5377 )
