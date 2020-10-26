@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends "res://props/characters/character.gd"
 
 var speed = 3.7
 var maxHealth = 1000
@@ -19,24 +19,26 @@ var _position_last_frame := Vector2()
 var _cardinal_direction = 0
 
 var reflexes = 4
-onready var target = get_parent().get_node("nakai")
-onready var health = get_parent().get_node("warrior/Warrior_Life")
+
+onready var health_bar = get_parent().get_node("warrior/Warrior_Life")
 var is_in_range = false
 var direction
 var is_death = false
 
 func _onready():
-	health.value = maxHealth;
+	health_bar.value = maxHealth;
 	setup_ai_think_time_timer()
 
 func _ready():
+	target = get_parent().get_node("nakai")
+	target.is_enemy = true
 	_onready()
 	setup_ai_think_time_timer()
 
 func take_Damage(damageCount):
-	health.value -= damageCount;
+	health_bar.value -= damageCount;
 	
-	if(health.value <= 0 and is_death == false):
+	if(health_bar.value <= 0 and is_death == false):
 		print("Morto")
 		is_death = true
 		$AnimatedSprite.play(death)
@@ -46,7 +48,7 @@ func ai_get_direction():
 
 
 func ai_move():
-	if(target.death_state == false):
+	if(target.death_state == false and target.is_enemy == true):
 		
 		var direction = ai_get_direction() 
 		var motion = direction.normalized() * speed
@@ -56,7 +58,7 @@ func ai_move():
 
 #diresao
 func _physics_process(delta):
-	if(target.death_state == false and health.value > 0 and is_death == false):
+	if(target.death_state == false and health_bar.value > 0 and is_death == false):
 		motion_direction = position - _position_last_frame
 
 		if motion_direction.length() > 0.0001:
@@ -107,7 +109,7 @@ func _process(delta):
 
 
 		#if(distance_direction <= 98): motion_direction
-		if(health.value >= 0 and is_death == false):
+		if(health_bar.value >= 0 and is_death == false):
 			if(distance_direction <= 98) and motion_direction <= Vector2(0.9,0.9) and motion_direction >= Vector2(-0.9,-0.9):
 				if(target.death_state == false):
 					$AnimatedSprite.play(attack);
