@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/assets/stoneWallAgedLeft_N.png" type="Texture" id=1]
+
+[node name="stoneWallAgedLeft_N" type="StaticBody2D"]
+
+[node name="stoneWallAgedLeft_N" type="Sprite" parent="."]
+position = Vector2( 65.4151, -170.198 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -62.8743, 21.3448, 66.3061, 85.9349, 97.933, 69.8988, 97.933, 43.1718, 95.2603, 41.39, 95.2603, 29.8083, 91.6967, 22.2357, -34.3655, 3.52681 )

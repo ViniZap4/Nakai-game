@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/assets/woodenCrate_N.png" type="Texture" id=1]
+
+[node name="woodenCrate_N" type="StaticBody2D"]
+
+[node name="woodenCrate_N" type="Sprite" parent="."]
+position = Vector2( 0, -184.152 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -35.8407, 7.23732, -0.25592, 25.217, 35.7034, 8.36104, 23.3424, 0.869507, 10.9814, -5.12372, -0.25592, -5.49829, -18.6102, -3.62541, -29.4729, 1.99324 )

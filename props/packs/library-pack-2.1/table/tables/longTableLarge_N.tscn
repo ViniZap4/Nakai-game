@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://props/packs/library-pack-2.1/table/assets/longTableLarge_N.png" type="Texture" id=1]
+
+[node name="longTableLarge_N" type="StaticBody2D"]
+
+[node name="longTableLarge_N" type="Sprite" parent="."]
+position = Vector2( 11.9955, -153.139 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -22.5269, 69.5855, -4.04071, 79.3854, 25.1362, 62.9037, 41.8406, 70.6991, 75.0265, 53.9948, 61.6631, 45.5312, 92.1763, 31.4996, 66.3403, 17.0225, 50.0814, 26.8224, 33.8225, 17.6906, 52.9768, 8.11349, 27.3635, -4.13637, 13.1091, 4.54989, 4.2001, -1.6864, -46.5811, 21.9224, -39.4539, 27.7132, -64.8445, 48.2039, -43.6857, 58.8947, -23.6405, 47.9812, -4.04071, 58.0038 )

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/assets/woodenPile_W.png" type="Texture" id=1]
+
+[node name="woodenPile_W" type="StaticBody2D"]
+
+[node name="woodenPile_W" type="Sprite" parent="."]
+position = Vector2( 7.85991, -177.559 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( 7.85991, -177.559 )
+polygon = PoolVector2Array( -53.8116, 158.462, -63.3253, 173.327, -63.6226, 198.003, -39.2438, 203.354, -38.3519, 211.976, -16.6489, 231.598, 22.8922, 220.003, 23.1895, 206.327, 27.3518, 204.841, 39.2438, 207.219, 48.4602, 191.165, 64.2172, 180.759, 64.5145, 178.084, 56.4873, 174.219, 58.8658, 168.57, 47.271, 166.786, 38.0546, 185.219, 22.2976, 195.922, 23.1895, 184.624, 25.5679, 183.138, 29.1356, 174.516, 31.2167, 162.921, 8.32445, 155.786, -6.83794, 154.002, -16.3516, 158.164, -24.676, 164.705, -28.8383, 164.111, -41.6222, 160.246 )

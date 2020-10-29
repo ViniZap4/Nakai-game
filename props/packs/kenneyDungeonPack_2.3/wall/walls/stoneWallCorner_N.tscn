@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/assets/stoneWallCorner_N.png" type="Texture" id=1]
+
+[node name="stoneWallCorner_N" type="StaticBody2D"]
+
+[node name="stoneWallCorner_N" type="Sprite" parent="."]
+position = Vector2( -1.40225, -186.68 )
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -129.246, 5.30861, -0.511353, 69.8988, 126.887, 5.30861, 91.2512, -15.1821, -0.0659027, -0.927673, -21.002, -4.49127, -97.1739, -13.4003 )
