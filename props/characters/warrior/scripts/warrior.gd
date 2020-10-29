@@ -1,4 +1,4 @@
-extends "res://props/characters/character.gd"
+extends KinematicBody2D
 
 var speed = 3.7
 var maxHealth = 1000
@@ -21,6 +21,7 @@ var _cardinal_direction = 0
 var reflexes = 4
 
 onready var health_bar = get_parent().get_node("warrior/Warrior_Life")
+onready var target = get_parent().get_node("nakai")
 var is_in_range = false
 var direction
 var is_death = false
@@ -30,8 +31,6 @@ func _onready():
 	setup_ai_think_time_timer()
 
 func _ready():
-	target = get_parent().get_node("nakai")
-	target.is_enemy = true
 	_onready()
 	setup_ai_think_time_timer()
 
@@ -48,7 +47,7 @@ func ai_get_direction():
 
 
 func ai_move():
-	if(target.death_state == false and target.is_enemy == true):
+	if(target.death_state == false):
 		
 		var direction = ai_get_direction() 
 		var motion = direction.normalized() * speed
@@ -100,26 +99,26 @@ func decide_to_attack():
 	ai_think_time_timer.start()
 
 func _process(delta):
-	
-	direction = ai_get_direction()
-	var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
+	if(target.death_state == false and health_bar.value > 0 and is_death == false):
+		direction = ai_get_direction()
+		var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
 
 
-	if(distance_direction < 500):
+		if(distance_direction < 500):
 
 
-		#if(distance_direction <= 98): motion_direction
-		if(health_bar.value >= 0 and is_death == false):
-			if(distance_direction <= 98) and motion_direction <= Vector2(0.9,0.9) and motion_direction >= Vector2(-0.9,-0.9):
-				if(target.death_state == false):
-					$AnimatedSprite.play(attack);
-					if($AnimatedSprite.frame == 13): 
-						target.take_damage(enemyDamage)
+			#if(distance_direction <= 98): motion_direction
+			if(health_bar.value >= 0 and is_death == false):
+				if(distance_direction <= 98) and motion_direction <= Vector2(0.9,0.9) and motion_direction >= Vector2(-0.9,-0.9):
+					if(target.death_state == false):
+						$AnimatedSprite.play(attack);
+						if($AnimatedSprite.frame == 13): 
+							target.take_damage(enemyDamage)
+					else:
+						$AnimatedSprite.play(idle);
 				else:
-					$AnimatedSprite.play(idle);
-			else:
-				ai_move()
+					ai_move()
 
-	else:
-		if(health.value > 0 and is_death == false):
-			$AnimatedSprite.play(idle);
+		else:
+			if(health_bar.value > 0 and is_death == false):
+				$AnimatedSprite.play(idle);

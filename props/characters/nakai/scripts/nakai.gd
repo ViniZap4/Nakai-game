@@ -1,7 +1,7 @@
-extends "res://props/characters/character.gd"
+extends KinematicBody2D
 
 
-const  MOTION_SPEED = 230
+const  MOTION_SPEED = 4
 var speed = MOTION_SPEED
 
 var direction_animation = "sd"
@@ -12,11 +12,15 @@ var roll = "idle_sd"
 var attack = "attack_sd"
 var damage = 0;
 var attack_type = 0;
+var collision
 var _position_last_frame := Vector2()
 var _cardinal_direction = 0
 onready var energy_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/StaminaBar/MarginContainer/Label/TextureProgress")
 onready var health_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/HealthBar/MarginContainer/Label/TextureProgress")
-var in_roll = false
+onready var target
+var in_roll = false;
+var health = 1000.0
+var energy = 1000.0
 var is_attack = false;
 var death_state = false
 var energy_discaunt = false
@@ -39,8 +43,6 @@ func _on_Timer_attack_timeout():
 	attacked = false
 
 func _physics_process(delta):
-	is_enemy = false;
-	target = get_parent().get_node("warrior")
 	
 	if (death_state == false):
 		var motion = Vector2()
@@ -65,7 +67,7 @@ func _physics_process(delta):
 				in_roll = true
 				energy_discaunt = true
 				energy = round(energy - 200)
-				speed = 310
+				speed = 4.5
 				vel_roll = motion
 				$Timer.connect("timeout", self, "_on_Timer_timeout")
 				$Timer.start()
@@ -156,14 +158,17 @@ func _physics_process(delta):
 		health_bar.value = health_bar.value + (1/10)
 		health = health_bar.value
 		
-		if(energy_bar.value == 1000): 
+		if(energy_bar.value > 500): 
 			regen_life()
 
 	
 		if(is_attack == false):
 			motion = motion.normalized()
 			motion = cartesian_to_isometric(motion)  * speed
-			move_and_slide(motion)
+			collision = move_and_collide(motion)
+			if(collision != null and collision.collider != null and collision.collider is KinematicBody2D):
+				target = collision.collider
+
 	
 func take_damage(damage):
 	if(death_state == false):
@@ -171,9 +176,9 @@ func take_damage(damage):
 			death_state = true
 			death = "death_" + direction_animation
 			$AnimatedSprite.play(death)
-		else:
-			health= round(health - damage)
-			update_health(health)
+		#else:
+			#health= round(health - damage)
+			#update_health(health)
 	
 func update_energy(new_value):
 	energy_bar.value = new_value
@@ -191,13 +196,16 @@ func init_timer_attack():
 
 func attack():
 	damage = damage_caused;
-	var direction = target.direction
-	var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
-	var ready_to_attack = ($AnimatedSprite.frame == 17 || $AnimatedSprite.frame == 18 || $AnimatedSprite.frame == 19  || $AnimatedSprite.frame == 20  || $AnimatedSprite.frame == 21  || $AnimatedSprite.frame == 22  || $AnimatedSprite.frame == 23  || $AnimatedSprite.frame == 24) and distance_direction < 100 and attacked == false
-	print(attack)
-	if(ready_to_attack == true and target.is_enemy == true):
-		print("Dano")
-		target.take_Damage(damage)
-		update_energy(energy)
-		attacked = true
-		_on_Timer_attack_timeout()
+	if(target != null):
+		var direction = target.direction
+		var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
+		var ready_to_attack = ($AnimatedSprite.frame == 17 || $AnimatedSprite.frame == 18 || $AnimatedSprite.frame == 19  || $AnimatedSprite.frame == 20  || $AnimatedSprite.frame == 21  || $AnimatedSprite.frame == 22  || $AnimatedSprite.frame == 23  || $AnimatedSprite.frame == 24) and distance_direction < 100 and attacked == false
+		#var space_state = get_world_2d().direct_space_state
+		#var sight_check = space_state.intersect_ray(position, distance_direction, self)
+		if(ready_to_attack == true):
+			if(collision != null):
+				print(collision.collider.name)
+				target.take_Damage(damage)
+				update_energy(energy)
+				attacked = true
+			_on_Timer_attack_timeout()
