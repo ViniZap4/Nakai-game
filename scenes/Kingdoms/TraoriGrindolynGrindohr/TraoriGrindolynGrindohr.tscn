@@ -1,6 +1,7 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/floors/floors.tres" type="TileSet" id=1]
+[ext_resource path="res://props/characters/warrior/warrior.tscn" type="PackedScene" id=2]
 [ext_resource path="res://props/characters/nakai/nakai.tscn" type="PackedScene" id=3]
 [ext_resource path="res://props/packs/library-pack-2.1/book/books/bookcaseHalfWideBooks_E.tscn" type="PackedScene" id=6]
 [ext_resource path="res://props/packs/library-pack-2.1/book/books/bookcaseWideBooksLadder_E.tscn" type="PackedScene" id=7]
@@ -24,6 +25,16 @@ tile_data = PoolIntArray( -1114130, 54, 0, -1114129, 54, 0, -1114128, 54, 0, -11
 [node name="mobs" type="YSort" parent="YSort"]
 
 [node name="nakai" parent="YSort/mobs" instance=ExtResource( 3 )]
+position = Vector2( -56, 0 )
+
+[node name="warrior" parent="YSort/mobs" instance=ExtResource( 2 )]
+position = Vector2( 272, -88 )
+
+[node name="warrior2" parent="YSort/mobs" instance=ExtResource( 2 )]
+position = Vector2( 48, -152 )
+
+[node name="warrior3" parent="YSort/mobs" instance=ExtResource( 2 )]
+position = Vector2( -128, -144 )
 
 [node name="worldMap" type="YSort" parent="YSort"]
 

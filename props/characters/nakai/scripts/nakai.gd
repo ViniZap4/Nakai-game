@@ -17,7 +17,7 @@ var _cardinal_direction = 0
 onready var energy_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/StaminaBar/MarginContainer/Label/TextureProgress")
 onready var health_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/HealthBar/MarginContainer/Label/TextureProgress")
 onready var target = get_parent().get_node("warrior")
-var in_roll = false
+var is_roll = false
 var is_attack = false;
 var death_state = false
 var energy_discaunt = false
@@ -35,7 +35,7 @@ func cartesian_to_isometric(cartesian):
 	return Vector2(cartesian.x - cartesian.y, (cartesian.x + cartesian.y)/1.7 )
 
 func _on_Timer_timeout():
-	in_roll = false
+	is_roll = false
 	speed = MOTION_SPEED
 
 func _on_Timer_attack_timeout():
@@ -46,24 +46,24 @@ func _physics_process(delta):
 	if (death_state == false):
 		var motion = Vector2()
 		
-		if Input.is_action_pressed("move_up") and in_roll == false and is_attack == false:
+		if Input.is_action_pressed("move_up") and is_roll == false and is_attack == false:
 			motion += Vector2(-1, -1)
 					
-		if Input.is_action_pressed("move_down") and in_roll == false and is_attack == false:
+		if Input.is_action_pressed("move_down") and is_roll == false and is_attack == false:
 			motion += Vector2(1, 1)
 
-		if Input.is_action_pressed("move_left") and in_roll == false and is_attack == false:
+		if Input.is_action_pressed("move_left") and is_roll == false and is_attack == false:
 			motion += Vector2(-1, 1)
 			
-		if Input.is_action_pressed("move_right") and in_roll == false and is_attack == false:
+		if Input.is_action_pressed("move_right") and is_roll == false and is_attack == false:
 			motion += Vector2(1, -1)
 		
-		if in_roll == true:
+		if is_roll == true:
 			motion += vel_roll
 
 		if Input.is_action_just_pressed("roll"):
 			if(energy_bar.value >= 200.0):
-				in_roll = true
+				is_roll = true
 				energy_discaunt = true
 				energy_max_value = round(energy_max_value - 200)
 				speed = 310
@@ -138,7 +138,7 @@ func _physics_process(delta):
 			_position_last_frame = position
 			
 			if(is_attack == false):
-				if in_roll == false:
+				if is_roll == false:
 					$AnimatedSprite.play(run)
 				else:
 					$AnimatedSprite.play(roll)
@@ -154,10 +154,10 @@ func _physics_process(delta):
 			else:
 				$AnimatedSprite.play(idle)
 				energy_bar.value = energy_bar.value + 0.9 #idle bonus
-	
+
 		energy_bar.value = energy_bar.value + 0.5
 		energy_max_value = energy_bar.value
-		health_bar.value = health_bar.value + (1/10)
+		health_bar.value = health_bar.value + (2/5)
 		health_max_value = health_bar.value
 		
 		if(energy_bar.value == 1000): 
