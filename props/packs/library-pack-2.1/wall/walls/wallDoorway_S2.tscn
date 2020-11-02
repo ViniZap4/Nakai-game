@@ -5,13 +5,13 @@
 [node name="wallDoorway_S" type="StaticBody2D"]
 
 [node name="wallDoorway_S" type="Sprite" parent="."]
-position = Vector2( 5.66902, -142.13 )
+position = Vector2( -95.8615, -191.334 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( 48.9323, -26.3841 )
+position = Vector2( -52.891, -76.5888 )
 polygon = PoolVector2Array( 16.8897, 78.8186, 52.8329, 92.4362, 85.3965, 76.3903, 85.3965, 56.569, 54.2487, 55.6251, 22.5465, 59.0196 )
 
 [node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="."]
-position = Vector2( 48.9323, -26.3841 )
+position = Vector2( -52.891, -76.5888 )
 polygon = PoolVector2Array( -75.0621, 27.7808, -43.2144, 45.5846, -10.4067, 28.7247, -40.6107, 9.84717 )
