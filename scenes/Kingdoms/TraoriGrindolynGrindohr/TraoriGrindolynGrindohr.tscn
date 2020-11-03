@@ -36,7 +36,7 @@ position = Vector2( -325.587, 374.086 )
 position = Vector2( 1.06427, -14.6112 )
 
 [node name="warrior2" parent="YSort" instance=ExtResource( 14 )]
-position = Vector2( 532.345, -358.672 )
+position = Vector2( -1082.82, 22.8601 )
 
 [node name="warrior3" parent="YSort" instance=ExtResource( 14 )]
 position = Vector2( 196.326, -369.998 )
