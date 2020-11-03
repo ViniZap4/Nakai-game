@@ -5,8 +5,9 @@
 [node name="displayCaseBooks_S" type="StaticBody2D"]
 
 [node name="displayCaseBooks_S" type="Sprite" parent="."]
-position = Vector2( -3, -159.5 )
+position = Vector2( 0, -176 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PoolVector2Array( -64, 11.5, 39, 63.5, 79.5, 43.5, 80, 31, 78.5, 26.5, 78.5, 16, -28.5, -1.5 )
+position = Vector2( 0, -16 )
+polygon = PoolVector2Array( -64, 8, 39, 63.5, 79.5, 43.5, 80, 31, 78.5, 26.5, 73.8854, 19.5274, -28.5, -1.5 )
