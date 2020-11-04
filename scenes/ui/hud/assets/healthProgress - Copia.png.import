@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/portal (dark).png-da52a51d686c99b2d6e99a9e14f9c509.stex"
+path="res://.import/healthProgress - Copia.png-051f504a31d507d6473add39cf0fb5ee.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://props/portal (dark).png"
-dest_files=[ "res://.import/portal (dark).png-da52a51d686c99b2d6e99a9e14f9c509.stex" ]
+source_file="res://scenes/ui/hud/assets/healthProgress - Copia.png"
+dest_files=[ "res://.import/healthProgress - Copia.png-051f504a31d507d6473add39cf0fb5ee.stex" ]
 
 [params]
 

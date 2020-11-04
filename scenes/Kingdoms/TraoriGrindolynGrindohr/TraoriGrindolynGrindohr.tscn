@@ -56,6 +56,8 @@
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/table/table/tableChairsBroken_E.tscn" type="PackedScene" id=54]
 [ext_resource path="res://props/characters/warrior/warrior.tscn" type="PackedScene" id=55]
 
+
+
 [node name="TraoriGrindolynGrindohr" type="Node2D"]
 __meta__ = {
 "_edit_horizontal_guides_": [ -124.484 ]
