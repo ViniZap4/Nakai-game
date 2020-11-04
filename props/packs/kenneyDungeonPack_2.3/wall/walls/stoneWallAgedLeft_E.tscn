@@ -5,9 +5,9 @@
 [node name="stoneWallAgedLeft_E" type="StaticBody2D"]
 
 [node name="stoneWallAgedLeft_E" type="Sprite" parent="."]
-position = Vector2( 31.3358, -100.993 )
+position = Vector2( 33.8585, -151.447 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( 31.3358, -100.993 )
-polygon = PoolVector2Array( -128.955, 191.383, -95.9918, 208.31, 32.2976, 143.72, 6.90696, 125.902, -125.391, 140.602, -124.501, 164.21, -128.064, 164.21 )
+position = Vector2( 33.8585, -151.447 )
+polygon = PoolVector2Array( -128.955, 191.383, -95.9918, 208.31, 32.2976, 143.72, 6.90696, 125.902, -128.228, 167.105 )

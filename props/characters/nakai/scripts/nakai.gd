@@ -154,11 +154,12 @@ func _physics_process(delta):
 			else:
 				$AnimatedSprite.play(idle)
 				energy_bar.value = energy_bar.value + 0.9 #idle bonus
+				health_bar.value = health_bar.value +0.5 #idle bonus
+				health_max_value = health_bar.value
 
 		energy_bar.value = energy_bar.value + 0.5
 		energy_max_value = energy_bar.value
-		health_bar.value = health_bar.value + (2/5)
-		health_max_value = health_bar.value
+
 		
 		if(energy_bar.value == 1000): 
 			regen_life()

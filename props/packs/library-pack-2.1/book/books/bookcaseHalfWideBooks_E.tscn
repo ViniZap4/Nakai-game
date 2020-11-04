@@ -5,9 +5,9 @@
 [node name="bookcaseHalfWideBooks_E" type="StaticBody2D"]
 
 [node name="bookcaseHalfWideBooks_E" type="Sprite" parent="."]
-position = Vector2( -4.0789, -169 )
+position = Vector2( 10.9211, -184 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( -11.1681, -18.672 )
+position = Vector2( 3.83189, -33.672 )
 polygon = PoolVector2Array( -88.2625, 58.9162, -48.5326, 78.7812, 80.1922, 15.2134, 44.965, -3.59207, -87.4679, 29.2513, -87.4679, 43.2892, -89.0571, 45.673 )

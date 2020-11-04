@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/door/doors/stoneWallDoorOpen_S_right.tscn" type="PackedScene" id=1]
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/door/doors/stoneWallDoorOpen_S_left.tscn" type="PackedScene" id=2]
+
+[node name="stoneWallDoorOpen_S_interact" type="YSort"]
+
+[node name="stoneWallDoorOpen_S" parent="." instance=ExtResource( 2 )]
+
+[node name="stoneWallDoorOpen_S2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 68.6657, 35.2778 )

@@ -5,8 +5,9 @@
 [node name="longTableDecoratedChairsBooks_S" type="StaticBody2D"]
 
 [node name="longTableDecoratedChairsBooks_S" type="Sprite" parent="."]
-position = Vector2( 8.63055, -155.302 )
+position = Vector2( -2.8781, -181.891 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -11.5087, -26.589 )
 polygon = PoolVector2Array( -60.2267, 38.1225, -41.9632, 49.2588, -18.7999, 36.5634, -2.98643, 46.1406, -20.3589, 57.7223, 0.577164, 70.1949, 22.8496, 57.0541, 35.3222, 66.6313, 68.0627, 51.0406, 58.4856, 43.6906, 78.9762, 42.3543, 76.5263, 22.7545, 39.7767, 21.8636, 16.1679, 10.7274, 34.8768, 2.26385, 11.4907, -10.2087, 1.24533, -5.08606, -12.5636, -15.5541, -58.6676, 11.841, -42.8541, 23.6454 )

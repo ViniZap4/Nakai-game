@@ -5,9 +5,9 @@
 [node name="bookcaseGlass_E" type="StaticBody2D"]
 
 [node name="bookcaseGlass_E" type="Sprite" parent="."]
-position = Vector2( 10.5325, -162.776 )
+position = Vector2( 21.0437, -177.071 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( 10.5325, -162.776 )
+position = Vector2( 21.0437, -177.071 )
 polygon = PoolVector2Array( -67.2759, 194.411, -27.0163, 215.071, 45.2921, 179.049, 0.794601, 158.919, -66.2164, 166.601, -65.9516, 180.109, -67.8056, 182.228 )
