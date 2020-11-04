@@ -29,7 +29,8 @@ var energy = null;
 var damage_caused = null;
 var attacked = false;
 
-
+func _ready():
+	pause_mode = Node.PAUSE_MODE_PROCESS
 
 func cartesian_to_isometric(cartesian):
 	return Vector2(cartesian.x - cartesian.y, (cartesian.x + cartesian.y)/1.7 )
@@ -103,7 +104,10 @@ func _physics_process(delta):
 				update_energy(energy_max_value)
 				$Timer_attack.wait_time = 1.90
 				init_timer_attack()
-				
+		
+		if(Input.is_action_just_pressed("ui_pause")):
+			get_tree().paused = true
+			$Camera2D/Popup.show()
 		
 
 		if motion !=  Vector2(0, 0): 
@@ -196,13 +200,18 @@ func init_timer_attack():
 
 func attack():
 	damage = damage_caused;
-	var direction = target.direction
-	var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
-	var ready_to_attack = ($AnimatedSprite.frame == 17 || $AnimatedSprite.frame == 18 || $AnimatedSprite.frame == 19  || $AnimatedSprite.frame == 20  || $AnimatedSprite.frame == 21  || $AnimatedSprite.frame == 22  || $AnimatedSprite.frame == 23  || $AnimatedSprite.frame == 24) and distance_direction < 100 and attacked == false
-	print(attack)
-	if(ready_to_attack == true):
-		print("Dano")
-		target.take_Damage(damage)
-		update_energy(energy_max_value)
-		attacked = true
+	if(target != null):
+		var direction = target.direction
+		var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
+		var ready_to_attack = ($AnimatedSprite.frame == 17 || $AnimatedSprite.frame == 18 || $AnimatedSprite.frame == 19  || $AnimatedSprite.frame == 20  || $AnimatedSprite.frame == 21  || $AnimatedSprite.frame == 22  || $AnimatedSprite.frame == 23  || $AnimatedSprite.frame == 24) and distance_direction < 100 and attacked == false
+		print(attack)
+		if(ready_to_attack == true):
+			print("Dano")
+			target.take_Damage(damage)
+			update_energy(energy_max_value)
+			attacked = true
 		_on_Timer_attack_timeout()
+		
+func _continue():
+	get_tree().paused = false
+	$Camera2D/Popup.hide()
