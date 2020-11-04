@@ -56,8 +56,6 @@
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/table/table/tableChairsBroken_E.tscn" type="PackedScene" id=54]
 [ext_resource path="res://props/characters/warrior/warrior.tscn" type="PackedScene" id=55]
 
-
-
 [node name="TraoriGrindolynGrindohr" type="Node2D"]
 __meta__ = {
 "_edit_horizontal_guides_": [ -124.484 ]
@@ -85,7 +83,7 @@ tile_data = PoolIntArray( -786443, 7, 0, -786442, 1, 0, -786441, 9, 0, -786440, 
 position = Vector2( 77.9091, -159.992 )
 
 [node name="warrior" parent="YSort/mobs" instance=ExtResource( 55 )]
-position = Vector2( -1110.96, 610.32 )
+position = Vector2( -847.996, 471.976 )
 
 [node name="worldMap" type="YSort" parent="YSort"]
 
