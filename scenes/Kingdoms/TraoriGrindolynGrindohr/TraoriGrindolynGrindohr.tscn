@@ -83,7 +83,7 @@ tile_data = PoolIntArray( -786443, 7, 0, -786442, 1, 0, -786441, 9, 0, -786440, 
 position = Vector2( 77.9091, -159.992 )
 
 [node name="warrior" parent="YSort/mobs" instance=ExtResource( 55 )]
-position = Vector2( -847.996, 471.976 )
+position = Vector2( -917.486, 534.339 )
 
 [node name="worldMap" type="YSort" parent="YSort"]
 
@@ -819,7 +819,7 @@ position = Vector2( -1802.2, 53.2358 )
 position = Vector2( -1723, 272 )
 
 [node name="stoneColumn_N12" parent="YSort/worldMap/heavenlyHall/PortalRoom/walls" instance=ExtResource( 28 )]
-position = Vector2( -1410, 419 )
+position = Vector2( -1364.69, 441.653 )
 
 [node name="stoneColumn_N14" parent="YSort/worldMap/heavenlyHall/PortalRoom/walls" instance=ExtResource( 28 )]
 position = Vector2( -966.383, 652.89 )
@@ -862,13 +862,10 @@ position = Vector2( -1745.19, 380.91 )
 position = Vector2( -1528.36, 516.037 )
 
 [node name="candleStandDouble_W9" parent="YSort/worldMap/heavenlyHall/PortalRoom/stuffs" instance=ExtResource( 32 )]
-position = Vector2( -1630, 305 )
-
-[node name="candleStandDouble_W10" parent="YSort/worldMap/heavenlyHall/PortalRoom/stuffs" instance=ExtResource( 32 )]
-position = Vector2( -1507, 371 )
+position = Vector2( -1539.39, 365.408 )
 
 [node name="candleStandDouble_W11" parent="YSort/worldMap/heavenlyHall/PortalRoom/stuffs" instance=ExtResource( 32 )]
-position = Vector2( -1289, 481 )
+position = Vector2( -1175.74, 541.408 )
 
 [node name="tableChairsBroken_N" parent="YSort/worldMap/heavenlyHall/PortalRoom/stuffs" instance=ExtResource( 53 )]
 position = Vector2( -1441.47, 537.182 )
