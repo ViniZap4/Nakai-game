@@ -215,5 +215,9 @@ func _continue():
 	$Camera2D/Popup.hide()
 	
 func setTarget(obj):
-	target = obj;
+	if(target.get_instance_id() != obj.get_instance_id()):
+		var name = obj.name
+		print(name)
+		target = get_parent().get_node(name)
+		target.health.value = 1000
 
