@@ -217,7 +217,7 @@ func _continue():
 func setTarget(obj):
 	if(target.get_instance_id() != obj.get_instance_id()):
 		var name = obj.name
-		print(name)
+		print("Novo alvo setado: " + name)
 		target = get_parent().get_node(name)
 		target.health.value = 1000
 
