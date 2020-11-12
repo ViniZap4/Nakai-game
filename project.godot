@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="nakai"
-run/main_scene="res://scenes/Kingdoms/MatrackSindraw/MatrackSindraw.tscn"
+run/main_scene="res://scenes/Kingdoms/TraoriGrindolynGrindohr/TraoriGrindolynGrindohr.tscn"
 config/icon="res://icon.png"
 
 [display]
