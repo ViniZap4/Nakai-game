@@ -106,6 +106,7 @@ func _process(delta):
 	if(distance_direction < 500):
 		#if(distance_direction <= 98): motion_direction
 		if(health.value >= 0 and is_death == false):
+			target.setTarget(self)
 			if(distance_direction <= 98) and motion_direction <= Vector2(0.9,0.9) and motion_direction >= Vector2(-0.9,-0.9):
 				if(target.death_state == false):
 					$AnimatedSprite.play(attack);

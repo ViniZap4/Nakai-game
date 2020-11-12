@@ -102,6 +102,30 @@ position = Vector2( -779.677, 944.704 )
 [node name="warrior" parent="YSort/mobs" instance=ExtResource( 55 )]
 position = Vector2( -1173.59, 462.015 )
 
+[node name="warrior2" parent="YSort/mobs" instance=ExtResource( 55 )]
+position = Vector2( -178.381, 547.035 )
+
+[node name="warrior3" parent="YSort/mobs" instance=ExtResource( 55 )]
+position = Vector2( -1429.43, -242.598 )
+
+[node name="warrior4" parent="YSort/mobs" instance=ExtResource( 55 )]
+position = Vector2( 1405.64, -499.467 )
+
+[node name="warrior5" parent="YSort/mobs" instance=ExtResource( 55 )]
+position = Vector2( 639.793, 202.165 )
+
+[node name="warrior6" parent="YSort/mobs" instance=ExtResource( 55 )]
+position = Vector2( 616.009, -903.797 )
+
+[node name="warrior7" parent="YSort/mobs" instance=ExtResource( 55 )]
+position = Vector2( -468.547, -711.146 )
+
+[node name="warrior8" parent="YSort/mobs" instance=ExtResource( 55 )]
+position = Vector2( -968.014, 107.029 )
+
+[node name="warrior9" parent="YSort/mobs" instance=ExtResource( 55 )]
+position = Vector2( -328.221, -394.817 )
+
 [node name="worldMap" type="YSort" parent="YSort"]
 
 [node name="heavenlyHall" type="YSort" parent="YSort/worldMap"]
@@ -915,6 +939,7 @@ position = Vector2( -1467.06, 846.336 )
 position = Vector2( -1474.33, 800.845 )
 
 [node name="restaurant" type="YSort" parent="YSort/worldMap"]
+position = Vector2( -2.37842, 0 )
 
 [node name="stoneWallGateOpen_N" parent="YSort/worldMap/restaurant" instance=ExtResource( 65 )]
 position = Vector2( 349.896, 1679.09 )

@@ -204,14 +204,16 @@ func attack():
 		var direction = target.direction
 		var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
 		var ready_to_attack = ($AnimatedSprite.frame == 17 || $AnimatedSprite.frame == 18 || $AnimatedSprite.frame == 19  || $AnimatedSprite.frame == 20  || $AnimatedSprite.frame == 21  || $AnimatedSprite.frame == 22  || $AnimatedSprite.frame == 23  || $AnimatedSprite.frame == 24) and distance_direction < 100 and attacked == false
-		print(attack)
 		if(ready_to_attack == true):
-			print("Dano")
 			target.take_Damage(damage)
 			update_energy(energy_max_value)
 			attacked = true
-		_on_Timer_attack_timeout()
+			_on_Timer_attack_timeout()
 		
 func _continue():
 	get_tree().paused = false
 	$Camera2D/Popup.hide()
+	
+func setTarget(obj):
+	target = obj;
+
