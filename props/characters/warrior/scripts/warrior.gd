@@ -118,5 +118,5 @@ func _process(delta):
 				ai_move()
 
 	else:
-		if(health.value > 0 and is_death == false):
+		if(health.value >= 0 and is_death == false):
 			$AnimatedSprite.play(idle);
