@@ -1,8 +1,8 @@
-[gd_scene load_steps=66 format=2]
+[gd_scene load_steps=67 format=2]
 
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/floors/floors.tres" type="TileSet" id=1]
 [ext_resource path="res://props/packs/library-pack-2.1/book/books/bookcaseWideBooks_W.tscn" type="PackedScene" id=2]
-[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/door/doors/stoneWallDoorOpen_S_interact.tscn" type="PackedScene" id=3]
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallGateOpen_S/stoneWallGateOpen_S.tscn" type="PackedScene" id=3]
 [ext_resource path="res://props/packs/library-pack-2.1/book/books/bookcaseWideBooksLadder_W.tscn" type="PackedScene" id=4]
 [ext_resource path="res://props/packs/library-pack-2.1/book/books/bookcaseHalfBooks_S.tscn" type="PackedScene" id=5]
 [ext_resource path="res://props/packs/library-pack-2.1/book/books/bookcaseHalfWideBooks_E.tscn" type="PackedScene" id=6]
@@ -65,6 +65,7 @@
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallCorner_E.tscn" type="PackedScene" id=63]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallCorner_N.tscn" type="PackedScene" id=64]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallGateOpen_N/stoneWallGateOpen_N.tscn" type="PackedScene" id=65]
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallGateOpen_E/stoneWallGateOpen_E.tscn" type="PackedScene" id=66]
 
 [node name="TraoriGrindolynGrindohr" type="Node2D"]
 __meta__ = {
@@ -97,7 +98,7 @@ tile_data = PoolIntArray( -786443, 7, 0, -786442, 1, 0, -786441, 9, 0, -786440, 
 [node name="mobs" type="YSort" parent="YSort"]
 
 [node name="nakai" parent="YSort/mobs" instance=ExtResource( 39 )]
-position = Vector2( -779.677, 944.704 )
+position = Vector2( -778.786, 943.444 )
 
 [node name="warrior" parent="YSort/mobs" instance=ExtResource( 55 )]
 position = Vector2( -1173.59, 462.015 )
@@ -326,7 +327,7 @@ position = Vector2( 1167, -367 )
 position = Vector2( 1264, -240 )
 
 [node name="stoneWallRound_W" parent="YSort/worldMap/heavenlyHall/centerRoom/walls" instance=ExtResource( 12 )]
-position = Vector2( -22, 363 )
+position = Vector2( -17.9604, 396.018 )
 
 [node name="stoneWallRound_N" parent="YSort/worldMap/heavenlyHall/centerRoom/walls" instance=ExtResource( 13 )]
 position = Vector2( -1048, -96 )
@@ -547,7 +548,7 @@ position = Vector2( 910, -950 )
 position = Vector2( 2039, -295 )
 
 [node name="stoneWallRound_W2" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 12 )]
-position = Vector2( -153, 751 )
+position = Vector2( -148.44, 784.498 )
 
 [node name="stoneWall_N11" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 18 )]
 position = Vector2( -1748, 6 )
@@ -564,6 +565,15 @@ scale = Vector2( 1.01007, 0.992956 )
 
 [node name="stoneWall_N15" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 18 )]
 position = Vector2( -464, 646 )
+
+[node name="stoneWallGateOpen_S" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 3 )]
+position = Vector2( -1370.57, 210.808 )
+
+[node name="stoneWallGateOpen_S2" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 3 )]
+position = Vector2( -1114.63, 337.58 )
+
+[node name="stoneWallGateOpen_S3" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 3 )]
+position = Vector2( -858.125, 465.312 )
 
 [node name="stoneWall_N16" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 18 )]
 position = Vector2( -336.251, 710.502 )
@@ -586,15 +596,6 @@ position = Vector2( -1945, -91 )
 [node name="stoneWallRound_N3" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 13 )]
 position = Vector2( -2321.42, 358.942 )
 
-[node name="stoneWallDoorOpen_S_interact" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 3 )]
-position = Vector2( -868.798, 451.866 )
-
-[node name="stoneWallDoorOpen_S_interact2" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 3 )]
-position = Vector2( -1125.01, 323.019 )
-
-[node name="stoneWallDoorOpen_S_interact3" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 3 )]
-position = Vector2( -1381.98, 194.656 )
-
 [node name="stuffs" type="YSort" parent="YSort/worldMap/heavenlyHall"]
 
 [node name="bookcaseHalfWideBooks_E5" parent="YSort/worldMap/heavenlyHall/stuffs" instance=ExtResource( 6 )]
@@ -610,7 +611,7 @@ position = Vector2( 715.636, 98.0592 )
 position = Vector2( 452.639, 233.673 )
 
 [node name="bookcaseHalfWideBooks_E8" parent="YSort/worldMap/heavenlyHall/stuffs" instance=ExtResource( 6 )]
-position = Vector2( 158.776, 376.918 )
+position = Vector2( 196.574, 359.279 )
 
 [node name="bookcaseHalfWideBooks_E10" parent="YSort/worldMap/heavenlyHall/stuffs" instance=ExtResource( 6 )]
 position = Vector2( -186.681, -691.764 )
@@ -822,7 +823,10 @@ position = Vector2( -688.384, 840.619 )
 position = Vector2( -598.439, 784.975 )
 
 [node name="stoneWallWindow_E12" parent="YSort/worldMap/heavenlyHall/PortalRoom/walls" instance=ExtResource( 21 )]
-position = Vector2( -50.8109, 1284.47 )
+position = Vector2( -52.7295, 1285.7 )
+
+[node name="stoneWallWindow_E13" parent="YSort/worldMap/heavenlyHall/PortalRoom/walls" instance=ExtResource( 21 )]
+position = Vector2( 202.995, 1159.19 )
 
 [node name="stoneWallWindow_S14" parent="YSort/worldMap/heavenlyHall/PortalRoom/walls" instance=ExtResource( 19 )]
 position = Vector2( -1616.3, 707.908 )
@@ -981,4 +985,10 @@ position = Vector2( 941.394, 1961.63 )
 position = Vector2( 821.511, 1897.3 )
 
 [node name="stoneWall_W48" parent="YSort/worldMap/restaurant" instance=ExtResource( 9 )]
-position = Vector2( 112.036, 1211.61 )
+position = Vector2( 493.792, 1022.14 )
+
+[node name="stoneWallGateOpen_E" parent="YSort/worldMap/restaurant" instance=ExtResource( 66 )]
+position = Vector2( 107.172, 1246.84 )
+
+[node name="stoneWallGateOpen_E2" parent="YSort/worldMap/restaurant" instance=ExtResource( 66 )]
+position = Vector2( 361.434, 1119.33 )
