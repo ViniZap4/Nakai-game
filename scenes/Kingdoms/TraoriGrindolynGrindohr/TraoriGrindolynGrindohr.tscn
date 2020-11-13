@@ -985,7 +985,7 @@ position = Vector2( 941.394, 1961.63 )
 position = Vector2( 821.511, 1897.3 )
 
 [node name="stoneWall_W48" parent="YSort/worldMap/restaurant" instance=ExtResource( 9 )]
-position = Vector2( 493.792, 1022.14 )
+position = Vector2( 498.832, 1019.62 )
 
 [node name="stoneWallGateOpen_E" parent="YSort/worldMap/restaurant" instance=ExtResource( 66 )]
 position = Vector2( 107.172, 1246.84 )

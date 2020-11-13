@@ -20,7 +20,7 @@ var _cardinal_direction = 0
 
 var reflexes = 4
 onready var target = get_parent().get_node("nakai")
-onready var health = get_parent().get_node("warrior/Warrior_Life")
+onready var health = get_node("Warrior_Life")
 var is_in_range = false
 var direction
 var is_death = false
