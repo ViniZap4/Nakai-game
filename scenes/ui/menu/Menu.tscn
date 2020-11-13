@@ -1,0 +1,111 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://scenes/ui/menu/Assets/nakai_background.png" type="Texture" id=2]
+[ext_resource path="res://scenes/ui/menu/Start.gd" type="Script" id=3]
+[ext_resource path="res://scenes/ui/menu/Assets/IrishGrover.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://scenes/ui/menu/Get Out.gd" type="Script" id=6]
+[ext_resource path="res://scenes/ui/menu/Assets/Rectangle 5.png" type="Texture" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 70
+outline_size = 20
+outline_color = Color( 0.282353, 0.329412, 0.356863, 1 )
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 46
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 1 )
+
+[node name="Menu" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+layer = -1
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+texture = ExtResource( 2 )
+centered = false
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 415.342
+margin_top = 70.8252
+margin_right = 972.342
+margin_bottom = 153.825
+rect_scale = Vector2( 1, 0.92 )
+custom_fonts/font = SubResource( 1 )
+text = "NAKAI DRISKAHA"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Start" type="Button" parent="."]
+margin_left = 532.359
+margin_top = 381.108
+margin_right = 844.359
+margin_bottom = 443.108
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Start"]
+position = Vector2( 157, 31 )
+scale = Vector2( 0.79574, 0.735926 )
+texture = ExtResource( 7 )
+
+[node name="Label" type="Label" parent="Start"]
+margin_left = 48.0
+margin_top = 4.0
+margin_right = 265.0
+margin_bottom = 61.0
+custom_fonts/font = SubResource( 2 )
+text = "COMEÇAR"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Get Out" type="Button" parent="."]
+margin_left = 535.829
+margin_top = 483.762
+margin_right = 841.829
+margin_bottom = 549.762
+custom_fonts/font = SubResource( 3 )
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Get Out"]
+position = Vector2( 154, 33 )
+scale = Vector2( 0.790559, 0.780869 )
+texture = ExtResource( 7 )
+
+[node name="Label" type="Label" parent="Get Out"]
+margin_left = 44.5295
+margin_top = 4.34625
+margin_right = 261.53
+margin_bottom = 61.3463
+custom_fonts/font = SubResource( 2 )
+text = "Sair"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="mouse_entered" from="Start" to="Start" method="_on_Start_mouse_entered"]
+[connection signal="mouse_exited" from="Start" to="Start" method="_on_Start_mouse_exited"]
+[connection signal="pressed" from="Start" to="Start" method="_on_Start_pressed"]
+[connection signal="mouse_entered" from="Get Out" to="Get Out" method="_on_Get_Out_mouse_entered"]
+[connection signal="mouse_exited" from="Get Out" to="Get Out" method="_on_Get_Out_mouse_exited"]
+[connection signal="pressed" from="Get Out" to="Get Out" method="_on_Get_Out_pressed"]

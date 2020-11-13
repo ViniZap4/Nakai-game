@@ -1111,11 +1111,11 @@ one_shot = true
 autostart = true
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( -11.5658, -52.6397 )
+position = Vector2( -11.2508, -52.3247 )
 scale = Vector2( 0.924619, 0.829615 )
 frames = SubResource( 1 )
 animation = "idle_sa"
-frame = 7
+frame = 5
 playing = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]

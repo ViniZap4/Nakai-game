@@ -98,13 +98,13 @@ tile_data = PoolIntArray( -786443, 7, 0, -786442, 1, 0, -786441, 9, 0, -786440, 
 [node name="mobs" type="YSort" parent="YSort"]
 
 [node name="nakai" parent="YSort/mobs" instance=ExtResource( 39 )]
-position = Vector2( -778.786, 943.444 )
+position = Vector2( -1018.79, 1086.7 )
 
 [node name="warrior" parent="YSort/mobs" instance=ExtResource( 55 )]
-position = Vector2( -1173.59, 462.015 )
+position = Vector2( -1059.59, 606.015 )
 
 [node name="warrior2" parent="YSort/mobs" instance=ExtResource( 55 )]
-position = Vector2( -178.381, 547.035 )
+position = Vector2( 543.619, 691.035 )
 
 [node name="warrior3" parent="YSort/mobs" instance=ExtResource( 55 )]
 position = Vector2( -1429.43, -242.598 )
@@ -125,7 +125,7 @@ position = Vector2( -468.547, -711.146 )
 position = Vector2( -968.014, 107.029 )
 
 [node name="warrior9" parent="YSort/mobs" instance=ExtResource( 55 )]
-position = Vector2( -328.221, -394.817 )
+position = Vector2( -1326.22, 1697.18 )
 
 [node name="worldMap" type="YSort" parent="YSort"]
 
