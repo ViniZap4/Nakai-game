@@ -1,0 +1,130 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://scenes/ui/game-over/Assets/nakai_background.png" type="Texture" id=2]
+[ext_resource path="res://scenes/ui/game-over/Assets/Rectangle 5.png" type="Texture" id=3]
+[ext_resource path="res://scenes/ui/game-over/scripts/Restart.gd" type="Script" id=4]
+[ext_resource path="res://scenes/ui/scripts/Get Out.gd" type="Script" id=5]
+[ext_resource path="res://scenes/ui/game-over/scripts/Credits.gd" type="Script" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 72
+outline_size = 20
+outline_color = Color( 0.282353, 0.329412, 0.356863, 1 )
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 45
+font_data = ExtResource( 1 )
+
+[node name="Game Over" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground"]
+position = Vector2( 5.65674, 2.82843 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="Label" type="Label" parent="."]
+margin_left = 495.97
+margin_top = 61.4317
+margin_right = 884.97
+margin_bottom = 147.432
+rect_scale = Vector2( 1.03553, 1.25561 )
+custom_fonts/font = SubResource( 1 )
+text = "GAME OVER"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Restart" type="Button" parent="."]
+margin_left = 524.507
+margin_top = 299.468
+margin_right = 871.507
+margin_bottom = 382.468
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Restart"]
+position = Vector2( 172, 41.9706 )
+scale = Vector2( 0.883059, 0.9948 )
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="Restart"]
+margin_left = 72.2766
+margin_top = 9.66908
+margin_right = 282.277
+margin_bottom = 63.6691
+custom_fonts/font = SubResource( 2 )
+text = "REINICIAR"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Credits" type="Button" parent="."]
+margin_left = 521.679
+margin_top = 429.576
+margin_right = 868.679
+margin_bottom = 512.576
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Credits"]
+position = Vector2( 172.417, 39.3848 )
+scale = Vector2( 0.883059, 0.9948 )
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="Credits"]
+margin_left = 75.0
+margin_top = 13.0
+margin_right = 285.0
+margin_bottom = 67.0
+custom_fonts/font = SubResource( 2 )
+text = "CRÉDITOS"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Get Out2" type="Button" parent="."]
+margin_left = 521.679
+margin_top = 548.37
+margin_right = 868.679
+margin_bottom = 631.37
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Get Out2"]
+position = Vector2( 172.417, 39.3848 )
+scale = Vector2( 0.883059, 0.9948 )
+texture = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="Get Out2"]
+margin_left = 123.0
+margin_top = 16.0
+margin_right = 222.0
+margin_bottom = 70.0
+custom_fonts/font = SubResource( 2 )
+text = "SAIR"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="mouse_entered" from="Restart" to="Restart" method="_on_Restart_mouse_entered"]
+[connection signal="mouse_exited" from="Restart" to="Restart" method="_on_Restart_mouse_exited"]
+[connection signal="pressed" from="Restart" to="Restart" method="_on_Restart_pressed"]
+[connection signal="mouse_entered" from="Credits" to="Credits" method="_on_Credits_mouse_entered"]
+[connection signal="mouse_exited" from="Credits" to="Credits" method="_on_Credits_mouse_exited"]
+[connection signal="pressed" from="Credits" to="Credits" method="_on_Credits_pressed"]
+[connection signal="mouse_entered" from="Get Out2" to="Get Out2" method="_on_Get_Out_mouse_entered"]
+[connection signal="mouse_exited" from="Get Out2" to="Get Out2" method="_on_Get_Out_mouse_exited"]
+[connection signal="pressed" from="Get Out2" to="Get Out2" method="_on_Get_Out_pressed"]

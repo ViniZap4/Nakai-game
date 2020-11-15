@@ -158,7 +158,7 @@ func _physics_process(delta):
 			else:
 				$AnimatedSprite.play(idle)
 				energy_bar.value = energy_bar.value + 0.9 #idle bonus
-				health_bar.value = health_bar.value +0.5 #idle bonus
+				health_bar.value = health_bar.value +0 #idle bonus
 				health_max_value = health_bar.value
 
 		energy_bar.value = energy_bar.value + 0.5
@@ -180,6 +180,8 @@ func take_damage(damage):
 			death_state = true
 			death = "death_" + direction_animation
 			$AnimatedSprite.play(death)
+			get_tree().change_scene("res://scenes/ui/game-over/Game Over.tscn")
+		
 		else:
 			health_max_value = round(health_max_value - damage)
 			update_health(health_max_value)

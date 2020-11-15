@@ -98,16 +98,16 @@ tile_data = PoolIntArray( -786443, 7, 0, -786442, 1, 0, -786441, 9, 0, -786440, 
 [node name="mobs" type="YSort" parent="YSort"]
 
 [node name="nakai" parent="YSort/mobs" instance=ExtResource( 39 )]
-position = Vector2( -1018.79, 1086.7 )
+position = Vector2( 203.21, 844.7 )
 
 [node name="warrior" parent="YSort/mobs" instance=ExtResource( 55 )]
-position = Vector2( -1059.59, 606.015 )
+position = Vector2( -1124.68, 1126.8 )
 
 [node name="warrior2" parent="YSort/mobs" instance=ExtResource( 55 )]
 position = Vector2( 543.619, 691.035 )
 
 [node name="warrior3" parent="YSort/mobs" instance=ExtResource( 55 )]
-position = Vector2( -1429.43, -242.598 )
+position = Vector2( -577.43, -662.598 )
 
 [node name="warrior4" parent="YSort/mobs" instance=ExtResource( 55 )]
 position = Vector2( 1405.64, -499.467 )
@@ -125,7 +125,7 @@ position = Vector2( -468.547, -711.146 )
 position = Vector2( -968.014, 107.029 )
 
 [node name="warrior9" parent="YSort/mobs" instance=ExtResource( 55 )]
-position = Vector2( -1326.22, 1697.18 )
+position = Vector2( -1156.86, 1043.14 )
 
 [node name="worldMap" type="YSort" parent="YSort"]
 
@@ -864,7 +864,7 @@ position = Vector2( -1196.63, 822.676 )
 position = Vector2( -1322.11, 712.88 )
 
 [node name="bookcaseFallen_E2" parent="YSort/worldMap/heavenlyHall/PortalRoom/books" instance=ExtResource( 44 )]
-position = Vector2( -772.713, 1015.56 )
+position = Vector2( -910.62, 956.697 )
 
 [node name="stuffs" type="YSort" parent="YSort/worldMap/heavenlyHall/PortalRoom"]
 
