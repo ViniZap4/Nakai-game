@@ -6,7 +6,7 @@
 [node name="stoneWallGateOpen_E" type="YSort"]
 
 [node name="stoneWallGateOpen_E_right" parent="." instance=ExtResource( 2 )]
-position = Vector2( 18.2551, -34.1291 )
+position = Vector2( 23.0173, -48.4157 )
 
 [node name="stoneWallGateOpen_E_left" parent="." instance=ExtResource( 1 )]
-position = Vector2( -83.3386, 7.937 )
+position = Vector2( -78.5764, -6.34962 )
