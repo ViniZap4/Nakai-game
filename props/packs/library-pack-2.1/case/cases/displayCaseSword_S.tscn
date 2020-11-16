@@ -5,8 +5,9 @@
 [node name="displayCaseSword_S" type="StaticBody2D"]
 
 [node name="displayCaseSword_S" type="Sprite" parent="."]
-position = Vector2( -4.5, -156.5 )
+position = Vector2( -12.5229, -186.232 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -8.02293, -29.7321 )
 polygon = PoolVector2Array( -65.5, 14.5, 38, 67, 78.5, 47, 79, 33.5, 76.5, 29.5, 77, 17.5, -29.5, 0 )

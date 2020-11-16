@@ -5,9 +5,9 @@
 [node name="candleStandDouble_E" type="StaticBody2D"]
 
 [node name="candleStandDouble_E" type="Sprite" parent="."]
-position = Vector2( -0.602455, -164.408 )
+position = Vector2( -0.602448, -192.949 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-position = Vector2( -0.602455, -164.408 )
+position = Vector2( -0.602448, -192.949 )
 polygon = PoolVector2Array( -8.46516, 193.394, -5.28677, 195.248, -1.31377, 196.043, 3.18894, 196.308, 8.48626, 193.924, 6.10247, 189.686, 1.07001, 187.832, -3.69756, 188.362, -7.67056, 189.951 )

@@ -1,4 +1,4 @@
-[gd_scene load_steps=74 format=2]
+[gd_scene load_steps=83 format=2]
 
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/floors/floors.tres" type="TileSet" id=1]
 [ext_resource path="res://props/packs/library-pack-2.1/book/books/bookcaseWideBooks_W.tscn" type="PackedScene" id=2]
@@ -68,11 +68,20 @@
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallGateOpen_E/stoneWallGateOpen_E.tscn" type="PackedScene" id=66]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/stuffs/woodenCrates_N.tscn" type="PackedScene" id=67]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/table/table/tableRoundItemsChairs_E.tscn" type="PackedScene" id=68]
+[ext_resource path="res://props/packs/packmap/rock/rocks/rock_1.tscn" type="PackedScene" id=69]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/table/table/tableRoundItemsChairs_N.tscn" type="PackedScene" id=70]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/table/table/tableRoundChairs_E.tscn" type="PackedScene" id=71]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/stuffs/woodenCrate_N.tscn" type="PackedScene" id=72]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/stuffs/woodenPile_E.tscn" type="PackedScene" id=73]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/stuffs/stuffs/woodenPile_N.tscn" type="PackedScene" id=74]
+[ext_resource path="res://props/packs/packmap/rock/rocks/rock_2.tscn" type="PackedScene" id=75]
+[ext_resource path="res://props/packs/library-pack-2.1/case/cases/displayCaseSword_S.tscn" type="PackedScene" id=76]
+[ext_resource path="res://props/packs/library-pack-2.1/case/cases/displayCaseSword_N.tscn" type="PackedScene" id=77]
+[ext_resource path="res://props/packs/library-pack-2.1/case/cases/displayCaseOpen_E.tscn" type="PackedScene" id=78]
+[ext_resource path="res://props/packs/library-pack-2.1/case/cases/displayCaseOpen_S.tscn" type="PackedScene" id=79]
+[ext_resource path="res://props/packs/library-pack-2.1/table/tables/longTableDecoratedChairsBooks_E.tscn" type="PackedScene" id=80]
+[ext_resource path="res://props/packs/library-pack-2.1/table/tables/longTableDecoratedChairs_E.tscn" type="PackedScene" id=81]
+[ext_resource path="res://props/packs/library-pack-2.1/Stand/Stands/candleStandDouble_E.tscn" type="PackedScene" id=82]
 
 [node name="TraoriGrindolynGrindohr" type="Node2D"]
 __meta__ = {
@@ -105,7 +114,7 @@ mode = 1
 tile_set = ExtResource( 11 )
 cell_size = Vector2( 256, 128 )
 format = 1
-tile_data = PoolIntArray( -786443, 7, 0, -786442, 1, 0, -786441, 9, 0, -786440, 9, 0, -786439, 9, 0, -786438, 9, 0, -786437, 9, 0, -786436, 10, 0, -786435, 9, 0, -786434, 9, 0, -786433, 9, 0, -851968, 2, 0, -851967, 7, 0, -720907, 0, 0, -786431, 0, 0, -655371, 8, 0, -720895, 8, 0, -589835, 8, 0, -589832, 0, 0, -589830, 0, 0, -589828, 0, 0, -589826, 0, 0, -655359, 8, 0, -524299, 8, 0, -524296, 8, 0, -524294, 11, 0, -524292, 8, 0, -524290, 8, 0, -589823, 8, 0, -458763, 8, 0, -458760, 8, 0, -458758, 8, 0, -458756, 8, 0, -458754, 11, 0, -524287, 8, 0, -393227, 8, 0, -393224, 8, 0, -393222, 8, 0, -393220, 8, 0, -393218, 11, 0, -458751, 8, 0, -327691, 8, 0, -327688, 8, 0, -327686, 8, 0, -327684, 8, 0, -327682, 11, 0, -393215, 8, 0, -262155, 8, 0, -262154, 8, 0, -262152, 8, 0, -262150, 8, 0, -262148, 8, 0, -262146, 11, 0, -327679, 8, 0, -196619, 8, 0, -196618, 8, 0, -196616, 8, 0, -196614, 8, 0, -196612, 8, 0, -196610, 11, 0, -262143, 8, 0, -131083, 8, 0, -131082, 8, 0, -131080, 8, 0, -131078, 8, 0, -131076, 8, 0, -131074, 11, 0, -196607, 8, 0, -65547, 8, 0, -65544, 8, 0, -65542, 8, 0, -65540, 8, 0, -65538, 11, 0, -131071, 8, 0, -11, 8, 0, -8, 3, 0, -6, 3, 0, -4, 3, 0, -2, 3, 0, -65535, 8, 0, -65528, 0, 0, -65526, 0, 0, -65524, 0, 0, -65522, 0, 0, 65525, 8, 0, 1, 8, 0, 8, 11, 0, 10, 11, 0, 12, 11, 0, 14, 8, 0, 131061, 3, 0, 65537, 3, 0, 65544, 11, 0, 65546, 11, 0, 65548, 11, 0, 65550, 8, 0, 196597, 7, 0, 196598, 1, 0, 196599, 9, 0, 196600, 9, 0, 196601, 9, 0, 196602, 9, 0, 196603, 9, 0, 196604, 9, 0, 196605, 9, 0, 196606, 9, 0, 196607, 9, 0, 131072, 2, 0, 131073, 7, 0, 131080, 11, 0, 131082, 11, 0, 131084, 11, 0, 131086, 8, 0, 196616, 11, 0, 196618, 11, 0, 196620, 11, 0, 196622, 8, 0, 262152, 11, 0, 262154, 11, 0, 262156, 11, 0, 262158, 8, 0, 393207, 1, 0, 393208, 9, 0, 393209, 9, 0, 393210, 9, 0, 393211, 9, 0, 393212, 9, 0, 393213, 9, 0, 393214, 9, 0, 393215, 2, 0, 327688, 11, 0, 327690, 11, 0, 327692, 11, 0, 327694, 8, 0, 458743, 1, 0, 458744, 9, 0, 458745, 9, 0, 458746, 9, 0, 458747, 9, 0, 458748, 9, 0, 458749, 9, 0, 458750, 9, 0, 458751, 2, 0, 393224, 11, 0, 393226, 11, 0, 393228, 11, 0, 393230, 8, 0, 458760, 3, 0, 458762, 3, 0, 458764, 3, 0, 458766, 3, 0 )
+tile_data = PoolIntArray( -917497, 0, 0, -917496, 0, 0, -917495, 0, 0, -917494, 0, 0, -917493, 0, 0, -917492, 0, 0, -917491, 0, 0, -917490, 0, 0, -917489, 0, 0, -786443, 7, 0, -786442, 1, 0, -786441, 9, 0, -786440, 9, 0, -786439, 9, 0, -786438, 9, 0, -786437, 9, 0, -786436, 10, 0, -786435, 9, 0, -786434, 9, 0, -786433, 9, 0, -851968, 2, 0, -851967, 7, 0, -851961, 8, 0, -851960, 8, 0, -851959, 8, 0, -851958, 8, 0, -851957, 8, 0, -851956, 8, 0, -851955, 8, 0, -851954, 8, 0, -851953, 8, 0, -720907, 0, 0, -786431, 0, 0, -786425, 8, 0, -786424, 8, 0, -786423, 8, 0, -786422, 8, 0, -786421, 8, 0, -786420, 8, 0, -786419, 8, 0, -786418, 8, 0, -786417, 8, 0, -655371, 8, 0, -720895, 8, 0, -720889, 8, 0, -720888, 8, 0, -720887, 8, 0, -720886, 8, 0, -720885, 8, 0, -720884, 8, 0, -720883, 8, 0, -720882, 8, 0, -720881, 8, 0, -589835, 8, 0, -589832, 0, 0, -589830, 0, 0, -589828, 0, 0, -589826, 0, 0, -655359, 8, 0, -655353, 8, 0, -655352, 8, 0, -655351, 8, 0, -655350, 8, 0, -655349, 8, 0, -655348, 8, 0, -655347, 8, 0, -655346, 8, 0, -655345, 8, 0, -524299, 8, 0, -524296, 8, 0, -524294, 11, 0, -524292, 8, 0, -524290, 8, 0, -589823, 8, 0, -589817, 8, 0, -589816, 8, 0, -589815, 8, 0, -589814, 8, 0, -589813, 8, 0, -589812, 8, 0, -589811, 8, 0, -589810, 8, 0, -589809, 8, 0, -458763, 8, 0, -458760, 8, 0, -458758, 8, 0, -458756, 8, 0, -458754, 11, 0, -524287, 8, 0, -524281, 8, 0, -524280, 8, 0, -524279, 8, 0, -524278, 8, 0, -524277, 8, 0, -524276, 8, 0, -524275, 8, 0, -524274, 8, 0, -524273, 8, 0, -393227, 8, 0, -393224, 8, 0, -393222, 8, 0, -393220, 8, 0, -393218, 11, 0, -458751, 8, 0, -458745, 3, 0, -458744, 3, 0, -458743, 3, 0, -458742, 3, 0, -458741, 3, 0, -458740, 3, 0, -458739, 3, 0, -458738, 3, 0, -458737, 3, 0, -327691, 8, 0, -327688, 8, 0, -327686, 8, 0, -327684, 8, 0, -327682, 11, 0, -393215, 8, 0, -262155, 8, 0, -262154, 8, 0, -262152, 8, 0, -262150, 8, 0, -262148, 8, 0, -262146, 11, 0, -327679, 8, 0, -196619, 8, 0, -196618, 8, 0, -196616, 8, 0, -196614, 8, 0, -196612, 8, 0, -196610, 11, 0, -262143, 8, 0, -131083, 8, 0, -131082, 8, 0, -131080, 8, 0, -131078, 8, 0, -131076, 8, 0, -131074, 11, 0, -196607, 8, 0, -65547, 8, 0, -65544, 8, 0, -65542, 8, 0, -65540, 8, 0, -65538, 11, 0, -131071, 8, 0, -11, 8, 0, -8, 3, 0, -6, 3, 0, -4, 3, 0, -2, 3, 0, -65535, 8, 0, -65528, 0, 0, -65526, 0, 0, -65524, 0, 0, -65522, 0, 0, 65525, 8, 0, 1, 8, 0, 8, 11, 0, 10, 11, 0, 12, 11, 0, 14, 8, 0, 131061, 3, 0, 65537, 3, 0, 65544, 11, 0, 65546, 11, 0, 65548, 11, 0, 65550, 8, 0, 196597, 7, 0, 196598, 1, 0, 196599, 9, 0, 196600, 9, 0, 196601, 9, 0, 196602, 9, 0, 196603, 9, 0, 196604, 9, 0, 196605, 9, 0, 196606, 9, 0, 196607, 9, 0, 131072, 2, 0, 131073, 7, 0, 131080, 11, 0, 131082, 11, 0, 131084, 11, 0, 131086, 8, 0, 196616, 11, 0, 196618, 11, 0, 196620, 11, 0, 196622, 8, 0, 262152, 11, 0, 262154, 11, 0, 262156, 11, 0, 262158, 8, 0, 393207, 1, 0, 393208, 9, 0, 393209, 9, 0, 393210, 9, 0, 393211, 9, 0, 393212, 9, 0, 393213, 9, 0, 393214, 9, 0, 393215, 2, 0, 327688, 11, 0, 327690, 11, 0, 327692, 11, 0, 327694, 8, 0, 458743, 1, 0, 458744, 9, 0, 458745, 9, 0, 458746, 9, 0, 458747, 9, 0, 458748, 9, 0, 458749, 9, 0, 458750, 9, 0, 458751, 2, 0, 393224, 11, 0, 393226, 11, 0, 393228, 11, 0, 393230, 8, 0, 458760, 3, 0, 458762, 3, 0, 458764, 3, 0, 458766, 3, 0 )
 
 [node name="YSort" type="YSort" parent="."]
 
@@ -581,13 +590,13 @@ scale = Vector2( 1.01007, 0.992956 )
 position = Vector2( -464, 646 )
 
 [node name="stoneWallGateOpen_S" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 3 )]
-position = Vector2( -1370.57, 210.808 )
+position = Vector2( -1377.57, 219.808 )
 
 [node name="stoneWallGateOpen_S2" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 3 )]
-position = Vector2( -1114.63, 337.58 )
+position = Vector2( -1121.63, 346.58 )
 
 [node name="stoneWallGateOpen_S3" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 3 )]
-position = Vector2( -858.125, 465.312 )
+position = Vector2( -865.243, 476.516 )
 
 [node name="stoneWall_N16" parent="YSort/worldMap/heavenlyHall/walls" instance=ExtResource( 18 )]
 position = Vector2( -336.251, 710.502 )
@@ -933,41 +942,6 @@ position = Vector2( -1256.16, 296.639 )
 [node name="tableChairsBroken_E" parent="YSort/worldMap/heavenlyHall/PortalRoom/stuffs" instance=ExtResource( 54 )]
 position = Vector2( -1156.65, 438.364 )
 
-[node name="stuffs" type="YSort" parent="YSort/worldMap"]
-
-[node name="barrelsStacked_E" parent="YSort/worldMap/stuffs" instance=ExtResource( 30 )]
-position = Vector2( -1272, -560 )
-
-[node name="barrelsStacked_E2" parent="YSort/worldMap/stuffs" instance=ExtResource( 30 )]
-position = Vector2( -1664, -384 )
-
-[node name="barrelsStacked_N" parent="YSort/worldMap/stuffs" instance=ExtResource( 29 )]
-position = Vector2( 552, -1152 )
-
-[node name="barrelsStacked_N2" parent="YSort/worldMap/stuffs" instance=ExtResource( 29 )]
-position = Vector2( 1807, -526 )
-
-[node name="barrelsStacked_N3" parent="YSort/worldMap/stuffs" instance=ExtResource( 29 )]
-position = Vector2( 1607, -638 )
-
-[node name="barrel_W" parent="YSort/worldMap/stuffs" instance=ExtResource( 57 )]
-position = Vector2( -394.667, 737.113 )
-
-[node name="barrel_W3" parent="YSort/worldMap/stuffs" instance=ExtResource( 57 )]
-position = Vector2( -396.912, 768.542 )
-
-[node name="barrel_W2" parent="YSort/worldMap/stuffs" instance=ExtResource( 57 )]
-position = Vector2( -341.911, 756.195 )
-
-[node name="barrelsStacked_E3" parent="YSort/worldMap/stuffs" instance=ExtResource( 59 )]
-position = Vector2( -646.718, 850.932 )
-
-[node name="woodenPile_S" parent="YSort/worldMap/stuffs" instance=ExtResource( 60 )]
-position = Vector2( -1467.06, 846.336 )
-
-[node name="woodenCrates_S" parent="YSort/worldMap/stuffs" instance=ExtResource( 58 )]
-position = Vector2( -1474.33, 800.845 )
-
 [node name="restaurant" type="YSort" parent="YSort/worldMap"]
 position = Vector2( -2.37842, 0 )
 
@@ -1030,17 +1004,17 @@ position = Vector2( 2190.43, 1343.35 )
 [node name="stoneWall_N8" parent="YSort/worldMap/restaurant/walls" instance=ExtResource( 18 )]
 position = Vector2( 2070.55, 1279.02 )
 
-[node name="stoneWallWindow_S9" parent="YSort/worldMap/restaurant/walls" instance=ExtResource( 19 )]
-position = Vector2( 1686.34, 1093.08 )
-
-[node name="stoneWall_N5" parent="YSort/worldMap/restaurant/walls" instance=ExtResource( 18 )]
-position = Vector2( 1565.81, 1026.65 )
-
 [node name="stoneWall_N6" parent="YSort/worldMap/restaurant/walls" instance=ExtResource( 18 )]
-position = Vector2( 1823.22, 1158.37 )
+position = Vector2( 1814.22, 1150.37 )
+
+[node name="stoneWall_N9" parent="YSort/worldMap/restaurant/walls" instance=ExtResource( 18 )]
+position = Vector2( 1567.59, 1023.83 )
 
 [node name="stoneWall_W49" parent="YSort/worldMap/restaurant/walls" instance=ExtResource( 9 )]
 position = Vector2( 2123.85, 1576.2 )
+
+[node name="stoneWallGateOpen_S3" parent="YSort/worldMap/restaurant/walls" instance=ExtResource( 3 )]
+position = Vector2( 1677.01, 1107.47 )
 
 [node name="stoneWallGateOpen_E" parent="YSort/worldMap/restaurant/walls" instance=ExtResource( 66 )]
 position = Vector2( 100.827, 1257.09 )
@@ -1076,7 +1050,7 @@ position = Vector2( 6.67419, 49.3891 )
 position = Vector2( 774.347, 1287.04 )
 
 [node name="candleStandDouble_W2" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 32 )]
-position = Vector2( 1224.19, 1070.79 )
+position = Vector2( 1224.19, 1068.27 )
 
 [node name="candleStandDouble_W3" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 32 )]
 position = Vector2( 1509.84, 1176.25 )
@@ -1130,7 +1104,7 @@ position = Vector2( 617.692, 1501.02 )
 position = Vector2( 2035.57, 1392.32 )
 
 [node name="tableRoundChairs_E9" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 71 )]
-position = Vector2( 1146.65, 1540.42 )
+position = Vector2( 1134.05, 1530.34 )
 
 [node name="woodenCrates_N" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 67 )]
 position = Vector2( 2210.8, 1393.91 )
@@ -1145,10 +1119,10 @@ position = Vector2( 2180.51, 1427.77 )
 position = Vector2( 2171.6, 1388.57 )
 
 [node name="woodenPile_E" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 73 )]
-position = Vector2( 913.65, 868.28 )
+position = Vector2( 905.641, 818.891 )
 
 [node name="woodenPile_N" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 74 )]
-position = Vector2( 1006.3, 805.917 )
+position = Vector2( 998.295, 756.528 )
 
 [node name="stoneColumn_N7" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 28 )]
 position = Vector2( 1186.41, 932.938 )
@@ -1157,7 +1131,19 @@ position = Vector2( 1186.41, 932.938 )
 position = Vector2( 804.234, 1129.58 )
 
 [node name="stoneColumn_N13" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 28 )]
-position = Vector2( 1336.71, 1439 )
+position = Vector2( 1334.19, 1436.48 )
+
+[node name="longTableDecoratedChairs_E" parent="YSort/worldMap/restaurant/stuffs/stoneColumn_N13" instance=ExtResource( 81 )]
+position = Vector2( 1408.12, -841.773 )
+
+[node name="longTableDecoratedChairs_E2" parent="YSort/worldMap/restaurant/stuffs/stoneColumn_N13" instance=ExtResource( 81 )]
+position = Vector2( 1665.14, -715.781 )
+
+[node name="stoneColumn_N15" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 28 )]
+position = Vector2( 1334.19, 1436.48 )
+
+[node name="longTableDecoratedChairs_E" parent="YSort/worldMap/restaurant/stuffs/stoneColumn_N15" instance=ExtResource( 81 )]
+position = Vector2( 1871.77, -1071.08 )
 
 [node name="stoneColumn_N14" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 28 )]
 position = Vector2( 1056.36, 1269.91 )
@@ -1171,7 +1157,267 @@ position = Vector2( 370.466, 1349.52 )
 [node name="stoneColumn_N12" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 28 )]
 position = Vector2( 913.806, 1631.32 )
 
-[node name="candleStandDouble_N3" parent="YSort/worldMap/restaurant/stuffs" instance=ExtResource( 31 )]
-position = Vector2( -173.389, 1541.99 )
+[node name="construction" type="YSort" parent="YSort/worldMap"]
+position = Vector2( 1672.34, -893.48 )
 
-[node name="candleStandDouble_S" parent="YSort/worldMap/restaurant/stuffs/candleStandDouble_N3" instance=ExtResource( 17 )]
+[node name="walls" type="YSort" parent="YSort/worldMap/construction"]
+
+[node name="stoneWallGateOpen_N" parent="YSort/worldMap/construction/walls" instance=ExtResource( 65 )]
+position = Vector2( 349.896, 1679.09 )
+
+[node name="stoneWallGateOpen_N2" parent="YSort/worldMap/construction/walls" instance=ExtResource( 65 )]
+position = Vector2( 475.076, 1742.68 )
+
+[node name="stoneWallGateOpen_N3" parent="YSort/worldMap/construction/walls" instance=ExtResource( 65 )]
+position = Vector2( 599.097, 1803.95 )
+
+[node name="stoneWallCorner_E" parent="YSort/worldMap/construction/walls" instance=ExtResource( 63 )]
+position = Vector2( -176, 1360 )
+
+[node name="stoneWallCorner_S" parent="YSort/worldMap/construction/walls" instance=ExtResource( 62 )]
+position = Vector2( 1013.41, 753.366 )
+
+[node name="stoneWallCorner_W" parent="YSort/worldMap/construction/walls" instance=ExtResource( 61 )]
+position = Vector2( 2341.41, 1419.51 )
+
+[node name="stoneWallCorner_N" parent="YSort/worldMap/construction/walls" instance=ExtResource( 64 )]
+position = Vector2( 1136.44, 2029.41 )
+
+[node name="stoneWallWindow_S" parent="YSort/worldMap/construction/walls" instance=ExtResource( 19 )]
+position = Vector2( -75.1271, 1450.17 )
+
+[node name="stoneWallWindow_S3" parent="YSort/worldMap/construction/walls" instance=ExtResource( 19 )]
+position = Vector2( 182.088, 1580.45 )
+
+[node name="stoneWallWindow_S2" parent="YSort/worldMap/construction/walls" instance=ExtResource( 19 )]
+position = Vector2( 684.93, 1832.7 )
+
+[node name="stoneWall_N" parent="YSort/worldMap/construction/walls" instance=ExtResource( 18 )]
+position = Vector2( 61.5543, 1516.02 )
+
+[node name="stoneWallWindow_S4" parent="YSort/worldMap/construction/walls" instance=ExtResource( 19 )]
+position = Vector2( 941.394, 1961.63 )
+
+[node name="stoneWall_N2" parent="YSort/worldMap/construction/walls" instance=ExtResource( 18 )]
+position = Vector2( 821.511, 1897.3 )
+
+[node name="stoneWallWindow_S10" parent="YSort/worldMap/construction/walls" instance=ExtResource( 19 )]
+position = Vector2( 1173.91, 831.887 )
+
+[node name="stoneWallWindow_S12" parent="YSort/worldMap/construction/walls" instance=ExtResource( 19 )]
+position = Vector2( 1932.29, 1214.42 )
+
+[node name="stoneWall_N7" parent="YSort/worldMap/construction/walls" instance=ExtResource( 18 )]
+position = Vector2( 1310.59, 897.736 )
+
+[node name="stoneWallWindow_S13" parent="YSort/worldMap/construction/walls" instance=ExtResource( 19 )]
+position = Vector2( 2190.43, 1343.35 )
+
+[node name="stoneWall_N8" parent="YSort/worldMap/construction/walls" instance=ExtResource( 18 )]
+position = Vector2( 2070.55, 1279.02 )
+
+[node name="stoneWall_N6" parent="YSort/worldMap/construction/walls" instance=ExtResource( 18 )]
+position = Vector2( 1813.13, 1149.96 )
+
+[node name="stoneWall_W49" parent="YSort/worldMap/construction/walls" instance=ExtResource( 9 )]
+position = Vector2( 2123.85, 1576.2 )
+
+[node name="stoneWallGateOpen_E" parent="YSort/worldMap/construction/walls" instance=ExtResource( 66 )]
+position = Vector2( 100.827, 1257.09 )
+
+[node name="stoneWallGateOpen_E2" parent="YSort/worldMap/construction/walls" instance=ExtResource( 66 )]
+position = Vector2( 358.089, 1129.58 )
+
+[node name="stoneWall_W50" parent="YSort/worldMap/construction/walls" instance=ExtResource( 9 )]
+position = Vector2( 1866.49, 1702.95 )
+
+[node name="stoneWall_W52" parent="YSort/worldMap/construction/walls" instance=ExtResource( 9 )]
+position = Vector2( 1609.65, 1830.49 )
+
+[node name="stoneWall_W53" parent="YSort/worldMap/construction/walls" instance=ExtResource( 9 )]
+position = Vector2( 1353.31, 1958.75 )
+
+[node name="stoneWall_W54" parent="YSort/worldMap/construction/walls" instance=ExtResource( 9 )]
+position = Vector2( 754.644, 891.335 )
+
+[node name="stoneWall_W55" parent="YSort/worldMap/construction/walls" instance=ExtResource( 9 )]
+position = Vector2( 497.291, 1018.09 )
+
+[node name="stoneWall_W56" parent="YSort/worldMap/construction/walls" instance=ExtResource( 9 )]
+position = Vector2( 240.445, 1145.63 )
+
+[node name="stoneWall_W57" parent="YSort/worldMap/construction/walls" instance=ExtResource( 9 )]
+position = Vector2( -15.8879, 1273.88 )
+
+[node name="stoneWallGateOpen_S4" parent="YSort/worldMap/construction/walls" instance=ExtResource( 3 )]
+position = Vector2( 1419.34, 979.883 )
+
+[node name="stoneWallGateOpen_S5" parent="YSort/worldMap/construction/walls" instance=ExtResource( 3 )]
+position = Vector2( 1545.2, 1042.11 )
+
+[node name="stoneWallGateOpen_S6" parent="YSort/worldMap/construction/walls" instance=ExtResource( 3 )]
+position = Vector2( 1671.07, 1104.33 )
+
+[node name="stuffs" type="YSort" parent="YSort/worldMap/construction"]
+position = Vector2( 6.67419, 49.3891 )
+
+[node name="stoneWallWindow_E22" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 21 )]
+position = Vector2( 2205.92, 1473.3 )
+
+[node name="stoneWallWindow_E23" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 21 )]
+position = Vector2( 1954.49, 1599.01 )
+
+[node name="stoneWallWindow_E24" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 21 )]
+position = Vector2( 1695.57, 1725.24 )
+
+[node name="stoneWallWindow_E27" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 21 )]
+position = Vector2( 840.495, 786.37 )
+
+[node name="stoneWallWindow_E25" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 21 )]
+position = Vector2( 1440.4, 1852.93 )
+
+[node name="stoneWallWindow_E26" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 21 )]
+position = Vector2( 584.839, 912.555 )
+
+[node name="woodenCrates_N" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 67 )]
+position = Vector2( 2210.8, 1393.91 )
+
+[node name="woodenCrates_N2" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 67 )]
+position = Vector2( 2180.51, 1427.77 )
+
+[node name="woodenCrates_N3" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 67 )]
+position = Vector2( 2180.51, 1427.77 )
+
+[node name="woodenCrate_N" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 72 )]
+position = Vector2( 2171.6, 1388.57 )
+
+[node name="stoneColumn_N7" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 28 )]
+position = Vector2( 1186.41, 932.938 )
+
+[node name="stoneColumn_N8" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 28 )]
+position = Vector2( 804.234, 1129.58 )
+
+[node name="stoneColumn_N14" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 28 )]
+position = Vector2( 1026.12, 1262.35 )
+
+[node name="stoneColumn_N10" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 28 )]
+position = Vector2( 342.748, 1352.04 )
+
+[node name="stoneColumn_N15" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 28 )]
+position = Vector2( 1508.06, 1542.31 )
+
+[node name="stoneColumn_N16" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 28 )]
+position = Vector2( 1260.46, 1413.54 )
+
+[node name="stoneColumn_N11" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 28 )]
+position = Vector2( 1951.05, 1304.36 )
+
+[node name="stoneColumn_N17" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 28 )]
+position = Vector2( 1097.76, 1742.19 )
+
+[node name="displayCaseSword_N" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 77 )]
+position = Vector2( 979.56, 1896.06 )
+
+[node name="displayCaseSword_S4" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 76 )]
+position = Vector2( 1114.33, 815.664 )
+
+[node name="displayCaseOpen_E2" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 78 )]
+position = Vector2( 620.865, 923.215 )
+
+[node name="displayCaseOpen_S" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 79 )]
+position = Vector2( 1741.78, 1101.87 )
+
+[node name="displayCaseBooks_S" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 23 )]
+position = Vector2( 2004.95, 1245.32 )
+
+[node name="displayCaseBooks_N" parent="YSort/worldMap/construction/stuffs" instance=ExtResource( 22 )]
+position = Vector2( 740.649, 1782.72 )
+
+[node name="stuffs" type="YSort" parent="YSort/worldMap"]
+
+[node name="barrelsStacked_E" parent="YSort/worldMap/stuffs" instance=ExtResource( 30 )]
+position = Vector2( -1272, -560 )
+
+[node name="barrelsStacked_E2" parent="YSort/worldMap/stuffs" instance=ExtResource( 30 )]
+position = Vector2( -1664, -384 )
+
+[node name="barrelsStacked_N" parent="YSort/worldMap/stuffs" instance=ExtResource( 29 )]
+position = Vector2( 552, -1152 )
+
+[node name="barrelsStacked_N2" parent="YSort/worldMap/stuffs" instance=ExtResource( 29 )]
+position = Vector2( 1807, -526 )
+
+[node name="barrelsStacked_N3" parent="YSort/worldMap/stuffs" instance=ExtResource( 29 )]
+position = Vector2( 1607, -638 )
+
+[node name="barrel_W" parent="YSort/worldMap/stuffs" instance=ExtResource( 57 )]
+position = Vector2( -394.667, 737.113 )
+
+[node name="barrel_W3" parent="YSort/worldMap/stuffs" instance=ExtResource( 57 )]
+position = Vector2( -396.912, 768.542 )
+
+[node name="barrel_W2" parent="YSort/worldMap/stuffs" instance=ExtResource( 57 )]
+position = Vector2( -341.911, 756.195 )
+
+[node name="barrelsStacked_E3" parent="YSort/worldMap/stuffs" instance=ExtResource( 59 )]
+position = Vector2( -646.718, 850.932 )
+
+[node name="woodenPile_S" parent="YSort/worldMap/stuffs" instance=ExtResource( 60 )]
+position = Vector2( -1467.06, 846.336 )
+
+[node name="woodenCrates_S" parent="YSort/worldMap/stuffs" instance=ExtResource( 58 )]
+position = Vector2( -1474.33, 800.845 )
+
+[node name="rock_1" parent="YSort/worldMap/stuffs" instance=ExtResource( 69 )]
+position = Vector2( 2802.76, -575.083 )
+scale = Vector2( 3.05524, 1.93945 )
+
+[node name="rock_2" parent="YSort/worldMap/stuffs" instance=ExtResource( 75 )]
+position = Vector2( 960.206, 329.311 )
+scale = Vector2( 1.19395, 0.969725 )
+
+[node name="rock_3" parent="YSort/worldMap/stuffs" instance=ExtResource( 75 )]
+position = Vector2( 1023.2, 2103.28 )
+scale = Vector2( 1.19395, 0.969725 )
+
+[node name="longTableDecoratedChairsBooks_E" parent="YSort/worldMap/stuffs" instance=ExtResource( 80 )]
+position = Vector2( 2262.79, 374.469 )
+
+[node name="longTableDecoratedChairsBooks_E2" parent="YSort/worldMap/stuffs" instance=ExtResource( 80 )]
+position = Vector2( 3437.04, 545.818 )
+
+[node name="longTableDecoratedChairsBooks_E3" parent="YSort/worldMap/stuffs" instance=ExtResource( 80 )]
+position = Vector2( 2494.62, 510.54 )
+
+[node name="longTableDecoratedChairsBooks_E4" parent="YSort/worldMap/stuffs" instance=ExtResource( 80 )]
+position = Vector2( 2953.23, 276.195 )
+
+[node name="longTableDecoratedChairs_E" parent="YSort/worldMap/stuffs" instance=ExtResource( 81 )]
+position = Vector2( 2718.89, 167.842 )
+
+[node name="candleStandDouble_S3" parent="YSort/worldMap/stuffs" instance=ExtResource( 17 )]
+position = Vector2( 2154.44, 578.576 )
+
+[node name="candleStandDouble_S4" parent="YSort/worldMap/stuffs" instance=ExtResource( 17 )]
+position = Vector2( 2403.9, 717.167 )
+
+[node name="candleStandDouble_S5" parent="YSort/worldMap/stuffs" instance=ExtResource( 17 )]
+position = Vector2( 2660.93, 850.719 )
+
+[node name="candleStandDouble_S6" parent="YSort/worldMap/stuffs" instance=ExtResource( 17 )]
+position = Vector2( 2970.87, 167.842 )
+
+[node name="candleStandDouble_S7" parent="YSort/worldMap/stuffs" instance=ExtResource( 17 )]
+position = Vector2( 3220.33, 306.433 )
+
+[node name="candleStandDouble_S8" parent="YSort/worldMap/stuffs" instance=ExtResource( 17 )]
+position = Vector2( 3477.36, 439.985 )
+
+[node name="candleStandDouble_E" parent="YSort/worldMap/stuffs" instance=ExtResource( 82 )]
+position = Vector2( 2595.41, 361.87 )
+
+[node name="candleStandDouble_E2" parent="YSort/worldMap/stuffs" instance=ExtResource( 82 )]
+position = Vector2( 2824.72, 495.421 )
+
+[node name="candleStandDouble_E3" parent="YSort/worldMap/stuffs" instance=ExtResource( 82 )]
+position = Vector2( 3066.62, 641.572 )
