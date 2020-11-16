@@ -147,7 +147,7 @@ func _physics_process(delta):
 				else:
 					$AnimatedSprite.play(roll)
 					if(energy_discaunt == true):
-						print(energy_max_value)
+						#print(energy_max_value)
 						update_energy(energy_max_value)
 						energy_discaunt = false
 		
@@ -158,8 +158,9 @@ func _physics_process(delta):
 			else:
 				$AnimatedSprite.play(idle)
 				energy_bar.value = energy_bar.value + 0.9 #idle bonus
-				health_bar.value = health_bar.value +0 #idle bonus
-				health_max_value = health_bar.value
+				if (energy_bar.value == 1000):
+					health_bar.value = health_bar.value +0.6 #idle bonus
+					health_max_value = health_bar.value
 
 		energy_bar.value = energy_bar.value + 0.5
 		energy_max_value = energy_bar.value
@@ -173,15 +174,17 @@ func _physics_process(delta):
 			motion = motion.normalized()
 			motion = cartesian_to_isometric(motion)  * speed
 			move_and_slide(motion)
-	
+	else:
+		if($AnimatedSprite.frame == 32 and death_state == true):
+			get_tree().change_scene("res://scenes/ui/game-over/Game Over.tscn")
+
 func take_damage(damage):
 	if(death_state == false):
 		if(health_bar.value <= 0):
 			death_state = true
 			death = "death_" + direction_animation
 			$AnimatedSprite.play(death)
-			get_tree().change_scene("res://scenes/ui/game-over/Game Over.tscn")
-		
+
 		else:
 			health_max_value = round(health_max_value - damage)
 			update_health(health_max_value)
@@ -219,5 +222,5 @@ func _continue():
 func setTarget(obj):
 	if(target.get_instance_id() != obj.get_instance_id()):
 		var name = obj.name
-		print("Novo alvo setado: " + name)
+		#print("Novo alvo setado: " + name)
 		target = get_parent().get_node(name)

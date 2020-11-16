@@ -18,5 +18,5 @@ func _on_Credits_pressed():
 	$Sprite.modulate.r = 0.1
 	$Sprite.modulate.g = 0.1
 	$Sprite.modulate.b = 0.1
-	get_tree().change_scene("Credits.tscn")
+	get_tree().change_scene("res://scenes/ui/credits/Credits.tscn")
 	pass # Replace with function body.
