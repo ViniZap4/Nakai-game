@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://scenes/ui/menu/Assets/nakai_background.png" type="Texture" id=2]
 [ext_resource path="res://scenes/ui/menu/Start.gd" type="Script" id=3]
 [ext_resource path="res://scenes/ui/scripts/Get Out.gd" type="Script" id=4]
+[ext_resource path="res://scenes/ui/scripts/Credits.gd" type="Script" id=5]
 [ext_resource path="res://scenes/ui/menu/Assets/Rectangle 5.png" type="Texture" id=7]
 
 [sub_resource type="DynamicFont" id=1]
@@ -44,23 +45,23 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Start" type="Button" parent="."]
-margin_left = 532.359
-margin_top = 381.108
-margin_right = 844.359
-margin_bottom = 443.108
+[node name="Start2" type="Button" parent="."]
+margin_left = 529.689
+margin_top = 324.114
+margin_right = 841.689
+margin_bottom = 386.114
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
 "_edit_use_anchors_": false
 }
 
-[node name="Sprite" type="Sprite" parent="Start"]
+[node name="Sprite" type="Sprite" parent="Start2"]
 position = Vector2( 157, 31 )
 scale = Vector2( 0.79574, 0.735926 )
 texture = ExtResource( 7 )
 
-[node name="Label" type="Label" parent="Start"]
+[node name="Label" type="Label" parent="Start2"]
 margin_left = 48.0
 margin_top = 4.0
 margin_right = 265.0
@@ -71,11 +72,39 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="credits" type="Button" parent="."]
+margin_left = 528.02
+margin_top = 428.827
+margin_right = 840.02
+margin_bottom = 490.827
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="credits"]
+position = Vector2( 157, 31 )
+scale = Vector2( 0.79574, 0.735926 )
+texture = ExtResource( 7 )
+
+[node name="Label" type="Label" parent="credits"]
+margin_left = 48.0
+margin_top = 4.0
+margin_right = 265.0
+margin_bottom = 61.0
+custom_fonts/font = SubResource( 2 )
+text = "credits"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Get Out" type="Button" parent="."]
-margin_left = 535.829
-margin_top = 483.762
-margin_right = 841.829
-margin_bottom = 549.762
+margin_left = 533.159
+margin_top = 538.49
+margin_right = 839.159
+margin_bottom = 604.49
 custom_fonts/font = SubResource( 3 )
 script = ExtResource( 4 )
 __meta__ = {
@@ -99,9 +128,12 @@ align = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
-[connection signal="mouse_entered" from="Start" to="Start" method="_on_Start_mouse_entered"]
-[connection signal="mouse_exited" from="Start" to="Start" method="_on_Start_mouse_exited"]
-[connection signal="pressed" from="Start" to="Start" method="_on_Start_pressed"]
+[connection signal="mouse_entered" from="Start2" to="Start2" method="_on_Start_mouse_entered"]
+[connection signal="mouse_exited" from="Start2" to="Start2" method="_on_Start_mouse_exited"]
+[connection signal="pressed" from="Start2" to="Start2" method="_on_Start_pressed"]
+[connection signal="mouse_entered" from="credits" to="credits" method="_on_Credits_mouse_exited"]
+[connection signal="mouse_exited" from="credits" to="credits" method="_on_Credits_mouse_exited"]
+[connection signal="pressed" from="credits" to="credits" method="_on_Credits_pressed"]
 [connection signal="mouse_entered" from="Get Out" to="Get Out" method="_on_Get_Out_mouse_entered"]
 [connection signal="mouse_exited" from="Get Out" to="Get Out" method="_on_Get_Out_mouse_exited"]
 [connection signal="pressed" from="Get Out" to="Get Out" method="_on_Get_Out_pressed"]
