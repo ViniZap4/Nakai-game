@@ -26,6 +26,7 @@ var energy_max_value = 1000.0
 var health_max_value = 1000.0
 var vel_roll = Vector2(0,0)
 var energy = null;
+var cure = null;
 var damage_caused = null;
 var attacked = false;
 
@@ -72,39 +73,45 @@ func _physics_process(delta):
 				$Timer.connect("timeout", self, "_on_Timer_timeout")
 				$Timer.start()
 		
-		if Input.is_action_just_pressed("attack_one") and energy_bar.value >= 210:
-			if(energy_bar.value >= 210):	
-				attack_type = 1;
-				is_attack = true
-				energy = 210;
-				damage_caused = 340;
-				energy_max_value = round(energy_max_value - energy)
-				update_energy(energy_max_value)
-				$Timer_attack.wait_time = 1.5
-				init_timer_attack()
+		if Input.is_action_just_pressed("attack_one") and (energy_bar.value >= 210):
+			attack_type = 1;
+			is_attack = true
+			energy = 210;
+			damage_caused = 340;
+			energy_max_value = round(energy_max_value - energy)
+			update_energy(energy_max_value)
+			$Timer_attack.wait_time = 1.5
+			init_timer_attack()
 				
-		if Input.is_action_just_pressed("attack_two") and energy_bar.value >= 180:
-			if(energy_bar.value >= 180):
-				attack_type = 2;
-				is_attack = true
-				energy = 180
-				damage_caused = 280
-				energy_max_value = round(energy_max_value - energy)
-				update_energy(energy_max_value)
-				$Timer_attack.wait_time = 1
-				init_timer_attack()
+		if Input.is_action_just_pressed("attack_two") and (energy_bar.value >= 180):
+			attack_type = 2;
+			is_attack = true
+			energy = 180
+			damage_caused = 280
+			energy_max_value = round(energy_max_value - energy)
+			update_energy(energy_max_value)
+			$Timer_attack.wait_time = 1
+			init_timer_attack()
 				
-		if Input.is_action_just_pressed("attack_tree"):
-			if(energy_bar.value >= 350):
-				attack_type = 3;
-				is_attack = true
-				energy = 350
-				damage_caused = 450
-				energy_max_value = round(energy_max_value - energy)
-				update_energy(energy_max_value)
-				$Timer_attack.wait_time = 1.90
-				init_timer_attack()
+		if Input.is_action_just_pressed("attack_tree") and (energy_bar.value >= 350):	
+			attack_type = 3;
+			is_attack = true
+			energy = 350
+			damage_caused = 450
+			energy_max_value = round(energy_max_value - energy)
+			update_energy(energy_max_value)
+			$Timer_attack.wait_time = 1.90
+			init_timer_attack()
+						
+		if Input.is_action_just_pressed("lifeUp") and (energy_bar.value >= 450):	
+			energy = 450
+			energy_max_value = round(energy_max_value - energy)
+			update_energy(energy_max_value)
+			cure = 400
+			health_max_value = round(health_max_value + cure)			
+			update_health(health_max_value)
 		
+	
 		if(Input.is_action_just_pressed("ui_pause")):
 			get_tree().paused = true
 			$Camera2D/Popup.show()
@@ -158,9 +165,8 @@ func _physics_process(delta):
 			else:
 				$AnimatedSprite.play(idle)
 				energy_bar.value = energy_bar.value + 0.9 #idle bonus
-				if (energy_bar.value == 1000):
-					health_bar.value = health_bar.value +0.6 #idle bonus
-					health_max_value = health_bar.value
+	
+
 
 		energy_bar.value = energy_bar.value + 0.5
 		energy_max_value = energy_bar.value
@@ -180,7 +186,7 @@ func _physics_process(delta):
 
 func take_damage(damage):
 	if(death_state == false):
-		if(health_bar.value <= 0):
+		if(health_bar.value <= 10):
 			death_state = true
 			death = "death_" + direction_animation
 			$AnimatedSprite.play(death)
@@ -193,7 +199,11 @@ func update_energy(new_value):
 	energy_bar.value = new_value
 	
 func update_health(new_value):
+	if (new_value >= 10000):
+		new_value = 10000
 	health_bar.value = new_value
+	print(health_bar.value)
+	health_max_value = health_bar.value
 	
 func regen_life():
 	health_bar.value = health_bar.value + 0.06

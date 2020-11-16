@@ -53,9 +53,9 @@ margin_left = 529.689
 margin_top = 324.114
 margin_right = 841.689
 margin_bottom = 386.114
+mouse_default_cursor_shape = 2
 script = ExtResource( 3 )
 __meta__ = {
-"_edit_group_": true,
 "_edit_use_anchors_": false
 }
 
@@ -69,6 +69,7 @@ margin_left = 48.0
 margin_top = 4.0
 margin_right = 265.0
 margin_bottom = 61.0
+mouse_default_cursor_shape = 2
 custom_fonts/font = SubResource( 2 )
 text = "COMEÇAR"
 __meta__ = {
@@ -80,9 +81,9 @@ margin_left = 528.02
 margin_top = 428.827
 margin_right = 840.02
 margin_bottom = 490.827
+mouse_default_cursor_shape = 2
 script = ExtResource( 5 )
 __meta__ = {
-"_edit_group_": true,
 "_edit_use_anchors_": false
 }
 
@@ -108,10 +109,10 @@ margin_left = 533.159
 margin_top = 538.49
 margin_right = 839.159
 margin_bottom = 604.49
+mouse_default_cursor_shape = 2
 custom_fonts/font = SubResource( 3 )
 script = ExtResource( 4 )
 __meta__ = {
-"_edit_group_": true,
 "_edit_lock_": true,
 "_edit_use_anchors_": false
 }
