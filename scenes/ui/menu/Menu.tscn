@@ -32,6 +32,9 @@ layer = -1
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
 texture = ExtResource( 2 )
 centered = false
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Label" type="Label" parent="."]
 margin_left = 415.342
@@ -91,7 +94,7 @@ texture = ExtResource( 7 )
 [node name="Label" type="Label" parent="credits"]
 margin_left = 48.0
 margin_top = 4.0
-margin_right = 265.0
+margin_right = 247.0
 margin_bottom = 61.0
 custom_fonts/font = SubResource( 2 )
 text = "credits"
@@ -109,6 +112,7 @@ custom_fonts/font = SubResource( 3 )
 script = ExtResource( 4 )
 __meta__ = {
 "_edit_group_": true,
+"_edit_lock_": true,
 "_edit_use_anchors_": false
 }
 

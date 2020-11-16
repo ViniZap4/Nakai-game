@@ -1,8 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://scenes/ui/menu/Assets/nakai_background.png" type="Texture" id=2]
 [ext_resource path="res://scenes/ui/credits/scripts/Credits.gd" type="Script" id=3]
+[ext_resource path="res://scenes/ui/props/backMenu.tscn" type="PackedScene" id=4]
+
 [sub_resource type="DynamicFont" id=1]
 size = 72
 outline_size = 20
@@ -23,14 +25,23 @@ script = ExtResource( 3 )
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground"]
+position = Vector2( 6.4386, -35.6762 )
+scale = Vector2( 0.987596, 0.987596 )
 texture = ExtResource( 2 )
 centered = false
 
+[node name="backMenu" parent="." instance=ExtResource( 4 )]
+margin_left = 981.172
+margin_top = 589.205
+margin_right = 1328.17
+margin_bottom = 672.205
+rect_scale = Vector2( 0.72, 0.72 )
+
 [node name="Label" type="Label" parent="."]
-margin_left = 477.608
-margin_top = 71.6995
-margin_right = 810.608
-margin_bottom = 157.699
+margin_left = 478.868
+margin_top = 18.7828
+margin_right = 811.868
+margin_bottom = 104.783
 custom_fonts/font = SubResource( 1 )
 text = "CRÉDITOS"
 __meta__ = {
@@ -38,10 +49,11 @@ __meta__ = {
 }
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 319.687
-margin_top = 309.491
-margin_right = 1000.69
-margin_bottom = 591.491
+margin_left = 317.994
+margin_top = 190.18
+margin_right = 998.997
+margin_bottom = 472.18
+rect_scale = Vector2( 1.01301, 1.18205 )
 custom_fonts/font = SubResource( 2 )
 text = "Brenda Aryelle Silva
 Felipe Eduardo Oliveira Moresqui
