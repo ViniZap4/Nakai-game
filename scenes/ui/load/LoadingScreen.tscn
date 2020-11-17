@@ -1,0 +1,73 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://scenes/ui/load/scripts/LoadingScreen.gd" type="Script" id=1]
+[ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://scenes/ui/hud/assets/health_bar.png" type="Texture" id=3]
+[ext_resource path="res://scenes/ui/load/assets/healthProgress.png" type="Texture" id=4]
+[ext_resource path="res://scenes/ui/load/assets/0001.png" type="Texture" id=5]
+
+[sub_resource type="StyleBoxTexture" id=4]
+texture = ExtResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=5]
+texture = ExtResource( 3 )
+expand_margin_left = 31.0
+expand_margin_right = 31.0
+expand_margin_top = 26.0
+expand_margin_bottom = 26.0
+
+[sub_resource type="DynamicFont" id=3]
+size = 27
+font_data = ExtResource( 2 )
+
+[sub_resource type="Animation" id=1]
+resource_name = "hide"
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[node name="LoadingScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Visual" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="0001" type="Sprite" parent="Visual"]
+position = Vector2( 680.252, 423.344 )
+scale = Vector2( 1.38803, 1.38803 )
+texture = ExtResource( 5 )
+
+[node name="LoadingBar" type="ProgressBar" parent="."]
+margin_left = 485.0
+margin_top = 545.0
+margin_right = 879.0
+margin_bottom = 592.0
+custom_styles/fg = SubResource( 4 )
+custom_styles/bg = SubResource( 5 )
+custom_fonts/font = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LoadTween" type="Tween" parent="."]
+
+[node name="LoadScreenAnim" type="AnimationPlayer" parent="."]
+anims/hide = SubResource( 1 )
