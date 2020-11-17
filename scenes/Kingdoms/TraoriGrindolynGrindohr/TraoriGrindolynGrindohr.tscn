@@ -3217,9 +3217,6 @@ position = Vector2( -5051.75, -291.516 )
 [node name="grass_3869" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4957.8, -327.787 )
 
-[node name="grass_3870" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5133.8, -320.652 )
-
 [node name="grass_3871" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -5180.01, -431.225 )
 
@@ -3481,12 +3478,6 @@ position = Vector2( -5356.55, 36.7933 )
 [node name="grass_3957" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -5532.55, 43.9291 )
 
-[node name="grass_3964" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5060.92, -557.537 )
-
-[node name="grass_3970" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5440.64, -579.549 )
-
 [node name="grass_3985" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -5718, -295.605 )
 
@@ -3499,48 +3490,6 @@ position = Vector2( -5866.82, -381.975 )
 [node name="grass_4022" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -5007.82, -511.315 )
 
-[node name="grass_4023" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5019.71, -447.693 )
-
-[node name="grass_4024" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4925.76, -483.964 )
-
-[node name="grass_4026" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4882.34, -436.564 )
-
-[node name="grass_4027" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4894.23, -372.942 )
-
-[node name="grass_4028" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4800.29, -409.213 )
-
-[node name="grass_4029" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4976.29, -402.077 )
-
-[node name="grass_4030" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5039.85, -355.139 )
-
-[node name="grass_4031" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5051.75, -291.516 )
-
-[node name="grass_4032" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4957.8, -327.787 )
-
-[node name="grass_4035" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5191.9, -367.602 )
-
-[node name="grass_4036" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5097.96, -403.873 )
-
-[node name="grass_4051" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4734.48, -373.585 )
-
-[node name="grass_4052" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4746.37, -309.963 )
-
-[node name="grass_4054" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4828.42, -339.098 )
-
 [node name="grass_4058" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4766.51, -217.409 )
 
@@ -3552,18 +3501,6 @@ position = Vector2( -4684.46, -190.057 )
 
 [node name="grass_4061" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4860.46, -182.922 )
-
-[node name="grass_4062" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4906.67, -293.495 )
-
-[node name="grass_4063" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4918.56, -229.872 )
-
-[node name="grass_4064" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4824.62, -266.143 )
-
-[node name="grass_4065" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5000.62, -259.008 )
 
 [node name="grass_4070" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4941.23, -135.747 )
@@ -3752,7 +3689,7 @@ position = Vector2( -5002.82, -813.46 )
 position = Vector2( -5066.39, -766.522 )
 
 [node name="grass_4153" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4903.26, -783.808 )
+position = Vector2( -5117.32, -712.455 )
 
 [node name="grass_4154" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -5101.44, -813.37 )
@@ -4013,7 +3950,7 @@ position = Vector2( -3490.72, -880.192 )
 position = Vector2( -3568.97, -834.588 )
 
 [node name="grass_4240" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3975.68, -799.172 )
+position = Vector2( -3975.68, -801.55 )
 
 [node name="grass_4241" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4121.3, -781.369 )
@@ -4147,86 +4084,8 @@ position = Vector2( -4309.14, -644.149 )
 [node name="grass_4284" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4485.14, -637.013 )
 
-[node name="grass_4285" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4221.04, -1340.58 )
-
-[node name="grass_4286" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4232.93, -1276.96 )
-
 [node name="grass_4287" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4138.98, -1313.23 )
-
-[node name="grass_4288" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4314.98, -1306.1 )
-
-[node name="grass_4289" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4095.56, -1265.83 )
-
-[node name="grass_4290" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4107.45, -1202.21 )
-
-[node name="grass_4291" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4013.51, -1238.48 )
-
-[node name="grass_4292" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4189.51, -1231.34 )
-
-[node name="grass_4293" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4253.07, -1184.41 )
-
-[node name="grass_4294" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4264.96, -1120.78 )
-
-[node name="grass_4295" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4171.02, -1157.05 )
-
-[node name="grass_4296" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4347.02, -1149.92 )
-
-[node name="grass_4297" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4393.23, -1260.49 )
-
-[node name="grass_4298" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4405.12, -1196.87 )
-
-[node name="grass_4299" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4311.17, -1233.14 )
-
-[node name="grass_4300" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4487.18, -1226.01 )
-
-[node name="grass_4301" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4553.27, -1177.49 )
-
-[node name="grass_4302" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4565.16, -1113.87 )
-
-[node name="grass_4303" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4471.21, -1150.14 )
-
-[node name="grass_4304" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4647.21, -1143.01 )
-
-[node name="grass_4305" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4427.79, -1102.74 )
-
-[node name="grass_4306" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4439.68, -1039.12 )
-
-[node name="grass_4307" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4345.74, -1075.39 )
-
-[node name="grass_4308" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4521.74, -1068.26 )
-
-[node name="grass_4309" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4585.3, -1021.32 )
-
-[node name="grass_4310" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4597.19, -957.696 )
-
-[node name="grass_4311" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4503.25, -993.967 )
 
 [node name="grass_4312" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4670.59, -976.547 )
@@ -4234,182 +4093,26 @@ position = Vector2( -4670.59, -976.547 )
 [node name="grass_4313" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4734.16, -929.609 )
 
-[node name="grass_4314" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4746.05, -865.986 )
-
-[node name="grass_4315" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4652.1, -902.257 )
-
-[node name="grass_4316" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4828.1, -895.122 )
-
-[node name="grass_4317" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4874.32, -1005.69 )
-
-[node name="grass_4318" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4886.21, -942.072 )
-
-[node name="grass_4319" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4792.26, -978.343 )
-
-[node name="grass_4320" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4968.26, -971.208 )
-
-[node name="grass_4321" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -5034.35, -922.698 )
-
-[node name="grass_4322" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4952.3, -895.346 )
-
 [node name="grass_4323" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4908.88, -847.947 )
-
-[node name="grass_4324" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4826.82, -820.595 )
 
 [node name="grass_4325" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -5002.82, -813.46 )
 
-[node name="grass_4326" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4421.14, -823.313 )
-
-[node name="grass_4327" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4484.71, -776.375 )
-
-[node name="grass_4328" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4496.6, -712.752 )
-
 [node name="grass_4329" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4402.65, -749.023 )
 
-[node name="grass_4330" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4578.65, -741.888 )
-
-[node name="grass_4331" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4624.86, -852.461 )
-
-[node name="grass_4332" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4636.75, -788.838 )
-
-[node name="grass_4333" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4542.81, -825.109 )
-
-[node name="grass_4334" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4718.81, -817.974 )
-
-[node name="grass_4335" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4784.9, -769.464 )
-
 [node name="grass_4336" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4796.79, -705.841 )
-
-[node name="grass_4337" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4702.84, -742.112 )
-
-[node name="grass_4338" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4659.42, -694.713 )
+position = Vector2( -5115.5, -646.38 )
 
 [node name="grass_4339" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4671.32, -631.09 )
+position = Vector2( -4649.91, -505.034 )
 
 [node name="grass_4340" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4577.37, -667.361 )
-
-[node name="grass_4341" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4753.37, -660.226 )
-
-[node name="grass_4342" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4816.94, -613.287 )
+position = Vector2( -5031.65, -605.522 )
 
 [node name="grass_4343" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4734.88, -585.936 )
-
-[node name="grass_4344" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4679.25, -986.832 )
-
-[node name="grass_4345" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4725.46, -1097.4 )
-
-[node name="grass_4346" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4737.35, -1033.78 )
-
-[node name="grass_4347" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4643.41, -1070.05 )
-
-[node name="grass_4348" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4819.41, -1062.92 )
-
-[node name="grass_4349" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3960.41, -1192.26 )
-
-[node name="grass_4350" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3972.3, -1128.63 )
-
-[node name="grass_4351" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3878.35, -1164.91 )
-
-[node name="grass_4352" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4054.36, -1157.77 )
-
-[node name="grass_4353" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3834.93, -1117.51 )
-
-[node name="grass_4354" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3846.83, -1053.88 )
-
-[node name="grass_4355" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3752.88, -1090.15 )
-
-[node name="grass_4356" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3928.88, -1083.02 )
-
-[node name="grass_4357" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3992.44, -1036.08 )
-
-[node name="grass_4358" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4004.34, -972.459 )
-
-[node name="grass_4359" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3910.39, -1008.73 )
-
-[node name="grass_4360" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4086.39, -1001.59 )
-
-[node name="grass_4361" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4132.6, -1112.17 )
-
-[node name="grass_4362" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4144.5, -1048.54 )
-
-[node name="grass_4363" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4050.55, -1084.82 )
-
-[node name="grass_4364" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4226.55, -1077.68 )
-
-[node name="grass_4365" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4292.64, -1029.17 )
-
-[node name="grass_4366" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4304.53, -965.547 )
-
-[node name="grass_4367" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4210.58, -1001.82 )
-
-[node name="grass_4368" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4386.58, -994.683 )
-
-[node name="grass_4369" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4167.16, -954.419 )
-
-[node name="grass_4370" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4179.06, -890.797 )
-
-[node name="grass_4371" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4085.11, -927.068 )
-
-[node name="grass_4372" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4261.11, -919.932 )
+position = Vector2( -4703.96, -467.015 )
 
 [node name="grass_4373" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4336.57, -809.371 )
@@ -4417,80 +4120,8 @@ position = Vector2( -4336.57, -809.371 )
 [node name="grass_4374" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4464.83, -949.08 )
 
-[node name="grass_4375" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4476.72, -885.457 )
-
-[node name="grass_4376" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4382.78, -921.728 )
-
-[node name="grass_4377" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4558.78, -914.593 )
-
-[node name="grass_4378" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3687.07, -1054.53 )
-
-[node name="grass_4379" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3698.96, -990.905 )
-
-[node name="grass_4380" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3605.01, -1027.18 )
-
-[node name="grass_4381" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3781.01, -1020.04 )
-
-[node name="grass_4382" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3561.59, -979.776 )
-
-[node name="grass_4383" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3573.48, -916.154 )
-
-[node name="grass_4384" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3655.54, -945.29 )
-
 [node name="grass_4385" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3719.1, -898.351 )
-
-[node name="grass_4386" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3731, -834.729 )
-
-[node name="grass_4387" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3637.05, -871 )
-
-[node name="grass_4388" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3813.05, -863.864 )
-
-[node name="grass_4389" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3859.26, -974.437 )
-
-[node name="grass_4390" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3871.15, -910.815 )
-
-[node name="grass_4391" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3777.21, -947.086 )
-
-[node name="grass_4392" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3953.21, -939.95 )
-
-[node name="grass_4393" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4019.3, -891.44 )
-
-[node name="grass_4394" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4031.19, -827.818 )
-
-[node name="grass_4395" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3937.24, -864.089 )
-
-[node name="grass_4396" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4113.24, -856.953 )
-
-[node name="grass_4397" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3893.82, -816.689 )
-
-[node name="grass_4398" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4191.49, -811.35 )
-
-[node name="grass_4399" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4203.38, -747.727 )
 
 [node name="grass_4400" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4285.44, -776.863 )
@@ -4498,104 +4129,23 @@ position = Vector2( -4285.44, -776.863 )
 [node name="grass_4401" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3490.72, -880.192 )
 
-[node name="grass_4402" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3568.97, -834.588 )
-
-[node name="grass_4403" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3975.68, -799.172 )
-
-[node name="grass_4404" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4121.3, -781.369 )
-
-[node name="grass_4405" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4133.19, -717.746 )
-
-[node name="grass_4406" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4039.25, -754.017 )
-
-[node name="grass_4407" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3815.92, -799.815 )
-
-[node name="grass_4408" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3827.81, -736.193 )
-
-[node name="grass_4409" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3733.87, -772.464 )
-
-[node name="grass_4410" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3909.87, -765.328 )
-
-[node name="grass_4411" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3690.45, -725.064 )
-
-[node name="grass_4412" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3702.34, -661.442 )
-
-[node name="grass_4413" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3784.4, -690.577 )
-
-[node name="grass_4414" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3847.96, -643.639 )
-
-[node name="grass_4415" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3859.85, -580.016 )
-
-[node name="grass_4416" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3765.9, -616.287 )
-
-[node name="grass_4417" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3941.91, -609.152 )
-
-[node name="grass_4418" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3988.12, -719.725 )
-
 [node name="grass_4419" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4086.91, -593.173 )
 
 [node name="grass_4420" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3906.06, -692.373 )
 
-[node name="grass_4421" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4082.06, -685.238 )
-
 [node name="grass_4422" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4153, -546.447 )
 
-[node name="grass_4423" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3697.83, -579.876 )
-
-[node name="grass_4424" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4230.89, -687.968 )
-
-[node name="grass_4425" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4441.47, -574.967 )
-
 [node name="grass_4426" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4589.61, -555.593 )
+position = Vector2( -4565.83, -431.915 )
 
 [node name="grass_4427" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4507.56, -528.241 )
 
-[node name="grass_4428" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4251.04, -595.415 )
-
-[node name="grass_4429" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4262.93, -531.792 )
-
-[node name="grass_4430" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4344.98, -560.927 )
-
-[node name="grass_4431" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4391.19, -671.501 )
-
-[node name="grass_4432" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4403.08, -607.878 )
-
 [node name="grass_4433" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4309.14, -644.149 )
-
-[node name="grass_4434" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -4485.14, -637.013 )
 
 [node name="grass_4435" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3233.71, -2025.11 )
@@ -5098,15 +4648,6 @@ position = Vector2( -3325.86, -1175.75 )
 [node name="grass_4601" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3395.6, -1102.92 )
 
-[node name="grass_4602" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3313.55, -1075.57 )
-
-[node name="grass_4603" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3270.13, -1028.17 )
-
-[node name="grass_4604" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3105.22, -1045.45 )
-
 [node name="grass_4605" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3263.71, -1279.94 )
 
@@ -5578,9 +5119,6 @@ position = Vector2( -2797.86, -1289.83 )
 [node name="grass_4765" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3048.99, -1031.95 )
 
-[node name="grass_4766" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3224.99, -1024.81 )
-
 [node name="grass_4767" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3288.55, -977.873 )
 
@@ -5702,7 +5240,7 @@ position = Vector2( -3500.31, -742.547 )
 position = Vector2( -3512.2, -678.925 )
 
 [node name="grass_4807" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3418.26, -715.196 )
+position = Vector2( -3413.5, -715.196 )
 
 [node name="grass_4808" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2722.55, -847.995 )
@@ -5905,17 +5443,11 @@ position = Vector2( -4502.05, -175.071 )
 [node name="grass_4874" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4408.1, -211.343 )
 
-[node name="grass_4875" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3268.41, -1070.43 )
-
 [node name="grass_4876" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3131.04, -1059.3 )
 
 [node name="grass_4877" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3001.51, -1139.93 )
-
-[node name="grass_4878" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3048.99, -1031.95 )
 
 [node name="grass_4879" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3012.86, -1188.86 )
@@ -5926,128 +5458,29 @@ position = Vector2( -2844.49, -1257.89 )
 [node name="grass_4881" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2760.21, -1233.86 )
 
-[node name="grass_4882" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3206.5, -950.522 )
-
-[node name="grass_4883" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3382.5, -943.387 )
-
-[node name="grass_4884" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3428.71, -1053.96 )
-
-[node name="grass_4885" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3440.6, -990.337 )
-
-[node name="grass_4886" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3346.65, -1026.61 )
-
-[node name="grass_4887" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3506.69, -943.611 )
-
-[node name="grass_4888" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3463.27, -896.211 )
-
-[node name="grass_4889" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3475.16, -832.589 )
-
-[node name="grass_4890" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3381.22, -868.86 )
-
-[node name="grass_4891" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3456.62, -616.781 )
-
-[node name="grass_4892" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3438.13, -542.491 )
-
 [node name="grass_4893" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2919.52, -1073.41 )
 
 [node name="grass_4894" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3007.78, -922.102 )
-
-[node name="grass_4895" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2913.83, -958.373 )
-
-[node name="grass_4896" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3089.84, -951.238 )
-
-[node name="grass_4897" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2870.41, -910.974 )
-
-[node name="grass_4898" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2882.3, -847.351 )
+position = Vector2( -3007.78, -926.859 )
 
 [node name="grass_4899" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2788.36, -883.622 )
 
-[node name="grass_4900" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2964.36, -876.487 )
-
-[node name="grass_4901" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3027.92, -829.549 )
-
 [node name="grass_4902" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3039.82, -765.926 )
-
-[node name="grass_4903" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2945.87, -802.197 )
 
 [node name="grass_4904" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3121.87, -795.062 )
 
-[node name="grass_4905" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3168.08, -905.635 )
-
-[node name="grass_4906" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3179.97, -842.012 )
-
-[node name="grass_4907" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3086.03, -878.283 )
-
-[node name="grass_4908" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3262.03, -871.148 )
-
-[node name="grass_4909" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3328.12, -822.638 )
-
-[node name="grass_4910" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3340.01, -759.015 )
-
-[node name="grass_4911" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3246.06, -795.286 )
-
-[node name="grass_4912" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3422.06, -788.151 )
-
 [node name="grass_4913" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3202.64, -747.887 )
-
-[node name="grass_4914" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3214.53, -684.264 )
-
-[node name="grass_4915" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3120.59, -720.535 )
 
 [node name="grass_4916" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3296.59, -713.4 )
 
-[node name="grass_4917" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3372.04, -602.839 )
-
-[node name="grass_4918" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3500.31, -742.547 )
-
-[node name="grass_4919" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3512.2, -678.925 )
-
-[node name="grass_4920" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3418.26, -715.196 )
-
 [node name="grass_4921" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2722.55, -847.995 )
-
-[node name="grass_4922" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2734.44, -784.372 )
 
 [node name="grass_4923" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2640.49, -820.643 )
@@ -6076,41 +5509,17 @@ position = Vector2( -3600.25, -500.418 )
 [node name="grass_4931" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3776.25, -493.283 )
 
-[node name="grass_4932" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2894.74, -767.905 )
-
-[node name="grass_4933" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2906.63, -704.282 )
-
-[node name="grass_4934" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2812.69, -740.553 )
-
 [node name="grass_4935" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2988.69, -733.418 )
 
-[node name="grass_4936" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3054.77, -684.908 )
-
-[node name="grass_4937" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3066.67, -621.285 )
-
 [node name="grass_4938" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3900.44, -493.507 )
-
-[node name="grass_4939" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3148.72, -650.421 )
 
 [node name="grass_4940" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3857.02, -446.108 )
 
 [node name="grass_4941" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3226.97, -604.817 )
-
-[node name="grass_4942" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3238.86, -541.195 )
-
-[node name="grass_4943" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3320.92, -570.331 )
 
 [node name="grass_4944" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2526.2, -673.659 )
@@ -6120,12 +5529,6 @@ position = Vector2( -3532.17, -464.007 )
 
 [node name="grass_4946" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3938.88, -428.59 )
-
-[node name="grass_4947" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3156.78, -574.837 )
-
-[node name="grass_4948" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3168.67, -511.214 )
 
 [node name="grass_4949" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3074.72, -547.485 )
@@ -6172,17 +5575,11 @@ position = Vector2( -4185.88, -160.367 )
 [node name="grass_4963" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3869.26, -321.792 )
 
-[node name="grass_4964" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3117.54, -478.706 )
-
 [node name="grass_4965" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4251.97, -113.641 )
 
 [node name="grass_4966" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -3796.79, -147.069 )
-
-[node name="grass_4967" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -3266.37, -481.436 )
 
 [node name="grass_4969" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -4350, -162.608 )
@@ -12518,9 +11915,6 @@ position = Vector2( -2522.76, -941.32 )
 [node name="grass_5061" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2698.76, -934.184 )
 
-[node name="grass_5062" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2726.28, -747.994 )
-
 [node name="grass_5063" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2236.27, -874.426 )
 
@@ -12627,7 +12021,7 @@ position = Vector2( -2558.6, -858.099 )
 position = Vector2( -2604.81, -968.671 )
 
 [node name="grass_5098" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( -2703.61, -842.12 )
+position = Vector2( -2703.61, -844.498 )
 
 [node name="grass_5099" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -2522.76, -941.32 )
@@ -12869,89 +12263,14 @@ position = Vector2( 1447.63, 4490.82 )
 [node name="grass_5316" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1369.38, 4536.42 )
 
-[node name="grass_5341" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 846.167, 3775.72 )
-
-[node name="grass_5342" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 834.274, 3839.34 )
-
-[node name="grass_5343" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 928.221, 3803.07 )
-
-[node name="grass_5344" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 752.219, 3810.2 )
-
-[node name="grass_5345" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 971.641, 3850.47 )
-
-[node name="grass_5346" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 959.749, 3914.09 )
-
-[node name="grass_5347" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1053.7, 3877.82 )
-
-[node name="grass_5348" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 877.694, 3884.95 )
-
-[node name="grass_5349" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 814.13, 3931.89 )
-
-[node name="grass_5350" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 802.239, 3995.51 )
-
-[node name="grass_5351" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 896.186, 3959.24 )
-
-[node name="grass_5352" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 720.182, 3966.38 )
-
-[node name="grass_5353" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 673.971, 3855.81 )
-
-[node name="grass_5354" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 662.081, 3919.43 )
-
-[node name="grass_5355" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 756.028, 3883.16 )
-
 [node name="grass_5356" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 580.024, 3890.29 )
-
-[node name="grass_5357" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 513.936, 3938.8 )
-
-[node name="grass_5358" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 502.044, 4002.43 )
-
-[node name="grass_5359" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 595.991, 3966.16 )
-
-[node name="grass_5360" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 419.989, 3973.29 )
-
-[node name="grass_5361" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 639.411, 4013.55 )
-
-[node name="grass_5362" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 627.518, 4077.18 )
-
-[node name="grass_5363" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 721.466, 4040.91 )
 
 [node name="grass_5364" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 545.464, 4048.04 )
 
-[node name="grass_5365" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 481.899, 4094.98 )
-
-[node name="grass_5402" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 341.741, 4018.89 )
-
 [node name="grass_5403" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 329.85, 4082.52 )
-
-[node name="grass_5404" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 423.798, 4046.25 )
 
 [node name="grass_5405" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 247.794, 4053.38 )
@@ -12964,9 +12283,6 @@ position = Vector2( 1094.9, 3987.66 )
 
 [node name="grass_5408" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1188.85, 3951.39 )
-
-[node name="grass_5409" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1012.85, 3958.53 )
 
 [node name="grass_5410" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1232.27, 3998.79 )
@@ -12986,20 +12302,8 @@ position = Vector2( 1074.76, 4080.22 )
 [node name="grass_5416" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1156.81, 4107.57 )
 
-[node name="grass_5418" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 934.6, 4004.13 )
-
-[node name="grass_5419" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 922.708, 4067.75 )
-
 [node name="grass_5420" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1016.66, 4031.48 )
-
-[node name="grass_5421" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 840.653, 4038.62 )
-
-[node name="grass_5422" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 774.565, 4087.13 )
 
 [node name="grass_5435" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1380.14, 4061.77 )
@@ -13073,9 +12377,6 @@ position = Vector2( 1847.54, 3073.69 )
 [node name="grass_5494" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1835.64, 3137.31 )
 
-[node name="grass_5495" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1929.59, 3101.04 )
-
 [node name="grass_5496" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1753.59, 3108.17 )
 
@@ -13096,12 +12397,6 @@ position = Vector2( 1815.5, 3229.86 )
 
 [node name="grass_5502" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1803.61, 3293.49 )
-
-[node name="grass_5503" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1897.56, 3257.22 )
-
-[node name="grass_5504" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1721.55, 3264.35 )
 
 [node name="grass_5505" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1675.34, 3153.78 )
@@ -13132,12 +12427,6 @@ position = Vector2( 1640.78, 3311.53 )
 
 [node name="grass_5514" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1628.89, 3375.15 )
-
-[node name="grass_5515" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1722.83, 3338.88 )
-
-[node name="grass_5516" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1546.83, 3346.01 )
 
 [node name="grass_5517" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1483.27, 3392.95 )
@@ -13178,9 +12467,6 @@ position = Vector2( 1100.31, 3443.06 )
 [node name="grass_5529" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1034.22, 3491.57 )
 
-[node name="grass_5530" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1022.33, 3555.19 )
-
 [node name="grass_5531" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1116.28, 3518.92 )
 
@@ -13201,9 +12487,6 @@ position = Vector2( 1065.75, 3600.81 )
 
 [node name="grass_5537" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1002.18, 3647.75 )
-
-[node name="grass_5538" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1165.31, 3630.46 )
 
 [node name="grass_5539" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 967.132, 3600.9 )
@@ -13337,12 +12620,6 @@ position = Vector2( 2158.18, 3405.54 )
 [node name="grass_5582" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1982.18, 3412.68 )
 
-[node name="grass_5583" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1935.97, 3302.1 )
-
-[node name="grass_5584" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1924.08, 3365.73 )
-
 [node name="grass_5585" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2018.02, 3329.45 )
 
@@ -13357,9 +12634,6 @@ position = Vector2( 1764.04, 3448.72 )
 
 [node name="grass_5589" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1857.99, 3412.45 )
-
-[node name="grass_5590" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1681.99, 3419.59 )
 
 [node name="grass_5591" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1901.41, 3459.85 )
@@ -13559,9 +12833,6 @@ position = Vector2( 1561.01, 3886.03 )
 [node name="grass_5656" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1604.43, 3933.43 )
 
-[node name="grass_5657" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1859.37, 3997.56 )
-
 [node name="grass_5658" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1755.39, 3923.05 )
 
@@ -13598,15 +12869,6 @@ position = Vector2( 1759.43, 3770.12 )
 [node name="grass_5669" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1583.43, 3777.26 )
 
-[node name="grass_5670" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1847.54, 3073.69 )
-
-[node name="grass_5671" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1835.64, 3137.31 )
-
-[node name="grass_5672" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1929.59, 3101.04 )
-
 [node name="grass_5673" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1753.59, 3108.17 )
 
@@ -13619,62 +12881,20 @@ position = Vector2( 1961.12, 3212.06 )
 [node name="grass_5676" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2055.07, 3175.79 )
 
-[node name="grass_5677" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1879.06, 3182.93 )
-
-[node name="grass_5678" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1815.5, 3229.86 )
-
 [node name="grass_5679" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1803.61, 3293.49 )
 
-[node name="grass_5680" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1897.56, 3257.22 )
-
-[node name="grass_5681" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1721.55, 3264.35 )
-
-[node name="grass_5682" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1675.34, 3153.78 )
-
-[node name="grass_5683" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1663.45, 3217.4 )
-
-[node name="grass_5684" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1757.4, 3181.13 )
-
-[node name="grass_5685" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1581.39, 3188.27 )
-
-[node name="grass_5686" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1515.31, 3236.78 )
-
-[node name="grass_5687" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1503.41, 3300.4 )
-
-[node name="grass_5688" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1597.36, 3264.13 )
-
 [node name="grass_5689" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1421.36, 3271.26 )
-
-[node name="grass_5690" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1640.78, 3311.53 )
 
 [node name="grass_5691" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1628.89, 3375.15 )
 
 [node name="grass_5692" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1722.83, 3338.88 )
+position = Vector2( 1661.39, 3334.64 )
 
 [node name="grass_5693" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1546.83, 3346.01 )
-
-[node name="grass_5694" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1483.27, 3392.95 )
-
-[node name="grass_5695" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1471.38, 3456.57 )
+position = Vector2( 1542.59, 3346.01 )
 
 [node name="grass_5696" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1565.32, 3420.3 )
@@ -13682,107 +12902,11 @@ position = Vector2( 1565.32, 3420.3 )
 [node name="grass_5697" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1397.98, 3437.72 )
 
-[node name="grass_5698" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1334.41, 3484.66 )
-
-[node name="grass_5699" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1322.52, 3548.28 )
-
-[node name="grass_5700" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1416.47, 3512.01 )
-
-[node name="grass_5701" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1240.47, 3519.15 )
-
-[node name="grass_5702" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1194.26, 3408.58 )
-
-[node name="grass_5703" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1182.36, 3472.2 )
-
-[node name="grass_5704" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1276.31, 3435.93 )
-
-[node name="grass_5705" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1100.31, 3443.06 )
-
-[node name="grass_5706" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1034.22, 3491.57 )
-
-[node name="grass_5707" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1116.28, 3518.92 )
-
-[node name="grass_5708" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1159.7, 3566.32 )
-
-[node name="grass_5709" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1241.75, 3593.67 )
-
 [node name="grass_5710" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1065.75, 3600.81 )
 
-[node name="grass_5711" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1647.43, 3590.96 )
-
-[node name="grass_5712" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1583.87, 3637.9 )
-
-[node name="grass_5713" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1571.98, 3701.52 )
-
-[node name="grass_5714" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1665.92, 3665.25 )
-
-[node name="grass_5715" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1489.92, 3672.38 )
-
-[node name="grass_5716" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1443.71, 3561.81 )
-
-[node name="grass_5717" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1431.82, 3625.43 )
-
-[node name="grass_5718" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1525.76, 3589.16 )
-
-[node name="grass_5719" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1349.76, 3596.3 )
-
-[node name="grass_5720" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1283.67, 3644.81 )
-
-[node name="grass_5721" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1271.78, 3708.43 )
-
-[node name="grass_5722" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1365.73, 3672.16 )
-
-[node name="grass_5723" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1409.15, 3719.56 )
-
-[node name="grass_5724" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1397.25, 3783.18 )
-
-[node name="grass_5725" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1491.2, 3746.91 )
-
-[node name="grass_5726" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1315.2, 3754.04 )
-
-[node name="grass_5727" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1251.64, 3800.98 )
-
-[node name="grass_5728" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1333.69, 3828.33 )
-
-[node name="grass_5729" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1389.32, 3427.44 )
-
 [node name="grass_5730" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1343.11, 3316.87 )
-
-[node name="grass_5731" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1331.22, 3380.49 )
 
 [node name="grass_5732" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1425.17, 3344.22 )
@@ -13790,215 +12914,32 @@ position = Vector2( 1425.17, 3344.22 )
 [node name="grass_5733" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1249.16, 3351.35 )
 
-[node name="grass_5734" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2108.16, 3222.01 )
-
-[node name="grass_5735" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2096.27, 3285.64 )
-
-[node name="grass_5736" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2190.22, 3249.36 )
-
-[node name="grass_5737" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2014.22, 3256.5 )
-
-[node name="grass_5738" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2233.64, 3296.76 )
-
-[node name="grass_5739" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2221.75, 3360.39 )
-
 [node name="grass_5740" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2315.69, 3324.12 )
-
-[node name="grass_5741" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2139.69, 3331.25 )
 
 [node name="grass_5742" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2076.13, 3378.19 )
 
-[node name="grass_5743" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2064.24, 3441.81 )
-
-[node name="grass_5744" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2158.18, 3405.54 )
-
 [node name="grass_5745" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1982.18, 3412.68 )
-
-[node name="grass_5746" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1935.97, 3302.1 )
-
-[node name="grass_5747" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1924.08, 3365.73 )
+position = Vector2( 1916.49, 3319.44 )
 
 [node name="grass_5748" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2018.02, 3329.45 )
-
-[node name="grass_5749" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1842.02, 3336.59 )
-
-[node name="grass_5750" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1775.93, 3385.1 )
-
-[node name="grass_5751" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1764.04, 3448.72 )
-
-[node name="grass_5752" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1857.99, 3412.45 )
-
-[node name="grass_5753" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1681.99, 3419.59 )
-
-[node name="grass_5754" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1901.41, 3459.85 )
-
-[node name="grass_5755" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1889.52, 3523.47 )
-
-[node name="grass_5756" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1983.46, 3487.2 )
-
-[node name="grass_5757" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1807.46, 3494.34 )
-
-[node name="grass_5758" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1732.01, 3604.9 )
+position = Vector2( 1755.28, 3541.35 )
 
 [node name="grass_5759" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1603.74, 3465.19 )
 
-[node name="grass_5760" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1591.85, 3528.81 )
-
 [node name="grass_5761" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1685.8, 3492.54 )
-
-[node name="grass_5762" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1509.79, 3499.68 )
-
-[node name="grass_5763" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2381.5, 3359.74 )
-
-[node name="grass_5764" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2369.61, 3423.37 )
-
-[node name="grass_5765" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2463.56, 3387.09 )
-
-[node name="grass_5766" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2287.56, 3394.23 )
-
-[node name="grass_5767" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2506.98, 3434.49 )
-
-[node name="grass_5768" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2495.09, 3498.12 )
-
-[node name="grass_5769" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2413.03, 3468.98 )
-
-[node name="grass_5770" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2349.47, 3515.92 )
-
-[node name="grass_5771" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2337.58, 3579.54 )
 
 [node name="grass_5772" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2431.52, 3543.27 )
 
-[node name="grass_5773" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2255.52, 3550.41 )
-
-[node name="grass_5774" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2209.31, 3439.83 )
-
-[node name="grass_5775" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2197.42, 3503.46 )
-
-[node name="grass_5776" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2291.37, 3467.18 )
-
-[node name="grass_5777" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2115.36, 3474.32 )
-
 [node name="grass_5778" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2049.28, 3522.83 )
-
-[node name="grass_5779" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2037.38, 3586.45 )
-
-[node name="grass_5780" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2131.33, 3550.18 )
+position = Vector2( 1720.84, 3281.27 )
 
 [node name="grass_5781" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1955.33, 3557.32 )
-
-[node name="grass_5782" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2174.75, 3597.58 )
-
-[node name="grass_5783" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1877.08, 3602.92 )
-
-[node name="grass_5784" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1865.19, 3666.54 )
-
-[node name="grass_5785" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1783.13, 3637.41 )
-
-[node name="grass_5786" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2577.85, 3534.08 )
-
-[node name="grass_5787" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2499.6, 3579.68 )
-
-[node name="grass_5788" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2092.89, 3615.1 )
-
-[node name="grass_5789" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1947.27, 3632.9 )
-
-[node name="grass_5790" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1935.38, 3696.52 )
-
-[node name="grass_5791" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2029.33, 3660.25 )
-
-[node name="grass_5792" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2252.65, 3614.46 )
-
-[node name="grass_5793" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2240.76, 3678.08 )
-
-[node name="grass_5794" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2334.71, 3641.81 )
-
-[node name="grass_5795" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2158.7, 3648.94 )
-
-[node name="grass_5796" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2378.13, 3689.21 )
-
-[node name="grass_5797" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2366.23, 3752.83 )
-
-[node name="grass_5798" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2284.18, 3723.69 )
-
-[node name="grass_5799" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2220.62, 3770.63 )
-
-[node name="grass_5800" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2208.72, 3834.25 )
-
-[node name="grass_5801" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2302.67, 3797.98 )
-
-[node name="grass_5802" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2126.67, 3805.12 )
-
-[node name="grass_5803" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2080.46, 3694.54 )
+position = Vector2( 1715.89, 3408.99 )
 
 [node name="grass_5804" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1981.66, 3821.1 )
@@ -14006,47 +12947,8 @@ position = Vector2( 1981.66, 3821.1 )
 [node name="grass_5805" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2162.51, 3721.9 )
 
-[node name="grass_5806" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1986.51, 3729.03 )
-
 [node name="grass_5807" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1915.57, 3867.82 )
-
-[node name="grass_5808" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2370.75, 3834.39 )
-
-[node name="grass_5809" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1837.68, 3726.3 )
-
-[node name="grass_5810" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1627.1, 3839.3 )
-
-[node name="grass_5811" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1478.96, 3858.68 )
-
-[node name="grass_5812" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1561.01, 3886.03 )
-
-[node name="grass_5813" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1817.54, 3818.86 )
-
-[node name="grass_5814" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1805.65, 3882.48 )
-
-[node name="grass_5815" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1723.59, 3853.34 )
-
-[node name="grass_5816" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1677.38, 3742.77 )
-
-[node name="grass_5817" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1665.49, 3806.39 )
-
-[node name="grass_5818" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1759.43, 3770.12 )
-
-[node name="grass_5819" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1583.43, 3777.26 )
 
 [node name="grass_5820" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2894.94, 2392.75 )
@@ -14290,9 +13192,6 @@ position = Vector2( 3143.68, 2604.69 )
 
 [node name="grass_5900" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3237.63, 2568.42 )
-
-[node name="grass_5901" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3061.62, 2575.56 )
 
 [node name="grass_5902" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3281.05, 2615.82 )
@@ -14579,122 +13478,14 @@ position = Vector2( 2806.84, 3089.18 )
 [node name="grass_5996" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2630.84, 3096.31 )
 
-[node name="grass_5997" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2894.94, 2392.75 )
-
-[node name="grass_5998" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2883.05, 2456.37 )
-
-[node name="grass_5999" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2977, 2420.1 )
-
-[node name="grass_6000" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2801, 2427.23 )
-
-[node name="grass_6001" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3020.42, 2467.5 )
-
-[node name="grass_6002" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3008.53, 2531.12 )
-
-[node name="grass_6003" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3102.47, 2494.85 )
-
-[node name="grass_6004" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2926.47, 2501.98 )
-
-[node name="grass_6005" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2862.91, 2548.92 )
-
-[node name="grass_6006" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2851.02, 2612.54 )
-
-[node name="grass_6007" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2944.96, 2576.27 )
-
-[node name="grass_6008" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2768.96, 2583.41 )
-
 [node name="grass_6009" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2722.75, 2472.84 )
-
-[node name="grass_6010" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2710.86, 2536.46 )
-
-[node name="grass_6011" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2804.81, 2500.19 )
-
-[node name="grass_6012" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2628.8, 2507.32 )
-
-[node name="grass_6013" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2562.71, 2555.83 )
-
-[node name="grass_6014" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2550.82, 2619.46 )
-
-[node name="grass_6015" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2644.77, 2583.18 )
-
-[node name="grass_6016" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2468.77, 2590.32 )
-
-[node name="grass_6017" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2688.19, 2630.58 )
 
 [node name="grass_6018" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2676.3, 2694.21 )
 
-[node name="grass_6019" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2770.24, 2657.94 )
-
-[node name="grass_6020" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2594.24, 2665.07 )
-
-[node name="grass_6021" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2530.68, 2712.01 )
-
-[node name="grass_6022" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2518.79, 2775.63 )
-
-[node name="grass_6023" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2612.73, 2739.36 )
-
 [node name="grass_6024" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2445.39, 2756.78 )
-
-[node name="grass_6025" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2381.82, 2803.72 )
-
-[node name="grass_6026" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2369.93, 2867.34 )
-
-[node name="grass_6027" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2463.88, 2831.07 )
-
-[node name="grass_6028" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2287.88, 2838.21 )
-
-[node name="grass_6029" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2241.67, 2727.63 )
-
-[node name="grass_6030" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2229.77, 2791.26 )
-
-[node name="grass_6031" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2323.72, 2754.98 )
-
-[node name="grass_6032" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2147.72, 2762.12 )
-
-[node name="grass_6033" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2081.63, 2810.63 )
-
-[node name="grass_6034" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2163.69, 2837.98 )
-
-[node name="grass_6035" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2207.11, 2885.38 )
 
 [node name="grass_6036" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2289.16, 2912.73 )
@@ -14702,197 +13493,11 @@ position = Vector2( 2289.16, 2912.73 )
 [node name="grass_6037" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2113.16, 2919.87 )
 
-[node name="grass_6038" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2694.84, 2910.01 )
-
-[node name="grass_6039" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2631.27, 2956.95 )
-
-[node name="grass_6040" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2619.38, 3020.58 )
-
-[node name="grass_6041" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2713.33, 2984.3 )
-
-[node name="grass_6042" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2537.33, 2991.44 )
-
-[node name="grass_6043" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2491.12, 2880.87 )
-
-[node name="grass_6044" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2479.23, 2944.49 )
-
-[node name="grass_6045" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2573.17, 2908.22 )
-
-[node name="grass_6046" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2397.17, 2915.35 )
-
-[node name="grass_6047" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2331.08, 2963.86 )
-
-[node name="grass_6048" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2319.19, 3027.49 )
-
-[node name="grass_6049" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2413.14, 2991.22 )
-
-[node name="grass_6050" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2456.56, 3038.61 )
-
-[node name="grass_6051" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2444.66, 3102.24 )
-
-[node name="grass_6052" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2538.61, 3065.97 )
-
-[node name="grass_6053" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2362.61, 3073.1 )
-
-[node name="grass_6054" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2299.04, 3120.04 )
-
-[node name="grass_6055" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2381.1, 3147.39 )
-
-[node name="grass_6056" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2436.73, 2746.5 )
-
 [node name="grass_6057" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2390.52, 2635.92 )
 
-[node name="grass_6058" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2378.63, 2699.55 )
-
-[node name="grass_6059" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2472.58, 2663.27 )
-
-[node name="grass_6060" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2296.57, 2670.41 )
-
-[node name="grass_6061" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3155.57, 2541.07 )
-
-[node name="grass_6062" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3143.68, 2604.69 )
-
-[node name="grass_6063" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3237.63, 2568.42 )
-
-[node name="grass_6064" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3061.62, 2575.56 )
-
-[node name="grass_6065" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3281.05, 2615.82 )
-
-[node name="grass_6066" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3269.16, 2679.44 )
-
-[node name="grass_6067" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3363.1, 2643.17 )
-
-[node name="grass_6068" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3187.1, 2650.31 )
-
-[node name="grass_6069" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3123.54, 2697.25 )
-
-[node name="grass_6070" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3111.64, 2760.87 )
-
-[node name="grass_6071" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3205.59, 2724.6 )
-
-[node name="grass_6072" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3029.59, 2731.73 )
-
-[node name="grass_6073" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2983.38, 2621.16 )
-
-[node name="grass_6074" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2971.49, 2684.78 )
-
-[node name="grass_6075" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3065.43, 2648.51 )
-
-[node name="grass_6076" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2889.43, 2655.65 )
-
-[node name="grass_6077" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2823.34, 2704.16 )
-
-[node name="grass_6078" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2811.45, 2767.78 )
-
-[node name="grass_6079" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2905.4, 2731.51 )
-
-[node name="grass_6080" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2729.4, 2738.64 )
-
-[node name="grass_6081" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2948.82, 2778.91 )
-
-[node name="grass_6082" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2936.93, 2842.53 )
-
-[node name="grass_6083" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3030.87, 2806.26 )
-
-[node name="grass_6084" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2854.87, 2813.4 )
-
-[node name="grass_6085" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2779.42, 2923.96 )
-
-[node name="grass_6086" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2651.15, 2784.25 )
-
-[node name="grass_6087" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2639.26, 2847.87 )
-
-[node name="grass_6088" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2733.2, 2811.6 )
-
-[node name="grass_6089" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2557.2, 2818.73 )
-
-[node name="grass_6090" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3428.91, 2678.8 )
-
-[node name="grass_6091" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3417.02, 2742.42 )
-
 [node name="grass_6092" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3510.97, 2703.16 )
-
-[node name="grass_6093" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3334.97, 2713.29 )
-
-[node name="grass_6094" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3554.39, 2753.55 )
-
-[node name="grass_6095" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3542.5, 2817.17 )
-
-[node name="grass_6096" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3460.44, 2788.04 )
-
-[node name="grass_6097" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3396.88, 2834.98 )
-
-[node name="grass_6098" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3384.99, 2898.6 )
-
-[node name="grass_6099" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3478.93, 2862.33 )
-
-[node name="grass_6100" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3302.93, 2869.46 )
-
-[node name="grass_6101" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3256.72, 2758.89 )
+position = Vector2( 3513.09, 2703.16 )
 
 [node name="grass_6102" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3244.83, 2822.51 )
@@ -14900,134 +13505,17 @@ position = Vector2( 3244.83, 2822.51 )
 [node name="grass_6103" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3338.77, 2786.24 )
 
-[node name="grass_6104" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3162.77, 2793.38 )
-
-[node name="grass_6105" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3096.69, 2841.89 )
-
-[node name="grass_6106" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3084.79, 2905.51 )
-
-[node name="grass_6107" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3178.74, 2869.24 )
-
-[node name="grass_6108" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3002.74, 2876.37 )
-
-[node name="grass_6109" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3222.16, 2916.64 )
-
 [node name="grass_6110" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2924.49, 2921.98 )
 
-[node name="grass_6111" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2912.6, 2985.6 )
-
-[node name="grass_6112" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2830.54, 2956.46 )
-
-[node name="grass_6113" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3625.26, 2853.14 )
-
-[node name="grass_6114" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3547.01, 2898.74 )
-
-[node name="grass_6115" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3140.3, 2934.16 )
-
 [node name="grass_6116" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2994.68, 2951.96 )
-
-[node name="grass_6117" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2982.79, 3015.58 )
-
-[node name="grass_6118" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3076.74, 2979.31 )
-
-[node name="grass_6119" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3300.06, 2933.51 )
-
-[node name="grass_6120" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3288.17, 2997.13 )
-
-[node name="grass_6121" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3382.11, 2960.86 )
-
-[node name="grass_6122" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3206.11, 2968 )
-
-[node name="grass_6123" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3425.53, 3008.26 )
+position = Vector2( 2994.68, 2949.84 )
 
 [node name="grass_6124" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3413.64, 3071.89 )
 
-[node name="grass_6125" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3331.59, 3042.75 )
-
-[node name="grass_6126" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3268.02, 3089.69 )
-
-[node name="grass_6127" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3256.13, 3153.31 )
-
-[node name="grass_6128" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3350.08, 3117.04 )
-
-[node name="grass_6129" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3174.08, 3124.18 )
-
-[node name="grass_6130" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3127.86, 3013.6 )
-
-[node name="grass_6131" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3029.07, 3140.15 )
-
-[node name="grass_6132" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3209.92, 3040.95 )
-
-[node name="grass_6133" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3033.92, 3048.09 )
-
-[node name="grass_6134" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2962.98, 3186.88 )
-
 [node name="grass_6135" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3418.16, 3153.45 )
-
-[node name="grass_6136" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2885.09, 3045.36 )
-
-[node name="grass_6137" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2674.51, 3158.36 )
-
-[node name="grass_6138" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2526.37, 3177.73 )
-
-[node name="grass_6139" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2608.42, 3205.09 )
-
-[node name="grass_6140" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2864.94, 3137.91 )
-
-[node name="grass_6141" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2853.05, 3201.54 )
-
-[node name="grass_6142" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2771, 3172.4 )
-
-[node name="grass_6143" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2724.79, 3061.83 )
-
-[node name="grass_6144" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2712.9, 3125.45 )
-
-[node name="grass_6145" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2806.84, 3089.18 )
-
-[node name="grass_6146" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2630.84, 3096.31 )
 
 [node name="grass_6147" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1793.04, 4305.98 )
@@ -15275,9 +13763,6 @@ position = Vector2( 4224.95, 1883.9 )
 [node name="grass_6228" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4048.95, 1891.03 )
 
-[node name="grass_6229" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4268.37, 1931.3 )
-
 [node name="grass_6230" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4256.48, 1994.92 )
 
@@ -15340,9 +13825,6 @@ position = Vector2( 3766.74, 2239.43 )
 
 [node name="grass_6250" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3638.47, 2099.72 )
-
-[node name="grass_6251" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3626.58, 2163.35 )
 
 [node name="grass_6252" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3720.53, 2127.07 )
@@ -15575,422 +14057,38 @@ position = Vector2( 1699.09, 4340.47 )
 [node name="grass_6328" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 754.473, 4637.28 )
 
-[node name="grass_6329" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3995.85, 1846.59 )
-
-[node name="grass_6330" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4089.8, 1810.32 )
-
-[node name="grass_6331" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3913.8, 1817.46 )
-
 [node name="grass_6332" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3850.23, 1864.4 )
-
-[node name="grass_6333" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3838.34, 1928.02 )
-
-[node name="grass_6334" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3932.29, 1891.75 )
-
-[node name="grass_6335" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3756.28, 1898.88 )
 
 [node name="grass_6336" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1620.84, 4386.07 )
 
-[node name="grass_6337" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3698.18, 1851.93 )
-
-[node name="grass_6338" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3792.13, 1815.66 )
-
-[node name="grass_6339" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3616.13, 1822.8 )
-
-[node name="grass_6340" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3550.04, 1871.31 )
-
-[node name="grass_6341" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3538.15, 1934.93 )
-
-[node name="grass_6342" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3632.09, 1898.66 )
-
-[node name="grass_6343" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3456.09, 1905.8 )
-
-[node name="grass_6344" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3675.51, 1946.06 )
-
-[node name="grass_6345" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3663.62, 2009.68 )
-
-[node name="grass_6346" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3757.57, 1973.41 )
-
-[node name="grass_6347" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3581.56, 1980.55 )
-
-[node name="grass_6348" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3518, 2027.48 )
-
-[node name="grass_6349" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3506.11, 2091.11 )
-
-[node name="grass_6350" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3600.06, 2054.84 )
-
-[node name="grass_6351" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3432.71, 2072.26 )
-
 [node name="grass_6352" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3369.15, 2119.19 )
-
-[node name="grass_6353" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3357.25, 2182.82 )
-
-[node name="grass_6354" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3451.2, 2146.55 )
-
-[node name="grass_6355" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3275.2, 2153.68 )
-
-[node name="grass_6356" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3228.99, 2043.11 )
-
-[node name="grass_6357" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3217.1, 2106.73 )
-
-[node name="grass_6358" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3311.04, 2070.46 )
-
-[node name="grass_6359" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3135.04, 2077.59 )
-
-[node name="grass_6360" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3068.95, 2126.11 )
-
-[node name="grass_6361" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3151.01, 2153.46 )
-
-[node name="grass_6362" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3194.43, 2200.86 )
-
-[node name="grass_6363" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3276.48, 2228.21 )
-
-[node name="grass_6364" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3100.48, 2235.34 )
-
-[node name="grass_6365" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3682.16, 2225.49 )
-
-[node name="grass_6366" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3618.6, 2272.43 )
-
-[node name="grass_6367" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3606.71, 2336.05 )
-
-[node name="grass_6368" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3700.65, 2299.78 )
-
-[node name="grass_6369" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3524.65, 2306.92 )
-
-[node name="grass_6370" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3478.44, 2196.34 )
-
-[node name="grass_6371" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3466.55, 2259.97 )
-
-[node name="grass_6372" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3560.5, 2223.69 )
-
-[node name="grass_6373" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3384.49, 2230.83 )
-
-[node name="grass_6374" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3318.4, 2279.34 )
-
-[node name="grass_6375" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3306.51, 2342.96 )
-
-[node name="grass_6376" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3400.46, 2306.69 )
-
-[node name="grass_6377" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3443.88, 2354.09 )
-
-[node name="grass_6378" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3431.99, 2417.71 )
-
-[node name="grass_6379" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3525.93, 2381.44 )
-
-[node name="grass_6380" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3349.93, 2388.58 )
-
-[node name="grass_6381" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3286.37, 2435.52 )
-
-[node name="grass_6382" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3368.42, 2462.87 )
-
-[node name="grass_6383" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3424.05, 2061.97 )
-
-[node name="grass_6384" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3377.84, 1951.4 )
-
-[node name="grass_6385" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3365.95, 2015.02 )
-
-[node name="grass_6386" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3459.9, 1978.75 )
-
-[node name="grass_6387" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3283.9, 1985.89 )
 
 [node name="grass_6388" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4142.9, 1856.55 )
 
-[node name="grass_6389" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4131, 1920.17 )
-
 [node name="grass_6390" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4224.95, 1883.9 )
-
-[node name="grass_6391" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4048.95, 1891.03 )
-
-[node name="grass_6392" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4268.37, 1931.3 )
-
-[node name="grass_6393" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4256.48, 1994.92 )
-
-[node name="grass_6394" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4350.43, 1958.65 )
-
-[node name="grass_6395" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4174.42, 1965.78 )
-
-[node name="grass_6396" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4110.86, 2012.72 )
-
-[node name="grass_6397" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4098.97, 2076.34 )
-
-[node name="grass_6398" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4192.91, 2040.07 )
-
-[node name="grass_6399" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4016.91, 2047.21 )
-
-[node name="grass_6400" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3970.7, 1936.64 )
-
-[node name="grass_6401" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3958.81, 2000.26 )
-
-[node name="grass_6402" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4052.76, 1963.99 )
-
-[node name="grass_6403" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3876.75, 1971.12 )
-
-[node name="grass_6404" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3810.67, 2019.63 )
-
-[node name="grass_6405" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3798.77, 2083.26 )
-
-[node name="grass_6406" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3892.72, 2046.98 )
-
-[node name="grass_6407" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3716.72, 2054.12 )
-
-[node name="grass_6408" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3936.14, 2094.38 )
-
-[node name="grass_6409" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3924.25, 2158.01 )
-
-[node name="grass_6410" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4018.2, 2121.74 )
-
-[node name="grass_6411" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3842.19, 2128.87 )
-
-[node name="grass_6412" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3766.74, 2239.43 )
-
-[node name="grass_6413" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3638.47, 2099.72 )
-
-[node name="grass_6414" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3626.58, 2163.35 )
-
-[node name="grass_6415" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3720.53, 2127.07 )
-
-[node name="grass_6416" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3544.52, 2134.21 )
-
-[node name="grass_6417" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4416.24, 1994.28 )
-
-[node name="grass_6418" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4404.35, 2057.9 )
-
-[node name="grass_6419" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4498.29, 2021.63 )
-
-[node name="grass_6420" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4322.29, 2028.76 )
 
 [node name="grass_6421" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4541.71, 2069.03 )
 
-[node name="grass_6422" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4529.82, 2132.65 )
-
-[node name="grass_6423" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4447.76, 2103.51 )
-
-[node name="grass_6424" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4384.2, 2150.45 )
-
-[node name="grass_6425" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4372.31, 2214.07 )
-
-[node name="grass_6426" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4466.26, 2177.8 )
-
-[node name="grass_6427" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4290.25, 2184.94 )
-
-[node name="grass_6428" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4244.04, 2074.37 )
-
-[node name="grass_6429" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4232.15, 2137.99 )
-
-[node name="grass_6430" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4326.1, 2101.72 )
-
-[node name="grass_6431" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4150.1, 2108.85 )
-
-[node name="grass_6432" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4084.01, 2157.36 )
-
-[node name="grass_6433" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4072.12, 2220.99 )
-
-[node name="grass_6434" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4166.06, 2184.71 )
-
-[node name="grass_6435" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3990.06, 2191.85 )
-
-[node name="grass_6436" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4209.48, 2232.11 )
-
-[node name="grass_6437" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3911.81, 2237.45 )
-
-[node name="grass_6438" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3899.92, 2301.08 )
-
-[node name="grass_6439" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3817.87, 2271.94 )
-
-[node name="grass_6440" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4612.58, 2168.61 )
-
-[node name="grass_6441" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4534.33, 2214.22 )
-
-[node name="grass_6442" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4127.62, 2249.63 )
-
-[node name="grass_6443" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3982, 2267.43 )
-
-[node name="grass_6444" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3970.11, 2331.06 )
-
-[node name="grass_6445" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4064.06, 2294.79 )
-
-[node name="grass_6446" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4287.38, 2248.99 )
-
-[node name="grass_6447" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4275.49, 2312.61 )
-
-[node name="grass_6448" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4369.44, 2276.34 )
-
-[node name="grass_6449" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4193.43, 2283.47 )
-
-[node name="grass_6450" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4412.86, 2323.74 )
-
-[node name="grass_6451" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4400.97, 2387.36 )
-
-[node name="grass_6452" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4318.91, 2358.23 )
-
-[node name="grass_6453" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4255.35, 2405.16 )
-
-[node name="grass_6454" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4243.45, 2468.79 )
-
 [node name="grass_6455" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4337.4, 2432.52 )
-
-[node name="grass_6456" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4161.4, 2439.65 )
-
-[node name="grass_6457" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4115.19, 2329.08 )
 
 [node name="grass_6458" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4016.39, 2455.63 )
 
-[node name="grass_6459" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4197.24, 2356.43 )
-
-[node name="grass_6460" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4021.24, 2363.57 )
-
 [node name="grass_6461" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3950.31, 2502.36 )
-
-[node name="grass_6462" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4405.48, 2468.93 )
 
 [node name="grass_6463" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3872.41, 2360.83 )
 
 [node name="grass_6464" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3661.84, 2473.84 )
-
-[node name="grass_6465" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3513.69, 2493.21 )
-
-[node name="grass_6466" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3595.75, 2520.56 )
-
-[node name="grass_6467" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3852.27, 2453.39 )
 
 [node name="grass_6468" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3840.38, 2517.01 )
@@ -16003,9 +14101,6 @@ position = Vector2( 3847.57, 2662.9 )
 
 [node name="grass_6471" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3984.94, 2674.03 )
-
-[node name="grass_6472" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4318.12, 2443.49 )
 
 [node name="grass_6473" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4067, 2701.38 )
@@ -16059,7 +14154,7 @@ position = Vector2( 4120.09, 2747.6 )
 position = Vector2( 4108.2, 2811.23 )
 
 [node name="grass_6490" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 428.207, 3414.03 )
+position = Vector2( 1000.32, 3763.66 )
 
 [node name="grass_6491" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4026.15, 2782.09 )
@@ -16069,9 +14164,6 @@ position = Vector2( 471.625, 3461.43 )
 
 [node name="grass_6493" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 459.734, 3525.06 )
-
-[node name="grass_6494" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 553.681, 3488.79 )
 
 [node name="grass_6495" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 377.677, 3495.92 )
@@ -16235,9 +14327,6 @@ position = Vector2( 2271.62, 3922.76 )
 [node name="grass_6548" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2072.29, 4031.92 )
 
-[node name="grass_6549" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2565.68, 3263.31 )
-
 [node name="grass_6550" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2067.9, 3893.61 )
 
@@ -16316,50 +14405,14 @@ position = Vector2( 2707.88, 3521.99 )
 [node name="grass_6575" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3847.57, 2662.9 )
 
-[node name="grass_6576" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3984.94, 2674.03 )
-
 [node name="grass_6577" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4114.47, 2593.4 )
-
-[node name="grass_6578" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4067, 2701.38 )
 
 [node name="grass_6579" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4103.13, 2544.47 )
 
-[node name="grass_6580" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4271.49, 2475.44 )
-
 [node name="grass_6581" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4355.77, 2499.46 )
-
-[node name="grass_6582" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3909.49, 2782.81 )
-
-[node name="grass_6583" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3733.48, 2789.94 )
-
-[node name="grass_6584" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3687.27, 2679.37 )
-
-[node name="grass_6585" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3675.38, 2742.99 )
-
-[node name="grass_6586" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3769.33, 2706.72 )
-
-[node name="grass_6587" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3609.29, 2789.72 )
-
-[node name="grass_6588" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3652.71, 2837.12 )
-
-[node name="grass_6589" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3640.82, 2900.74 )
-
-[node name="grass_6590" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3734.77, 2864.47 )
 
 [node name="grass_6591" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -114.582, 3755.63 )
@@ -16370,62 +14423,17 @@ position = Vector2( -96.0901, 3829.92 )
 [node name="grass_6593" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4196.46, 2659.92 )
 
-[node name="grass_6594" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4108.2, 2811.23 )
-
 [node name="grass_6595" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1430.56, 3938.75 )
 
-[node name="grass_6596" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4026.15, 2782.09 )
-
-[node name="grass_6597" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 471.625, 3461.43 )
-
-[node name="grass_6598" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 459.734, 3525.06 )
-
 [node name="grass_6599" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 553.681, 3488.79 )
+position = Vector2( 699.887, 3622.28 )
 
 [node name="grass_6600" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 377.677, 3495.92 )
+position = Vector2( 286.564, 3606.11 )
 
 [node name="grass_6601" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3638.57, 3083.58 )
-
-[node name="grass_6602" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2437.02, 3234.1 )
-
-[node name="grass_6603" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 396.17, 3570.21 )
-
-[node name="grass_6604" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2354.96, 3204.96 )
-
-[node name="grass_6605" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3947.9, 2827.69 )
-
-[node name="grass_6606" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3936.01, 2891.31 )
-
-[node name="grass_6607" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4029.95, 2855.04 )
-
-[node name="grass_6608" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3853.95, 2862.18 )
-
-[node name="grass_6609" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3787.86, 2910.69 )
-
-[node name="grass_6610" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3775.97, 2974.31 )
-
-[node name="grass_6611" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3869.92, 2938.04 )
-
-[node name="grass_6612" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3693.92, 2945.18 )
 
 [node name="grass_6613" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3553.75, 3138.27 )
@@ -16442,26 +14450,8 @@ position = Vector2( 2662.7, 3400.5 )
 [node name="grass_6617" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -30.0061, 3769.57 )
 
-[node name="grass_6618" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3615.67, 2990.78 )
-
 [node name="grass_6619" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 764.912, 3693.48 )
-
-[node name="grass_6620" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3697.73, 3018.13 )
-
-[node name="grass_6621" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 619.492, 3524.41 )
-
-[node name="grass_6622" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 607.601, 3588.04 )
-
-[node name="grass_6623" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 525.545, 3558.9 )
-
-[node name="grass_6624" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 587.457, 3680.59 )
 
 [node name="grass_6625" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3421.78, 3269.18 )
@@ -16469,35 +14459,14 @@ position = Vector2( 3421.78, 3269.18 )
 [node name="grass_6626" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3117.18, 3367.76 )
 
-[node name="grass_6627" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3339.73, 3240.04 )
-
-[node name="grass_6628" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 447.299, 3604.5 )
-
-[node name="grass_6629" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 435.406, 3668.13 )
-
-[node name="grass_6630" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 529.353, 3631.85 )
-
-[node name="grass_6631" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2488.15, 3266.61 )
-
 [node name="grass_6632" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 287.263, 3687.5 )
 
 [node name="grass_6633" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 275.371, 3751.12 )
 
-[node name="grass_6634" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3215.54, 3239.82 )
-
 [node name="grass_6635" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 193.316, 3721.99 )
-
-[node name="grass_6636" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3258.96, 3287.22 )
 
 [node name="grass_6637" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 115.068, 3767.59 )
@@ -16511,9 +14480,6 @@ position = Vector2( 21.1208, 3802.08 )
 [node name="grass_6640" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -190.135, 3908.4 )
 
-[node name="grass_6641" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3177.1, 3304.74 )
-
 [node name="grass_6642" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 185.26, 3797.57 )
 
@@ -16523,41 +14489,20 @@ position = Vector2( 173.367, 3861.19 )
 [node name="grass_6644" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 267.314, 3824.92 )
 
-[node name="grass_6645" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3336.85, 3304.09 )
-
 [node name="grass_6646" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2932.41, 3421.66 )
 
 [node name="grass_6647" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3505.81, 3154.65 )
 
-[node name="grass_6648" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3242.91, 3338.58 )
-
 [node name="grass_6649" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2365.57, 3888.27 )
-
-[node name="grass_6650" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2217.91, 4014.12 )
-
-[node name="grass_6651" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2271.62, 3922.76 )
-
-[node name="grass_6652" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2072.29, 4031.92 )
 
 [node name="grass_6653" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2592.65, 3446.11 )
 
-[node name="grass_6654" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2067.9, 3893.61 )
-
 [node name="grass_6655" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2930.1, 3572.96 )
-
-[node name="grass_6656" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2149.96, 3920.96 )
 
 [node name="grass_6657" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 224.496, 3893.7 )
@@ -16568,26 +14513,11 @@ position = Vector2( 2864.02, 3619.69 )
 [node name="grass_6659" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 75.6677, 3890.97 )
 
-[node name="grass_6660" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2575.55, 3591.17 )
-
 [node name="grass_6661" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 2765.98, 3570.72 )
 
-[node name="grass_6662" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2754.09, 3634.34 )
-
-[node name="grass_6663" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2672.03, 3605.21 )
-
 [node name="grass_6664" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( -84.635, 3907.44 )
-
-[node name="grass_6665" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2613.93, 3558.26 )
-
-[node name="grass_6666" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 2707.88, 3521.99 )
 
 [node name="grass_6667" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 767.778, 3593.66 )
@@ -16661,12 +14591,6 @@ position = Vector2( 1602.21, 4155.3 )
 [node name="grass_6690" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1206.97, 3301.24 )
 
-[node name="grass_6691" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 317.719, 3968.71 )
-
-[node name="grass_6692" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 852.415, 3319.45 )
-
 [node name="grass_6693" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 704.27, 3338.82 )
 
@@ -16676,20 +14600,11 @@ position = Vector2( -36.8394, 3986.91 )
 [node name="grass_6695" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 207.791, 3983.36 )
 
-[node name="grass_6696" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 603.364, 3839.87 )
-
-[node name="grass_6697" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3712.11, 2377.3 )
-
 [node name="grass_6698" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3700.22, 2440.93 )
+position = Vector2( 3700.22, 2445.16 )
 
 [node name="grass_6699" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3794.17, 2404.65 )
-
-[node name="grass_6700" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3618.16, 2411.79 )
 
 [node name="grass_6701" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1640.05, 4306.89 )
@@ -16810,9 +14725,6 @@ position = Vector2( 965.455, 4604.36 )
 
 [node name="grass_6743" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 901.89, 4651.3 )
-
-[node name="grass_6744" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4143.27, 1860.61 )
 
 [node name="grass_6745" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4237.22, 1824.34 )
@@ -17015,12 +14927,6 @@ position = Vector2( 4288.54, 1889.17 )
 [node name="grass_6821" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4496.07, 1993.05 )
 
-[node name="grass_6822" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4586.1, 2074.47 )
-
-[node name="grass_6824" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4589.17, 1991.88 )
-
 [node name="grass_6825" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4671.23, 2019.23 )
 
@@ -17081,9 +14987,6 @@ position = Vector2( 4854.85, 2258.35 )
 [node name="grass_6854" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 497.21, 3761.59 )
 
-[node name="grass_6855" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 591.157, 3725.32 )
-
 [node name="grass_6856" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 415.154, 3732.46 )
 
@@ -17137,9 +15040,6 @@ position = Vector2( 1088.29, 3252.46 )
 
 [node name="grass_6873" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 912.291, 3259.6 )
-
-[node name="grass_6874" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3576.32, 2519.63 )
 
 [node name="grass_6875" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 948.135, 3176.38 )
@@ -17198,9 +15098,6 @@ position = Vector2( 1034.89, 3398.4 )
 [node name="grass_6893" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1023, 3462.02 )
 
-[node name="grass_6894" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1116.95, 3425.75 )
-
 [node name="grass_6895" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 940.945, 3432.88 )
 
@@ -17215,9 +15112,6 @@ position = Vector2( 643.277, 3438.22 )
 
 [node name="grass_6899" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 615.761, 3624.41 )
-
-[node name="grass_6900" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 4414.18, 2557.31 )
 
 [node name="grass_6901" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4258.29, 2590.85 )
@@ -17246,20 +15140,8 @@ position = Vector2( 948.135, 3176.38 )
 [node name="grass_6909" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3587.16, 2691.27 )
 
-[node name="grass_6910" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3428.18, 2539 )
-
-[node name="grass_6911" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3416.28, 2602.63 )
-
-[node name="grass_6912" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3510.23, 2566.35 )
-
 [node name="grass_6913" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 4098.37, 2483.59 )
-
-[node name="grass_6914" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 831.519, 3306.77 )
 
 [node name="grass_6915" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1234.62, 3243.27 )
@@ -17271,46 +15153,13 @@ position = Vector2( 1156.37, 3288.87 )
 position = Vector2( 749.66, 3324.29 )
 
 [node name="grass_6918" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 604.041, 3342.09 )
-
-[node name="grass_6919" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 592.148, 3405.72 )
-
-[node name="grass_6920" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 686.095, 3369.44 )
+position = Vector2( 663.371, 3778.59 )
 
 [node name="grass_6921" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 909.418, 3323.65 )
 
-[node name="grass_6922" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 897.527, 3387.27 )
-
-[node name="grass_6923" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 991.474, 3351 )
-
 [node name="grass_6924" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 815.47, 3358.13 )
-
-[node name="grass_6925" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1034.89, 3398.4 )
-
-[node name="grass_6926" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1023, 3462.02 )
-
-[node name="grass_6927" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 940.945, 3432.88 )
-
-[node name="grass_6928" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 737.224, 3403.74 )
-
-[node name="grass_6929" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 819.279, 3431.09 )
-
-[node name="grass_6930" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 643.277, 3438.22 )
-
-[node name="grass_6931" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 1227.74, 3365.55 )
+position = Vector2( 785.805, 3540.36 )
 
 [node name="grass_6932" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 1222.91, 3450.5 )
