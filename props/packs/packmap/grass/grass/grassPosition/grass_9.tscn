@@ -5,5 +5,5 @@
 [node name="grass_9" type="Sprite"]
 
 [node name="grass_9" type="Sprite" parent="."]
-position = Vector2( 5.56866, -26.3249 )
+position = Vector2( 1.11417, -37.2384 )
 texture = ExtResource( 1 )
