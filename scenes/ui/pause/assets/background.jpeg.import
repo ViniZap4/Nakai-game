@@ -1,0 +1,13 @@
+[remap]
+
+importer="image"
+type="Image"
+path="res://.import/background.jpeg-944ac7d5d5c2dd00ce772e1b029be095.image"
+
+[deps]
+
+source_file="res://scenes/ui/pause/assets/background.jpeg"
+dest_files=[ "res://.import/background.jpeg-944ac7d5d5c2dd00ce772e1b029be095.image" ]
+
+[params]
+

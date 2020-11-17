@@ -111,11 +111,6 @@ func _physics_process(delta):
 			health_max_value = round(health_max_value + cure)			
 			update_health(health_max_value)
 		
-	
-		if(Input.is_action_just_pressed("ui_pause")):
-			get_tree().paused = true
-			$Camera2D/Popup.show()
-		
 
 		if motion !=  Vector2(0, 0): 
 			

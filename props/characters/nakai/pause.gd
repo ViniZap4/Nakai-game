@@ -1,16 +1,18 @@
-extends Popup
+extends Node
 
-
-# Declare member variables here. Examples:
-# var a = 2
 onready var target = "res://props/characters/nakai/nakai.tscn"
 
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	$Content.visible = true
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	
+	if(Input.is_action_just_pressed("ui_pause")):
+		if(get_tree().paused == false):
+			get_tree().paused = true;
+			$Content.visible = true;
+			get_parent().get_node("GUI").visible = false
+		else:
+			get_tree().paused = false;
+			$Content.visible = false;
