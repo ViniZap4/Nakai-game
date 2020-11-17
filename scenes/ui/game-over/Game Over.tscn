@@ -1,11 +1,10 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://scenes/ui/game-over/Assets/death_background.png" type="Texture" id=2]
-[ext_resource path="res://scenes/ui/game-over/Assets/Rectangle 5.png" type="Texture" id=3]
-[ext_resource path="res://scenes/ui/game-over/scripts/Restart.gd" type="Script" id=4]
-[ext_resource path="res://scenes/ui/scripts/Get Out.gd" type="Script" id=5]
-[ext_resource path="res://scenes/ui/scripts/Credits.gd" type="Script" id=6]
+[ext_resource path="res://scenes/ui/props/Restart.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/ui/props/Credits.tscn" type="PackedScene" id=4]
+[ext_resource path="res://scenes/ui/props/Get Out2.tscn" type="PackedScene" id=5]
 [ext_resource path="res://scenes/ui/props/backMenu.tscn" type="PackedScene" id=7]
 
 [sub_resource type="DynamicFont" id=1]
@@ -14,10 +13,6 @@ outline_size = 20
 outline_color = Color( 0.282353, 0.329412, 0.356863, 1 )
 use_mipmaps = true
 use_filter = true
-font_data = ExtResource( 1 )
-
-[sub_resource type="DynamicFont" id=2]
-size = 45
 font_data = ExtResource( 1 )
 
 [node name="Game Over" type="Node2D"]
@@ -42,35 +37,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Restart" type="Button" parent="."]
-margin_left = 282.329
-margin_top = 400.376
-margin_right = 629.329
-margin_bottom = 483.376
-script = ExtResource( 4 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Sprite" type="Sprite" parent="Restart"]
-position = Vector2( 172, 41.9706 )
-scale = Vector2( 0.883059, 0.9948 )
-texture = ExtResource( 3 )
-__meta__ = {
-"_edit_lock_": true
-}
-
-[node name="Label" type="Label" parent="Restart"]
-margin_left = 80.6855
-margin_top = 14.7145
-margin_right = 290.686
-margin_bottom = 68.7145
-custom_fonts/font = SubResource( 2 )
-text = "Reiniciar"
-__meta__ = {
-"_edit_lock_": true,
-"_edit_use_anchors_": false
-}
+[node name="Restart" parent="." instance=ExtResource( 3 )]
 
 [node name="backMenu" parent="." instance=ExtResource( 7 )]
 margin_left = 737.176
@@ -78,71 +45,8 @@ margin_top = 405.395
 margin_right = 1084.18
 margin_bottom = 488.395
 
-[node name="Credits" type="Button" parent="."]
-margin_left = 281.54
-margin_top = 540.574
-margin_right = 628.54
-margin_bottom = 623.574
-script = ExtResource( 6 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+[node name="Credits" parent="." instance=ExtResource( 4 )]
 
-[node name="Sprite" type="Sprite" parent="Credits"]
-position = Vector2( 172.417, 39.3848 )
-scale = Vector2( 0.883059, 0.9948 )
-texture = ExtResource( 3 )
-__meta__ = {
-"_edit_lock_": true
-}
-
-[node name="Label" type="Label" parent="Credits"]
-margin_left = 75.0
-margin_top = 13.0
-margin_right = 285.0
-margin_bottom = 67.0
-custom_fonts/font = SubResource( 2 )
-text = "Créditos"
-__meta__ = {
-"_edit_lock_": true,
-"_edit_use_anchors_": false
-}
-
-[node name="Get Out2" type="Button" parent="."]
-margin_left = 736.949
-margin_top = 538.279
-margin_right = 1083.95
-margin_bottom = 621.279
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Sprite" type="Sprite" parent="Get Out2"]
-position = Vector2( 172.417, 39.3848 )
-scale = Vector2( 0.883059, 0.9948 )
-texture = ExtResource( 3 )
-__meta__ = {
-"_edit_lock_": true
-}
-
-[node name="Label" type="Label" parent="Get Out2"]
-margin_left = 123.0
-margin_top = 16.0
-margin_right = 222.0
-margin_bottom = 70.0
-custom_fonts/font = SubResource( 2 )
-text = "Sair"
-__meta__ = {
-"_edit_lock_": true,
-"_edit_use_anchors_": false
-}
-[connection signal="mouse_entered" from="Restart" to="Restart" method="_on_Restart_mouse_entered"]
-[connection signal="mouse_exited" from="Restart" to="Restart" method="_on_Restart_mouse_exited"]
-[connection signal="pressed" from="Restart" to="Restart" method="_on_Restart_pressed"]
-[connection signal="mouse_entered" from="Credits" to="Credits" method="_on_Credits_mouse_entered"]
-[connection signal="mouse_exited" from="Credits" to="Credits" method="_on_Credits_mouse_exited"]
-[connection signal="pressed" from="Credits" to="Credits" method="_on_Credits_pressed"]
-[connection signal="mouse_entered" from="Get Out2" to="Get Out2" method="_on_Get_Out_mouse_entered"]
-[connection signal="mouse_exited" from="Get Out2" to="Get Out2" method="_on_Get_Out_mouse_exited"]
-[connection signal="pressed" from="Get Out2" to="Get Out2" method="_on_Get_Out_pressed"]
+[node name="Get Out2" parent="." instance=ExtResource( 5 )]
+margin_left = 738.731
+margin_right = 1085.73
