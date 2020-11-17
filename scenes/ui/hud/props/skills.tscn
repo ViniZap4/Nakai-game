@@ -1,0 +1,173 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://scenes/ui/hud/assets/Ability_bloodbath.png" type="Texture" id=1]
+[ext_resource path="res://scenes/ui/hud/assets/ability_slicedice.png" type="Texture" id=2]
+[ext_resource path="res://scenes/ui/hud/assets/Ability_sabreslash.png" type="Texture" id=3]
+[ext_resource path="res://scenes/ui/hud/assets/Ability_cure_rune.png" type="Texture" id=4]
+[ext_resource path="res://scenes/ui/hud/assets/skill.png" type="Texture" id=5]
+[ext_resource path="res://scenes/ui/hud/props/skillsInterface.gd" type="Script" id=6]
+[ext_resource path="res://scenes/ui/hud/assets/Ability_roll.png" type="Texture" id=7]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 10.7124
+margin_top = -5.22849
+margin_right = 10.7124
+margin_bottom = -5.22852
+script = ExtResource( 6 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="skill1" type="Button" parent="."]
+margin_left = 33.0
+margin_top = 30.0
+margin_right = 89.0
+margin_bottom = 83.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ability_sabreslash" type="Sprite" parent="skill1"]
+position = Vector2( 32.073, 26.2089 )
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="skill1" type="TextureProgress" parent="skill1"]
+light_mask = -2147483647
+margin_left = 0.000320435
+margin_top = -2.62742
+margin_right = 59.0003
+margin_bottom = 55.3726
+max_value = 210.0
+value = 210.0
+texture_progress = ExtResource( 5 )
+fill_mode = 5
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="skill2" type="Button" parent="."]
+margin_left = 109.636
+margin_top = 29.9497
+margin_right = 164.636
+margin_bottom = 81.9497
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ability_slicedice" type="Sprite" parent="skill2"]
+position = Vector2( 28.8652, 24.7551 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="skill2" type="TextureProgress" parent="skill2"]
+margin_left = 0.41423
+margin_top = -2.92893
+margin_right = 59.4142
+margin_bottom = 55.0711
+max_value = 180.0
+value = 180.0
+texture_progress = ExtResource( 5 )
+fill_mode = 5
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="skill3" type="Button" parent="."]
+margin_left = 191.26
+margin_top = 32.5355
+margin_right = 244.26
+margin_bottom = 84.5355
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ability_bloodbath" type="Sprite" parent="skill3"]
+position = Vector2( 27.2493, 24.5429 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="skill3" type="TextureProgress" parent="skill3"]
+margin_left = -1.43445
+margin_top = -4.82586
+margin_right = 57.5656
+margin_bottom = 53.1741
+max_value = 350.0
+value = 350.0
+texture_progress = ExtResource( 5 )
+fill_mode = 5
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="skill4" type="Button" parent="."]
+self_modulate = Color( 1, 1, 1, 0 )
+margin_left = 268.055
+margin_top = 29.4142
+margin_right = 325.055
+margin_bottom = 86.4142
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ability_cure_rune" type="Sprite" parent="skill4"]
+position = Vector2( 29.4744, 28.4948 )
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="skill4" type="TextureProgress" parent="skill4"]
+margin_left = 2.0
+margin_right = 59.0
+margin_bottom = 58.0
+max_value = 100.0
+value = 100.0
+texture_progress = ExtResource( 5 )
+fill_mode = 5
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="skill5" type="Button" parent="."]
+margin_left = 349.784
+margin_top = 30.0
+margin_right = 405.784
+margin_bottom = 83.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Ability_roll" type="Sprite" parent="skill5"]
+position = Vector2( 27.5768, 26.3693 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="skill5" type="TextureProgress" parent="skill5"]
+light_mask = -2147483647
+margin_left = 0.000320435
+margin_top = -2.62742
+margin_right = 59.0003
+margin_bottom = 55.3726
+max_value = 200.0
+value = 200.0
+texture_progress = ExtResource( 5 )
+fill_mode = 5
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}

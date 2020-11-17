@@ -14,8 +14,8 @@ var damage = 0;
 var attack_type = 0;
 var _position_last_frame := Vector2()
 var _cardinal_direction = 0
-onready var energy_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/StaminaBar/MarginContainer/Label/TextureProgress")
-onready var health_bar = get_parent().get_node("nakai/Camera2D/GUI/HBoxContainer/VBoxContainer/MarginContainer2/MarginContainer/HealthBar/MarginContainer/Label/TextureProgress")
+onready var energy_bar = get_parent().get_node("nakai/Camera2D/GUI/BarStatus/StaminaBar/MarginContainer/Label/TextureProgress")
+onready var health_bar = get_parent().get_node("nakai/Camera2D/GUI/BarStatus/HealthBar/MarginContainer/Label/TextureProgress")
 onready var target = get_parent().get_node("warrior")
 var is_roll = false
 var is_attack = false;
@@ -103,11 +103,11 @@ func _physics_process(delta):
 			$Timer_attack.wait_time = 1.90
 			init_timer_attack()
 						
-		if Input.is_action_just_pressed("lifeUp") and (energy_bar.value >= 450):	
-			energy = 450
+		if Input.is_action_just_pressed("lifeUp") and (energy_bar.value >= 100):	
+			energy = 100
 			energy_max_value = round(energy_max_value - energy)
 			update_energy(energy_max_value)
-			cure = 400
+			cure = 120
 			health_max_value = round(health_max_value + cure)			
 			update_health(health_max_value)
 			
