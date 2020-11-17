@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=57 format=2]
+[gd_resource type="TileSet" load_steps=58 format=2]
 
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/assets/stoneTile_N.png" type="Texture" id=1]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/assets/stoneTile_S.png" type="Texture" id=2]
@@ -56,6 +56,7 @@
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/assets/stoneRight_E.png" type="Texture" id=54]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/assets/stoneStep_W.png" type="Texture" id=55]
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/assets/stoneTile_E.png" type="Texture" id=56]
+[ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/assets/dirt_E.png" type="Texture" id=57]
 
 [resource]
 0/name = "bridgeBroken_E"
@@ -842,3 +843,17 @@
 55/shape_one_way_margin = 0.0
 55/shapes = [  ]
 55/z_index = 0
+56/name = "dirt_E.png 56"
+56/texture = ExtResource( 57 )
+56/tex_offset = Vector2( 0, 0 )
+56/modulate = Color( 1, 1, 1, 1 )
+56/region = Rect2( 0, 0, 256, 512 )
+56/tile_mode = 0
+56/occluder_offset = Vector2( 0, 0 )
+56/navigation_offset = Vector2( 0, 0 )
+56/shape_offset = Vector2( 0, 0 )
+56/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+56/shape_one_way = false
+56/shape_one_way_margin = 0.0
+56/shapes = [  ]
+56/z_index = 0
