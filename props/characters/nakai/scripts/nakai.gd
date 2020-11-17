@@ -110,6 +110,9 @@ func _physics_process(delta):
 			cure = 400
 			health_max_value = round(health_max_value + cure)			
 			update_health(health_max_value)
+			
+		if(Input.is_action_just_pressed("ui_pause")):
+			get_tree().change_scene("res://scenes/ui/pause/pause.tscn")
 		
 
 		if motion !=  Vector2(0, 0): 
