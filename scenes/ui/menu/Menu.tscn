@@ -46,11 +46,11 @@ __meta__ = {
 }
 
 [node name="Start2" type="Button" parent="."]
-margin_left = 516.99
-margin_top = 374.911
-margin_right = 828.99
-margin_bottom = 436.911
-rect_scale = Vector2( 1.13849, 1.13849 )
+margin_left = 518.588
+margin_top = 353.57
+margin_right = 821.588
+margin_bottom = 415.57
+rect_scale = Vector2( 1.11414, 1.32327 )
 mouse_default_cursor_shape = 2
 script = ExtResource( 3 )
 __meta__ = {
@@ -66,13 +66,15 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="Start2"]
-margin_left = 48.0
-margin_top = 4.0
-margin_right = 265.0
-margin_bottom = 61.0
+margin_left = -9.0
+margin_top = 1.0
+margin_right = 322.0
+margin_bottom = 58.0
 mouse_default_cursor_shape = 2
 custom_fonts/font = SubResource( 2 )
 text = "Começar"
+align = 1
+valign = 1
 __meta__ = {
 "_edit_lock_": true,
 "_edit_use_anchors_": false
@@ -83,6 +85,7 @@ margin_left = 519.936
 margin_top = 490.614
 margin_right = 866.936
 margin_bottom = 573.614
+rect_scale = Vector2( 1, 1.00671 )
 
 [node name="Get Out2" parent="." instance=ExtResource( 4 )]
 margin_left = 519.188

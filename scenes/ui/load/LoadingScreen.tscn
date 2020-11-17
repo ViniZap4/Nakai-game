@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scenes/ui/load/scripts/LoadingScreen.gd" type="Script" id=1]
 [ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=2]
@@ -20,21 +20,6 @@ expand_margin_bottom = 26.0
 size = 27
 font_data = ExtResource( 2 )
 
-[sub_resource type="Animation" id=1]
-resource_name = "hide"
-tracks/0/type = "value"
-tracks/0/path = NodePath(".:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 1 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 0,
-"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
-}
-
 [node name="LoadingScreen" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -51,7 +36,7 @@ __meta__ = {
 }
 
 [node name="0001" type="Sprite" parent="Visual"]
-position = Vector2( 680.252, 423.344 )
+position = Vector2( 668.266, 426.341 )
 scale = Vector2( 1.38803, 1.38803 )
 texture = ExtResource( 5 )
 
@@ -68,6 +53,3 @@ __meta__ = {
 }
 
 [node name="LoadTween" type="Tween" parent="."]
-
-[node name="LoadScreenAnim" type="AnimationPlayer" parent="."]
-anims/hide = SubResource( 1 )
