@@ -93,7 +93,7 @@ func _physics_process(delta):
 			$Timer_attack.wait_time = 1
 			init_timer_attack()
 				
-		if Input.is_action_just_pressed("attack_tree") and (energy_bar.value >= 350):	
+		if Input.is_action_just_pressed("attack_three") and (energy_bar.value >= 350):	
 			attack_type = 3;
 			is_attack = true
 			energy = 350

@@ -25,25 +25,25 @@ script = ExtResource( 3 )
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground"]
-position = Vector2( 1.09925, -3.64007 )
-scale = Vector2( 1.04714, 1.05721 )
+position = Vector2( 3.92774, -6.46856 )
+scale = Vector2( 0.9887, 0.998208 )
 texture = ExtResource( 2 )
 centered = false
 
 [node name="backMenu" parent="." instance=ExtResource( 4 )]
-margin_left = 1133.34
-margin_top = 706.671
-margin_right = 1480.34
-margin_bottom = 789.671
+margin_left = 1017.37
+margin_top = 613.333
+margin_right = 1364.37
+margin_bottom = 696.333
 rect_scale = Vector2( 0.72, 0.72 )
 
 [node name="Label" type="Label" parent="."]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = 567.661
-margin_top = 5.33936
-margin_right = 900.661
-margin_bottom = 91.3396
+margin_left = 465.838
+margin_top = 36.4521
+margin_right = 798.838
+margin_bottom = 122.452
 custom_fonts/font = SubResource( 1 )
 text = "CRÉDITOS"
 __meta__ = {
@@ -51,10 +51,10 @@ __meta__ = {
 }
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 384.736
-margin_top = 219.546
-margin_right = 1065.74
-margin_bottom = 501.546
+margin_left = 302.712
+margin_top = 211.061
+margin_right = 983.716
+margin_bottom = 493.061
 rect_scale = Vector2( 1.01301, 1.18205 )
 custom_fonts/font = SubResource( 2 )
 text = "Brenda Aryelle Silva
