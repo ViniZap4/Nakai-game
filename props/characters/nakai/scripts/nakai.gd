@@ -111,7 +111,7 @@ func _physics_process(delta):
 				cure = 80
 				health_max_value = round(health_max_value + cure)			
 				update_health(health_max_value)
-		print(target.name)
+		#print(target.name)
 		if(Input.is_action_just_pressed("ui_pause")):
 			get_tree().change_scene("res://scenes/ui/pause/pause.tscn")
 		

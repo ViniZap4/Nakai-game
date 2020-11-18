@@ -36,11 +36,7 @@ func _ready():
 func take_Damage(damageCount):
 	health.value -= damageCount;
 	
-	if(health.value <= 0 and is_death == false):
-		print("Morto")
-		self.set_physics_process(false)
-		is_death = true
-		$AnimatedSprite.play(death)
+	
 
 func ai_get_direction():
 	return target.position - self.position
@@ -86,7 +82,7 @@ func _physics_process(delta):
 		idle = "idle_" + direction_animation
 		death = "death_" + direction_animation
 		_position_last_frame = position
-	
+
 
 func setup_ai_think_time_timer():
 	ai_think_time_timer = Timer.new()
@@ -102,7 +98,12 @@ func _process(delta):
 	
 	direction = ai_get_direction()
 	var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
-
+	
+	if(health.value <= 0 and is_death == false):
+		print("Morto")
+		self.set_physics_process(false)
+		is_death = true
+		$AnimatedSprite.play(death)
 
 	if(distance_direction < 500):
 		#if(distance_direction <= 98): motion_direction
