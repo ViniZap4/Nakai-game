@@ -1,4 +1,4 @@
-[gd_scene load_steps=99 format=2]
+[gd_scene load_steps=96 format=2]
 
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/floor/floors/floors.tres" type="TileSet" id=1]
 [ext_resource path="res://props/packs/library-pack-2.1/book/books/bookcaseWideBooks_W.tscn" type="PackedScene" id=2]
@@ -94,10 +94,7 @@
 [ext_resource path="res://props/packs/packmap/tree/trees/tree_3.tscn" type="PackedScene" id=92]
 [ext_resource path="res://props/packs/packmap/tree/trees/tree_2.tscn" type="PackedScene" id=93]
 [ext_resource path="res://props/packs/packmap/tree/trees/tree_1.tscn" type="PackedScene" id=94]
-[ext_resource path="res://props/packs/packmap/tree/assets/tree_2.png" type="Texture" id=95]
-[ext_resource path="res://props/packs/packmap/tree/assets/tree_4.png" type="Texture" id=96]
-[ext_resource path="res://props/packs/packmap/tree/assets/tree_1.png" type="Texture" id=97]
-[ext_resource path="res://props/packs/packmap/tree/assets/tree_3.png" type="Texture" id=98]
+[ext_resource path="res://scenes/Kingdoms/TraoriGrindolynGrindohr/soundtrack/nakaiSoundtrack.wav" type="AudioStream" id=95]
 
 [node name="TraoriGrindolynGrindohr" type="Node2D"]
 __meta__ = {
@@ -16256,7 +16253,7 @@ position = Vector2( 3111.68, 727.331 )
 position = Vector2( 3099.79, 790.954 )
 
 [node name="grass_3030" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
-position = Vector2( 3193.73, 754.683 )
+position = Vector2( 3189.49, 754.683 )
 
 [node name="grass_3031" parent="YSort/worldMap/forest/grass" instance=ExtResource( 90 )]
 position = Vector2( 3017.73, 761.818 )
@@ -17623,92 +17620,6 @@ position = Vector2( 2298.1, 8869.84 )
 position = Vector2( -2204.01, -8762.12 )
 polygon = PoolVector2Array( -480.113, -4051.26, -3717.96, -2099, -7051.86, 585.251 )
 
-[node name="tree" type="Node" parent="margin"]
-
-[node name="tree_1" type="Sprite" parent="margin/tree"]
-position = Vector2( -997.47, -3768.66 )
-texture = ExtResource( 97 )
-
-[node name="tree_20" type="Sprite" parent="margin/tree"]
-position = Vector2( -853.866, -4035.16 )
-texture = ExtResource( 97 )
-
-[node name="tree_21" type="Sprite" parent="margin/tree"]
-position = Vector2( -1284.82, -3575.59 )
-texture = ExtResource( 97 )
-
-[node name="tree_22" type="Sprite" parent="margin/tree"]
-position = Vector2( -1599.23, -3364.08 )
-texture = ExtResource( 97 )
-
-[node name="tree_2" type="Sprite" parent="margin/tree"]
-position = Vector2( -3035.86, -2349.86 )
-texture = ExtResource( 95 )
-
-[node name="tree_15" type="Sprite" parent="margin/tree"]
-position = Vector2( -3394.53, -2358.98 )
-texture = ExtResource( 95 )
-
-[node name="tree_16" type="Sprite" parent="margin/tree"]
-position = Vector2( -2730.46, -2673.85 )
-texture = ExtResource( 95 )
-
-[node name="tree_17" type="Sprite" parent="margin/tree"]
-position = Vector2( -2096.86, -3086.08 )
-texture = ExtResource( 95 )
-
-[node name="tree_18" type="Sprite" parent="margin/tree"]
-position = Vector2( -1898.97, -3362.91 )
-texture = ExtResource( 95 )
-
-[node name="tree_19" type="Sprite" parent="margin/tree"]
-position = Vector2( -2442.25, -2994.75 )
-texture = ExtResource( 95 )
-
-[node name="tree_3" type="Sprite" parent="margin/tree"]
-position = Vector2( -4517.51, -1442.91 )
-texture = ExtResource( 98 )
-
-[node name="tree_10" type="Sprite" parent="margin/tree"]
-position = Vector2( -4737.4, -1222.93 )
-texture = ExtResource( 98 )
-
-[node name="tree_11" type="Sprite" parent="margin/tree"]
-position = Vector2( -3974.19, -1694.34 )
-texture = ExtResource( 98 )
-
-[node name="tree_12" type="Sprite" parent="margin/tree"]
-position = Vector2( -3736.17, -1941.31 )
-texture = ExtResource( 98 )
-
-[node name="tree_13" type="Sprite" parent="margin/tree"]
-position = Vector2( -4239.03, -1703.35 )
-texture = ExtResource( 98 )
-
-[node name="tree_14" type="Sprite" parent="margin/tree"]
-position = Vector2( -4066.81, -1990.38 )
-texture = ExtResource( 98 )
-
-[node name="tree_4" type="Sprite" parent="margin/tree"]
-position = Vector2( -4813.84, 1758.35 )
-texture = ExtResource( 96 )
-
-[node name="tree_5" type="Sprite" parent="margin/tree"]
-position = Vector2( -4405.24, 1533.81 )
-texture = ExtResource( 96 )
-
-[node name="tree_7" type="Sprite" parent="margin/tree"]
-position = Vector2( -3960.74, 1758.31 )
-texture = ExtResource( 96 )
-
-[node name="tree_6" type="Sprite" parent="margin/tree"]
-position = Vector2( -4970.85, 1260.17 )
-texture = ExtResource( 96 )
-
-[node name="tree_8" type="Sprite" parent="margin/tree"]
-position = Vector2( -5680.84, 901.012 )
-texture = ExtResource( 96 )
-
-[node name="tree_9" type="Sprite" parent="margin/tree"]
-position = Vector2( -5680.84, 901.012 )
-texture = ExtResource( 96 )
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 95 )
+autoplay = true
