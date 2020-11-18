@@ -5,8 +5,9 @@
 [node name="wallBooks_E" type="StaticBody2D"]
 
 [node name="wallBooks_E" type="Sprite" parent="."]
-position = Vector2( 39.6552, -110.497 )
+position = Vector2( 28.9523, -175.309 )
 texture = ExtResource( 1 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( -10.7029, -64.8118 )
 polygon = PoolVector2Array( -88.7117, 81.1097, -57.0919, 97.6275, -40.1022, 91.0204, -25.0002, 98.5714, 72.6908, 49.4899, 40.5991, 24.9492, -86.352, 41.467, -86.352, 52.3215, -89.1836, 53.2654 )
