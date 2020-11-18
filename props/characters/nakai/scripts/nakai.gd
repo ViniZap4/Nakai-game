@@ -104,13 +104,14 @@ func _physics_process(delta):
 			init_timer_attack()
 						
 		if Input.is_action_just_pressed("lifeUp") and (energy_bar.value >= 100):	
-			energy = 100
-			energy_max_value = round(energy_max_value - energy)
-			update_energy(energy_max_value)
-			cure = 120
-			health_max_value = round(health_max_value + cure)			
-			update_health(health_max_value)
-			
+			if(energy_bar.value >= 150 and health_bar.value != 1000):
+				energy = 150
+				energy_max_value = round(energy_max_value - energy)
+				update_energy(energy_max_value)
+				cure = 80
+				health_max_value = round(health_max_value + cure)			
+				update_health(health_max_value)
+		print(target.name)
 		if(Input.is_action_just_pressed("ui_pause")):
 			get_tree().change_scene("res://scenes/ui/pause/pause.tscn")
 		

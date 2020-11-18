@@ -38,6 +38,7 @@ func take_Damage(damageCount):
 	
 	if(health.value <= 0 and is_death == false):
 		print("Morto")
+		self.set_physics_process(false)
 		is_death = true
 		$AnimatedSprite.play(death)
 
