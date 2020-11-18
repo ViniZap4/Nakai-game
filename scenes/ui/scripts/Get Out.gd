@@ -8,15 +8,15 @@ func _on_Get_Out_mouse_entered():
 
 
 func _on_Get_Out_mouse_exited():
-	$Sprite.modulate.r = 0.1
-	$Sprite.modulate.g = 0.1
-	$Sprite.modulate.b = 0.1
+	$Sprite.modulate.r = 1
+	$Sprite.modulate.g = 1
+	$Sprite.modulate.b = 1
 	pass # Replace with function body.
 
 
 func _on_Get_Out_pressed():
-	$Sprite.modulate.r = 0.1
-	$Sprite.modulate.g = 0.1
-	$Sprite.modulate.b = 0.1
+	$Sprite.modulate.r = 1
+	$Sprite.modulate.g = 1
+	$Sprite.modulate.b = 1
 	get_tree().quit()
 	pass # Replace with function body.

@@ -10,11 +10,11 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="Control" parent="." instance=ExtResource( 3 )]
-margin_left = 800.724
+margin_left = 892.766
 margin_top = 566.392
-margin_right = 800.724
+margin_right = 892.766
 margin_bottom = 566.392
-rect_scale = Vector2( 1.2, 1.2 )
+rect_scale = Vector2( 1.1, 1.1 )
 
 [node name="BarStatus" type="Control" parent="."]
 margin_left = 33.6738

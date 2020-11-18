@@ -17,10 +17,10 @@ font_data = ExtResource( 8 )
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 10.0053
-margin_top = -8.05687
-margin_right = 10.0054
-margin_bottom = -8.05688
+margin_left = 10.7124
+margin_top = -9.4711
+margin_right = 10.7124
+margin_bottom = -9.47107
 script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -31,6 +31,7 @@ margin_left = 33.0
 margin_top = 30.0
 margin_right = 89.0
 margin_bottom = 83.0
+mouse_default_cursor_shape = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -79,10 +80,11 @@ __meta__ = {
 }
 
 [node name="skill2" type="Button" parent="."]
-margin_left = 109.636
+margin_left = 96.9081
 margin_top = 33.4853
-margin_right = 164.636
+margin_right = 151.908
 margin_bottom = 85.4853
+mouse_default_cursor_shape = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -129,10 +131,11 @@ __meta__ = {
 }
 
 [node name="skill3" type="Button" parent="."]
-margin_left = 191.26
-margin_top = 32.5355
-margin_right = 244.26
-margin_bottom = 84.5355
+margin_left = 164.39
+margin_top = 35.364
+margin_right = 217.39
+margin_bottom = 87.364
+mouse_default_cursor_shape = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -180,10 +183,11 @@ __meta__ = {
 
 [node name="skill4" type="Button" parent="."]
 self_modulate = Color( 1, 1, 1, 0 )
-margin_left = 268.055
-margin_top = 29.4142
-margin_right = 325.055
-margin_bottom = 86.4142
+margin_left = 225.629
+margin_top = 30.1213
+margin_right = 282.629
+margin_bottom = 87.1213
+mouse_default_cursor_shape = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -229,10 +233,11 @@ __meta__ = {
 }
 
 [node name="skill5" type="Button" parent="."]
-margin_left = 349.784
-margin_top = 30.0
-margin_right = 405.784
-margin_bottom = 83.0
+margin_left = 292.508
+margin_top = 32.8284
+margin_right = 348.508
+margin_bottom = 85.8284
+mouse_default_cursor_shape = 2
 __meta__ = {
 "_edit_use_anchors_": false
 }
