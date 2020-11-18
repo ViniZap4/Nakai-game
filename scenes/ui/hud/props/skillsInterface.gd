@@ -27,6 +27,20 @@ func setSkillValue(value, energyValue):
 
 
 func _on_skill1_pressed():
-	InputMap.add_action("roll")
-	print("hello")
-	pass # Replace with function body.
+	Input.action_press("attack_one")
+
+
+func _on_skill2_pressed():
+	Input.action_press("attack_two")
+
+
+func _on_skill3_pressed():
+	Input.action_press("attack_three")
+
+
+func _on_skill4_pressed():
+	Input.action_press("lifeUp")
+
+
+func _on_skill5_pressed():
+	Input.action_press("roll")

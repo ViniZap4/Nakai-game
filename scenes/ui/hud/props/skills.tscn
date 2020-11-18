@@ -172,3 +172,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 [connection signal="pressed" from="skill1" to="." method="_on_skill1_pressed"]
+[connection signal="pressed" from="skill2" to="." method="_on_skill2_pressed"]
+[connection signal="pressed" from="skill3" to="." method="_on_skill3_pressed"]
+[connection signal="pressed" from="skill4" to="." method="_on_skill4_pressed"]
+[connection signal="pressed" from="skill5" to="." method="_on_skill5_pressed"]
