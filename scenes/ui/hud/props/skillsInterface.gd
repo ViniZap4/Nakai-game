@@ -22,7 +22,7 @@ func _physics_process(delta):
 	changeModulate("lifeUp", "skill4/caption4", Color(0,0.87,0.87))
 	changeModulate("roll", "skill5/caption5", Color(0.27,0.99,0.26))
 
-func changeModulate(action, energy, node, color):
+func changeModulate(action, node, color):
 	if Input.is_action_pressed(action):
 		get_node(node).modulate = color
 	if !Input.is_action_pressed("attack_one"):
