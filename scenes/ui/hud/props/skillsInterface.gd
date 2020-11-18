@@ -1,8 +1,5 @@
 extends Control
 
-
-
-
 onready var energy_bar = get_parent().get_node("BarStatus/StaminaBar/MarginContainer/Label/TextureProgress")
 
 
@@ -67,18 +64,47 @@ func _on_skill5_pressed():
 	
 
 
+func _on_skill1_mouse_entered():
+	$animSkill1.play("open")
+
 
 func _on_skill1_mouse_exited():
 	Input.action_release("attack_one")
-	
+	$animSkill1.play("close")
+
+
+func _on_skill2_mouse_entered():
+	$animSkill2.play("open")
+
 func _on_skill2_mouse_exited():
 	Input.action_release("attack_two")
+	$animSkill2.play("close")
+
+
+func _on_skill3_mouse_entered():
+	$animSkill3.play("open")
 
 func _on_skill3_mouse_exited():
 	Input.action_release("attack_three")
+	$animSkill3.play("close")
+
+
+func _on_skill4_mouse_entered():
+	$animSkill4.play("open")
 
 func _on_skill4_mouse_exited():
 	Input.action_release("lifeUp")
+	$animSkill4.play("close")
+
+
+func _on_skill5_mouse_entered():
+	$animSkill5.play("open")
 
 func _on_skill5_mouse_exited():
 	Input.action_release("roll")
+	$animSkill5.play("close")
+
+
+
+
+

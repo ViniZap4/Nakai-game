@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://scenes/ui/hud/assets/Ability_bloodbath.png" type="Texture" id=1]
 [ext_resource path="res://scenes/ui/hud/assets/ability_slicedice.png" type="Texture" id=2]
@@ -9,18 +9,169 @@
 [ext_resource path="res://scenes/ui/hud/assets/Ability_roll.png" type="Texture" id=7]
 [ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=8]
 [ext_resource path="res://scenes/ui/hud/assets/caption.png" type="Texture" id=9]
+[ext_resource path="res://scenes/ui/hud/assets/infoSkill.png" type="Texture" id=10]
 
 [sub_resource type="DynamicFont" id=1]
-size = 12
+size = 14
 font_data = ExtResource( 8 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "close"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill1/infoSkill1:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=2]
+resource_name = "open"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill1/infoSkill1:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "close"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill2/infoSkill2:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+resource_name = "open"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill2/infoSkill2:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "close"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill3/infoSkill3:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "open"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill3/infoSkill3:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "close"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill4/infoSkill4:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "open"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill4/infoSkill4:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "close"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill5/infoSkill5:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "open"
+tracks/0/type = "value"
+tracks/0/path = NodePath("skill5/infoSkill5:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 10.7124
-margin_top = -9.4711
+margin_top = -6.64265
 margin_right = 10.7124
-margin_bottom = -9.47107
+margin_bottom = -6.64264
 script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -58,6 +209,50 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="infoSkill1" type="Sprite" parent="skill1"]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 64.0281, -52.9753 )
+scale = Vector2( 0.890005, 0.890005 )
+texture = ExtResource( 10 )
+
+[node name="title" type="Label" parent="skill1/infoSkill1"]
+margin_left = -37.1925
+margin_top = -36.822
+margin_right = 35.8075
+margin_bottom = -18.822
+custom_fonts/font = SubResource( 1 )
+text = "Sabreslash"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="skill" type="Label" parent="skill1/infoSkill1"]
+margin_left = -59.644
+margin_top = -12.3705
+margin_right = 3.35601
+margin_bottom = 5.62947
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.980392, 0.137255, 0.137255, 1 )
+text = "Dano: 340"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="energy" type="Label" parent="skill1/infoSkill1"]
+margin_left = -62.233
+margin_top = 10.492
+margin_right = 23.767
+margin_bottom = 28.492
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.537255, 0, 1 )
+text = "Ernergia: 210"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
 [node name="caption1" type="Sprite" parent="skill1"]
 light_mask = -2147483647
 position = Vector2( 28.7139, 55.3228 )
@@ -67,23 +262,24 @@ __meta__ = {
 }
 
 [node name="Label" type="Label" parent="skill1/caption1"]
-margin_left = -14.7139
-margin_top = -15.3228
-margin_right = 17.2861
-margin_bottom = 12.6772
+margin_left = -14.0068
+margin_top = -13.2015
+margin_right = 17.9932
+margin_bottom = 14.7985
 custom_fonts/font = SubResource( 1 )
 text = "F | 1"
 align = 1
 valign = 1
 __meta__ = {
+"_edit_lock_": true,
 "_edit_use_anchors_": false
 }
 
 [node name="skill2" type="Button" parent="."]
-margin_left = 96.9081
-margin_top = 33.4853
-margin_right = 151.908
-margin_bottom = 85.4853
+margin_left = 111.05
+margin_top = 32.7782
+margin_right = 166.05
+margin_bottom = 84.7782
 mouse_default_cursor_shape = 2
 __meta__ = {
 "_edit_use_anchors_": false
@@ -110,6 +306,50 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="infoSkill2" type="Sprite" parent="skill2"]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 62.4669, -55.2891 )
+scale = Vector2( 0.890005, 0.890005 )
+texture = ExtResource( 10 )
+
+[node name="title" type="Label" parent="skill2/infoSkill2"]
+margin_left = -37.1925
+margin_top = -36.822
+margin_right = 35.8075
+margin_bottom = -18.822
+custom_fonts/font = SubResource( 1 )
+text = "slicedice"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="skill" type="Label" parent="skill2/infoSkill2"]
+margin_left = -59.644
+margin_top = -12.3705
+margin_right = 3.35601
+margin_bottom = 5.62947
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.980392, 0.137255, 0.137255, 1 )
+text = "Dano: 280"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="energy" type="Label" parent="skill2/infoSkill2"]
+margin_left = -62.233
+margin_top = 10.492
+margin_right = 23.767
+margin_bottom = 28.492
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.537255, 0, 1 )
+text = "Ernergia: 180"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
 [node name="caption2" type="Sprite" parent="skill2"]
 position = Vector2( 28.9809, 52.5446 )
 texture = ExtResource( 9 )
@@ -118,23 +358,24 @@ __meta__ = {
 }
 
 [node name="Label2" type="Label" parent="skill2/caption2"]
-margin_left = -15.9566
+margin_left = -14.5424
 margin_top = -14.3228
-margin_right = 16.0434
+margin_right = 17.4576
 margin_bottom = 13.6772
 custom_fonts/font = SubResource( 1 )
 text = "E | 2"
 align = 1
 valign = 1
 __meta__ = {
+"_edit_lock_": true,
 "_edit_use_anchors_": false
 }
 
 [node name="skill3" type="Button" parent="."]
-margin_left = 164.39
-margin_top = 35.364
-margin_right = 217.39
-margin_bottom = 87.364
+margin_left = 186.31
+margin_top = 33.9498
+margin_right = 239.31
+margin_bottom = 85.9498
 mouse_default_cursor_shape = 2
 __meta__ = {
 "_edit_use_anchors_": false
@@ -156,6 +397,50 @@ max_value = 350.0
 value = 350.0
 texture_progress = ExtResource( 5 )
 fill_mode = 5
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="infoSkill3" type="Sprite" parent="skill3"]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 60.746, -56.4607 )
+scale = Vector2( 0.890005, 0.890005 )
+texture = ExtResource( 10 )
+
+[node name="title" type="Label" parent="skill3/infoSkill3"]
+margin_left = -37.1925
+margin_top = -36.822
+margin_right = 35.8075
+margin_bottom = -18.822
+custom_fonts/font = SubResource( 1 )
+text = "bloodbath"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="skill" type="Label" parent="skill3/infoSkill3"]
+margin_left = -59.644
+margin_top = -12.3705
+margin_right = 3.35601
+margin_bottom = 5.62947
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.980392, 0.137255, 0.137255, 1 )
+text = "Dano: 450"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="energy" type="Label" parent="skill3/infoSkill3"]
+margin_left = -62.233
+margin_top = 10.492
+margin_right = 23.767
+margin_bottom = 28.492
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.537255, 0, 1 )
+text = "Ernergia: 350"
 __meta__ = {
 "_edit_lock_": true,
 "_edit_use_anchors_": false
@@ -183,9 +468,9 @@ __meta__ = {
 
 [node name="skill4" type="Button" parent="."]
 self_modulate = Color( 1, 1, 1, 0 )
-margin_left = 225.629
+margin_left = 257.449
 margin_top = 30.1213
-margin_right = 282.629
+margin_right = 314.449
 margin_bottom = 87.1213
 mouse_default_cursor_shape = 2
 __meta__ = {
@@ -211,6 +496,50 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="infoSkill4" type="Sprite" parent="skill4"]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( 66.6823, -52.6322 )
+scale = Vector2( 0.890005, 0.890005 )
+texture = ExtResource( 10 )
+
+[node name="title" type="Label" parent="skill4/infoSkill4"]
+margin_left = -37.1925
+margin_top = -36.822
+margin_right = 35.8075
+margin_bottom = -18.822
+custom_fonts/font = SubResource( 1 )
+text = "cure rune"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="skill" type="Label" parent="skill4/infoSkill4"]
+margin_left = -59.644
+margin_top = -12.3705
+margin_right = 3.35601
+margin_bottom = 5.62947
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0, 0.87, 0.87, 1 )
+text = "cura: 80"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="energy" type="Label" parent="skill4/infoSkill4"]
+margin_left = -62.233
+margin_top = 10.492
+margin_right = 23.767
+margin_bottom = 28.492
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.537255, 0, 1 )
+text = "Ernergia: 150"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
 [node name="caption4" type="Sprite" parent="skill4"]
 position = Vector2( 28.8322, 57.3228 )
 texture = ExtResource( 9 )
@@ -228,14 +557,15 @@ text = "R | 4"
 align = 1
 valign = 1
 __meta__ = {
+"_edit_lock_": true,
 "_edit_use_anchors_": false
 }
 
 [node name="skill5" type="Button" parent="."]
-margin_left = 292.508
-margin_top = 32.8284
-margin_right = 348.508
-margin_bottom = 85.8284
+margin_left = 333.52
+margin_top = 33.5355
+margin_right = 389.52
+margin_bottom = 86.5355
 mouse_default_cursor_shape = 2
 __meta__ = {
 "_edit_use_anchors_": false
@@ -263,6 +593,50 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="infoSkill5" type="Sprite" parent="skill5"]
+modulate = Color( 1, 1, 1, 0 )
+position = Vector2( -10.0925, -56.7535 )
+scale = Vector2( 0.890005, 0.890005 )
+texture = ExtResource( 10 )
+
+[node name="title" type="Label" parent="skill5/infoSkill5"]
+margin_left = -37.1925
+margin_top = -36.822
+margin_right = 35.8075
+margin_bottom = -18.822
+custom_fonts/font = SubResource( 1 )
+text = "roll"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="skill" type="Label" parent="skill5/infoSkill5"]
+margin_left = -59.644
+margin_top = -12.3705
+margin_right = 3.35601
+margin_bottom = 5.62947
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.27, 0.99, 0.26, 1 )
+text = "roll"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="energy" type="Label" parent="skill5/infoSkill5"]
+margin_left = -62.233
+margin_top = 10.492
+margin_right = 23.767
+margin_bottom = 28.492
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 1, 0.537255, 0, 1 )
+text = "Ernergia: 150"
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
 [node name="caption5" type="Sprite" parent="skill5"]
 position = Vector2( 28.3707, 54.737 )
 texture = ExtResource( 9 )
@@ -282,13 +656,38 @@ valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="animSkill1" type="AnimationPlayer" parent="."]
+anims/close = SubResource( 3 )
+anims/open = SubResource( 2 )
+
+[node name="animSkill2" type="AnimationPlayer" parent="."]
+anims/close = SubResource( 4 )
+anims/open = SubResource( 5 )
+
+[node name="animSkill3" type="AnimationPlayer" parent="."]
+anims/close = SubResource( 6 )
+anims/open = SubResource( 7 )
+
+[node name="animSkill4" type="AnimationPlayer" parent="."]
+anims/close = SubResource( 8 )
+anims/open = SubResource( 9 )
+
+[node name="animSkill5" type="AnimationPlayer" parent="."]
+anims/close = SubResource( 10 )
+anims/open = SubResource( 11 )
+[connection signal="mouse_entered" from="skill1" to="." method="_on_skill1_mouse_entered"]
 [connection signal="mouse_exited" from="skill1" to="." method="_on_skill1_mouse_exited"]
 [connection signal="pressed" from="skill1" to="." method="_on_skill1_pressed"]
+[connection signal="mouse_entered" from="skill2" to="." method="_on_skill2_mouse_entered"]
 [connection signal="mouse_exited" from="skill2" to="." method="_on_skill2_mouse_exited"]
 [connection signal="pressed" from="skill2" to="." method="_on_skill2_pressed"]
+[connection signal="mouse_entered" from="skill3" to="." method="_on_skill3_mouse_entered"]
 [connection signal="mouse_exited" from="skill3" to="." method="_on_skill3_mouse_exited"]
 [connection signal="pressed" from="skill3" to="." method="_on_skill3_pressed"]
+[connection signal="mouse_entered" from="skill4" to="." method="_on_skill4_mouse_entered"]
 [connection signal="mouse_exited" from="skill4" to="." method="_on_skill4_mouse_exited"]
 [connection signal="pressed" from="skill4" to="." method="_on_skill4_pressed"]
+[connection signal="mouse_entered" from="skill5" to="." method="_on_skill5_mouse_entered"]
 [connection signal="mouse_exited" from="skill5" to="." method="_on_skill5_mouse_exited"]
 [connection signal="pressed" from="skill5" to="." method="_on_skill5_pressed"]

@@ -64,10 +64,10 @@ func _physics_process(delta):
 			motion += vel_roll
 
 		if Input.is_action_just_pressed("roll"):
-			if(energy_bar.value >= 200.0):
+			if(energy_bar.value >= 150.0):
 				is_roll = true
 				energy_discaunt = true
-				energy_max_value = round(energy_max_value - 200)
+				energy_max_value = round(energy_max_value - 150)
 				speed = 310
 				vel_roll = motion
 				$Timer.connect("timeout", self, "_on_Timer_timeout")
@@ -103,7 +103,7 @@ func _physics_process(delta):
 			$Timer_attack.wait_time = 1.90
 			init_timer_attack()
 						
-		if Input.is_action_just_pressed("lifeUp") and (energy_bar.value >= 100):	
+		if Input.is_action_just_pressed("lifeUp") and (energy_bar.value >= 150):	
 			if(energy_bar.value >= 150 and health_bar.value != 1000):
 				energy = 150
 				energy_max_value = round(energy_max_value - energy)
