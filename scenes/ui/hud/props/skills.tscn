@@ -171,3 +171,4 @@ __meta__ = {
 "_edit_lock_": true,
 "_edit_use_anchors_": false
 }
+[connection signal="pressed" from="skill1" to="." method="_on_skill1_pressed"]

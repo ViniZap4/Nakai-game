@@ -18,5 +18,5 @@ func _on_Restart_pressed():
 	$Sprite.modulate.r = 0.1
 	$Sprite.modulate.g = 0.1
 	$Sprite.modulate.b = 0.1
-	get_tree().change_scene("res://scenes/Kingdoms/TraoriGrindolynGrindohr/TraoriGrindolynGrindohr.tscn")
+	get_tree().change_scene("res://scenes/ui/load/load.tscn")
 	pass # Replace with function body.

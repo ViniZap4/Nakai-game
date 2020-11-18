@@ -24,3 +24,9 @@ func setSkillValue(value, energyValue):
 	if newValue < 0:
 		newValue = 0
 	return  newValue
+
+
+func _on_skill1_pressed():
+	InputMap.add_action("roll")
+	print("hello")
+	pass # Replace with function body.
