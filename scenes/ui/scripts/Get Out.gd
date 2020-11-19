@@ -15,6 +15,9 @@ func _on_Get_Out_mouse_exited():
 
 
 func _on_Get_Out_pressed():
+	if(get_tree().paused == true):
+		get_tree().paused = false
+		get_owner().queue_free()
 	$Sprite.modulate.r = 1
 	$Sprite.modulate.g = 1
 	$Sprite.modulate.b = 1

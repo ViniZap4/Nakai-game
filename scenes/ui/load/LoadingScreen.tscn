@@ -6,11 +6,13 @@
 [ext_resource path="res://scenes/ui/load/assets/healthProgress.png" type="Texture" id=4]
 [ext_resource path="res://scenes/ui/load/assets/0001.png" type="Texture" id=5]
 
-[sub_resource type="StyleBoxTexture" id=4]
+[sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 523, 69 )
 
-[sub_resource type="StyleBoxTexture" id=5]
+[sub_resource type="StyleBoxTexture" id=2]
 texture = ExtResource( 3 )
+region_rect = Rect2( 0, 0, 607, 153 )
 expand_margin_left = 31.0
 expand_margin_right = 31.0
 expand_margin_top = 26.0
@@ -36,7 +38,7 @@ __meta__ = {
 }
 
 [node name="0001" type="Sprite" parent="Visual"]
-position = Vector2( 668.266, 426.341 )
+position = Vector2( 662.603, 426.341 )
 scale = Vector2( 1.38803, 1.38803 )
 texture = ExtResource( 5 )
 
@@ -45,8 +47,8 @@ margin_left = 485.0
 margin_top = 545.0
 margin_right = 879.0
 margin_bottom = 592.0
-custom_styles/fg = SubResource( 4 )
-custom_styles/bg = SubResource( 5 )
+custom_styles/fg = SubResource( 1 )
+custom_styles/bg = SubResource( 2 )
 custom_fonts/font = SubResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false

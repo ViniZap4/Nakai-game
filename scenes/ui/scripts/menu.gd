@@ -15,9 +15,11 @@ func _on_Menu_mouse_exited():
 
 
 func _on_Menu_pressed():
+	if(get_tree().paused == true):
+		get_tree().paused = false
+		get_owner().queue_free()
 	$Sprite.modulate.r = 0.1
 	$Sprite.modulate.g = 0.1
 	$Sprite.modulate.b = 0.1
 	get_tree().change_scene("res://scenes/ui/menu/Menu.tscn")
-	print("aqui")
 	pass # Replace with function body.

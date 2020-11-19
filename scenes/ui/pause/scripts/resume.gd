@@ -1,29 +1,17 @@
 extends Button
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
-
 func _on_resume_pressed():
-	var player = load("res://props/characters/nakai/nakai.tscn")
-	player.get_tree().paused = false
-
+	get_tree().paused = false
+	get_owner().queue_free()
 
 func _on_resume_mouse_entered():
-	pass # Replace with function body.
-
+	$Sprite.modulate.r = 0.5
+	$Sprite.modulate.g = 0.5
+	$Sprite.modulate.b = 0.5
+	pass
 
 func _on_resume_mouse_exited():
+	$Sprite.modulate.r = 1
+	$Sprite.modulate.g = 1
+	$Sprite.modulate.b = 1
 	pass # Replace with function body.

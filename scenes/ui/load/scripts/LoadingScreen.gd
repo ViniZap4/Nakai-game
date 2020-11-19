@@ -14,5 +14,3 @@ func update_percent(new_percent):
 	if new_percent == $LoadingBar.max_value:
 		#$LoadScreenAnim.play("hide")
 		get_tree().change_scene("res://scenes/Kingdoms/TraoriGrindolynGrindohr/TraoriGrindolynGrindohr.tscn")
-
-		

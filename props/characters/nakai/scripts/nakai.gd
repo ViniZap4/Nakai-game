@@ -84,7 +84,8 @@ func _physics_process(delta):
 			update_energy(energy_max_value)
 			$Timer_attack.wait_time = 1.5
 			init_timer_attack()
-				
+			attack = "attack" + str(attack_type) + "_" + direction_animation
+
 		if Input.is_action_just_pressed("attack_two") and (energy_bar.value >= 180):
 			attack_type = 2;
 			is_attack = true
@@ -94,7 +95,8 @@ func _physics_process(delta):
 			update_energy(energy_max_value)
 			$Timer_attack.wait_time = 1
 			init_timer_attack()
-				
+			attack = "attack" + str(attack_type) + "_" + direction_animation
+
 		if Input.is_action_just_pressed("attack_three") and (energy_bar.value >= 350):	
 			attack_type = 3;
 			is_attack = true
@@ -104,7 +106,8 @@ func _physics_process(delta):
 			update_energy(energy_max_value)
 			$Timer_attack.wait_time = 1.90
 			init_timer_attack()
-						
+			attack = "attack" + str(attack_type) + "_" + direction_animation
+
 		if Input.is_action_just_pressed("lifeUp") and (energy_bar.value >= 150):	
 			if(energy_bar.value >= 150 and health_bar.value != 1000):
 				energy = 150
@@ -119,7 +122,7 @@ func _physics_process(delta):
 				$Camera2D.add_child(scene.instance())
 				get_tree().paused = true
 			else:
-				$Camera2D.remove_child(scene.instance())
+				get_node("Camera2D/Pause").queue_free()
 				get_tree().paused = false
 		
 

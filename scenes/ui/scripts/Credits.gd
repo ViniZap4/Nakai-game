@@ -15,6 +15,9 @@ func _on_Credits_mouse_exited():
 
 
 func _on_Credits_pressed():
+	if(get_tree().paused == true):
+		get_tree().paused = false
+		get_owner().queue_free()
 	$Sprite.modulate.r = 0.1
 	$Sprite.modulate.g = 0.1
 	$Sprite.modulate.b = 0.1

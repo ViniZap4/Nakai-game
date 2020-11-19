@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://scenes/ui/game-over/scripts/Restart.gd" type="Script" id=2]
+[ext_resource path="res://scenes/ui/scripts/Restart.gd" type="Script" id=2]
 [ext_resource path="res://scenes/ui/game-over/Assets/Rectangle 5.png" type="Texture" id=3]
 
 [sub_resource type="DynamicFont" id=1]
