@@ -103,6 +103,8 @@ func _process(delta):
 		print("Morto")
 		self.set_physics_process(false)
 		is_death = true
+		$CollisionPolygon2D.queue_free()
+		$Warrior_Life.modulate = Color(0,0,0,0)
 		$AnimatedSprite.play(death)
 
 	if(distance_direction < 500):
