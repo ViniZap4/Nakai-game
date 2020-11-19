@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://scenes/ui/menu/Assets/nakai_background.png" type="Texture" id=2]
 [ext_resource path="res://scenes/ui/menu/Start.gd" type="Script" id=3]
 [ext_resource path="res://scenes/ui/props/Get Out2.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/ui/props/Credits.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/ui/song/soundtrack.tscn" type="PackedScene" id=6]
 [ext_resource path="res://scenes/ui/menu/Assets/Rectangle 5.png" type="Texture" id=7]
 
 [sub_resource type="DynamicFont" id=1]
@@ -92,6 +93,8 @@ margin_left = 519.188
 margin_top = 621.455
 margin_right = 866.189
 margin_bottom = 704.455
+
+[node name="AudioStreamPlayer" parent="." instance=ExtResource( 6 )]
 [connection signal="mouse_entered" from="Start2" to="Start2" method="_on_Start_mouse_entered"]
 [connection signal="mouse_exited" from="Start2" to="Start2" method="_on_Start_mouse_exited"]
 [connection signal="pressed" from="Start2" to="Start2" method="_on_Start_pressed"]

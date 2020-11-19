@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://scenes/ui/game-over/Assets/death_background.png" type="Texture" id=2]
 [ext_resource path="res://scenes/ui/props/Restart.tscn" type="PackedScene" id=3]
 [ext_resource path="res://scenes/ui/props/Credits.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/ui/props/Get Out2.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/ui/song/soundtrack.tscn" type="PackedScene" id=6]
 [ext_resource path="res://scenes/ui/props/backMenu.tscn" type="PackedScene" id=7]
 
 [sub_resource type="DynamicFont" id=1]
@@ -50,3 +51,5 @@ margin_bottom = 488.395
 [node name="Get Out2" parent="." instance=ExtResource( 5 )]
 margin_left = 738.731
 margin_right = 1085.73
+
+[node name="AudioStreamPlayer" parent="." instance=ExtResource( 6 )]
