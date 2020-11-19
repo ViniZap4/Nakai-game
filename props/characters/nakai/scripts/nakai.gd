@@ -21,6 +21,8 @@ var is_roll = false
 var is_attack = false;
 var death_state = false
 var energy_discaunt = false
+var is_paused = false
+var scene = load("res://scenes/ui/pause/pause.tscn")
 
 var energy_max_value = 1000.0
 var health_max_value = 1000.0
@@ -113,7 +115,12 @@ func _physics_process(delta):
 				update_health(health_max_value)
 		#print(target.name)
 		if(Input.is_action_just_pressed("ui_pause")):
-			get_tree().change_scene("res://scenes/ui/pause/pause.tscn")
+			if(get_tree().paused == false):
+				$Camera2D.add_child(scene.instance())
+				get_tree().paused = true
+			else:
+				$Camera2D.remove_child(scene.instance())
+				get_tree().paused = false
 		
 
 		if motion !=  Vector2(0, 0): 
@@ -233,3 +240,7 @@ func setTarget(obj):
 		var name = obj.name
 		#print("Novo alvo setado: " + name)
 		target = get_parent().get_node(name)
+
+func _resume():
+	$Camera2D.remove_child(scene.instance())
+	get_tree().paused = false

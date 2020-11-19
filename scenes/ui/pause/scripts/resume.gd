@@ -17,7 +17,8 @@ func _ready():
 
 
 func _on_resume_pressed():
-	pass # Replace with function body.
+	var player = load("res://props/characters/nakai/nakai.tscn")
+	player.get_tree().paused = false
 
 
 func _on_resume_mouse_entered():
