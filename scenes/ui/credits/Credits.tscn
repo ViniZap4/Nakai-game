@@ -15,7 +15,7 @@ font_data = ExtResource( 1 )
 [sub_resource type="DynamicFont" id=2]
 size = 45
 outline_size = 10
-outline_color = Color( 0.631373, 0.517647, 0.517647, 1 )
+outline_color = Color( 0.27451, 0.266667, 0.266667, 1 )
 use_mipmaps = true
 use_filter = true
 font_data = ExtResource( 1 )
@@ -52,10 +52,10 @@ __meta__ = {
 }
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 302.712
-margin_top = 211.061
-margin_right = 983.716
-margin_bottom = 493.061
+margin_left = 257.0
+margin_top = 280.0
+margin_right = 938.0
+margin_bottom = 562.0
 rect_scale = Vector2( 1.01301, 1.18205 )
 custom_fonts/font = SubResource( 2 )
 text = "Brenda Aryelle Silva
