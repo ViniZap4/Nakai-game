@@ -8,11 +8,11 @@
 [ext_resource path="res://props/packs/packmap/cemitery/assets/tombstone_4.png" type="Texture" id=6]
 [ext_resource path="res://scenes/ui/hud/props/quest.gd" type="Script" id=7]
 
-[sub_resource type="StyleBoxTexture" id=2]
+[sub_resource type="StyleBoxTexture" id=1]
 texture = ExtResource( 5 )
 region_rect = Rect2( 0, 0, 523, 69 )
 
-[sub_resource type="StyleBoxTexture" id=3]
+[sub_resource type="StyleBoxTexture" id=2]
 texture = ExtResource( 4 )
 region_rect = Rect2( 0, 0, 607, 153 )
 expand_margin_left = 17.0
@@ -20,7 +20,7 @@ expand_margin_right = 17.0
 expand_margin_top = 17.0
 expand_margin_bottom = 17.0
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="DynamicFont" id=3]
 size = 29
 outline_size = 1
 outline_color = Color( 0, 0, 0, 1 )
@@ -89,8 +89,8 @@ margin_top = 41.2398
 margin_right = 233.729
 margin_bottom = 71.2398
 rect_rotation = -0.0630183
-custom_styles/fg = SubResource( 2 )
-custom_styles/bg = SubResource( 3 )
+custom_styles/fg = SubResource( 1 )
+custom_styles/bg = SubResource( 2 )
 max_value = 0.0
 __meta__ = {
 "_edit_use_anchors_": false
@@ -105,7 +105,7 @@ margin_left = 2.30965
 margin_top = -41.5332
 margin_right = 240.31
 margin_bottom = 57.4668
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 3 )
 text = "Missão"
 autowrap = true
 __meta__ = {
