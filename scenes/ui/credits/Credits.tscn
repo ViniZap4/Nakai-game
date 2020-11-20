@@ -52,9 +52,9 @@ __meta__ = {
 }
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 257.0
+margin_left = 259.119
 margin_top = 280.0
-margin_right = 938.0
+margin_right = 940.119
 margin_bottom = 562.0
 rect_scale = Vector2( 1.01301, 1.18205 )
 custom_fonts/font = SubResource( 2 )
