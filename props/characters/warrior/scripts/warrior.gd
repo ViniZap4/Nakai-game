@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var speed = 3.7
 var maxHealth = 1000
-var enemyDamage = 60.0
+var enemyDamage = 50.0
 
 var ai_think_time = 0.7
 var ai_think_time_timer = null
@@ -20,6 +20,7 @@ var _cardinal_direction = 0
 
 var reflexes = 4
 onready var target = get_parent().get_node("nakai")
+onready var quest = get_parent().get_node("nakai/Camera2D/GUI/Quest")
 onready var health = get_node("Warrior_Life")
 var is_in_range = false
 var direction
@@ -32,6 +33,7 @@ func _onready():
 func _ready():
 	_onready()
 	setup_ai_think_time_timer()
+	quest.setProgressMax()
 
 func take_Damage(damageCount):
 	health.value -= damageCount;
@@ -105,6 +107,7 @@ func _process(delta):
 		is_death = true
 		$CollisionPolygon2D.queue_free()
 		$Warrior_Life.modulate = Color(0,0,0,0)
+		quest.setProgressVal()
 		$AnimatedSprite.play(death)
 
 	if(distance_direction < 500):

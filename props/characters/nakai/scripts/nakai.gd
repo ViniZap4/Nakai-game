@@ -190,7 +190,7 @@ func _physics_process(delta):
 			motion = cartesian_to_isometric(motion)  * speed
 			move_and_slide(motion)
 	else:
-		if($AnimatedSprite.frame == 32 and death_state == true):
+		if($AnimatedSprite.frame == 30 and death_state == true):
 			get_tree().change_scene("res://scenes/ui/game-over/Game Over.tscn")
 
 func take_damage(damage):

@@ -13,6 +13,7 @@ margin_left = 703.54
 margin_top = 420.531
 margin_right = 1050.54
 margin_bottom = 503.531
+mouse_default_cursor_shape = 2
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true,

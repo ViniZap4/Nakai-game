@@ -1,5 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
+[ext_resource path="res://scenes/ui/song/Hades - Last Words.wav" type="AudioStream" id=1]
 [ext_resource path="res://scenes/ui/load/scripts/load.gd" type="Script" id=2]
 [ext_resource path="res://scenes/ui/load/LoadingScreen.tscn" type="PackedScene" id=17]
 
@@ -13,7 +14,11 @@ anchor_left = 0.221723
 anchor_top = 1.19128
 anchor_right = 1.22172
 anchor_bottom = 2.19128
-margin_left = -296.0
-margin_top = -852.636
-margin_right = -296.0
-margin_bottom = -852.636
+margin_left = -287.243
+margin_top = -850.258
+margin_right = -287.243
+margin_bottom = -850.258
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+autoplay = true

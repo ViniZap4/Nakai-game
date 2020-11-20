@@ -1,0 +1,152 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://scenes/ui/fonts/irish-grover/IrishGrover.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://props/packs/packmap/cemitery/assets/tombstone_1.png" type="Texture" id=2]
+[ext_resource path="res://scenes/ui/hud/assets/infoquest.png" type="Texture" id=3]
+[ext_resource path="res://scenes/ui/hud/assets/health_bar.png" type="Texture" id=4]
+[ext_resource path="res://scenes/ui/hud/assets/killProgress.png" type="Texture" id=5]
+[ext_resource path="res://props/packs/packmap/cemitery/assets/tombstone_4.png" type="Texture" id=6]
+[ext_resource path="res://scenes/ui/hud/props/quest.gd" type="Script" id=7]
+
+[sub_resource type="StyleBoxTexture" id=2]
+texture = ExtResource( 5 )
+region_rect = Rect2( 0, 0, 523, 69 )
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = ExtResource( 4 )
+region_rect = Rect2( 0, 0, 607, 153 )
+expand_margin_left = 17.0
+expand_margin_right = 17.0
+expand_margin_top = 17.0
+expand_margin_bottom = 17.0
+
+[sub_resource type="DynamicFont" id=1]
+size = 29
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 1 )
+
+[sub_resource type="Animation" id=5]
+resource_name = "close"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Infoquest:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "open"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Infoquest:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[node name="Quest" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 126.0
+margin_top = 12.0
+margin_right = -939.0
+margin_bottom = -601.0
+rect_rotation = -0.164457
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Quest" type="Control" parent="."]
+margin_left = -55.0
+margin_top = -5.0
+margin_right = 254.0
+margin_bottom = 84.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ProgressBar" type="ProgressBar" parent="Quest"]
+margin_left = 18.7287
+margin_top = 41.2398
+margin_right = 233.729
+margin_bottom = 71.2398
+rect_rotation = -0.0630183
+custom_styles/fg = SubResource( 2 )
+custom_styles/bg = SubResource( 3 )
+max_value = 0.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="tombstone_1" type="Sprite" parent="Quest/ProgressBar"]
+position = Vector2( 245.581, 9.88304 )
+texture = ExtResource( 2 )
+
+[node name="Label3" type="Label" parent="Quest/ProgressBar"]
+margin_left = 2.30965
+margin_top = -41.5332
+margin_right = 240.31
+margin_bottom = 57.4668
+custom_fonts/font = SubResource( 1 )
+text = "Missão"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Infoquest" type="Control" parent="."]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = -153.719
+margin_top = 108.089
+margin_right = 287.281
+margin_bottom = 287.089
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="infoquest" type="Sprite" parent="Infoquest"]
+position = Vector2( 256.95, 45.7742 )
+scale = Vector2( 0.632851, 0.632851 )
+texture = ExtResource( 3 )
+
+[node name="tombstone_4" type="Sprite" parent="Infoquest/infoquest"]
+position = Vector2( 191.975, 49.6638 )
+scale = Vector2( 1.7558, 1.7558 )
+texture = ExtResource( 6 )
+
+[node name="Label2" type="Label" parent="Infoquest"]
+margin_left = 134.332
+margin_top = -5.99324
+margin_right = 348.332
+margin_bottom = 83.0068
+custom_fonts/font = SubResource( 4 )
+text = "Encontre e Mate todos os guerreiros de  Tormod Rutilus  que estão invadindo o  salão celestial de Grindolyn."
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/close = SubResource( 5 )
+anims/open = SubResource( 6 )
+[connection signal="mouse_entered" from="Quest" to="." method="_on_ProgressQuest_mouse_entered"]
+[connection signal="mouse_exited" from="Quest" to="." method="_on_ProgressQuest_mouse_exited"]
+[connection signal="mouse_entered" from="Quest/ProgressBar" to="." method="_on_ProgressQuest_mouse_entered"]
