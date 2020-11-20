@@ -38,15 +38,15 @@ __meta__ = {
 }
 
 [node name="0001" type="Sprite" parent="Visual"]
-position = Vector2( 662.603, 426.341 )
+position = Vector2( 660.715, 418.79 )
 scale = Vector2( 1.38803, 1.38803 )
 texture = ExtResource( 5 )
 
 [node name="LoadingBar" type="ProgressBar" parent="."]
-margin_left = 485.0
-margin_top = 545.0
-margin_right = 879.0
-margin_bottom = 592.0
+margin_left = 500.102
+margin_top = 607.296
+margin_right = 894.102
+margin_bottom = 654.296
 custom_styles/fg = SubResource( 1 )
 custom_styles/bg = SubResource( 2 )
 custom_fonts/font = SubResource( 3 )

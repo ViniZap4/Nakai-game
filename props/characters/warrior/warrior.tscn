@@ -1114,8 +1114,7 @@ autostart = true
 position = Vector2( -11.2508, -52.3247 )
 scale = Vector2( 0.924619, 0.829615 )
 frames = SubResource( 1 )
-animation = "death_wa"
-frame = 8
+animation = "idle_d"
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 position = Vector2( -12.662, -60.9435 )

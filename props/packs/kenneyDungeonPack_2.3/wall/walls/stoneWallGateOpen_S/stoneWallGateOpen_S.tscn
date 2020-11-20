@@ -4,10 +4,10 @@
 [ext_resource path="res://props/packs/kenneyDungeonPack_2.3/wall/walls/stoneWallGateOpen_S/stoneWallGateOpen_S_left.tscn" type="PackedScene" id=2]
 
 [node name="stoneWallGateOpen_S" type="YSort"]
-position = Vector2( -1, -1 )
+position = Vector2( -1, -0.332581 )
 
 [node name="stoneWallGateOpen_S_right" parent="." instance=ExtResource( 1 )]
 position = Vector2( 78.0632, 17.3348 )
 
 [node name="stoneWallGateOpen_S_left" parent="." instance=ExtResource( 2 )]
-position = Vector2( -15.3755, -31.3868 )
+position = Vector2( -15.3755, -32.0542 )
