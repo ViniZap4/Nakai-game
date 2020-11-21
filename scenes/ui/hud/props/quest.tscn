@@ -147,6 +147,9 @@ __meta__ = {
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/close = SubResource( 5 )
 anims/open = SubResource( 6 )
+
+[node name="Timer" type="Timer" parent="."]
 [connection signal="mouse_entered" from="Quest" to="." method="_on_ProgressQuest_mouse_entered"]
 [connection signal="mouse_exited" from="Quest" to="." method="_on_ProgressQuest_mouse_exited"]
 [connection signal="mouse_entered" from="Quest/ProgressBar" to="." method="_on_ProgressQuest_mouse_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

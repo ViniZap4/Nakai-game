@@ -72,7 +72,6 @@ func _physics_process(delta):
 				energy_max_value = round(energy_max_value - 150)
 				speed = 310
 				vel_roll = motion
-				$Timer.connect("timeout", self, "_on_Timer_timeout")
 				$Timer.start()
 		
 		if Input.is_action_just_pressed("attack_one") and (energy_bar.value >= 210):
@@ -219,7 +218,6 @@ func regen_life():
 	health_max_value = health_bar.value
 
 func init_timer_attack():		
-	$Timer_attack.connect("timeout", self, "_on_Timer_attack_timeout")
 	$Timer_attack.start()
 
 func attack():

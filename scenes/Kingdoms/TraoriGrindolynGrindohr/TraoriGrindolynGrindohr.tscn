@@ -133,19 +133,67 @@ position = Vector2( 1357.84, -0.417297 )
 position = Vector2( -1338.44, 764.119 )
 
 [node name="warrior18" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( -1045.99, 1172.9 )
+position = Vector2( -1113.8, 1350.89 )
+
+[node name="warrior37" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -573.47, 1028.81 )
+
+[node name="warrior40" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -842.573, 3296.06 )
+
+[node name="warrior43" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( 2616.38, 4718.17 )
+
+[node name="warrior45" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( 4237.69, 4595.97 )
+
+[node name="warrior47" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( 8367.48, 964.127 )
+
+[node name="warrior48" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( 5981.57, -510.646 )
+
+[node name="warrior50" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( 2998.12, -858.15 )
+
+[node name="warrior51" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -1231.26, -2739.76 )
+
+[node name="warrior53" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -2570.42, -2532.1 )
+
+[node name="warrior54" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -3638.36, -985.285 )
+
+[node name="warrior56" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -3995.76, 1580.5 )
+
+[node name="warrior57" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -4309.36, 2328.49 )
+
+[node name="warrior59" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -2393.86, -4231.71 )
+
+[node name="warrior61" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( 94.668, -4784.22 )
+
+[node name="warrior63" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -5607.36, 1341.59 )
+
+[node name="warrior64" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( -6698.61, -525.183 )
+
+[node name="warrior66" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( 2677.63, 2585.4 )
+
+[node name="warrior67" parent="Content/mobs" instance=ExtResource( 55 )]
+position = Vector2( 5067.78, 744.054 )
 
 [node name="warrior32" parent="Content/mobs" instance=ExtResource( 55 )]
 position = Vector2( 543.494, 3634.52 )
 
-[node name="warrior33" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( 2544.51, 3653.4 )
-
 [node name="warrior34" parent="Content/mobs" instance=ExtResource( 55 )]
 position = Vector2( 5285.52, 4053.6 )
-
-[node name="warrior35" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( 7732.04, 55.3486 )
 
 [node name="warrior36" parent="Content/mobs" instance=ExtResource( 55 )]
 position = Vector2( 6554.08, -1375.56 )
@@ -153,41 +201,11 @@ position = Vector2( 6554.08, -1375.56 )
 [node name="warrior27" parent="Content/mobs" instance=ExtResource( 55 )]
 position = Vector2( 1143.73, 2435.46 )
 
-[node name="warrior28" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( 3523.35, 2008.93 )
-
 [node name="warrior29" parent="Content/mobs" instance=ExtResource( 55 )]
 position = Vector2( 3743.35, 1860.76 )
 
-[node name="warrior30" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( 6778.49, 2543.22 )
-
 [node name="warrior31" parent="Content/mobs" instance=ExtResource( 55 )]
 position = Vector2( 6729.1, 567.687 )
-
-[node name="warrior19" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( -3172.42, 3066.29 )
-
-[node name="warrior20" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( -3292.21, 82.2783 )
-
-[node name="warrior21" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( -1889.03, 2257.11 )
-
-[node name="warrior22" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( -2296.79, 2332.62 )
-
-[node name="warrior23" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( -4648.53, -2781.58 )
-
-[node name="warrior24" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( 1968.89, -3512.71 )
-
-[node name="warrior25" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( 401.034, -3058.12 )
-
-[node name="warrior26" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( -7890.08, -1080.76 )
 
 [node name="worldMap" type="YSort" parent="Content"]
 
@@ -2107,7 +2125,7 @@ position = Vector2( 475.076, 1742.68 )
 position = Vector2( 599.097, 1803.95 )
 
 [node name="stoneWallCorner_E" parent="Content/worldMap/construction/walls" instance=ExtResource( 63 )]
-position = Vector2( -192.649, 1421.84 )
+position = Vector2( -137.557, 1434.55 )
 
 [node name="stoneWallCorner_S" parent="Content/worldMap/construction/walls" instance=ExtResource( 62 )]
 position = Vector2( 1013.41, 753.366 )
@@ -2364,7 +2382,7 @@ position = Vector2( 797.795, -1224.04 )
 position = Vector2( 1766.57, -716.273 )
 
 [node name="barrelsStacked_N3" parent="Content/worldMap/stuffs" instance=ExtResource( 29 )]
-position = Vector2( 1874.87, 1684.57 )
+position = Vector2( 1957.51, 1743.9 )
 
 [node name="barrel_W" parent="Content/worldMap/stuffs" instance=ExtResource( 57 )]
 position = Vector2( -767.324, 454.253 )
@@ -2479,7 +2497,7 @@ position = Vector2( 6666.93, 3387.24 )
 position = Vector2( 6681.2, 3677.4 )
 
 [node name="tree_234" parent="Content/worldMap/forest/tree" instance=ExtResource( 91 )]
-position = Vector2( 6348.22, 3487.13 )
+position = Vector2( 6269.82, 3273.12 )
 
 [node name="tree_216" parent="Content/worldMap/forest/tree" instance=ExtResource( 91 )]
 position = Vector2( 6446.16, 3131.31 )

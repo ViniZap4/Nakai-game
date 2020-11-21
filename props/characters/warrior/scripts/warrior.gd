@@ -90,7 +90,6 @@ func setup_ai_think_time_timer():
 	ai_think_time_timer = Timer.new()
 	ai_think_time_timer.set_one_shot(true)
 	ai_think_time_timer.set_wait_time(ai_think_time)
-	ai_think_time_timer.connect("timeout", self, "on_ai_thinktime_timeout_complete")
 	add_child(ai_think_time_timer)
 
 func decide_to_attack():
@@ -102,13 +101,14 @@ func _process(delta):
 	var distance_direction = sqrt(direction.x * direction.x + direction.y * direction.y)
 	
 	if(health.value <= 0 and is_death == false):
+		#if($AnimatedSprite.frame == 44):
 		print("Morto")
-		self.set_physics_process(false)
 		is_death = true
 		$CollisionPolygon2D.queue_free()
 		$Warrior_Life.modulate = Color(0,0,0,0)
 		quest.setProgressVal()
 		$AnimatedSprite.play(death)
+		self.set_physics_process(false)
 
 	if(distance_direction < 500):
 		#if(distance_direction <= 98): motion_direction
@@ -127,3 +127,7 @@ func _process(delta):
 	else:
 		if(health.value >= 0 and is_death == false):
 			$AnimatedSprite.play(idle);
+
+
+func on_ai_thinktime_timeout_complete():
+	pass # Replace with function body.

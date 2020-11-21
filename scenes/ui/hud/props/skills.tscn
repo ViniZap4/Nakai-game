@@ -15,7 +15,7 @@
 size = 14
 font_data = ExtResource( 8 )
 
-[sub_resource type="Animation" id=3]
+[sub_resource type="Animation" id=2]
 resource_name = "close"
 tracks/0/type = "value"
 tracks/0/path = NodePath("skill1/infoSkill1:modulate")
@@ -30,8 +30,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
 }
 
-[sub_resource type="Animation" id=2]
-resource_name = "open"
+[sub_resource type="Animation" id=3]
 tracks/0/type = "value"
 tracks/0/path = NodePath("skill1/infoSkill1:modulate")
 tracks/0/interp = 1
@@ -658,8 +657,8 @@ __meta__ = {
 }
 
 [node name="animSkill1" type="AnimationPlayer" parent="."]
-anims/close = SubResource( 3 )
-anims/open = SubResource( 2 )
+anims/close = SubResource( 2 )
+anims/open = SubResource( 3 )
 
 [node name="animSkill2" type="AnimationPlayer" parent="."]
 anims/close = SubResource( 4 )
