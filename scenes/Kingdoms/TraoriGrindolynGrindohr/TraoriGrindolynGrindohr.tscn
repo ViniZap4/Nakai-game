@@ -157,7 +157,7 @@ position = Vector2( 5981.57, -510.646 )
 position = Vector2( 2998.12, -858.15 )
 
 [node name="warrior51" parent="Content/mobs" instance=ExtResource( 55 )]
-position = Vector2( -1231.26, -2739.76 )
+position = Vector2( -815.95, -1968.47 )
 
 [node name="warrior53" parent="Content/mobs" instance=ExtResource( 55 )]
 position = Vector2( -2570.42, -2532.1 )
@@ -1901,7 +1901,7 @@ position = Vector2( 475.076, 1742.68 )
 position = Vector2( 599.097, 1803.95 )
 
 [node name="stoneWallCorner_E" parent="Content/worldMap/restaurant/walls" instance=ExtResource( 63 )]
-position = Vector2( -195.027, 1421.84 )
+position = Vector2( -140.054, 1436.67 )
 
 [node name="stoneWallCorner_S" parent="Content/worldMap/restaurant/walls" instance=ExtResource( 62 )]
 position = Vector2( 1013.41, 753.366 )

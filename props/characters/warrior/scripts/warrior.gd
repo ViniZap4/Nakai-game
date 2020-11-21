@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var speed = 3.7
 var maxHealth = 1000
-var enemyDamage = 50.0
+var enemyDamage = 70.0
 
 var ai_think_time = 0.7
 var ai_think_time_timer = null
